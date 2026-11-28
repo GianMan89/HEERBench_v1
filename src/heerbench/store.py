@@ -14,7 +14,7 @@ import sqlite3
 import os
 
 from .locking import exclusive_file_lock
-from .util import atomic_text, canonical, read_jsonl, write_jsonl
+from .util import atomic_text, canonical, read_jsonl, write_jsonl, verified_blob_bytes
 
 
 def now() -> str:
@@ -62,10 +62,7 @@ class Store:
         return key
 
     def get_blob(self, key: str) -> str:
-        value = (self.root / "blobs" / key[:2] / (key + ".txt")).read_text()
-        if hashlib.sha256(value.encode()).hexdigest() != key:
-            raise ValueError("Artifact hash mismatch")
-        return value
+        return verified_blob_bytes(self.root / "blobs" / key[:2] / (key + ".txt"), key).decode("utf-8")
 
     def pack_request(self, request: dict) -> dict:
         value = dict(request)

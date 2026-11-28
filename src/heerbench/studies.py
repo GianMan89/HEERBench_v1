@@ -9,7 +9,7 @@ from pathlib import Path
 import re
 import uuid
 
-from .aggregation import compatibility_key, compatibility_spec, model_signature
+from .aggregation import compatibility_key, compatibility_spec, model_signature, read_run_snapshot
 from .dataset import Dataset
 from .planning import create_plan, freeze_config, model_repetitions
 from .runner import Runner, load_run, preflight
@@ -38,14 +38,18 @@ def study_path(runs_root: str | Path, study: str) -> Path:
     return Path(runs_root).resolve() / _name(study)
 
 
-def _segment_configs(root: Path):
+def _segment_configs(root: Path, *, historical: bool = False):
     """Scan complete segments, recovering a plan committed before a registry write."""
     found = []
     for path in sorted((root / "segments").glob("*/manifest.json")):
         folder = path.parent
         if not (folder / "plan.jsonl").exists() or not (folder / "config.frozen.json").exists():
             continue
-        _, cfg, _, plan = load_run(folder)
+        if historical:
+            snapshot = read_run_snapshot(folder)
+            cfg, plan = snapshot["config"], snapshot["plan"]
+        else:
+            _, cfg, _, plan = load_run(folder)
         if cfg.get("study_id") != root.name:
             raise ValueError("A run segment has a different study identifier")
         found.append((folder, cfg, plan))
@@ -164,7 +168,9 @@ def study_segments(runs_root: str | Path, study: str, models: list[str] | None =
     if not (root / "study.json").exists():
         raise ValueError("Unknown study " + study)
     selected = []
-    for folder, cfg, _ in _segment_configs(root):
+    # Discovery is read-only; execution still enforces the exact code hash.
+    # Completed historical segments can be pooled for new judge calibration.
+    for folder, cfg, _ in _segment_configs(root, historical=True):
         if models is None or set(models) & {m["id"] for m in cfg["models"]}:
             selected.append(str(folder))
     return selected

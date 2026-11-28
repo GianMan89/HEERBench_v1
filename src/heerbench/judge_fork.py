@@ -19,7 +19,7 @@ import tempfile
 from .runner import load_run
 from .judge_validation import judge_configuration_digest
 from .store import Store
-from .util import canonical, digest, software_fingerprint, write_json, write_jsonl
+from .util import canonical, digest, software_fingerprint, write_json, write_jsonl, verified_blob_bytes
 
 
 def _blob_ids(value):
@@ -88,8 +88,12 @@ def fork_judge_run(source: str | Path, out: str | Path,
     blob_paths = {}
     for blob in blobs:
         path = source/'blobs'/blob[:2]/(blob+'.txt')
-        if not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest() != blob:
-            raise ValueError('Source generation blob is missing or corrupted')
+        try:
+            if not path.resolve().is_relative_to(source) or not path.is_file():
+                raise ValueError("Missing or outside source run")
+            verified_blob_bytes(path, blob)
+        except (OSError, ValueError) as exc:
+            raise ValueError(f"Source generation blob is missing or corrupted: {blob} ({exc})") from exc
         blob_paths[blob] = path
     provenance = {
         'purpose':'judge_development', 'parent_run_id':parent['run_id'],
@@ -121,7 +125,7 @@ def fork_judge_run(source: str | Path, out: str | Path,
         for blob, source_path in blob_paths.items():
             target = temporary/'blobs'/blob[:2]/(blob+'.txt')
             target.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copyfile(source_path, target)
+            target.write_bytes(verified_blob_bytes(source_path, blob))
         store = Store(temporary)
         columns = ('id','kind','plan','state','attempts','request','result','error','updated')
         store.db.executemany(

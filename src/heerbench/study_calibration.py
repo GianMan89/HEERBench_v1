@@ -23,7 +23,7 @@ from .aggregation import (ConsolidationError, compatibility_key, model_signature
 from .credentials import reject_inline_credentials
 from .judge_validation import judge_configuration_digest
 from .store import Store
-from .util import canonical, digest, software_fingerprint, write_json, write_jsonl
+from .util import canonical, digest, software_fingerprint, write_json, write_jsonl, verified_blob_bytes
 
 
 _TERMINAL = {"succeeded", "failed", "blocked", "unscorable"}
@@ -169,9 +169,12 @@ def prepare_study_calibration(segments: list[Path], out: Path) -> dict:
 
         for blob in sorted(set(_blob_ids(run["generation"]))):
             path = run["path"] / "blobs" / blob[:2] / (blob + ".txt")
-            if not path.resolve().is_relative_to(run["path"]) or not path.is_file() \
-                    or hashlib.sha256(path.read_bytes()).hexdigest() != blob:
-                raise ConsolidationError("Source generation blob is missing, corrupted or outside its run")
+            try:
+                if not path.resolve().is_relative_to(run["path"]) or not path.is_file():
+                    raise ValueError("Missing or outside source run")
+                verified_blob_bytes(path, blob)
+            except (OSError, ValueError) as exc:
+                raise ConsolidationError(f"Source generation blob is missing, corrupted or outside its run: {blob} ({exc})") from exc
             blob_paths.setdefault(blob, path)
         source_ledger.append({
             "source_run_path": str(run["path"]), "source_run_id": run["manifest"]["run_id"],
@@ -234,7 +237,7 @@ def prepare_study_calibration(segments: list[Path], out: Path) -> dict:
         for blob, source in blob_paths.items():
             target = temporary / "blobs" / blob[:2] / (blob + ".txt")
             target.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copyfile(source, target)
+            target.write_bytes(verified_blob_bytes(source, blob))
             if hashlib.sha256(target.read_bytes()).hexdigest() != blob:
                 raise ConsolidationError("Source blob changed while calibration snapshot was being copied")
         store = Store(temporary)

@@ -26,8 +26,24 @@ def write_jsonl(path: Path, records) -> None:
 def atomic_text(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     temp = path.with_name(path.name + f".{os.getpid()}.tmp")
-    temp.write_text(text, encoding="utf-8")
+    temp.write_text(text, encoding="utf-8", newline="")
     os.replace(temp, path)
+
+
+def verified_blob_bytes(path: Path, key: str) -> bytes:
+    """Return exact original UTF-8 bytes, including for legacy Windows writes.
+
+    Older versions used platform newline translation when saving blobs. Undo
+    that translation only if the recovered bytes match the recorded SHA-256.
+    Never accept missing, unrelated or genuinely corrupted content.
+    """
+    raw = path.read_bytes()
+    if hashlib.sha256(raw).hexdigest() == key:
+        return raw
+    recovered = raw.replace(b"\r\n", b"\n")
+    if hashlib.sha256(recovered).hexdigest() == key:
+        return recovered
+    raise ValueError(f"Artifact hash mismatch: {key}")
 
 
 def write_json(path: Path, value: Any) -> None:
