@@ -13,6 +13,7 @@ from pathlib import Path
 import sqlite3
 import os
 
+from .locking import exclusive_file_lock
 from .util import atomic_text, canonical, read_jsonl, write_jsonl
 
 
@@ -47,16 +48,11 @@ class Store:
     @contextmanager
     def lock(self):
         # OS lock is released on process exit. The journal still records uncertain attempts.
-        import fcntl
-        with (self.root / "run.lock").open("a") as f:
-            try:
-                fcntl.flock(f.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
-            except BlockingIOError as exc:
-                raise RuntimeError("Another orchestrator owns this run directory") from exc
-            try:
-                yield
-            finally:
-                fcntl.flock(f.fileno(), fcntl.LOCK_UN)
+        with exclusive_file_lock(
+            self.root / "run.lock",
+            "Another orchestrator owns this run directory",
+        ):
+            yield
 
     def put_blob(self, value: str) -> str:
         key = hashlib.sha256(value.encode()).hexdigest()

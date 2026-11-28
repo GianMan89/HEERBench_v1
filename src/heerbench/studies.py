@@ -13,22 +13,19 @@ from .aggregation import compatibility_key, compatibility_spec, model_signature
 from .dataset import Dataset
 from .planning import create_plan, freeze_config, model_repetitions
 from .runner import Runner, load_run, preflight
+from .locking import exclusive_file_lock
 from .util import digest, read_jsonl, write_json
 
 
 @contextmanager
 def study_lock(root: Path):
-    import fcntl
     root.mkdir(parents=True, exist_ok=True)
-    with (root / "study.lock").open("a") as stream:
-        try:
-            fcntl.flock(stream.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
-        except BlockingIOError as exc:
-            raise ValueError("Another process is extending this study. Retry after it finishes planning.") from exc
-        try:
-            yield
-        finally:
-            fcntl.flock(stream.fileno(), fcntl.LOCK_UN)
+    with exclusive_file_lock(
+        root / "study.lock",
+        "Another process is extending this study. Retry after it finishes planning.",
+        error_type=ValueError,
+    ):
+        yield
 
 
 def _name(value: str) -> str:
