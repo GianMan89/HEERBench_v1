@@ -1,0 +1,18 @@
+{
+  "version": "0.5",
+  "construction_date": "2026-11-27",
+  "screening_baseline": "HEERBench_MABench_reaudit_v0.4 user-accepted proposed fields",
+  "new_content_validation": "pending_military_expert_review",
+  "authoring": "AI-assisted semantic construction with internal cross-checks; deterministic record validation; no model experiment",
+  "original_dataset": "MA-Bench v1.0.0 supplied archive",
+  "inputs": [
+    {
+      "filename": "MA-Bench(2).zip",
+      "sha256": "ddc6aef91c96f3c03639004a1c7c8dea652e2fa04bc90854d9cb96a0b9e9fc7f"
+    },
+    {
+      "filename": "HEERBench_MABench_reaudit_v0.4.zip",
+      "sha256": "ffadc7b76e6a38b88f0e1c1c54590148de3b90538ec20577363e1e85bba4c25a"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: Please cite this software and the MA-Bench source dataset. Add the HEERBench paper identifier when published.
+title: HEERBench experiment repository for military command and staff decision support
+type: software
+authors:
+  - name: HEERBench contributors
+version: 0.3.0
+date-released: '2026-11-27'
+license: MIT
+abstract: Reproducible independent, reference-assisted and sequential ABF evaluation using the accepted HEERBench adaptation of MA-Bench.
+keywords:
+  - large language models
+  - benchmark testing
+  - military command and staff decision support
+  - reasoning
+  - evaluation

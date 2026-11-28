@@ -1,0 +1,193 @@
+{
+  "ready": true,
+  "models": [
+    {
+      "model_id": "muse_spark13",
+      "ready": true,
+      "problems": [],
+      "warnings": [
+        "This endpoint uses standard requests and standard pricing; native batch is unavailable.",
+        "Weight revision is not independently pinned; retain returned identities and run dates."
+      ],
+      "effective_transport": "standard",
+      "max_input_estimate": 103139,
+      "max_byte_upper_bound": 246099
+    },
+    {
+      "model_id": "grok46",
+      "ready": true,
+      "problems": [],
+      "warnings": [
+        "This endpoint uses standard requests and standard pricing; native batch is unavailable.",
+        "Weight revision is not independently pinned; retain returned identities and run dates."
+      ],
+      "effective_transport": "standard",
+      "max_input_estimate": 103139,
+      "max_byte_upper_bound": 246099
+    },
+    {
+      "model_id": "claude_opus5",
+      "ready": true,
+      "problems": [],
+      "warnings": [
+        "Weight revision is not independently pinned; retain returned identities and run dates."
+      ],
+      "effective_transport": "batch",
+      "max_input_estimate": 103139,
+      "max_byte_upper_bound": 246099
+    },
+    {
+      "model_id": "glm53",
+      "ready": true,
+      "problems": [],
+      "warnings": [
+        "This endpoint uses standard requests and standard pricing; native batch is unavailable.",
+        "Weight revision is not independently pinned; retain returned identities and run dates."
+      ],
+      "effective_transport": "standard",
+      "max_input_estimate": 103139,
+      "max_byte_upper_bound": 246099
+    },
+    {
+      "model_id": "gpt6_astra",
+      "ready": true,
+      "problems": [],
+      "warnings": [
+        "Weight revision is not independently pinned; retain returned identities and run dates."
+      ],
+      "effective_transport": "batch",
+      "max_input_estimate": 103139,
+      "max_byte_upper_bound": 246099
+    },
+    {
+      "model_id": "kimi_k3",
+      "ready": true,
+      "problems": [],
+      "warnings": [
+        "This endpoint uses standard requests and standard pricing; native batch is unavailable.",
+        "Weight revision is not independently pinned; retain returned identities and run dates."
+      ],
+      "effective_transport": "standard",
+      "max_input_estimate": 103139,
+      "max_byte_upper_bound": 246099
+    },
+    {
+      "model_id": "gpt56_sol",
+      "ready": true,
+      "problems": [],
+      "warnings": [
+        "Weight revision is not independently pinned; retain returned identities and run dates."
+      ],
+      "effective_transport": "batch",
+      "max_input_estimate": 103139,
+      "max_byte_upper_bound": 246099
+    },
+    {
+      "model_id": "gpt56_luna",
+      "ready": true,
+      "problems": [],
+      "warnings": [
+        "Weight revision is not independently pinned; retain returned identities and run dates."
+      ],
+      "effective_transport": "batch",
+      "max_input_estimate": 103139,
+      "max_byte_upper_bound": 246099
+    },
+    {
+      "model_id": "nemotron3_ultra",
+      "ready": true,
+      "problems": [],
+      "warnings": [
+        "This endpoint uses standard requests and standard pricing; native batch is unavailable.",
+        "Weight revision is not independently pinned; retain returned identities and run dates."
+      ],
+      "effective_transport": "standard",
+      "max_input_estimate": 103139,
+      "max_byte_upper_bound": 246099
+    },
+    {
+      "model_id": "minimax_m3",
+      "ready": true,
+      "problems": [],
+      "warnings": [
+        "This endpoint uses standard requests and standard pricing; native batch is unavailable.",
+        "Weight revision is not independently pinned; retain returned identities and run dates."
+      ],
+      "effective_transport": "standard",
+      "max_input_estimate": 103139,
+      "max_byte_upper_bound": 246099
+    },
+    {
+      "model_id": "claude_fable51",
+      "ready": true,
+      "problems": [],
+      "warnings": [
+        "Weight revision is not independently pinned; retain returned identities and run dates."
+      ],
+      "effective_transport": "batch",
+      "max_input_estimate": 103139,
+      "max_byte_upper_bound": 246099
+    },
+    {
+      "model_id": "qwen38_max",
+      "ready": true,
+      "problems": [],
+      "warnings": [
+        "This endpoint uses standard requests and standard pricing; native batch is unavailable.",
+        "Weight revision is not independently pinned; retain returned identities and run dates."
+      ],
+      "effective_transport": "standard",
+      "max_input_estimate": 103139,
+      "max_byte_upper_bound": 246099
+    },
+    {
+      "model_id": "deepseek_v4_pro",
+      "ready": true,
+      "problems": [],
+      "warnings": [
+        "This endpoint uses standard requests and standard pricing; native batch is unavailable.",
+        "Weight revision is not independently pinned; retain returned identities and run dates."
+      ],
+      "effective_transport": "standard",
+      "max_input_estimate": 103139,
+      "max_byte_upper_bound": 246099
+    },
+    {
+      "model_id": "gemini31_pro",
+      "ready": true,
+      "problems": [],
+      "warnings": [
+        "Weight revision is not independently pinned; retain returned identities and run dates."
+      ],
+      "effective_transport": "batch",
+      "max_input_estimate": 103139,
+      "max_byte_upper_bound": 246099
+    },
+    {
+      "model_id": "mistral_medium35",
+      "ready": true,
+      "problems": [],
+      "warnings": [
+        "This endpoint uses standard requests and standard pricing; native batch is unavailable.",
+        "Weight revision is not independently pinned; retain returned identities and run dates."
+      ],
+      "effective_transport": "standard",
+      "max_input_estimate": 103139,
+      "max_byte_upper_bound": 246099
+    },
+    {
+      "model_id": "gemma4_31b",
+      "ready": true,
+      "problems": [],
+      "warnings": [
+        "This endpoint uses standard requests and standard pricing; native batch is unavailable.",
+        "Weight revision is not independently pinned; retain returned identities and run dates."
+      ],
+      "effective_transport": "standard",
+      "max_input_estimate": 103139,
+      "max_byte_upper_bound": 246099
+    }
+  ],
+  "network_requests": 0,
+  "credentials_checked": false
+}

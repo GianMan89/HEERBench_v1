@@ -1,0 +1,2297 @@
+schema_version: 2
+verified_on: '2026-11-28'
+currency: USD
+units: per_million_tokens
+notes:
+- Public documentation and endpoint metadata were inspected; this is not proof of account access or a live
+  completion. No paid test calls were made.
+- All prices are dated USD per million tokens. Native batch prices apply only when the native batch API completes
+  the request.
+- OpenRouter backend, precision and service tier are pinned. No provider or model fallback is permitted.
+- Model architecture and parameter counts are provider-reported; undisclosed values remain unknown. This pool
+  does not isolate architecture effects from training or serving differences.
+- Original v0.1 catalogue retained under docs/provider_sources for profile provenance. A changed provider/precision
+  creates a different experimental configuration.
+default_judges:
+  primary: gpt61_terra
+  secondary: claude_sonnet55
+groups:
+  default:
+  - gpt6_luna
+  - claude_haiku55
+  - gemini35_flash_lite
+  - qwen35_9b
+  - qwen36_27b
+  - qwen36_35b_a3b
+  - gemma4_31b
+  - deepseek_v4_flash
+  - mistral_small4
+  - llama4_maverick
+  - nemotron35_lightning
+  defaults:
+  - gpt6_luna
+  - claude_haiku55
+  - gemini35_flash_lite
+  - qwen35_9b
+  - qwen36_27b
+  - qwen36_35b_a3b
+  - gemma4_31b
+  - deepseek_v4_flash
+  - mistral_small4
+  - llama4_maverick
+  - nemotron35_lightning
+  pilot:
+  - qwen35_9b
+  - gemma4_31b
+  extended:
+  - muse_spark13
+  - grok46
+  - claude_opus5
+  - glm53
+  - gpt6_astra
+  - kimi_k3
+  - gpt56_sol
+  - gpt56_luna
+  - nemotron3_ultra
+  - minimax_m3
+  - claude_fable51
+  - qwen38_max
+  - deepseek_v4_pro
+  - gemini31_pro
+  - mistral_medium35
+  - gemma4_31b
+  frontier:
+  - muse_spark13
+  - grok46
+  - claude_opus5
+  - glm53
+  - gpt6_astra
+  - kimi_k3
+  - gpt56_sol
+  - gpt56_luna
+  - nemotron3_ultra
+  - minimax_m3
+  - claude_fable51
+  - qwen38_max
+  - deepseek_v4_pro
+  - gemini31_pro
+  - mistral_medium35
+  - gemma4_31b
+  legacy:
+  - qwen3_8b
+  - qwen3_32b
+  - qwen3_30b_a3b
+  - qwen3_235b_a22b
+  - gemma4_31b
+  - gpt62_astra
+  - claude_opus55
+  - gemini31_pro
+models:
+  gpt6_luna:
+    id: gpt6_luna
+    display_name: GPT-6 Luna
+    aliases:
+    - gpt-6-luna
+    - GPT-6 Luna
+    enabled: true
+    model: gpt-6-luna
+    kind: openai_responses
+    base_url: https://api.openai.com/v1
+    api_key_file: secrets/openai.key
+    availability: listed_not_account_verified
+    architecture: undisclosed
+    total_parameters_billions: null
+    active_parameters_billions: null
+    weight_revision: provider_managed
+    precision: undisclosed
+    accepted_response_models:
+    - gpt-6-luna
+    verified_on: '2026-11-28'
+    availability_note: Listed in current primary provider metadata. Account access, quota and live completion
+      remain to be verified in the pilot.
+    max_context_tokens: 1050000
+    max_input_tokens: 1050000
+    max_output_tokens: 128000
+    cache:
+      mode: explicit
+      ttl: 30m
+    parameters:
+      reasoning:
+        effort: medium
+    native_batch_supported: true
+    pricing:
+      standard:
+        tiers:
+        - max_input_tokens: 272000
+          input: '0.10'
+          output: '0.50'
+          cache_read: '0.01'
+          cache_write_short: '0.1250'
+          cache_write_long: '0.250'
+        - max_input_tokens: null
+          input: '0.20'
+          output: '0.750'
+          cache_read: '0.02'
+          cache_write_short: '0.2500'
+          cache_write_long: '0.500'
+      batch:
+        tiers:
+        - max_input_tokens: 272000
+          input: '0.050'
+          output: '0.250'
+          cache_read: '0.005'
+          cache_write_short: '0.06250'
+          cache_write_long: '0.1250'
+        - max_input_tokens: null
+          input: '0.100'
+          output: '0.3750'
+          cache_read: '0.010'
+          cache_write_short: '0.12500'
+          cache_write_long: '0.2500'
+    sources:
+    - https://developers.openai.com/api/docs/models/gpt-6-luna
+    - https://developers.openai.com/api/docs/guides/prompt-caching
+    - https://developers.openai.com/api/docs/guides/batch
+    context_note: Combined input and reserved output must fit the 1,050,000-token window; 128,000 is the provider
+      output ceiling, not the experiment budget.
+  claude_haiku55:
+    id: claude_haiku55
+    display_name: Claude Haiku 5.5
+    aliases:
+    - claude-haiku-5-5
+    - Claude Haiku 5.5
+    enabled: true
+    model: claude-haiku-5-5
+    kind: anthropic
+    base_url: https://api.anthropic.com/v1
+    api_key_file: secrets/anthropic.key
+    availability: listed_not_account_verified
+    architecture: undisclosed
+    total_parameters_billions: null
+    active_parameters_billions: null
+    weight_revision: provider_managed
+    precision: undisclosed
+    accepted_response_models:
+    - claude-haiku-5-5
+    verified_on: '2026-11-28'
+    availability_note: Listed in current primary provider metadata. Account access, quota and live completion
+      remain to be verified in the pilot.
+    api_version: '2026-10-21'
+    max_context_tokens: 1000000
+    max_input_tokens: 1000000
+    max_output_tokens: 128000
+    cache:
+      mode: explicit
+      ttl: 5m
+    parameters:
+      thinking:
+        type: adaptive
+      output_config:
+        effort: medium
+    native_batch_supported: true
+    pricing:
+      standard:
+        tiers:
+        - max_input_tokens: 100000
+          input: '0.10'
+          output: '0.50'
+          cache_read: '0.01'
+          cache_write_short: '0.1250'
+          cache_write_long: '0.20'
+        - max_input_tokens: null
+          input: '0.50'
+          output: '2.50'
+          cache_read: '0.05'
+          cache_write_short: '0.6250'
+          cache_write_long: '1.00'
+      batch:
+        tiers:
+        - max_input_tokens: 100000
+          input: '0.050'
+          output: '0.250'
+          cache_read: '0.005'
+          cache_write_short: '0.06250'
+          cache_write_long: '0.100'
+        - max_input_tokens: null
+          input: '0.250'
+          output: '1.250'
+          cache_read: '0.025'
+          cache_write_short: '0.31250'
+          cache_write_long: '0.500'
+    sources:
+    - https://platform.claude.com/docs/en/models/haiku-5-5/overview
+    - https://platform.claude.com/docs/en/about-claude/pricing
+    - https://platform.claude.com/docs/en/build-with-claude/effort
+    pricing_note: All token categories rise fivefold when total input exceeds 100,000 tokens, including cached
+      input. Use provider token counts, not a shared English-text estimate.
+  gemini35_flash_lite:
+    id: gemini35_flash_lite
+    display_name: Gemini 3.5 Flash-Lite
+    aliases:
+    - gemini-3.5-flash-lite
+    - Gemini 3.5 Flash-Lite
+    enabled: true
+    model: gemini-3.5-flash-lite
+    kind: gemini
+    base_url: https://generativelanguage.googleapis.com/v1beta
+    api_key_file: secrets/google.key
+    availability: listed_not_account_verified
+    architecture: undisclosed
+    total_parameters_billions: null
+    active_parameters_billions: null
+    weight_revision: provider_managed
+    precision: undisclosed
+    accepted_response_models:
+    - gemini-3.5-flash-lite
+    verified_on: '2026-11-28'
+    availability_note: Listed in current primary provider metadata. Account access, quota and live completion
+      remain to be verified in the pilot.
+    max_context_tokens: 1114112
+    max_input_tokens: 1048576
+    max_output_tokens: 65536
+    cache:
+      mode: implicit
+    parameters:
+      generationConfig:
+        thinkingConfig:
+          thinkingLevel: MINIMAL
+    native_batch_supported: true
+    pricing:
+      standard:
+        input: '0.30'
+        output: '2.50'
+        cache_read: '0.03'
+      batch:
+        input: '0.15'
+        output: '1.25'
+        cache_read: '0.015'
+      explicit_cache_storage_per_million_token_hour: '1.00'
+    sources:
+    - https://aistudio.google.com/docs/models/gemini-3.5-flash-lite
+    - https://ai.google.dev/gemini-api/docs/thinking
+    context_note: Google publishes separate 1,048,576 input and 65,536 output limits. max_context_tokens stores
+      their sum for the runner joint-reservation check; the input cap is independently enforced. This is not
+      a claim of a 1,114,112-token input window.
+    reasoning_note: The documented default minimal thinking level is pinned explicitly. This is one fixed setting,
+      not a mode ablation.
+  qwen35_9b:
+    id: qwen35_9b
+    display_name: Qwen3.5-9B
+    aliases:
+    - qwen/qwen3.5-9b
+    - Qwen3.5-9B
+    - qwen3.5-9b
+    enabled: true
+    model: qwen/qwen3.5-9b
+    kind: openai_compatible
+    base_url: https://openrouter.ai/api/v1
+    api_key_file: secrets/openrouter.key
+    availability: listed_not_account_verified
+    architecture: dense_hybrid_attention
+    total_parameters_billions: 9
+    active_parameters_billions: 9
+    weight_revision: unknown
+    precision: bf16
+    accepted_response_models:
+    - qwen/qwen3.5-9b
+    verified_on: '2026-11-28'
+    availability_note: Listed in current primary provider metadata. Account access, quota and live completion
+      remain to be verified in the pilot.
+    max_context_tokens: 262144
+    max_input_tokens: 262144
+    max_output_tokens: 40960
+    native_batch_supported: false
+    cache:
+      mode: implicit
+    accepted_backend_names:
+    - PrimeIntellect
+    endpoint_tag: primeintellect/bf16
+    endpoint_snapshot: docs/provider_sources/qwen__qwen3.5-9b.json
+    parameters:
+      provider:
+        only:
+        - primeintellect/bf16
+        allow_fallbacks: false
+        require_parameters: true
+        quantizations:
+        - bf16
+    reasoning_note: Provider model default, held constant across conditions; no reasoning-mode ablation. Exact
+      request parameters and available reasoning usage are logged. Defaults and undisclosed internals are not
+      assumed comparable across vendors.
+    supported_parameters:
+    - reasoning
+    - include_reasoning
+    - response_format
+    - structured_outputs
+    - tools
+    - tool_choice
+    - temperature
+    - top_p
+    - top_k
+    - min_p
+    - presence_penalty
+    - repetition_penalty
+    - stop
+    - max_tokens
+    - max_completion_tokens
+    - logprobs
+    - top_logprobs
+    pricing:
+      standard:
+        input: '0.085000000'
+        output: '0.125000000'
+        cache_read: '0.0765000000'
+    sources:
+    - https://openrouter.ai/api/v1/models/qwen/qwen3.5-9b/endpoints
+    - https://openrouter.ai/qwen/qwen3.5-9b
+    - https://huggingface.co/Qwen/Qwen3.5-9B/blob/main/README.md
+    context_note: Limits and rates are those of the single pinned backend, not the maximum advertised for this
+      model across all providers.
+  qwen36_27b:
+    id: qwen36_27b
+    display_name: Qwen3.6-27B
+    aliases:
+    - qwen/qwen3.6-27b
+    - Qwen3.6-27B
+    - qwen3.6-27b
+    enabled: true
+    model: qwen/qwen3.6-27b
+    kind: openai_compatible
+    base_url: https://openrouter.ai/api/v1
+    api_key_file: secrets/openrouter.key
+    availability: listed_not_account_verified
+    architecture: dense_hybrid_attention
+    total_parameters_billions: 27
+    active_parameters_billions: 27
+    weight_revision: unknown
+    precision: fp8
+    accepted_response_models:
+    - qwen/qwen3.6-27b
+    verified_on: '2026-11-28'
+    availability_note: Listed in current primary provider metadata. Account access, quota and live completion
+      remain to be verified in the pilot.
+    max_context_tokens: 262144
+    max_input_tokens: 262144
+    max_output_tokens: 65536
+    native_batch_supported: false
+    cache:
+      mode: implicit
+    accepted_backend_names:
+    - Chutes
+    endpoint_tag: chutes/fp8
+    endpoint_snapshot: docs/provider_sources/qwen__qwen3.6-27b.json
+    parameters:
+      provider:
+        only:
+        - chutes/fp8
+        allow_fallbacks: false
+        require_parameters: true
+        quantizations:
+        - fp8
+    reasoning_note: Provider model default, held constant across conditions; no reasoning-mode ablation. Exact
+      request parameters and available reasoning usage are logged. Defaults and undisclosed internals are not
+      assumed comparable across vendors.
+    supported_parameters:
+    - reasoning
+    - include_reasoning
+    - max_tokens
+    - temperature
+    - top_p
+    - stop
+    - frequency_penalty
+    - presence_penalty
+    - seed
+    - top_k
+    - repetition_penalty
+    - structured_outputs
+    - tools
+    - tool_choice
+    - response_format
+    pricing:
+      standard:
+        input: '0.25000000'
+        output: '2.000000'
+        cache_read: '0.025000000'
+    sources:
+    - https://openrouter.ai/api/v1/models/qwen/qwen3.6-27b/endpoints
+    - https://openrouter.ai/qwen/qwen3.6-27b
+    - https://huggingface.co/docs/transformers/en/model_doc/qwen3_5
+    context_note: Limits and rates are those of the single pinned backend, not the maximum advertised for this
+      model across all providers.
+  qwen36_35b_a3b:
+    id: qwen36_35b_a3b
+    display_name: Qwen3.6-35B-A3B
+    aliases:
+    - qwen/qwen3.6-35b-a3b
+    - Qwen3.6-35B-A3B
+    - qwen3.6-35b-a3b
+    enabled: true
+    model: qwen/qwen3.6-35b-a3b
+    kind: openai_compatible
+    base_url: https://openrouter.ai/api/v1
+    api_key_file: secrets/openrouter.key
+    availability: listed_not_account_verified
+    architecture: mixture_of_experts_hybrid_attention
+    total_parameters_billions: 35
+    active_parameters_billions: 3
+    weight_revision: unknown
+    precision: fp8
+    accepted_response_models:
+    - qwen/qwen3.6-35b-a3b
+    verified_on: '2026-11-28'
+    availability_note: Listed in current primary provider metadata. Account access, quota and live completion
+      remain to be verified in the pilot.
+    max_context_tokens: 262144
+    max_input_tokens: 262144
+    max_output_tokens: 235929
+    native_batch_supported: false
+    cache:
+      mode: implicit
+    accepted_backend_names:
+    - CoreWeave
+    endpoint_tag: coreweave/fp8
+    endpoint_snapshot: docs/provider_sources/qwen__qwen3.6-35b-a3b.json
+    parameters:
+      provider:
+        only:
+        - coreweave/fp8
+        allow_fallbacks: false
+        require_parameters: true
+        quantizations:
+        - fp8
+    reasoning_note: Provider model default, held constant across conditions; no reasoning-mode ablation. Exact
+      request parameters and available reasoning usage are logged. Defaults and undisclosed internals are not
+      assumed comparable across vendors.
+    supported_parameters:
+    - reasoning
+    - include_reasoning
+    - max_tokens
+    - temperature
+    - top_p
+    - top_k
+    - repetition_penalty
+    - frequency_penalty
+    - presence_penalty
+    - stop
+    - seed
+    - response_format
+    - structured_outputs
+    - logprobs
+    - top_logprobs
+    pricing:
+      standard:
+        input: '0.1000000'
+        output: '0.89000000'
+        cache_read: '0.035000000'
+    sources:
+    - https://openrouter.ai/api/v1/models/qwen/qwen3.6-35b-a3b/endpoints
+    - https://openrouter.ai/qwen/qwen3.6-35b-a3b
+    context_note: Limits and rates are those of the single pinned backend, not the maximum advertised for this
+      model across all providers.
+  gemma4_31b:
+    id: gemma4_31b
+    display_name: Gemma 4 31B
+    aliases:
+    - google/gemma-4-31b-it
+    - Gemma 4 31B
+    - Gemma 4 31
+    - gemma4-31b
+    enabled: true
+    model: google/gemma-4-31b-it
+    kind: openai_compatible
+    base_url: https://openrouter.ai/api/v1
+    api_key_file: secrets/openrouter.key
+    availability: listed_not_account_verified
+    architecture: dense
+    total_parameters_billions: 30.7
+    active_parameters_billions: 30.7
+    weight_revision: unknown
+    precision: fp4
+    accepted_response_models:
+    - google/gemma-4-31b-it
+    verified_on: '2026-11-28'
+    availability_note: Listed in current primary provider metadata. Account access, quota and live completion
+      remain to be verified in the pilot.
+    max_context_tokens: 262144
+    max_input_tokens: 262144
+    max_output_tokens: 235929
+    native_batch_supported: false
+    cache:
+      mode: implicit
+    accepted_backend_names:
+    - CoreWeave
+    endpoint_tag: coreweave/fp4
+    endpoint_snapshot: docs/provider_sources/google__gemma-4-31b-it.json
+    parameters:
+      provider:
+        only:
+        - coreweave/fp4
+        allow_fallbacks: false
+        require_parameters: true
+        quantizations:
+        - fp4
+    reasoning_note: Provider model default, held constant across conditions; no reasoning-mode ablation. Exact
+      request parameters and available reasoning usage are logged. Defaults and undisclosed internals are not
+      assumed comparable across vendors.
+    supported_parameters:
+    - reasoning
+    - include_reasoning
+    - max_tokens
+    - temperature
+    - top_p
+    - top_k
+    - repetition_penalty
+    - frequency_penalty
+    - presence_penalty
+    - stop
+    - seed
+    - response_format
+    - structured_outputs
+    - logprobs
+    - top_logprobs
+    - tools
+    - tool_choice
+    pricing:
+      standard:
+        input: '0.1000000'
+        output: '0.34000000'
+        cache_read: '0.1000000'
+    sources:
+    - https://openrouter.ai/api/v1/models/google/gemma-4-31b-it/endpoints
+    - https://openrouter.ai/google/gemma-4-31b-it
+    context_note: Limits and rates are those of the single pinned backend, not the maximum advertised for this
+      model across all providers.
+    profile_change_note: v0.2 pins CoreWeave FP4 instead of the v0.1 DeepInfra FP8 backend. They are different
+      model-serving configurations. Do not merge or resume their results as identical; the original catalogue
+      is archived in docs/provider_sources/catalog_v01_original.yaml.
+  deepseek_v4_flash:
+    id: deepseek_v4_flash
+    display_name: DeepSeek V4 Flash
+    aliases:
+    - deepseek/deepseek-v4-flash
+    - DeepSeek V4 Flash
+    - DeepSeek-V4-Flash
+    enabled: true
+    model: deepseek/deepseek-v4-flash
+    kind: openai_compatible
+    base_url: https://openrouter.ai/api/v1
+    api_key_file: secrets/openrouter.key
+    availability: listed_not_account_verified
+    architecture: mixture_of_experts
+    total_parameters_billions: 284
+    active_parameters_billions: 13
+    weight_revision: unknown
+    precision: fp8
+    accepted_response_models:
+    - deepseek/deepseek-v4-flash
+    verified_on: '2026-11-28'
+    availability_note: Listed in current primary provider metadata. Account access, quota and live completion
+      remain to be verified in the pilot.
+    max_context_tokens: 1048576
+    max_input_tokens: 1048576
+    max_output_tokens: 393216
+    native_batch_supported: false
+    cache:
+      mode: implicit
+    accepted_backend_names:
+    - DeepInfra
+    endpoint_tag: deepinfra/fp8
+    endpoint_snapshot: docs/provider_sources/deepseek__deepseek-v4-flash.json
+    parameters:
+      provider:
+        only:
+        - deepinfra/fp8
+        allow_fallbacks: false
+        require_parameters: true
+        quantizations:
+        - fp8
+    reasoning_note: Provider model default, held constant across conditions; no reasoning-mode ablation. Exact
+      request parameters and available reasoning usage are logged. Defaults and undisclosed internals are not
+      assumed comparable across vendors.
+    supported_parameters:
+    - reasoning
+    - include_reasoning
+    - max_tokens
+    - temperature
+    - top_p
+    - stop
+    - frequency_penalty
+    - presence_penalty
+    - repetition_penalty
+    - top_k
+    - seed
+    - min_p
+    - tools
+    - tool_choice
+    - structured_outputs
+    - response_format
+    - logit_bias
+    - reasoning_effort
+    pricing:
+      standard:
+        input: '0.09000000'
+        output: '0.18000000'
+        cache_read: '0.018000000'
+    sources:
+    - https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-flash/endpoints
+    - https://openrouter.ai/deepseek/deepseek-v4-flash
+    context_note: Limits and rates are those of the single pinned backend, not the maximum advertised for this
+      model across all providers.
+  mistral_small4:
+    id: mistral_small4
+    display_name: Mistral Small 4
+    aliases:
+    - mistralai/mistral-small-2603
+    - Mistral Small 4
+    - mistral-small-4
+    enabled: true
+    model: mistralai/mistral-small-2603
+    kind: openai_compatible
+    base_url: https://openrouter.ai/api/v1
+    api_key_file: secrets/openrouter.key
+    availability: listed_not_account_verified
+    architecture: mixture_of_experts
+    total_parameters_billions: 119
+    active_parameters_billions: null
+    weight_revision: unknown
+    precision: unknown
+    accepted_response_models:
+    - mistralai/mistral-small-2603
+    verified_on: '2026-11-28'
+    availability_note: Listed in current primary provider metadata. Account access, quota and live completion
+      remain to be verified in the pilot.
+    max_context_tokens: 262144
+    max_input_tokens: 262144
+    max_output_tokens: 209715
+    native_batch_supported: false
+    cache:
+      mode: implicit
+    accepted_backend_names:
+    - Mistral
+    endpoint_tag: mistral/zdr
+    endpoint_snapshot: docs/provider_sources/mistralai__mistral-small-2603.json
+    parameters:
+      provider:
+        only:
+        - mistral/zdr
+        allow_fallbacks: false
+        require_parameters: true
+    reasoning_note: Provider model default, held constant across conditions; no reasoning-mode ablation. Exact
+      request parameters and available reasoning usage are logged. Defaults and undisclosed internals are not
+      assumed comparable across vendors.
+    supported_parameters:
+    - reasoning
+    - include_reasoning
+    - max_tokens
+    - temperature
+    - top_p
+    - stop
+    - frequency_penalty
+    - presence_penalty
+    - seed
+    - response_format
+    - structured_outputs
+    - tools
+    - tool_choice
+    - reasoning_effort
+    pricing:
+      standard:
+        input: '0.15000000'
+        output: '0.6000000'
+        cache_read: '0.015000000'
+    sources:
+    - https://openrouter.ai/api/v1/models/mistralai/mistral-small-2603/endpoints
+    - https://openrouter.ai/mistralai/mistral-small-2603
+    - https://mistral.ai/news/mistral-small-4/
+    - https://docs.mistral.ai/models/mistral-small-4
+    context_note: Limits and rates are those of the single pinned backend, not the maximum advertised for this
+      model across all providers.
+    parameter_count_note: Model documentation lists 6.5B active; launch announcement gives 6B excluding embedding/output
+      layers or 8B including them. A single harmonised active count is left null.
+  llama4_maverick:
+    id: llama4_maverick
+    display_name: Llama 4 Maverick
+    aliases:
+    - meta-llama/llama-4-maverick
+    - Llama 4 Maverick
+    - llama-4-maverick
+    enabled: true
+    model: meta-llama/llama-4-maverick
+    kind: openai_compatible
+    base_url: https://openrouter.ai/api/v1
+    api_key_file: secrets/openrouter.key
+    availability: listed_not_account_verified
+    architecture: mixture_of_experts
+    total_parameters_billions: null
+    active_parameters_billions: 17
+    weight_revision: unknown
+    precision: fp8
+    accepted_response_models:
+    - meta-llama/llama-4-maverick
+    verified_on: '2026-11-28'
+    availability_note: Listed in current primary provider metadata. Account access, quota and live completion
+      remain to be verified in the pilot.
+    max_context_tokens: 524288
+    max_input_tokens: 524288
+    max_output_tokens: 32768
+    native_batch_supported: false
+    cache:
+      mode: implicit
+    accepted_backend_names:
+    - Parasail
+    endpoint_tag: parasail/fp8
+    endpoint_snapshot: docs/provider_sources/meta-llama__llama-4-maverick.json
+    parameters:
+      provider:
+        only:
+        - parasail/fp8
+        allow_fallbacks: false
+        require_parameters: true
+        quantizations:
+        - fp8
+    reasoning_note: Provider model default, held constant across conditions; no reasoning-mode ablation. Exact
+      request parameters and available reasoning usage are logged. Defaults and undisclosed internals are not
+      assumed comparable across vendors.
+    supported_parameters:
+    - structured_outputs
+    - response_format
+    - max_tokens
+    - temperature
+    - top_p
+    - frequency_penalty
+    - presence_penalty
+    - repetition_penalty
+    - seed
+    - stop
+    - top_k
+    - logit_bias
+    - tools
+    - tool_choice
+    - logprobs
+    - top_logprobs
+    pricing:
+      standard:
+        input: '0.35000000'
+        output: '1.000000'
+        cache_read: '0.17000000'
+    sources:
+    - https://openrouter.ai/api/v1/models/meta-llama/llama-4-maverick/endpoints
+    - https://openrouter.ai/meta-llama/llama-4-maverick
+    context_note: Limits and rates are those of the single pinned backend, not the maximum advertised for this
+      model across all providers.
+  nemotron35_lightning:
+    id: nemotron35_lightning
+    display_name: NVIDIA Nemotron 3.5 Lightning
+    aliases:
+    - nvidia/nemotron-3.5-lightning
+    - NVIDIA Nemotron 3.5 Lightning
+    - Nemotron 3.5 Lightning
+    enabled: true
+    model: nvidia/nemotron-3.5-lightning
+    kind: openai_compatible
+    base_url: https://openrouter.ai/api/v1
+    api_key_file: secrets/openrouter.key
+    availability: listed_not_account_verified
+    architecture: mixture_of_experts
+    total_parameters_billions: 30
+    active_parameters_billions: 3
+    weight_revision: unknown
+    precision: bf16
+    accepted_response_models:
+    - nvidia/nemotron-3.5-lightning
+    verified_on: '2026-11-28'
+    availability_note: Listed in current primary provider metadata. Account access, quota and live completion
+      remain to be verified in the pilot.
+    max_context_tokens: 262144
+    max_input_tokens: 262144
+    max_output_tokens: 32768
+    native_batch_supported: false
+    cache:
+      mode: implicit
+    accepted_backend_names:
+    - DeepInfra
+    endpoint_tag: deepinfra/bf16
+    endpoint_snapshot: docs/provider_sources/nvidia__nemotron-3.5-lightning.json
+    parameters:
+      provider:
+        only:
+        - deepinfra/bf16
+        allow_fallbacks: false
+        require_parameters: true
+        quantizations:
+        - bf16
+    reasoning_note: Provider model default, held constant across conditions; no reasoning-mode ablation. Exact
+      request parameters and available reasoning usage are logged. Defaults and undisclosed internals are not
+      assumed comparable across vendors.
+    supported_parameters:
+    - reasoning
+    - include_reasoning
+    - max_tokens
+    - temperature
+    - top_p
+    - stop
+    - frequency_penalty
+    - presence_penalty
+    - repetition_penalty
+    - top_k
+    - seed
+    - min_p
+    - structured_outputs
+    - response_format
+    - tools
+    - tool_choice
+    - logit_bias
+    pricing:
+      standard:
+        input: '0.06000000'
+        output: '0.16000000'
+        cache_read: '0.03000000'
+    sources:
+    - https://openrouter.ai/api/v1/models/nvidia/nemotron-3.5-lightning/endpoints
+    - https://openrouter.ai/nvidia/nemotron-3.5-lightning
+    context_note: Limits and rates are those of the single pinned backend, not the maximum advertised for this
+      model across all providers.
+  muse_spark13:
+    id: muse_spark13
+    display_name: Muse Spark 1.3
+    aliases:
+    - meta/muse-spark-1.3
+    - Muse Spark 1.3
+    - Muse Spark1.3
+    enabled: true
+    model: meta/muse-spark-1.3
+    kind: openai_compatible
+    base_url: https://openrouter.ai/api/v1
+    api_key_file: secrets/openrouter.key
+    availability: listed_not_account_verified
+    architecture: undisclosed
+    total_parameters_billions: null
+    active_parameters_billions: null
+    weight_revision: unknown
+    precision: unknown
+    accepted_response_models:
+    - meta/muse-spark-1.3
+    verified_on: '2026-11-28'
+    availability_note: Listed in current primary provider metadata. Account access, quota and live completion
+      remain to be verified in the pilot.
+    max_context_tokens: 1048576
+    max_input_tokens: 1048576
+    max_output_tokens: 943718
+    native_batch_supported: false
+    cache:
+      mode: implicit
+    accepted_backend_names:
+    - Meta
+    endpoint_tag: meta
+    endpoint_snapshot: docs/provider_sources/meta__muse-spark-1.3.json
+    parameters:
+      provider:
+        only:
+        - meta
+        allow_fallbacks: false
+        require_parameters: true
+    reasoning_note: Provider model default, held constant across conditions; no reasoning-mode ablation. Exact
+      request parameters and available reasoning usage are logged. Defaults and undisclosed internals are not
+      assumed comparable across vendors.
+    supported_parameters:
+    - reasoning
+    - include_reasoning
+    - max_tokens
+    - repetition_penalty
+    - top_k
+    - temperature
+    - top_p
+    - tools
+    - tool_choice
+    - structured_outputs
+    - response_format
+    - reasoning_effort
+    pricing:
+      standard:
+        input: '1.25000000'
+        output: '4.25000000'
+        cache_read: '0.15000000'
+    sources:
+    - https://openrouter.ai/api/v1/models/meta/muse-spark-1.3/endpoints
+    - https://openrouter.ai/meta/muse-spark-1.3
+    context_note: Limits and rates are those of the single pinned backend, not the maximum advertised for this
+      model across all providers.
+  grok46:
+    id: grok46
+    display_name: Grok 4.6
+    aliases:
+    - x-ai/grok-4.6
+    - Grok 4.6
+    - grok-4.6
+    enabled: true
+    model: x-ai/grok-4.6
+    kind: openai_compatible
+    base_url: https://openrouter.ai/api/v1
+    api_key_file: secrets/openrouter.key
+    availability: listed_not_account_verified
+    architecture: undisclosed
+    total_parameters_billions: null
+    active_parameters_billions: null
+    weight_revision: unknown
+    precision: unknown
+    accepted_response_models:
+    - x-ai/grok-4.6
+    verified_on: '2026-11-28'
+    availability_note: Listed in current primary provider metadata. Account access, quota and live completion
+      remain to be verified in the pilot.
+    max_context_tokens: 500000
+    max_input_tokens: 500000
+    max_output_tokens: 450000
+    native_batch_supported: false
+    cache:
+      mode: implicit
+    accepted_backend_names:
+    - xAI
+    endpoint_tag: xai/zdr
+    endpoint_snapshot: docs/provider_sources/x-ai__grok-4.6.json
+    parameters:
+      provider:
+        only:
+        - xai/zdr
+        allow_fallbacks: false
+        require_parameters: true
+    reasoning_note: Provider model default, held constant across conditions; no reasoning-mode ablation. Exact
+      request parameters and available reasoning usage are logged. Defaults and undisclosed internals are not
+      assumed comparable across vendors.
+    supported_parameters:
+    - reasoning
+    - include_reasoning
+    - structured_outputs
+    - response_format
+    - max_tokens
+    - temperature
+    - top_p
+    - seed
+    - logprobs
+    - top_logprobs
+    - tools
+    - tool_choice
+    - reasoning_effort
+    pricing:
+      standard:
+        tiers:
+        - max_input_tokens: 199999
+          input: '2.000000'
+          output: '6.000000'
+          cache_read: '0.5000000'
+        - max_input_tokens: null
+          input: '4.000000'
+          output: '12.000000'
+          cache_read: '1.000000'
+    sources:
+    - https://openrouter.ai/api/v1/models/x-ai/grok-4.6/endpoints
+    - https://openrouter.ai/x-ai/grok-4.6
+    context_note: Limits and rates are those of the single pinned backend, not the maximum advertised for this
+      model across all providers.
+    selection_note: Optional extended pool only, explicitly excluded from default and pilot groups.
+  glm53:
+    id: glm53
+    display_name: GLM-5.3
+    aliases:
+    - z-ai/glm-5.3
+    - GLM-5.3
+    - glm5.3
+    enabled: true
+    model: z-ai/glm-5.3
+    kind: openai_compatible
+    base_url: https://openrouter.ai/api/v1
+    api_key_file: secrets/openrouter.key
+    availability: listed_not_account_verified
+    architecture: undisclosed
+    total_parameters_billions: null
+    active_parameters_billions: null
+    weight_revision: unknown
+    precision: fp8
+    accepted_response_models:
+    - z-ai/glm-5.3
+    verified_on: '2026-11-28'
+    availability_note: Listed in current primary provider metadata. Account access, quota and live completion
+      remain to be verified in the pilot.
+    max_context_tokens: 1048576
+    max_input_tokens: 1048576
+    max_output_tokens: 131072
+    native_batch_supported: false
+    cache:
+      mode: implicit
+    accepted_backend_names:
+    - Z.AI
+    endpoint_tag: z-ai/fp8
+    endpoint_snapshot: docs/provider_sources/z-ai__glm-5.3.json
+    parameters:
+      provider:
+        only:
+        - z-ai/fp8
+        allow_fallbacks: false
+        require_parameters: true
+        quantizations:
+        - fp8
+    reasoning_note: Provider model default, held constant across conditions; no reasoning-mode ablation. Exact
+      request parameters and available reasoning usage are logged. Defaults and undisclosed internals are not
+      assumed comparable across vendors.
+    supported_parameters:
+    - reasoning
+    - include_reasoning
+    - max_tokens
+    - temperature
+    - top_p
+    - tools
+    - tool_choice
+    - top_k
+    - response_format
+    - structured_outputs
+    - reasoning_effort
+    pricing:
+      standard:
+        input: '1.4000000'
+        output: '4.4000000'
+        cache_read: '0.26000000'
+    sources:
+    - https://openrouter.ai/api/v1/models/z-ai/glm-5.3/endpoints
+    - https://openrouter.ai/z-ai/glm-5.3
+    context_note: Limits and rates are those of the single pinned backend, not the maximum advertised for this
+      model across all providers.
+  kimi_k3:
+    id: kimi_k3
+    display_name: Kimi K3
+    aliases:
+    - moonshotai/kimi-k3
+    - Kimi K3
+    - kimi-k3
+    enabled: true
+    model: moonshotai/kimi-k3
+    kind: openai_compatible
+    base_url: https://openrouter.ai/api/v1
+    api_key_file: secrets/openrouter.key
+    availability: listed_not_account_verified
+    architecture: undisclosed
+    total_parameters_billions: 2800
+    active_parameters_billions: null
+    weight_revision: unknown
+    precision: unknown
+    accepted_response_models:
+    - moonshotai/kimi-k3
+    verified_on: '2026-11-28'
+    availability_note: Listed in current primary provider metadata. Account access, quota and live completion
+      remain to be verified in the pilot.
+    max_context_tokens: 1048576
+    max_input_tokens: 1048576
+    max_output_tokens: 943718
+    native_batch_supported: false
+    cache:
+      mode: implicit
+    accepted_backend_names:
+    - Moonshot AI
+    endpoint_tag: moonshotai
+    endpoint_snapshot: docs/provider_sources/moonshotai__kimi-k3.json
+    parameters:
+      provider:
+        only:
+        - moonshotai
+        allow_fallbacks: false
+        require_parameters: true
+    reasoning_note: Provider model default, held constant across conditions; no reasoning-mode ablation. Exact
+      request parameters and available reasoning usage are logged. Defaults and undisclosed internals are not
+      assumed comparable across vendors.
+    supported_parameters:
+    - reasoning
+    - include_reasoning
+    - max_tokens
+    - temperature
+    - top_p
+    - stop
+    - frequency_penalty
+    - presence_penalty
+    - structured_outputs
+    - response_format
+    - tool_choice
+    - tools
+    - reasoning_effort
+    pricing:
+      standard:
+        input: '3.000000'
+        output: '15.000000'
+        cache_read: '0.3000000'
+    sources:
+    - https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints
+    - https://openrouter.ai/moonshotai/kimi-k3
+    context_note: Limits and rates are those of the single pinned backend, not the maximum advertised for this
+      model across all providers.
+    pricing_note: Pinned model-author Moonshot endpoint is $3/$15, not the $1.70/$8.50 headline quoted earlier.
+      Router headline minimums and a fixed scientific backend are different cost assumptions.
+  nemotron3_ultra:
+    id: nemotron3_ultra
+    display_name: NVIDIA Nemotron 3 Ultra
+    aliases:
+    - nvidia/nemotron-3-ultra-550b-a55b
+    - NVIDIA Nemotron 3 Ultra
+    - Nemotron 3 Ultra
+    enabled: true
+    model: nvidia/nemotron-3-ultra-550b-a55b
+    kind: openai_compatible
+    base_url: https://openrouter.ai/api/v1
+    api_key_file: secrets/openrouter.key
+    availability: listed_not_account_verified
+    architecture: mixture_of_experts_hybrid_transformer_mamba
+    total_parameters_billions: 550
+    active_parameters_billions: 55
+    weight_revision: unknown
+    precision: bf16
+    accepted_response_models:
+    - nvidia/nemotron-3-ultra-550b-a55b
+    verified_on: '2026-11-28'
+    availability_note: Listed in current primary provider metadata. Account access, quota and live completion
+      remain to be verified in the pilot.
+    max_context_tokens: 262144
+    max_input_tokens: 262144
+    max_output_tokens: 235929
+    native_batch_supported: false
+    cache:
+      mode: implicit
+    accepted_backend_names:
+    - CoreWeave
+    endpoint_tag: coreweave/bf16
+    endpoint_snapshot: docs/provider_sources/nvidia__nemotron-3-ultra-550b-a55b.json
+    parameters:
+      provider:
+        only:
+        - coreweave/bf16
+        allow_fallbacks: false
+        require_parameters: true
+        quantizations:
+        - bf16
+    reasoning_note: Provider model default, held constant across conditions; no reasoning-mode ablation. Exact
+      request parameters and available reasoning usage are logged. Defaults and undisclosed internals are not
+      assumed comparable across vendors.
+    supported_parameters:
+    - reasoning
+    - include_reasoning
+    - max_tokens
+    - temperature
+    - top_p
+    - top_k
+    - repetition_penalty
+    - frequency_penalty
+    - presence_penalty
+    - stop
+    - seed
+    - response_format
+    - structured_outputs
+    - tools
+    - tool_choice
+    - logprobs
+    - top_logprobs
+    - reasoning_effort
+    pricing:
+      standard:
+        input: '0.5000000'
+        output: '2.15000000'
+        cache_read: '0.1000000'
+    sources:
+    - https://openrouter.ai/api/v1/models/nvidia/nemotron-3-ultra-550b-a55b/endpoints
+    - https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b
+    context_note: Limits and rates are those of the single pinned backend, not the maximum advertised for this
+      model across all providers.
+  minimax_m3:
+    id: minimax_m3
+    display_name: MiniMax M3
+    aliases:
+    - minimax/minimax-m3
+    - MiniMax M3
+    - minimax-m3
+    enabled: true
+    model: minimax/minimax-m3
+    kind: openai_compatible
+    base_url: https://openrouter.ai/api/v1
+    api_key_file: secrets/openrouter.key
+    availability: listed_not_account_verified
+    architecture: undisclosed
+    total_parameters_billions: null
+    active_parameters_billions: null
+    weight_revision: unknown
+    precision: fp8
+    accepted_response_models:
+    - minimax/minimax-m3
+    verified_on: '2026-11-28'
+    availability_note: Listed in current primary provider metadata. Account access, quota and live completion
+      remain to be verified in the pilot.
+    max_context_tokens: 524288
+    max_input_tokens: 524288
+    max_output_tokens: 131072
+    native_batch_supported: false
+    cache:
+      mode: implicit
+    accepted_backend_names:
+    - DeepInfra
+    endpoint_tag: deepinfra/fp8
+    endpoint_snapshot: docs/provider_sources/minimax__minimax-m3.json
+    parameters:
+      provider:
+        only:
+        - deepinfra/fp8
+        allow_fallbacks: false
+        require_parameters: true
+        quantizations:
+        - fp8
+    reasoning_note: Provider model default, held constant across conditions; no reasoning-mode ablation. Exact
+      request parameters and available reasoning usage are logged. Defaults and undisclosed internals are not
+      assumed comparable across vendors.
+    supported_parameters:
+    - reasoning
+    - include_reasoning
+    - max_tokens
+    - temperature
+    - top_p
+    - stop
+    - frequency_penalty
+    - presence_penalty
+    - repetition_penalty
+    - top_k
+    - seed
+    - min_p
+    - tools
+    - tool_choice
+    - logit_bias
+    - response_format
+    pricing:
+      standard:
+        input: '0.28000000'
+        output: '1.1000000'
+        cache_read: '0.056000000'
+    sources:
+    - https://openrouter.ai/api/v1/models/minimax/minimax-m3/endpoints
+    - https://openrouter.ai/minimax/minimax-m3
+    context_note: Limits and rates are those of the single pinned backend, not the maximum advertised for this
+      model across all providers.
+  qwen38_max:
+    id: qwen38_max
+    display_name: Qwen3.8-Max
+    aliases:
+    - qwen/qwen3.8-max-0902
+    - Qwen3.8-Max
+    - qwen3.8-max
+    - qwen/qwen3.8-max
+    enabled: true
+    model: qwen/qwen3.8-max-0902
+    kind: openai_compatible
+    base_url: https://openrouter.ai/api/v1
+    api_key_file: secrets/openrouter.key
+    availability: listed_not_account_verified
+    architecture: mixture_of_experts
+    total_parameters_billions: 2400
+    active_parameters_billions: null
+    weight_revision: unknown
+    precision: unknown
+    accepted_response_models:
+    - qwen/qwen3.8-max-0902
+    verified_on: '2026-11-28'
+    availability_note: Listed in current primary provider metadata. Account access, quota and live completion
+      remain to be verified in the pilot.
+    max_context_tokens: 1000000
+    max_input_tokens: 983616
+    max_output_tokens: 131072
+    native_batch_supported: false
+    cache:
+      mode: implicit
+    accepted_backend_names:
+    - Alibaba
+    endpoint_tag: alibaba
+    endpoint_snapshot: docs/provider_sources/qwen__qwen3.8-max.json
+    parameters:
+      provider:
+        only:
+        - alibaba
+        allow_fallbacks: false
+        require_parameters: true
+    reasoning_note: Provider model default, held constant across conditions; no reasoning-mode ablation. Exact
+      request parameters and available reasoning usage are logged. Defaults and undisclosed internals are not
+      assumed comparable across vendors.
+    supported_parameters:
+    - reasoning
+    - include_reasoning
+    - max_tokens
+    - temperature
+    - top_p
+    - seed
+    - presence_penalty
+    - response_format
+    - tools
+    - tool_choice
+    - structured_outputs
+    - logprobs
+    - top_logprobs
+    - top_k
+    - frequency_penalty
+    - stop
+    - reasoning_effort
+    pricing:
+      standard:
+        input: '2.000000'
+        output: '6.000000'
+        cache_read: '0.25000000'
+        cache_write_short: '2.5000000'
+    sources:
+    - https://openrouter.ai/api/v1/models/qwen/qwen3.8-max/endpoints
+    - https://openrouter.ai/qwen/qwen3.8-max-0902
+    context_note: Limits and rates are those of the single pinned backend, not the maximum advertised for this
+      model across all providers.
+    identity_note: The public qwen/qwen3.8-max alias resolves to qwen/qwen3.8-max-0902. Pin the returned snapshot
+      ID; report this dated version in the paper.
+  deepseek_v4_pro:
+    id: deepseek_v4_pro
+    display_name: DeepSeek-V4-Pro
+    aliases:
+    - deepseek/deepseek-v4-pro
+    - DeepSeek-V4-Pro
+    - DeepSeek V4 Pro
+    enabled: true
+    model: deepseek/deepseek-v4-pro
+    kind: openai_compatible
+    base_url: https://openrouter.ai/api/v1
+    api_key_file: secrets/openrouter.key
+    availability: listed_not_account_verified
+    architecture: mixture_of_experts
+    total_parameters_billions: 1600
+    active_parameters_billions: 49
+    weight_revision: unknown
+    precision: fp8
+    accepted_response_models:
+    - deepseek/deepseek-v4-pro
+    verified_on: '2026-11-28'
+    availability_note: Listed in current primary provider metadata. Account access, quota and live completion
+      remain to be verified in the pilot.
+    max_context_tokens: 1048576
+    max_input_tokens: 1048576
+    max_output_tokens: 393216
+    native_batch_supported: false
+    cache:
+      mode: implicit
+    accepted_backend_names:
+    - SiliconFlow
+    endpoint_tag: siliconflow/fp8
+    endpoint_snapshot: docs/provider_sources/deepseek__deepseek-v4-pro.json
+    parameters:
+      provider:
+        only:
+        - siliconflow/fp8
+        allow_fallbacks: false
+        require_parameters: true
+        quantizations:
+        - fp8
+    reasoning_note: Provider model default, held constant across conditions; no reasoning-mode ablation. Exact
+      request parameters and available reasoning usage are logged. Defaults and undisclosed internals are not
+      assumed comparable across vendors.
+    supported_parameters:
+    - reasoning
+    - include_reasoning
+    - temperature
+    - top_p
+    - top_k
+    - frequency_penalty
+    - max_tokens
+    - tools
+    - tool_choice
+    - response_format
+    - reasoning_effort
+    pricing:
+      standard:
+        input: '0.9000000'
+        output: '1.7000000'
+        cache_read: '0.08000000'
+    sources:
+    - https://openrouter.ai/api/v1/models/deepseek/deepseek-v4-pro/endpoints
+    - https://openrouter.ai/deepseek/deepseek-v4-pro
+    context_note: Limits and rates are those of the single pinned backend, not the maximum advertised for this
+      model across all providers.
+  mistral_medium35:
+    id: mistral_medium35
+    display_name: Mistral Medium 3.5
+    aliases:
+    - mistralai/mistral-medium-3-5
+    - Mistral Medium 3.5
+    - mistral-medium-3.5
+    enabled: true
+    model: mistralai/mistral-medium-3-5
+    kind: openai_compatible
+    base_url: https://openrouter.ai/api/v1
+    api_key_file: secrets/openrouter.key
+    availability: listed_not_account_verified
+    architecture: dense
+    total_parameters_billions: 128
+    active_parameters_billions: 128
+    weight_revision: unknown
+    precision: unknown
+    accepted_response_models:
+    - mistralai/mistral-medium-3-5
+    verified_on: '2026-11-28'
+    availability_note: Listed in current primary provider metadata. Account access, quota and live completion
+      remain to be verified in the pilot.
+    max_context_tokens: 262144
+    max_input_tokens: 262144
+    max_output_tokens: 209715
+    native_batch_supported: false
+    cache:
+      mode: implicit
+    accepted_backend_names:
+    - Mistral
+    endpoint_tag: mistral/zdr
+    endpoint_snapshot: docs/provider_sources/mistralai__mistral-medium-3-5.json
+    parameters:
+      provider:
+        only:
+        - mistral/zdr
+        allow_fallbacks: false
+        require_parameters: true
+    reasoning_note: Provider model default, held constant across conditions; no reasoning-mode ablation. Exact
+      request parameters and available reasoning usage are logged. Defaults and undisclosed internals are not
+      assumed comparable across vendors.
+    supported_parameters:
+    - reasoning
+    - include_reasoning
+    - max_tokens
+    - temperature
+    - top_p
+    - stop
+    - frequency_penalty
+    - presence_penalty
+    - seed
+    - response_format
+    - structured_outputs
+    - tools
+    - tool_choice
+    - reasoning_effort
+    pricing:
+      standard:
+        input: '1.5000000'
+        output: '7.5000000'
+    sources:
+    - https://openrouter.ai/api/v1/models/mistralai/mistral-medium-3-5/endpoints
+    - https://openrouter.ai/mistralai/mistral-medium-3-5
+    context_note: Limits and rates are those of the single pinned backend, not the maximum advertised for this
+      model across all providers.
+  claude_opus5:
+    id: claude_opus5
+    display_name: Claude Opus 5
+    aliases:
+    - claude-opus-5
+    - Claude Opus 5
+    enabled: true
+    model: claude-opus-5
+    kind: anthropic
+    base_url: https://api.anthropic.com/v1
+    api_key_file: secrets/anthropic.key
+    availability: listed_not_account_verified
+    architecture: undisclosed
+    total_parameters_billions: null
+    active_parameters_billions: null
+    weight_revision: provider_managed
+    precision: undisclosed
+    accepted_response_models:
+    - claude-opus-5
+    verified_on: '2026-11-28'
+    availability_note: Listed in current primary provider metadata. Account access, quota and live completion
+      remain to be verified in the pilot.
+    api_version: '2026-10-21'
+    max_context_tokens: 1000000
+    max_input_tokens: 1000000
+    max_output_tokens: 128000
+    cache:
+      mode: explicit
+      ttl: 5m
+    parameters:
+      thinking:
+        type: adaptive
+      output_config:
+        effort: high
+    native_batch_supported: true
+    pricing:
+      standard:
+        input: '5'
+        output: '25'
+        cache_read: '0.5'
+        cache_write_short: '6.25'
+        cache_write_long: '10'
+      batch:
+        input: '2.5'
+        output: '12.5'
+        cache_read: '0.25'
+        cache_write_short: '3.125'
+        cache_write_long: '5.0'
+    sources:
+    - https://platform.claude.com/docs/en/models/opus-5/overview
+    - https://platform.claude.com/docs/en/about-claude/pricing
+    - https://platform.claude.com/docs/en/build-with-claude/effort
+  gpt6_astra:
+    id: gpt6_astra
+    display_name: GPT-6 Astra
+    aliases:
+    - gpt-6-astra
+    - GPT-6 Astra
+    enabled: true
+    model: gpt-6-astra
+    kind: openai_responses
+    base_url: https://api.openai.com/v1
+    api_key_file: secrets/openai.key
+    availability: listed_not_account_verified
+    architecture: undisclosed
+    total_parameters_billions: null
+    active_parameters_billions: null
+    weight_revision: provider_managed
+    precision: undisclosed
+    accepted_response_models:
+    - gpt-6-astra
+    verified_on: '2026-11-28'
+    availability_note: Listed in current primary provider metadata. Account access, quota and live completion
+      remain to be verified in the pilot.
+    max_context_tokens: 1050000
+    max_input_tokens: 1050000
+    max_output_tokens: 128000
+    cache:
+      mode: explicit
+      ttl: 30m
+    parameters:
+      reasoning:
+        effort: medium
+    native_batch_supported: true
+    pricing:
+      standard:
+        tiers:
+        - max_input_tokens: 272000
+          input: '10'
+          output: '50'
+          cache_read: '1'
+          cache_write_short: '12.50'
+          cache_write_long: '25.0'
+        - max_input_tokens: null
+          input: '20'
+          output: '75.0'
+          cache_read: '2'
+          cache_write_short: '25.00'
+          cache_write_long: '50.0'
+      batch:
+        tiers:
+        - max_input_tokens: 272000
+          input: '5.0'
+          output: '25.0'
+          cache_read: '0.5'
+          cache_write_short: '6.250'
+          cache_write_long: '12.50'
+        - max_input_tokens: null
+          input: '10.0'
+          output: '37.50'
+          cache_read: '1.0'
+          cache_write_short: '12.500'
+          cache_write_long: '25.00'
+    sources:
+    - https://developers.openai.com/api/docs/models/gpt-6-astra
+    - https://developers.openai.com/api/docs/guides/prompt-caching
+    - https://developers.openai.com/api/docs/guides/batch
+    context_note: Combined input and reserved output must fit the 1,050,000-token window; 128,000 is the provider
+      output ceiling, not the experiment budget.
+  gpt56_sol:
+    id: gpt56_sol
+    display_name: GPT-5.6 Sol
+    aliases:
+    - gpt-5.6-sol
+    - GPT-5.6 Sol
+    enabled: true
+    model: gpt-5.6-sol
+    kind: openai_responses
+    base_url: https://api.openai.com/v1
+    api_key_file: secrets/openai.key
+    availability: listed_not_account_verified
+    architecture: undisclosed
+    total_parameters_billions: null
+    active_parameters_billions: null
+    weight_revision: provider_managed
+    precision: undisclosed
+    accepted_response_models:
+    - gpt-5.6-sol
+    verified_on: '2026-11-28'
+    availability_note: Listed in current primary provider metadata. Account access, quota and live completion
+      remain to be verified in the pilot.
+    max_context_tokens: 1050000
+    max_input_tokens: 1050000
+    max_output_tokens: 128000
+    cache:
+      mode: explicit
+      ttl: 30m
+    parameters:
+      reasoning:
+        effort: medium
+    native_batch_supported: true
+    pricing:
+      standard:
+        tiers:
+        - max_input_tokens: 272000
+          input: '4'
+          output: '20'
+          cache_read: '0.4'
+          cache_write_short: '5.00'
+          cache_write_long: '10.0'
+        - max_input_tokens: null
+          input: '8'
+          output: '30.0'
+          cache_read: '0.8'
+          cache_write_short: '10.00'
+          cache_write_long: '20.0'
+      batch:
+        tiers:
+        - max_input_tokens: 272000
+          input: '2.0'
+          output: '10.0'
+          cache_read: '0.20'
+          cache_write_short: '2.500'
+          cache_write_long: '5.00'
+        - max_input_tokens: null
+          input: '4.0'
+          output: '15.00'
+          cache_read: '0.40'
+          cache_write_short: '5.000'
+          cache_write_long: '10.00'
+    sources:
+    - https://developers.openai.com/api/docs/models/gpt-5.6-sol
+    - https://developers.openai.com/api/docs/guides/prompt-caching
+    - https://developers.openai.com/api/docs/guides/batch
+    context_note: Combined input and reserved output must fit the 1,050,000-token window; 128,000 is the provider
+      output ceiling, not the experiment budget.
+    pricing_valid_until: '2026-11-30'
+    pricing_note: Promotional rate expires 30 November 2026. No post-promotion rate is inferred. Refresh the
+      verified rate card before a later run.
+  gpt56_luna:
+    id: gpt56_luna
+    display_name: GPT-5.6 Luna
+    aliases:
+    - gpt-5.6-luna
+    - GPT-5.6 Luna
+    enabled: true
+    model: gpt-5.6-luna
+    kind: openai_responses
+    base_url: https://api.openai.com/v1
+    api_key_file: secrets/openai.key
+    availability: listed_not_account_verified
+    architecture: undisclosed
+    total_parameters_billions: null
+    active_parameters_billions: null
+    weight_revision: provider_managed
+    precision: undisclosed
+    accepted_response_models:
+    - gpt-5.6-luna
+    verified_on: '2026-11-28'
+    availability_note: Officially listed, but the model page states access is account dependent and a rate-limit
+      entry alone does not establish access.
+    max_context_tokens: 1050000
+    max_input_tokens: 1050000
+    max_output_tokens: 128000
+    cache:
+      mode: explicit
+      ttl: 30m
+    parameters:
+      reasoning:
+        effort: medium
+    native_batch_supported: true
+    pricing:
+      standard:
+        tiers:
+        - max_input_tokens: 272000
+          input: '0.20'
+          output: '1.20'
+          cache_read: '0.02'
+          cache_write_short: '0.2500'
+          cache_write_long: '0.500'
+        - max_input_tokens: null
+          input: '0.40'
+          output: '1.800'
+          cache_read: '0.04'
+          cache_write_short: '0.5000'
+          cache_write_long: '1.000'
+      batch:
+        tiers:
+        - max_input_tokens: 272000
+          input: '0.100'
+          output: '0.600'
+          cache_read: '0.010'
+          cache_write_short: '0.12500'
+          cache_write_long: '0.2500'
+        - max_input_tokens: null
+          input: '0.200'
+          output: '0.9000'
+          cache_read: '0.020'
+          cache_write_short: '0.25000'
+          cache_write_long: '0.5000'
+    sources:
+    - https://developers.openai.com/api/docs/models/gpt-5.6-luna
+    - https://developers.openai.com/api/docs/guides/prompt-caching
+    - https://developers.openai.com/api/docs/guides/batch
+    context_note: Combined input and reserved output must fit the 1,050,000-token window; 128,000 is the provider
+      output ceiling, not the experiment budget.
+  claude_fable51:
+    id: claude_fable51
+    display_name: Claude Fable 5.1
+    aliases:
+    - claude-fable-5-1
+    - Claude Fable 5.1
+    enabled: true
+    model: claude-fable-5-1
+    kind: anthropic
+    base_url: https://api.anthropic.com/v1
+    api_key_file: secrets/anthropic.key
+    availability: listed_not_account_verified
+    architecture: undisclosed
+    total_parameters_billions: null
+    active_parameters_billions: null
+    weight_revision: provider_managed
+    precision: undisclosed
+    accepted_response_models:
+    - claude-fable-5-1
+    verified_on: '2026-11-28'
+    availability_note: Listed in current primary provider metadata. Account access, quota and live completion
+      remain to be verified in the pilot.
+    api_version: '2026-10-21'
+    max_context_tokens: 1000000
+    max_input_tokens: 1000000
+    max_output_tokens: 128000
+    cache:
+      mode: explicit
+      ttl: 5m
+    parameters:
+      thinking:
+        type: adaptive
+      output_config:
+        effort: high
+    native_batch_supported: true
+    pricing:
+      standard:
+        input: '10'
+        output: '50'
+        cache_read: '0.25'
+        cache_write_short: '12.50'
+        cache_write_long: '20'
+      batch:
+        input: '5.0'
+        output: '25.0'
+        cache_read: '0.125'
+        cache_write_short: '6.250'
+        cache_write_long: '10.0'
+    sources:
+    - https://platform.claude.com/docs/en/models/fable-5-1/overview
+    - https://platform.claude.com/docs/en/about-claude/pricing
+    - https://platform.claude.com/docs/en/build-with-claude/effort
+  qwen3_8b:
+    model: Qwen/Qwen3-8B
+    kind: openai_compatible
+    base_url: https://api.siliconflow.com/v1
+    availability: listed_direct_provider
+    architecture: dense
+    total_parameters_billions: 8.2
+    active_parameters_billions: 8.2
+    weight_revision: unknown
+    precision: fp8
+    max_context_tokens: 131000
+    native_context_tokens: 32768
+    context_note: Host advertises 131K extended context. The configuration conservatively uses 131000, pending
+      exact pilot verification.
+    metadata_note: Host page has inconsistent architecture and reasoning flags. Dense architecture follows
+      original model documentation, while endpoint availability and pricing follow the host.
+    cache:
+      mode: 'off'
+    parameters:
+      enable_thinking: true
+      thinking_budget: 2048
+    accepted_response_models:
+    - Qwen/Qwen3-8B
+    pricing:
+      standard:
+        input: '0.06'
+        output: '0.06'
+    sources:
+    - https://www.siliconflow.com/models/qwen3-8b
+    - https://docs.siliconflow.com/en/api-reference/chat-completions/chat-completions
+    - https://openrouter.ai/qwen/qwen3-8b
+    api_key_file: secrets/siliconflow.key
+    id: qwen3_8b
+    display_name: qwen3_8b
+    aliases:
+    - Qwen/Qwen3-8B
+    - qwen3_8b
+    legacy_profile: true
+    native_batch_supported: false
+    enabled: true
+    max_output_tokens: 4096
+    max_input_tokens: 131000
+    verified_on: '2026-11-27'
+  qwen3_32b:
+    model: qwen/qwen3-32b
+    kind: openai_compatible
+    base_url: https://openrouter.ai/api/v1
+    availability: listed
+    architecture: dense
+    total_parameters_billions: 32.8
+    active_parameters_billions: 32.8
+    weight_revision: unknown
+    precision: fp8
+    max_context_tokens: 131072
+    native_context_tokens: 32768
+    context_note: Advertised extended host context. Freeze the host and validate full prompts before the experiment.
+    cache:
+      mode: 'off'
+    parameters:
+      provider:
+        only:
+        - siliconflow
+        allow_fallbacks: false
+        require_parameters: true
+        quantizations:
+        - fp8
+    accepted_response_models:
+    - qwen/qwen3-32b
+    accepted_backend_names:
+    - SiliconFlow
+    pricing:
+      standard:
+        input: '0.14'
+        output: '0.57'
+    sources:
+    - https://openrouter.ai/qwen/qwen3-32b
+    - https://openrouter.ai/api/v1/models/qwen/qwen3-32b/endpoints
+    api_key_file: secrets/openrouter.key
+    id: qwen3_32b
+    display_name: qwen3_32b
+    aliases:
+    - qwen/qwen3-32b
+    - qwen3_32b
+    legacy_profile: true
+    native_batch_supported: false
+    enabled: true
+    max_output_tokens: 4096
+    max_input_tokens: 131072
+    verified_on: '2026-11-27'
+  qwen3_30b_a3b:
+    model: qwen/qwen3-30b-a3b
+    kind: openai_compatible
+    base_url: https://openrouter.ai/api/v1
+    availability: listed_but_context_limited
+    enabled: false
+    architecture: mixture_of_experts
+    total_parameters_billions: 30.5
+    active_parameters_billions: 3.3
+    weight_revision: unknown
+    precision: undisclosed_by_this_listing
+    max_context_tokens: 40960
+    native_context_tokens: 32768
+    provision_note: Advertised current host limit is 40960. Provision an extended-context endpoint for the
+      full corpus rather than truncate sources or drop scenarios per model.
+    cache:
+      mode: 'off'
+    parameters:
+      provider:
+        only:
+        - deepinfra
+        allow_fallbacks: false
+        require_parameters: true
+    accepted_response_models:
+    - qwen/qwen3-30b-a3b
+    accepted_backend_names:
+    - DeepInfra
+    pricing:
+      standard:
+        input: '0.12'
+        output: '0.50'
+    sources:
+    - https://openrouter.ai/qwen/qwen3-30b-a3b
+    api_key_file: secrets/openrouter.key
+    id: qwen3_30b_a3b
+    display_name: qwen3_30b_a3b
+    aliases:
+    - qwen/qwen3-30b-a3b
+    - qwen3_30b_a3b
+    legacy_profile: true
+    native_batch_supported: false
+    max_output_tokens: 4096
+    max_input_tokens: 40960
+    verified_on: '2026-11-27'
+  qwen3_235b_a22b:
+    model: qwen/qwen3-235b-a22b
+    kind: openai_compatible
+    availability: unavailable_on_openrouter
+    enabled: false
+    architecture: mixture_of_experts
+    total_parameters_billions: 235
+    active_parameters_billions: 22
+    weight_revision: unknown
+    precision: unknown
+    max_context_tokens: null
+    native_context_tokens: 32768
+    provision_note: The original model is unavailable on this router. The 2507 variants are distinct checkpoints
+      and require a declared protocol amendment if chosen.
+    pricing: {}
+    sources:
+    - https://openrouter.ai/qwen/qwen3-235b-a22b
+    api_key_file: secrets/openrouter.key
+    id: qwen3_235b_a22b
+    display_name: qwen3_235b_a22b
+    aliases:
+    - qwen/qwen3-235b-a22b
+    - qwen3_235b_a22b
+    legacy_profile: true
+    native_batch_supported: false
+    base_url: https://openrouter.ai/api/v1
+    max_output_tokens: null
+    max_input_tokens: null
+    verified_on: '2026-11-27'
+  gpt62_astra:
+    model: gpt-6.2-astra
+    kind: openai_responses
+    base_url: https://api.openai.com/v1
+    availability: listed
+    architecture: undisclosed
+    total_parameters_billions: null
+    active_parameters_billions: null
+    weight_revision: provider_managed
+    precision: undisclosed
+    max_context_tokens: 1050000
+    max_input_tokens: 922000
+    max_output_tokens: 128000
+    cache:
+      mode: explicit
+      ttl: 30m
+    parameters:
+      reasoning:
+        effort: medium
+    accepted_response_models:
+    - gpt-6.2-astra
+    pricing:
+      standard:
+        tiers:
+        - max_input_tokens: 272000
+          input: '8'
+          output: '40'
+          cache_read: '0.40'
+          cache_write_short: '10'
+          cache_write_long: '20'
+        - max_input_tokens: null
+          input: '16'
+          output: '60'
+          cache_read: '0.80'
+          cache_write_short: '20'
+          cache_write_long: '40'
+      batch:
+        tiers:
+        - max_input_tokens: 272000
+          input: '4'
+          output: '20'
+          cache_read: '0.20'
+          cache_write_short: '5'
+          cache_write_long: '10'
+        - max_input_tokens: null
+          input: '8'
+          output: '30'
+          cache_read: '0.40'
+          cache_write_short: '10'
+          cache_write_long: '20'
+    sources:
+    - https://developers.openai.com/api/docs/models/gpt-6.2-astra
+    - https://developers.openai.com/api/docs/guides/prompt-caching
+    - https://platform.openai.com/pricing
+    api_key_file: secrets/openai.key
+    id: gpt62_astra
+    display_name: GPT-6.2 Astra
+    aliases:
+    - gpt-6.2-astra
+    - GPT-6.2 Astra
+    legacy_profile: true
+    native_batch_supported: true
+    enabled: true
+    verified_on: '2026-11-27'
+  claude_opus55:
+    model: claude-opus-5-5
+    kind: anthropic
+    base_url: https://api.anthropic.com/v1
+    api_version: '2026-10-21'
+    availability: listed
+    architecture: undisclosed
+    total_parameters_billions: null
+    active_parameters_billions: null
+    weight_revision: provider_managed
+    precision: undisclosed
+    max_context_tokens: 1000000
+    max_output_tokens: 128000
+    cache:
+      mode: explicit
+      ttl: 5m
+    parameters: {}
+    reasoning_note: Adaptive thinking is always enabled. Freeze the documented default medium effort for this
+      model; do not label it non-reasoning.
+    accepted_response_models:
+    - claude-opus-5-5
+    pricing:
+      standard:
+        input: '4'
+        output: '20'
+        cache_read: '0.20'
+        cache_write_short: '5'
+        cache_write_long: '8'
+      batch:
+        input: '2'
+        output: '10'
+        cache_read: '0.10'
+        cache_write_short: '2.5'
+        cache_write_long: '4'
+    sources:
+    - https://platform.claude.com/docs/en/models/overview
+    - https://platform.claude.com/docs/en/about-claude/pricing
+    - https://platform.claude.com/docs/en/build-with-claude/batch-processing
+    api_key_file: secrets/anthropic.key
+    id: claude_opus55
+    display_name: Claude Opus 5.5
+    aliases:
+    - claude-opus-5-5
+    - Claude Opus 5.5
+    legacy_profile: true
+    native_batch_supported: true
+    enabled: true
+    max_input_tokens: 1000000
+    verified_on: '2026-11-27'
+  gemini31_pro:
+    model: gemini-3.1-pro-preview
+    kind: gemini
+    base_url: https://generativelanguage.googleapis.com/v1beta
+    availability: preview
+    architecture: undisclosed
+    total_parameters_billions: null
+    active_parameters_billions: null
+    weight_revision: provider_managed_preview
+    precision: undisclosed
+    max_context_tokens: 1114112
+    max_input_tokens: 1048576
+    max_output_tokens: 65536
+    cache:
+      mode: implicit
+    parameters: {}
+    accepted_response_models:
+    - gemini-3.1-pro-preview
+    identity_note: If a dated modelVersion is returned, record and explicitly accept it during pilot configuration.
+      Do not wildcard identities or silently change versions within a run.
+    pricing:
+      standard:
+        tiers:
+        - max_input_tokens: 200000
+          input: '2'
+          output: '12'
+          cache_read: '0.20'
+        - max_input_tokens: null
+          input: '4'
+          output: '18'
+          cache_read: '0.40'
+      batch:
+        tiers:
+        - max_input_tokens: 200000
+          input: '1'
+          output: '6'
+          cache_read: '0.20'
+        - max_input_tokens: null
+          input: '2'
+          output: '9'
+          cache_read: '0.40'
+      explicit_cache_storage_per_million_token_hour: '4.50'
+    sources:
+    - https://aistudio.google.com/docs/models/gemini-3.1-pro-preview
+    - https://ai.google.dev/gemini-api/docs/pricing
+    - https://aistudio.google.com/docs/caching
+    api_key_file: secrets/google.key
+    id: gemini31_pro
+    display_name: Gemini 3.1 Pro
+    aliases:
+    - gemini-3.1-pro-preview
+    - Gemini 3.1 Pro
+    - gemini-3.1-pro
+    legacy_profile: false
+    native_batch_supported: true
+    enabled: true
+    verified_on: '2026-11-28'
+    context_note: Google publishes separate input and output caps. The combined check is a sum of caps, not
+      an input window.
+judges:
+  gpt61_terra:
+    id: gpt61_terra
+    display_name: GPT-6.1 Terra
+    aliases:
+    - gpt-6.1-terra
+    - GPT-6.1 Terra
+    enabled: true
+    model: gpt-6.1-terra
+    kind: openai_responses
+    base_url: https://api.openai.com/v1
+    api_key_file: secrets/openai.key
+    availability: listed_not_account_verified
+    architecture: undisclosed
+    total_parameters_billions: null
+    active_parameters_billions: null
+    weight_revision: provider_managed
+    precision: undisclosed
+    accepted_response_models:
+    - gpt-6.1-terra
+    verified_on: '2026-11-28'
+    availability_note: Listed in current primary provider metadata. Account access, quota and live completion
+      remain to be verified in the pilot.
+    max_context_tokens: 1050000
+    max_input_tokens: 1050000
+    max_output_tokens: 128000
+    cache:
+      mode: explicit
+      ttl: 30m
+    parameters:
+      reasoning:
+        effort: medium
+    native_batch_supported: true
+    pricing:
+      standard:
+        tiers:
+        - max_input_tokens: 272000
+          input: '1'
+          output: '5'
+          cache_read: '0.05'
+          cache_write_short: '1.25'
+          cache_write_long: '2.5'
+        - max_input_tokens: null
+          input: '2'
+          output: '7.5'
+          cache_read: '0.10'
+          cache_write_short: '2.50'
+          cache_write_long: '5.0'
+      batch:
+        tiers:
+        - max_input_tokens: 272000
+          input: '0.5'
+          output: '2.5'
+          cache_read: '0.025'
+          cache_write_short: '0.625'
+          cache_write_long: '1.25'
+        - max_input_tokens: null
+          input: '1.0'
+          output: '3.75'
+          cache_read: '0.050'
+          cache_write_short: '1.250'
+          cache_write_long: '2.50'
+    sources:
+    - https://developers.openai.com/api/docs/models/gpt-6.1-terra
+    - https://developers.openai.com/api/docs/guides/prompt-caching
+    - https://developers.openai.com/api/docs/guides/batch
+    context_note: Combined input and reserved output must fit the 1,050,000-token window; 128,000 is the provider
+      output ceiling, not the experiment budget.
+  claude_sonnet55:
+    id: claude_sonnet55
+    display_name: Claude Sonnet 5.5
+    aliases:
+    - claude-sonnet-5-5
+    - Claude Sonnet 5.5
+    enabled: true
+    model: claude-sonnet-5-5
+    kind: anthropic
+    base_url: https://api.anthropic.com/v1
+    api_key_file: secrets/anthropic.key
+    availability: listed_not_account_verified
+    architecture: undisclosed
+    total_parameters_billions: null
+    active_parameters_billions: null
+    weight_revision: provider_managed
+    precision: undisclosed
+    accepted_response_models:
+    - claude-sonnet-5-5
+    verified_on: '2026-11-28'
+    availability_note: Listed in current primary provider metadata. Account access, quota and live completion
+      remain to be verified in the pilot.
+    api_version: '2026-10-21'
+    max_context_tokens: 1000000
+    max_input_tokens: 1000000
+    max_output_tokens: 128000
+    cache:
+      mode: explicit
+      ttl: 5m
+    parameters:
+      thinking:
+        type: adaptive
+      output_config:
+        effort: high
+    native_batch_supported: true
+    pricing:
+      standard:
+        input: '2'
+        output: '10'
+        cache_read: '0.1'
+        cache_write_short: '2.50'
+        cache_write_long: '4'
+      batch:
+        input: '1.0'
+        output: '5.0'
+        cache_read: '0.05'
+        cache_write_short: '1.250'
+        cache_write_long: '2.0'
+    sources:
+    - https://platform.claude.com/docs/en/models/sonnet-5-5/overview
+    - https://platform.claude.com/docs/en/about-claude/pricing
+    - https://platform.claude.com/docs/en/build-with-claude/effort
+  gpt62_sol:
+    model: gpt-6.2-sol
+    kind: openai_responses
+    base_url: https://api.openai.com/v1
+    availability: listed
+    architecture: undisclosed
+    weight_revision: provider_managed
+    precision: undisclosed
+    max_context_tokens: 1050000
+    max_input_tokens: 922000
+    max_output_tokens: 128000
+    cache:
+      mode: explicit
+      ttl: 30m
+    parameters:
+      reasoning:
+        effort: medium
+    accepted_response_models:
+    - gpt-6.2-sol
+    pricing:
+      standard:
+        tiers:
+        - max_input_tokens: 272000
+          input: '2'
+          output: '10'
+          cache_read: '0.10'
+          cache_write_short: '2.5'
+          cache_write_long: '5'
+        - max_input_tokens: null
+          input: '4'
+          output: '15'
+          cache_read: '0.20'
+          cache_write_short: '5'
+          cache_write_long: '10'
+      batch:
+        tiers:
+        - max_input_tokens: 272000
+          input: '1'
+          output: '5'
+          cache_read: '0.05'
+          cache_write_short: '1.25'
+          cache_write_long: '2.5'
+        - max_input_tokens: null
+          input: '2'
+          output: '7.5'
+          cache_read: '0.10'
+          cache_write_short: '2.5'
+          cache_write_long: '5'
+    sources:
+    - https://developers.openai.com/api/docs/models/gpt-6.2-sol
+    id: gpt62_sol
+    display_name: GPT-6.2 Sol
+    aliases:
+    - gpt-6.2-sol
+    - GPT-6.2 Sol
+    api_key_file: secrets/openai.key
+    enabled: true
+    legacy_profile: true
+    native_batch_supported: true
+    verified_on: '2026-11-27'

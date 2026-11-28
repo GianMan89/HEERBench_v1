@@ -1,0 +1,4116 @@
+{
+  "case_id": "C2",
+  "questions": [
+    {
+      "question_id": "HB-C2-A001",
+      "case_id": "C2",
+      "abf_stage": "A",
+      "title": "Partner structure and sustainment status",
+      "question": "What does the packet report about ARC organization, strength and current sustainment?",
+      "expected_answer": "The ARC comprises the Komel underground, Hêlîn auxiliary and Roj Brigades guerrilla force. The Roj Brigades have an estimated 2,500 personnel, limited heavy weapons, low ammunition and no organic sustainment independent of BADGER. The Tel Roj seizure severed BADGER and isolated the partner from resupply. Cohesion is currently adequate but degrading, with near-term culmination or fragmentation possible.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-A001-R1",
+          "text": "Identifies Komel as the underground component.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A001-R2",
+          "text": "Identifies Hêlîn as the auxiliary component.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A001-R3",
+          "text": "Identifies the Roj Brigades as the guerrilla component.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A001-R4",
+          "text": "States approximately 2,500 Roj personnel.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A001-R5",
+          "text": "States the reported low ammunition stocks.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A001-R6",
+          "text": "States the severed external-resupply dependency.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A001-R7",
+          "text": "Preserves the assessed near-term culmination/fragmentation risk.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A001-R8",
+          "text": "States currently adequate but deteriorating cohesion.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Approximate strength is sufficient; no precise stock duration is implied."
+      ],
+      "error_conditions": [
+        "Invents days of supply or treats 2,500 as a verified exact strength."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D02",
+          "line_start": 21,
+          "line_end": 37,
+          "support": "Partner structure and crisis"
+        },
+        {
+          "doc_id": "C2:D04",
+          "line_start": 29,
+          "line_end": 34,
+          "support": "Partner status"
+        }
+      ],
+      "source_item_uids": [
+        "C2:R007",
+        "C2:R011",
+        "C2:R016",
+        "C2:R017",
+        "C2:R059"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C2-A002",
+      "case_id": "C2",
+      "abf_stage": "A",
+      "title": "Distribution constraint",
+      "question": "What limits the amount of support that can reach the partner?",
+      "expected_answer": "The packet identifies contested distribution over distance and corridor/lift capacity as the limiting factors. Fuel, ammunition and medical resupply are binding needs. Stockholding at the Iraqi border is not the principal constraint. There is no secure overland line after BADGER was severed, and the longer SABER alternative is exposed and more lift-intensive.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-A002-R1",
+          "text": "Identifies distribution/corridor and lift capacity as the constraint.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A002-R2",
+          "text": "Distinguishes border stockholding from delivery to the partner.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A002-R3",
+          "text": "Identifies the longer/exposed SABER trade-off.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A concise origin-to-recipient throughput explanation is acceptable without choosing a route."
+      ],
+      "error_conditions": [
+        "Treats large origin stockpiles as sufficient delivered support.",
+        "Declares SABER safe or automatically usable."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D04",
+          "line_start": 40,
+          "line_end": 42,
+          "support": "Binding support constraint"
+        },
+        {
+          "doc_id": "C2:D06",
+          "line_start": 25,
+          "line_end": 29,
+          "support": "Route descriptions"
+        },
+        {
+          "doc_id": "C2:D06",
+          "line_start": 44,
+          "line_end": 46,
+          "support": "Distance and throughput"
+        }
+      ],
+      "source_item_uids": [
+        "C2:R071",
+        "C2:R083",
+        "C2:EA-017"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C2-B001",
+      "case_id": "C2",
+      "abf_stage": "B",
+      "title": "Determining support needs",
+      "question": "How much can the staff infer about a suitable support package from the reported partner strength and low-stock condition?",
+      "expected_answer": "The reports establish urgency and likely sustainment shortfalls, but not the quantity, mix or delivery feasibility of a support package. Headcount and low ammunition do not provide consumption rates, current inventories, medical need, distribution capacity or the authority/eligibility of specific recipients. A package sized from those two observations alone would be unsupported.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-B001-R1",
+          "text": "Recognizes urgency without inventing quantified need.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-B001-R2",
+          "text": "Identifies missing inventories/requirements.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-B001-R3",
+          "text": "Distinguishes requested quantities from deliverable throughput.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A needs-versus-delivery-capacity analysis is acceptable."
+      ],
+      "error_conditions": [
+        "Calculates an exact package from headcount without consumption or stock data."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D02",
+          "line_start": 35,
+          "line_end": 37,
+          "support": "Urgency but missing quantities"
+        },
+        {
+          "doc_id": "C2:D04",
+          "line_start": 42,
+          "line_end": 42,
+          "support": "Distribution cap"
+        }
+      ],
+      "source_item_uids": [
+        "C2:EA-038"
+      ],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C2-F001",
+      "case_id": "C2",
+      "abf_stage": "F",
+      "title": "Recipient needs assessment",
+      "question": "What staff task should precede specification of a materiel or sustainment package for the ARC?",
+      "expected_answer": "Conduct a recipient-specific needs assessment covering current stocks, shortfalls, consumption and medical requirements, and compare those needs with deliverable throughput and the scope of the scenario’s Section 1202 support authority. Record quantities as unconfirmed until verified, and identify which eligible recipient and delivery capacity each proposed support line depends on.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-F001-R1",
+          "text": "Requires verification of actual recipient needs.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F001-R2",
+          "text": "Requires comparison with deliverable capacity.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F001-R3",
+          "text": "Requires checking the support line against the stated authority/recipient conditions.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A structured needs assessment is acceptable without a fixed template or exact package."
+      ],
+      "error_conditions": [
+        "Treats any requested aid as authorized or deliverable."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D02",
+          "line_start": 35,
+          "line_end": 37,
+          "support": "Need for further detail"
+        },
+        {
+          "doc_id": "C2:D04",
+          "line_start": 42,
+          "line_end": 42,
+          "support": "Throughput constraint"
+        },
+        {
+          "doc_id": "C2:D09",
+          "line_start": 13,
+          "line_end": 17,
+          "support": "Support and vetting conditions"
+        }
+      ],
+      "source_item_uids": [
+        "C2:EA-005"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C2-F002",
+      "case_id": "C2",
+      "abf_stage": "F",
+      "title": "Auxiliary distribution-capacity requirement",
+      "question": "What specific information should be requested about the Hêlîn network before crediting it with the distribution capacity required by a support package?",
+      "expected_answer": "Request its currently usable storage and distribution capacity, the locations/recipients it can actually serve and any constraints on receipt and onward delivery. Tie the answer to the package’s feasible volume and timing. Its description as a logistics auxiliary is not proof of sufficient capacity, and no clandestine route or operating method is prescribed here.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-F002-R1",
+          "text": "Requests current storage capacity.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F002-R2",
+          "text": "Requests actual distribution/receipt capacity and restrictions.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F002-R3",
+          "text": "Links the answer to a support-feasibility decision.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "An FFIR or partner-capacity assessment request is acceptable regardless of staff label."
+      ],
+      "error_conditions": [
+        "Equates a logistics role with unlimited or verified capacity."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D02",
+          "line_start": 33,
+          "line_end": 35,
+          "support": "Auxiliary role and partner need"
+        },
+        {
+          "doc_id": "C2:D04",
+          "line_start": 34,
+          "line_end": 42,
+          "support": "Deficient sustainment and throughput"
+        }
+      ],
+      "source_item_uids": [
+        "C2:EA-008"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C2-A003",
+      "case_id": "C2",
+      "abf_stage": "A",
+      "title": "Advisory force closure",
+      "question": "What forces and support are apportioned, and which portion can initially close?",
+      "expected_answer": "A SOTF-L headquarters and up to six advisory detachments are apportioned, but shared lift initially permits only two or three detachments, with further closure time-phased. ISR and fixed/rotary aviation are shared theater resources and not dedicated. Advisory capacity limits the portion of the partner that can be supported at once; vetted cohesive elements require prioritization.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-A003-R1",
+          "text": "Distinguishes six apportioned from two or three initial detachments.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A003-R2",
+          "text": "States time-phased lift-dependent closure.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A003-R3",
+          "text": "States that ISR is shared rather than dedicated.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A003-R4",
+          "text": "States that aviation is shared rather than dedicated.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A003-R5",
+          "text": "Identifies advisory capacity as a limiting resource.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Treat two or three as a range rather than select a precise value."
+      ],
+      "error_conditions": [
+        "Counts all six detachments as initially available."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D04",
+          "line_start": 11,
+          "line_end": 23,
+          "support": "Apportionment/closure and capacity"
+        },
+        {
+          "doc_id": "C2:D01",
+          "line_start": 25,
+          "line_end": 25,
+          "support": "Supporting effort and shared resources"
+        }
+      ],
+      "source_item_uids": [
+        "C2:R010",
+        "C2:R069",
+        "C2:R070",
+        "C2:R072",
+        "C2:EA-002"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C2-B002",
+      "case_id": "C2",
+      "abf_stage": "B",
+      "title": "Consistency of initial support scale",
+      "question": "How should a support estimate that relies on all six advisory detachments being present at the outset be assessed?",
+      "expected_answer": "It exceeds the stated near-term closure basis. The capacity and risk estimates must use two or three initially closing detachments and confirmed support, while treating later detachments as a separate conditional phase. A larger apportioned total does not justify lowering initial risk or increasing initial support scale.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-B002-R1",
+          "text": "Identifies the conflict with initial closure.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-B002-R2",
+          "text": "Separates initial and later conditional capacity.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-B002-R3",
+          "text": "Rejects risk reduction based on unavailable detachments.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Either end of the stated two-to-three range can be explored explicitly as a sensitivity case."
+      ],
+      "error_conditions": [
+        "Silently assumes expedited closure of the other detachments."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D04",
+          "line_start": 14,
+          "line_end": 23,
+          "support": "Closure cap"
+        },
+        {
+          "doc_id": "C2:D11",
+          "line_start": 31,
+          "line_end": 31,
+          "support": "Sustainment and time-phased closure"
+        }
+      ],
+      "source_item_uids": [],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C2-F003",
+      "case_id": "C2",
+      "abf_stage": "F",
+      "title": "Phased support-capacity record",
+      "question": "What concrete correction should be made to the initial support estimate before it is submitted?",
+      "expected_answer": "Rebuild the estimate as separate initial and follow-on phases, recording confirmed advisory availability, support demand and lift commitments for each. Hold expansion dependent on later closure until that closure and sustainment are confirmed. Report the remaining capacity shortfall instead of crediting all six detachments at start.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-F003-R1",
+          "text": "Requires distinct initial/follow-on estimates.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F003-R2",
+          "text": "Uses confirmed advisory availability for each phase.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F003-R3",
+          "text": "Uses confirmed sustainment for each phase.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F003-R4",
+          "text": "Makes expansion conditional on confirmed closure.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A phased force-availability table or capacity-gap brief is acceptable."
+      ],
+      "error_conditions": [
+        "Changes the source closure cap without new confirmation."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D04",
+          "line_start": 14,
+          "line_end": 23,
+          "support": "Initial capacity"
+        },
+        {
+          "doc_id": "C2:D11",
+          "line_start": 31,
+          "line_end": 31,
+          "support": "Binding sustainment"
+        }
+      ],
+      "source_item_uids": [],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C2-F004",
+      "case_id": "C2",
+      "abf_stage": "F",
+      "title": "Shared aviation demand deconfliction",
+      "question": "What coordination requirement follows for shared aviation supporting closure, resupply and recovery?",
+      "expected_answer": "Assemble a joint demand-and-availability schedule for closure, resupply and personnel recovery, identify simultaneous demands on the same shared assets, and obtain the responsible theater allocation decisions before counting those commitments. Preserve required recovery coverage when resolving conflicts rather than assuming the same asset can meet all demands simultaneously.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-F004-R1",
+          "text": "Combines closure, resupply and recovery demand in one availability check.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F004-R2",
+          "text": "Identifies overlapping shared-resource commitments.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F004-R3",
+          "text": "Requires the relevant shared-resource allocation confirmation.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F004-R4",
+          "text": "Preserves required recovery coverage when resolving demand conflicts.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A deconfliction board, common schedule or allocation matrix is acceptable."
+      ],
+      "error_conditions": [
+        "Assumes a dedicated aviation fleet or double-books an asset."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D04",
+          "line_start": 15,
+          "line_end": 19,
+          "support": "Shared lift"
+        },
+        {
+          "doc_id": "C2:D09",
+          "line_start": 37,
+          "line_end": 41,
+          "support": "Recovery prerequisite"
+        }
+      ],
+      "source_item_uids": [
+        "C2:EA-011"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C2-A004",
+      "case_id": "C2",
+      "abf_stage": "A",
+      "title": "Assistance eligibility and relationship",
+      "question": "What conditions and command relationships govern assistance to ARC elements?",
+      "expected_answer": "All assistance to units or individuals is conditioned on completed human-rights/Leahy vetting under the packet. The ARC is supported by, with and through the partner and is not under US command. USCENTCOM is supported, SOCCENT provides theater special-operations command and control, SOTF-L executes and USSOCOM supplies apportioned forces.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-A004-R1",
+          "text": "States vetting before any assistance.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A004-R2",
+          "text": "States partner support rather than US command.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A004-R3",
+          "text": "Identifies USCENTCOM as supported command.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A004-R4",
+          "text": "Identifies SOCCENT theater special-operations C2.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A004-R5",
+          "text": "Identifies SOTF-L as executing task force.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A004-R6",
+          "text": "Identifies USSOCOM as apportioned force provider.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Equivalent supported/supporting relationship wording is acceptable."
+      ],
+      "error_conditions": [
+        "Assumes vetting or command authority from membership in the ARC umbrella."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D04",
+          "line_start": 34,
+          "line_end": 46,
+          "support": "Partner relationship and chain"
+        },
+        {
+          "doc_id": "C2:D07",
+          "line_start": 89,
+          "line_end": 91,
+          "support": "US force-provider relationship"
+        },
+        {
+          "doc_id": "C2:D09",
+          "line_start": 17,
+          "line_end": 17,
+          "support": "Vetting condition"
+        }
+      ],
+      "source_item_uids": [
+        "C2:R001",
+        "C2:EA-028",
+        "C2:R032",
+        "C2:R033",
+        "C2:R042",
+        "C2:EA-047"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C2-B003",
+      "case_id": "C2",
+      "abf_stage": "B",
+      "title": "Vetting under time pressure",
+      "question": "How should the staff assess the eligibility of a broad assistance package when partner cohesion is deteriorating and only some recipients may have completed vetting?",
+      "expected_answer": "Urgency does not demonstrate eligibility. The package must distinguish cleared recipients from pending or failed cases. The partner’s umbrella identity and assumptions about eventual removals do not establish that all units pass. Expanding faster than recipient verification would break the stated assistance condition and may outpace finite advisory capacity.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-B003-R1",
+          "text": "Does not waive vetting because of urgency.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-B003-R2",
+          "text": "Separates cleared, pending and failed recipients.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-B003-R3",
+          "text": "Relates expansion to verified eligibility and actual advisory capacity.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A conditionally limited package is acceptable without assuming that the majority will pass."
+      ],
+      "error_conditions": [
+        "Treats the whole ARC as eligible after one unit passes."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D02",
+          "line_start": 37,
+          "line_end": 37,
+          "support": "Time pressure"
+        },
+        {
+          "doc_id": "C2:D09",
+          "line_start": 17,
+          "line_end": 17,
+          "support": "Recipient-specific condition"
+        },
+        {
+          "doc_id": "C2:D04",
+          "line_start": 23,
+          "line_end": 34,
+          "support": "Capacity and partner relationship"
+        }
+      ],
+      "source_item_uids": [],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C2-F005",
+      "case_id": "C2",
+      "abf_stage": "F",
+      "title": "Expedited vetting workflow",
+      "question": "What staff process should be established to address urgent support requests while respecting the recipient-vetting condition?",
+      "expected_answer": "Establish an expedited coordination workflow with the responsible State/embassy vetting partners that identifies the proposed recipient, completeness of required information, pending findings and the decision owner. Track clearance separately for each recipient and release assistance only after the required result. Expedite administration without reducing the vetting standard.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-F005-R1",
+          "text": "Requires a recipient-specific coordinated vetting workflow.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F005-R2",
+          "text": "Tracks pending information and decisions.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F005-R3",
+          "text": "Prohibits assistance before the required clearance.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A case register with agreed coordination points and escalation of delays is acceptable."
+      ],
+      "error_conditions": [
+        "Uses urgency as an automatic waiver."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D09",
+          "line_start": 17,
+          "line_end": 17,
+          "support": "Vetting requirement"
+        },
+        {
+          "doc_id": "C2:D01",
+          "line_start": 19,
+          "line_end": 33,
+          "support": "Conditioned support"
+        },
+        {
+          "doc_id": "C2:D02",
+          "line_start": 37,
+          "line_end": 37,
+          "support": "Urgency"
+        }
+      ],
+      "source_item_uids": [
+        "C2:EA-027"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "derived",
+      "derivation_note": "The requirement to vet is supplied; the expedited administrative workflow is newly constructed. No vetting deadline or favorable outcome is assumed.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C2-F006",
+      "case_id": "C2",
+      "abf_stage": "F",
+      "title": "Support expansion decision gate",
+      "question": "What decision condition should govern expansion from a cleared subset to additional ARC elements?",
+      "expected_answer": "Expand only when the additional recipients’ vetting and current reliability are confirmed and advisory/sustainment capacity can support them. Otherwise retain a limited scope or defer the extension, record the unmet condition and seek a commander decision. Passing one gate does not satisfy the others.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-F006-R1",
+          "text": "Requires recipient vetting before support expansion.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F006-R2",
+          "text": "Requires confirmation of current recipient reliability.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F006-R3",
+          "text": "Requires advisory capacity for the expanded support.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F006-R4",
+          "text": "Requires sustainment capacity for the expanded support.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F006-R5",
+          "text": "Specifies a limited/deferred status when a gate remains unmet.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A scaling decision matrix is acceptable."
+      ],
+      "error_conditions": [
+        "Assumes all additional elements pass because the initial subset did."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D04",
+          "line_start": 23,
+          "line_end": 34,
+          "support": "Capacity and eligibility"
+        },
+        {
+          "doc_id": "C2:D02",
+          "line_start": 29,
+          "line_end": 37,
+          "support": "Variable reliability and deterioration"
+        }
+      ],
+      "source_item_uids": [
+        "C2:R065"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C2-A005",
+      "case_id": "C2",
+      "abf_stage": "A",
+      "title": "Recovery readiness conditions",
+      "question": "What personnel-recovery conditions and dependencies are stated before commitment of advisers?",
+      "expected_answer": "Advisers may be isolated in a denied area under Russian air-defense coverage. Confirmed personnel-recovery and casualty-evacuation arrangements over distance are a no-go prerequisite for commitment, including prior Russian deconfliction of recovery sorties. The joint recovery element is on order, and aviation is shared. The packet calls for isolated-personnel guidance, authentication and rehearsed contingencies.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-A005-R1",
+          "text": "Identifies isolated-personnel risk.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A005-R2",
+          "text": "States confirmed recovery/evacuation as a prerequisite.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A005-R3",
+          "text": "States prior deconfliction for recovery sorties.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A005-R4",
+          "text": "Distinguishes an on-order element from confirmed coverage.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A prerequisite/status distinction is sufficient without reproducing procedural details."
+      ],
+      "error_conditions": [
+        "Treats an on-order element as confirmed coverage."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D04",
+          "line_start": 15,
+          "line_end": 19,
+          "support": "Shared assets and on-order element"
+        },
+        {
+          "doc_id": "C2:D09",
+          "line_start": 35,
+          "line_end": 47,
+          "support": "Recovery gate and deconfliction"
+        }
+      ],
+      "source_item_uids": [
+        "C2:R056",
+        "C2:R064",
+        "C2:C2-GAP-08"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C2-B004",
+      "case_id": "C2",
+      "abf_stage": "B",
+      "title": "Adequacy of an on-order recovery element",
+      "question": "What does designation of an on-order personnel-recovery element establish about the adviser commitment gate?",
+      "expected_answer": "No. Designation/on-order status does not confirm asset availability, relevant geographic and time coverage, casualty-evacuation support or deconfliction. Shared theater priorities can still leave a gap. The gate is met only through current coverage confirmation for the proposed commitment, not by naming an organization or assuming priority after an incident.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-B004-R1",
+          "text": "Distinguishes designation from current coverage.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-B004-R2",
+          "text": "Identifies actual recovery-asset availability as a prerequisite.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-B004-R3",
+          "text": "Identifies required recovery-sortie deconfliction as a prerequisite.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-B004-R4",
+          "text": "Rejects assumed incident-time priority as confirmation.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A conditional answer is acceptable if it names the missing confirmations."
+      ],
+      "error_conditions": [
+        "Assumes recovery assets automatically take theater priority when needed."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D04",
+          "line_start": 15,
+          "line_end": 19,
+          "support": "Shared/on-order resources"
+        },
+        {
+          "doc_id": "C2:D09",
+          "line_start": 37,
+          "line_end": 47,
+          "support": "Coverage and permissions"
+        }
+      ],
+      "source_item_uids": [],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C2-F007",
+      "case_id": "C2",
+      "abf_stage": "F",
+      "title": "Recovery confirmation and coordination",
+      "question": "What concrete recovery-readiness action is needed before the commitment decision?",
+      "expected_answer": "Have the responsible SOCCENT/joint recovery coordination function confirm the relevant assets, coverage period, evacuation support and required deconfliction, and record whether the no-go gate is satisfied. A JPRC or equivalent designated coordination function may maintain the record, but a newly named headquarters does not itself create coverage. Hold the affected commitment if required coverage is unconfirmed.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-F007-R1",
+          "text": "Requires current recovery-coverage confirmation.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F007-R2",
+          "text": "Requires current recovery deconfliction confirmation.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F007-R3",
+          "text": "Assigns confirmation to the responsible recovery coordination function.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F007-R4",
+          "text": "Maintains the no-go status if a prerequisite is unresolved.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Use an existing joint recovery function rather than mandate a new JPRC."
+      ],
+      "error_conditions": [
+        "Declares coverage solely because a JPRC was established."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D04",
+          "line_start": 46,
+          "line_end": 46,
+          "support": "Responsible recovery coordination"
+        },
+        {
+          "doc_id": "C2:D09",
+          "line_start": 37,
+          "line_end": 47,
+          "support": "Coverage prerequisites"
+        }
+      ],
+      "source_item_uids": [
+        "C2:EA-036",
+        "C2:R079"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "derived",
+      "derivation_note": "The original JPRC requirement is broadened to a functionally equivalent responsible joint coordination arrangement. The criterion concerns verified recovery readiness, not a compulsory organizational label.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C2-A006",
+      "case_id": "C2",
+      "abf_stage": "A",
+      "title": "Authority and access boundaries",
+      "question": "What authority and access limits are stated for JAGGED ANVIL?",
+      "expected_answer": "The scenario’s support authority is Section 1202 for authorized UW, with activities exceeding it referred for separate Title 50/interagency authorization. There is no Syrian consent or status-of-forces agreement. US ground combat and unilateral strikes on regime forces are not authorized, and overt US–Syria armed conflict is prohibited. Turkish-denied access may not be used.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-A006-R1",
+          "text": "Identifies Section 1202 as the scenario support authority.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A006-R2",
+          "text": "Requires referral of activity exceeding that authority.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A006-R3",
+          "text": "States that Syrian host consent is absent.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A006-R4",
+          "text": "States that no SOFA covers the activity.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A006-R5",
+          "text": "States the no-US-ground-combat restraint.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A006-R6",
+          "text": "States the no-unilateral-strike restraint.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A006-R7",
+          "text": "States the below-overt-US–Syria-conflict limit.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A006-R8",
+          "text": "States the Turkish access restraint.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Treat these as supplied exercise rules without extending them into general legal advice."
+      ],
+      "error_conditions": [
+        "Invents host consent or a new combat authority."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D09",
+          "line_start": 11,
+          "line_end": 19,
+          "support": "Authority constraints"
+        },
+        {
+          "doc_id": "C2:D10",
+          "line_start": 47,
+          "line_end": 49,
+          "support": "Access and mission restraints"
+        }
+      ],
+      "source_item_uids": [
+        "C2:R003",
+        "C2:R008",
+        "C2:R013",
+        "C2:R043",
+        "C2:R044",
+        "C2:R046",
+        "C2:R048",
+        "C2:R075",
+        "C2:C2-GAP-07"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C2-B005",
+      "case_id": "C2",
+      "abf_stage": "B",
+      "title": "Separate assistance authorization gates",
+      "question": "How should the staff assess an assistance proposal that is within the general support mission but lacks recipient clearance or a specific activity determination?",
+      "expected_answer": "Mission consistency alone is insufficient. Recipient eligibility and activity authority are separate requirements, and geographic access is a further condition. A proposed activity cannot inherit approval merely because the partner is supported or another activity was cleared. The absent host consent is not repaired by invoking the general mission.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-B005-R1",
+          "text": "Separates mission purpose from specific activity authorization.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-B005-R2",
+          "text": "Separates recipient clearance from activity authority.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-B005-R3",
+          "text": "Preserves access/consent as a distinct issue.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "An authorization-dependency analysis is acceptable without deciding a legal boundary not resolved by the packet."
+      ],
+      "error_conditions": [
+        "Equates authorized mission purpose with blanket permission for every activity."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D09",
+          "line_start": 11,
+          "line_end": 19,
+          "support": "Distinct conditions"
+        },
+        {
+          "doc_id": "C2:D04",
+          "line_start": 34,
+          "line_end": 38,
+          "support": "Recipient and access context"
+        }
+      ],
+      "source_item_uids": [],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C2-F008",
+      "case_id": "C2",
+      "abf_stage": "F",
+      "title": "Assistance clearance record",
+      "question": "What should the staff require before recording a proposed assistance line as cleared for execution?",
+      "expected_answer": "Prepare a line-by-line record linking the proposed activity, recipient and location to the relevant authority determination, vetting result and access condition. Refer an unresolved activity boundary to the responsible command/interagency legal process and retain a pending status until resolved. Do not substitute a generic Section 1202 label or partner affiliation for these separate checks.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-F008-R1",
+          "text": "Links activity, recipient and location to separate clearance conditions.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F008-R2",
+          "text": "Requires referral of unresolved authority boundaries.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F008-R3",
+          "text": "Preserves a pending execution status until required clearance.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "An approval register or authorization checklist is acceptable."
+      ],
+      "error_conditions": [
+        "Uses a generic authority label to bypass a missing determination."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D09",
+          "line_start": 11,
+          "line_end": 19,
+          "support": "Authority and eligibility"
+        },
+        {
+          "doc_id": "C2:D10",
+          "line_start": 49,
+          "line_end": 49,
+          "support": "Restraints"
+        }
+      ],
+      "source_item_uids": [],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C2-A007",
+      "case_id": "C2",
+      "abf_stage": "A",
+      "title": "External access and deconfliction status",
+      "question": "What access and deconfliction conditions are supplied for the operation?",
+      "expected_answer": "Türkiye denies northern access, basing and overflight. Iraqi cross-border tolerance is tacit, unconsented and politically reversible. Russian air-defense coverage constrains aerial activity, which must be deconflicted before execution. Continued operation of that mechanism is an assumption; its failure would change aerial feasibility and affect resupply and recovery.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-A007-R1",
+          "text": "States denied northern access.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A007-R2",
+          "text": "States tacit/reversible Iraqi tolerance rather than granted consent.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A007-R3",
+          "text": "States prior Russian deconfliction for air activity.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A007-R4",
+          "text": "Identifies continued deconfliction as an assumption with feasibility consequences.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A permissions-versus-assumptions table is acceptable."
+      ],
+      "error_conditions": [
+        "Treats Russian deconfliction as guaranteed or Iraqi tolerance as formal approval."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D02",
+          "line_start": 53,
+          "line_end": 57,
+          "support": "Actor access status"
+        },
+        {
+          "doc_id": "C2:D09",
+          "line_start": 45,
+          "line_end": 47,
+          "support": "Deconfliction assumption"
+        }
+      ],
+      "source_item_uids": [
+        "C2:R019",
+        "C2:R020",
+        "C2:R012",
+        "C2:R030",
+        "C2:R031",
+        "C2:R034",
+        "C2:R047",
+        "C2:R081"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C2-B006",
+      "case_id": "C2",
+      "abf_stage": "B",
+      "title": "Independence of access conditions",
+      "question": "What does confirmation of Russian air deconfliction establish about the other access conditions required for a proposed support commitment?",
+      "expected_answer": "It establishes only the status of the deconfliction mechanism for the activity and time covered. It does not grant Iraqi access, reverse Türkiye’s denial or establish Syrian consent. Because permissions are independent and Iraqi tolerance is reversible, a prior successful movement is not proof of continuing access for a later commitment.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-B006-R1",
+          "text": "Limits deconfliction to its actual scope.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-B006-R2",
+          "text": "Keeps Iraqi/Turkish/Syrian conditions distinct.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-B006-R3",
+          "text": "Recognizes time sensitivity of reversible tolerance.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A conditional access assessment is acceptable without recommending a route."
+      ],
+      "error_conditions": [
+        "Treats one external actor’s agreement as all-access permission."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D02",
+          "line_start": 53,
+          "line_end": 57,
+          "support": "Different actors"
+        },
+        {
+          "doc_id": "C2:D09",
+          "line_start": 11,
+          "line_end": 11,
+          "support": "No Syrian consent"
+        },
+        {
+          "doc_id": "C2:D09",
+          "line_start": 45,
+          "line_end": 47,
+          "support": "Deconfliction scope"
+        }
+      ],
+      "source_item_uids": [],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C2-F009",
+      "case_id": "C2",
+      "abf_stage": "F",
+      "title": "Current access status requirement",
+      "question": "What information and coordination record is required before treating access as confirmed for a support commitment?",
+      "expected_answer": "Obtain current actor-specific confirmation of the relevant crossing/access status and the scope and timing of any deconfliction arrangement. Record the authority or source, expiry/change conditions and unresolved dependencies separately. Tie any loss of a required condition to a hold or review of the affected commitment, without treating an alternate route as approved by default.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-F009-R1",
+          "text": "Requests current actor-specific access and crossing status.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F009-R2",
+          "text": "Records scope/timing and unresolved conditions.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F009-R3",
+          "text": "Links a changed condition to commitment review.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A current permissions/status matrix is acceptable."
+      ],
+      "error_conditions": [
+        "Assumes an alternative crossing is approved when one closes."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D02",
+          "line_start": 53,
+          "line_end": 57,
+          "support": "Reversible access"
+        },
+        {
+          "doc_id": "C2:D06",
+          "line_start": 33,
+          "line_end": 40,
+          "support": "Border/crossing nodes"
+        },
+        {
+          "doc_id": "C2:D09",
+          "line_start": 45,
+          "line_end": 47,
+          "support": "Deconfliction prerequisite"
+        }
+      ],
+      "source_item_uids": [
+        "C2:EA-014",
+        "C2:R052",
+        "C2:R053"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C2-F010",
+      "case_id": "C2",
+      "abf_stage": "F",
+      "title": "Staging-location assessment task",
+      "question": "What staging-location preparation is justified before a support arrangement is treated as feasible?",
+      "expected_answer": "Task the staff to identify candidate intermediate staging arrangements and verify their location-specific permission, basing/overflight conditions and ability to support the intended movement. Present feasible options and unresolved requirements for decision. Do not nominate a particular site as approved or require a fixed number of options when the packet supplies no site data.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-F010-R1",
+          "text": "Requires identification and assessment of candidate intermediate staging arrangements.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F010-R2",
+          "text": "Requires location-specific staging permission checks.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F010-R3",
+          "text": "Requires functional suitability checks for the intended staging role.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F010-R4",
+          "text": "Keeps the site selection conditional on confirmed information.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "An existing authorized support location may be considered alongside new candidates.",
+        "One defensible option plus documented unavailable alternatives is acceptable; two or three invented sites are not."
+      ],
+      "error_conditions": [
+        "Invents an approved staging location or bypasses a denied access condition."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D02",
+          "line_start": 53,
+          "line_end": 57,
+          "support": "Access constraints"
+        },
+        {
+          "doc_id": "C2:D04",
+          "line_start": 15,
+          "line_end": 19,
+          "support": "Lift-dependent closure"
+        },
+        {
+          "doc_id": "C2:D09",
+          "line_start": 45,
+          "line_end": 47,
+          "support": "Aerial permissions"
+        }
+      ],
+      "source_item_uids": [
+        "C2:EA-019"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "derived",
+      "derivation_note": "The source supports a concrete site-assessment task, not a uniquely named staging base. No exact location or clandestine operating plan is generated.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C2-A008",
+      "case_id": "C2",
+      "abf_stage": "A",
+      "title": "Partner reporting and communications reliability",
+      "question": "What limitations affect the staff’s partner-derived reports and communications?",
+      "expected_answer": "Komel is assessed penetrated by regime intelligence and partner communications security/counterintelligence are weak. Adversary EW degrades GPS and tactical communications. Shared ISR cannot be assumed persistent, and the staff running estimate treats significant ambiguity in partner reliability as unresolved.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-A008-R1",
+          "text": "Identifies assessed penetration of the Komel network.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A008-R2",
+          "text": "Identifies weak partner communications security/counterintelligence.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A008-R3",
+          "text": "Identifies EW/PNT degradation.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A008-R4",
+          "text": "States that persistent ISR cannot be assumed.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A008-R5",
+          "text": "States that partner-reliability uncertainty remains unresolved.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Distinguish assessed compromise from a claim that every partner report is false."
+      ],
+      "error_conditions": [
+        "Treats all reports as independently corroborated."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D02",
+          "line_start": 31,
+          "line_end": 45,
+          "support": "Penetration and EW"
+        },
+        {
+          "doc_id": "C2:D11",
+          "line_start": 11,
+          "line_end": 15,
+          "support": "C2 and information limitations"
+        }
+      ],
+      "source_item_uids": [
+        "C2:R018",
+        "C2:R024",
+        "C2:R057",
+        "C2:EA-037"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C2-B007",
+      "case_id": "C2",
+      "abf_stage": "B",
+      "title": "Reliability of readiness reports",
+      "question": "How should a single partner report of readiness be assessed when independent observation and communications are limited?",
+      "expected_answer": "It can inform the estimate but cannot automatically resolve cohesion, inventory or C2 readiness. Penetration, weak communications and gaps in independent observation affect reliability in different ways. Reports sharing the same upstream source are not independent corroboration, and missing updates cannot be interpreted as positive readiness.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-B007-R1",
+          "text": "Treats the report as qualified input rather than complete confirmation.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-B007-R2",
+          "text": "Connects penetration/communications limits to reliability.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-B007-R3",
+          "text": "Distinguishes independent corroboration from repeated reporting.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A confidence-qualified assessment that identifies the unresolved decision variables is acceptable."
+      ],
+      "error_conditions": [
+        "Counts duplicated partner reports as independent confirmation."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D02",
+          "line_start": 31,
+          "line_end": 37,
+          "support": "Partner limitations"
+        },
+        {
+          "doc_id": "C2:D11",
+          "line_start": 11,
+          "line_end": 15,
+          "support": "Observation and C2 limits"
+        }
+      ],
+      "source_item_uids": [
+        "C2:EA-038"
+      ],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C2-F011",
+      "case_id": "C2",
+      "abf_stage": "F",
+      "title": "Readiness confirmation request",
+      "question": "What should be requested before using the partner report to support a commitment decision?",
+      "expected_answer": "Request current confirmation of personnel strength/cohesion, actual sustainment status and usable C2, identifying the date, reporting origin and independent checks available for each. Record unresolved or stale fields as decision gaps and seek corroboration through authorized sources. Do not upgrade a single report into confirmation merely because communication has been restored.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-F011-R1",
+          "text": "Requests current personnel strength/cohesion.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F011-R2",
+          "text": "Requests current sustainment status.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F011-R3",
+          "text": "Requests usable C2 status.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F011-R4",
+          "text": "Requires the reporting origin.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F011-R5",
+          "text": "Requires the report date or relevant observation period.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F011-R6",
+          "text": "Keeps uncorroborated/stale fields explicit for the decision.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A readiness FFIR with separate verification fields is acceptable."
+      ],
+      "error_conditions": [
+        "Invents an independent corroborating source or guaranteed partner reliability."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D02",
+          "line_start": 29,
+          "line_end": 37,
+          "support": "Partner condition"
+        },
+        {
+          "doc_id": "C2:D11",
+          "line_start": 11,
+          "line_end": 15,
+          "support": "Readiness uncertainty"
+        }
+      ],
+      "source_item_uids": [
+        "C2:EA-059",
+        "C2:R049",
+        "C2:R054"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C2-A009",
+      "case_id": "C2",
+      "abf_stage": "A",
+      "title": "Purpose and counter-ISIS safeguard",
+      "question": "What objectives and unintended risk must the staff preserve in evaluating the operation?",
+      "expected_answer": "The stated aims include denying completion of the Iranian ground line, preserving a viable partner and protecting prior counter-ISIS gains below overt armed conflict. The packet warns that diversion of regime/proxy attention toward a resistance buildup could create a security vacuum exploited by ISIS remnants in the Badia. It directs monitoring this resurgence risk.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-A009-R1",
+          "text": "Identifies denial of the Iranian GLOC as a purpose.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A009-R2",
+          "text": "Identifies preservation of a viable partner as a purpose.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A009-R3",
+          "text": "Identifies protection of counter-ISIS gains.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-A009-R4",
+          "text": "Preserves the conditional diversion/security-vacuum/ISIS risk.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Describe the risk as possible rather than inevitable."
+      ],
+      "error_conditions": [
+        "Treats partner success as proof that ISIS risk decreases."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D01",
+          "line_start": 11,
+          "line_end": 25,
+          "support": "Strategic and operational purposes"
+        },
+        {
+          "doc_id": "C2:D02",
+          "line_start": 47,
+          "line_end": 49,
+          "support": "Unintended resurgence mechanism"
+        },
+        {
+          "doc_id": "C2:D10",
+          "line_start": 35,
+          "line_end": 35,
+          "support": "Monitoring direction"
+        }
+      ],
+      "source_item_uids": [
+        "C2:R002",
+        "C2:R004",
+        "C2:R060",
+        "C2:EA-006",
+        "C2:C2-GAP-04"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C2-B008",
+      "case_id": "C2",
+      "abf_stage": "B",
+      "title": "Completeness of a success judgement",
+      "question": "Would improved partner readiness alone establish progress against all the stated purposes, and why?",
+      "expected_answer": "No. It may support partner viability while creating the described diversion condition and does not by itself show that counter-ISIS gains are preserved or the Iranian line is denied. Overall progress requires separate assessment of these purposes and the unintended resurgence risk, rather than a single partner-capacity measure.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-B008-R1",
+          "text": "Distinguishes partner readiness from the other purposes.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-B008-R2",
+          "text": "Uses the conditional unintended-risk mechanism.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-B008-R3",
+          "text": "Rejects one proxy measure as complete mission success.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A multi-objective judgement with explicit trade-offs is acceptable."
+      ],
+      "error_conditions": [
+        "Claims partner capacity automatically produces all strategic outcomes."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D01",
+          "line_start": 11,
+          "line_end": 25,
+          "support": "Distinct objectives"
+        },
+        {
+          "doc_id": "C2:D02",
+          "line_start": 49,
+          "line_end": 49,
+          "support": "Potential adverse effect"
+        }
+      ],
+      "source_item_uids": [
+        "C2:EA-009"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C2-F012",
+      "case_id": "C2",
+      "abf_stage": "F",
+      "title": "Balanced progress-review requirement",
+      "question": "What concrete change should be made to a progress brief that currently reports only partner capacity?",
+      "expected_answer": "Add separate status and uncertainty fields for the GLOC objective, preservation of counter-ISIS gains and the source-identified resurgence mechanism. Request a review when capacity gains coincide with worsening resurgence indicators, so the commander receives the trade-off rather than a blanket success claim. Keep the indicators descriptive without prescribing new combat operations.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C2-F012-R1",
+          "text": "Adds distinct objective/risk fields.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F012-R2",
+          "text": "Links adverse resurgence reporting to a commander review.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C2-F012-R3",
+          "text": "Avoids an unsupported aggregate success conclusion.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A balanced progress matrix or decision-review annex is acceptable."
+      ],
+      "error_conditions": [
+        "Invents an observed ISIS resurgence or numerical threshold."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C2:D01",
+          "line_start": 11,
+          "line_end": 25,
+          "support": "Objectives"
+        },
+        {
+          "doc_id": "C2:D02",
+          "line_start": 49,
+          "line_end": 49,
+          "support": "Conditional adverse effect"
+        }
+      ],
+      "source_item_uids": [],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    }
+  ],
+  "chains": [
+    {
+      "chain_id": "HB-C2-CH001",
+      "case_id": "C2",
+      "title": "Needs and distribution capacity",
+      "a_ids": [
+        "HB-C2-A001",
+        "HB-C2-A002",
+        "HB-C2-A006",
+        "HB-C2-A004"
+      ],
+      "b_ids": [
+        "HB-C2-B001"
+      ],
+      "f_ids": [
+        "HB-C2-F001",
+        "HB-C2-F002"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C2-A001",
+            "HB-C2-A002"
+          ],
+          "child_id": "HB-C2-B001",
+          "logic": "ALL",
+          "rationale": "Reported need and delivery constraints jointly limit support-package inference.",
+          "counterfactual_test": "If inventories and deliverable throughput were supplied, the package could be evaluated directly."
+        },
+        {
+          "parent_ids": [
+            "HB-C2-B001",
+            "HB-C2-A006",
+            "HB-C2-A004"
+          ],
+          "child_id": "HB-C2-F001",
+          "logic": "ALL",
+          "rationale": "The identified missing quantities and distribution detail define the concrete assessment requests. The additional A parents supply the specific authority, recipient, recovery or resource prerequisite for this consequence.",
+          "counterfactual_test": "If the auxiliary lacks required capacity, the proposed package must be revised or held rather than assumed deliverable."
+        },
+        {
+          "parent_ids": [
+            "HB-C2-B001"
+          ],
+          "child_id": "HB-C2-F002",
+          "logic": "ALL",
+          "rationale": "The identified missing quantities and distribution detail define the concrete assessment requests.",
+          "counterfactual_test": "If the auxiliary lacks required capacity, the proposed package must be revised or held rather than assumed deliverable."
+        }
+      ],
+      "chain_rationale": "Develops needs and capacity requirements without designing a support route or combat action.",
+      "minimality_note": "The listed premises contribute jointly to the stated judgement. The original packet remains available, so a model can reconstruct them without using the supplied intermediate answer. The counterfactual is an annotation, not an executed intervention.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C2-CH002",
+      "case_id": "C2",
+      "title": "Initial force scale and shared lift",
+      "a_ids": [
+        "HB-C2-A003",
+        "HB-C2-A002",
+        "HB-C2-A005"
+      ],
+      "b_ids": [
+        "HB-C2-B002"
+      ],
+      "f_ids": [
+        "HB-C2-F003",
+        "HB-C2-F004"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C2-A003",
+            "HB-C2-A002"
+          ],
+          "child_id": "HB-C2-B002",
+          "logic": "ALL",
+          "rationale": "Initial force cap and delivered sustainment bound feasible scale.",
+          "counterfactual_test": "If six detachments and their sustainment were confirmed initially, the discrepancy would disappear."
+        },
+        {
+          "parent_ids": [
+            "HB-C2-B002"
+          ],
+          "child_id": "HB-C2-F003",
+          "logic": "ALL",
+          "rationale": "An infeasible initial estimate requires phased accounting and conflict resolution.",
+          "counterfactual_test": "If shared demand is deconflicted and allocated, the record can be marked confirmed rather than pending."
+        },
+        {
+          "parent_ids": [
+            "HB-C2-B002",
+            "HB-C2-A005"
+          ],
+          "child_id": "HB-C2-F004",
+          "logic": "ALL",
+          "rationale": "An infeasible initial estimate requires phased accounting and conflict resolution. The additional A parents supply the specific authority, recipient, recovery or resource prerequisite for this consequence.",
+          "counterfactual_test": "If shared demand is deconflicted and allocated, the record can be marked confirmed rather than pending."
+        }
+      ],
+      "chain_rationale": "Targets resource accounting and readiness, not tactical employment.",
+      "minimality_note": "The listed premises contribute jointly to the stated judgement. The original packet remains available, so a model can reconstruct them without using the supplied intermediate answer. The counterfactual is an annotation, not an executed intervention.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C2-CH003",
+      "case_id": "C2",
+      "title": "Vetting and support expansion",
+      "a_ids": [
+        "HB-C2-A004",
+        "HB-C2-A001",
+        "HB-C2-A003"
+      ],
+      "b_ids": [
+        "HB-C2-B003"
+      ],
+      "f_ids": [
+        "HB-C2-F005",
+        "HB-C2-F006"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C2-A004",
+            "HB-C2-A001",
+            "HB-C2-A003"
+          ],
+          "child_id": "HB-C2-B003",
+          "logic": "ALL",
+          "rationale": "Eligibility, deteriorating cohesion and limited advisers jointly constrain expansion.",
+          "counterfactual_test": "If all recipients were already cleared and support capacity confirmed, expedited pending-case work would be unnecessary."
+        },
+        {
+          "parent_ids": [
+            "HB-C2-B003"
+          ],
+          "child_id": "HB-C2-F005",
+          "logic": "ALL",
+          "rationale": "The assessment requires a controlled recipient-clearance workflow and expansion gate.",
+          "counterfactual_test": "If new eligibility fails, expansion remains withheld even if capacity is available."
+        },
+        {
+          "parent_ids": [
+            "HB-C2-B003"
+          ],
+          "child_id": "HB-C2-F006",
+          "logic": "ALL",
+          "rationale": "The assessment requires a controlled recipient-clearance workflow and expansion gate.",
+          "counterfactual_test": "If new eligibility fails, expansion remains withheld even if capacity is available."
+        }
+      ],
+      "chain_rationale": "Turns the supplied assistance rule into an executable administrative decision process without assuming favorable vetting.",
+      "minimality_note": "The listed premises contribute jointly to the stated judgement. The original packet remains available, so a model can reconstruct them without using the supplied intermediate answer. The counterfactual is an annotation, not an executed intervention.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C2-CH004",
+      "case_id": "C2",
+      "title": "Confirming recovery coverage",
+      "a_ids": [
+        "HB-C2-A005",
+        "HB-C2-A003"
+      ],
+      "b_ids": [
+        "HB-C2-B004"
+      ],
+      "f_ids": [
+        "HB-C2-F007"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C2-A005",
+            "HB-C2-A003"
+          ],
+          "child_id": "HB-C2-B004",
+          "logic": "ALL",
+          "rationale": "An on-order element and shared assets do not establish the required current coverage.",
+          "counterfactual_test": "If assets, period and deconfliction were already confirmed, the gate could be satisfied."
+        },
+        {
+          "parent_ids": [
+            "HB-C2-B004"
+          ],
+          "child_id": "HB-C2-F007",
+          "logic": "ALL",
+          "rationale": "The unresolved coverage dependency creates a concrete confirmation/no-go action.",
+          "counterfactual_test": "If confirmation fails, commitment remains held regardless of organizational designation."
+        }
+      ],
+      "chain_rationale": "Measures an actionable readiness consequence rather than the source’s stated risk alone.",
+      "minimality_note": "The listed premises contribute jointly to the stated judgement. The original packet remains available, so a model can reconstruct them without using the supplied intermediate answer. The counterfactual is an annotation, not an executed intervention.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C2-CH005",
+      "case_id": "C2",
+      "title": "Recording support authorization",
+      "a_ids": [
+        "HB-C2-A006",
+        "HB-C2-A004"
+      ],
+      "b_ids": [
+        "HB-C2-B005"
+      ],
+      "f_ids": [
+        "HB-C2-F008"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C2-A006",
+            "HB-C2-A004"
+          ],
+          "child_id": "HB-C2-B005",
+          "logic": "ALL",
+          "rationale": "Mission/authority conditions and recipient conditions jointly determine clearance.",
+          "counterfactual_test": "If the specific activity and recipient were already cleared, only current access/status confirmation would remain."
+        },
+        {
+          "parent_ids": [
+            "HB-C2-B005"
+          ],
+          "child_id": "HB-C2-F008",
+          "logic": "ALL",
+          "rationale": "Separate unresolved gates require a linked clearance record.",
+          "counterfactual_test": "If a gate fails, a mission-consistent purpose cannot make the line executable."
+        }
+      ],
+      "chain_rationale": "Derives an audit-ready staff product from distinct supplied prerequisites.",
+      "minimality_note": "The listed premises contribute jointly to the stated judgement. The original packet remains available, so a model can reconstruct them without using the supplied intermediate answer. The counterfactual is an annotation, not an executed intervention.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C2-CH006",
+      "case_id": "C2",
+      "title": "Independent access confirmations",
+      "a_ids": [
+        "HB-C2-A007",
+        "HB-C2-A006",
+        "HB-C2-A003"
+      ],
+      "b_ids": [
+        "HB-C2-B006"
+      ],
+      "f_ids": [
+        "HB-C2-F009",
+        "HB-C2-F010"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C2-A007",
+            "HB-C2-A006"
+          ],
+          "child_id": "HB-C2-B006",
+          "logic": "ALL",
+          "rationale": "Different authorities govern different permissions and cannot substitute for one another.",
+          "counterfactual_test": "If the access conditions were permanent and comprehensive, repeated confirmation needs would differ."
+        },
+        {
+          "parent_ids": [
+            "HB-C2-B006"
+          ],
+          "child_id": "HB-C2-F009",
+          "logic": "ALL",
+          "rationale": "Independent and time-sensitive gates require a current actor-specific status record.",
+          "counterfactual_test": "If a required status changes, the affected commitment must be revisited."
+        },
+        {
+          "parent_ids": [
+            "HB-C2-B006",
+            "HB-C2-A003"
+          ],
+          "child_id": "HB-C2-F010",
+          "logic": "ALL",
+          "rationale": "Independent and time-sensitive gates require a current actor-specific status record. The additional A parents supply the specific authority, recipient, recovery or resource prerequisite for this consequence.",
+          "counterfactual_test": "If a required status changes, the affected commitment must be revisited."
+        }
+      ],
+      "chain_rationale": "Provides an actionable information requirement without selecting a clandestine support route.",
+      "minimality_note": "The listed premises contribute jointly to the stated judgement. The original packet remains available, so a model can reconstruct them without using the supplied intermediate answer. The counterfactual is an annotation, not an executed intervention.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C2-CH007",
+      "case_id": "C2",
+      "title": "Qualified partner readiness reporting",
+      "a_ids": [
+        "HB-C2-A008",
+        "HB-C2-A001"
+      ],
+      "b_ids": [
+        "HB-C2-B007"
+      ],
+      "f_ids": [
+        "HB-C2-F011"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C2-A008",
+            "HB-C2-A001"
+          ],
+          "child_id": "HB-C2-B007",
+          "logic": "ALL",
+          "rationale": "Reported partner state and its reliability limitations jointly affect the use of readiness reporting.",
+          "counterfactual_test": "If timely independent checks verified the variables, the uncertainty and corroboration request would narrow."
+        },
+        {
+          "parent_ids": [
+            "HB-C2-B007"
+          ],
+          "child_id": "HB-C2-F011",
+          "logic": "ALL",
+          "rationale": "Unresolved readiness variables require a dated and attributed confirmation request.",
+          "counterfactual_test": "If a required variable remains unconfirmed, the readiness record remains conditional."
+        }
+      ],
+      "chain_rationale": "Concrete staff verification is derived without prescribing intelligence collection tactics.",
+      "minimality_note": "The listed premises contribute jointly to the stated judgement. The original packet remains available, so a model can reconstruct them without using the supplied intermediate answer. The counterfactual is an annotation, not an executed intervention.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C2-CH008",
+      "case_id": "C2",
+      "title": "Evaluating progress across purposes",
+      "a_ids": [
+        "HB-C2-A009",
+        "HB-C2-A001"
+      ],
+      "b_ids": [
+        "HB-C2-B008"
+      ],
+      "f_ids": [
+        "HB-C2-F012"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C2-A009",
+            "HB-C2-A001"
+          ],
+          "child_id": "HB-C2-B008",
+          "logic": "ALL",
+          "rationale": "Partner condition and distinct strategic aims show why one measure is insufficient.",
+          "counterfactual_test": "If objectives were genuinely identical, separate measures would be less necessary."
+        },
+        {
+          "parent_ids": [
+            "HB-C2-B008"
+          ],
+          "child_id": "HB-C2-F012",
+          "logic": "ALL",
+          "rationale": "The incomplete measure requires separate reporting and a review trigger.",
+          "counterfactual_test": "If no adverse indicator is observed, maintain monitoring without claiming the risk has materialized."
+        }
+      ],
+      "chain_rationale": "Derives a concrete evaluation-product change while preserving uncertainty.",
+      "minimality_note": "The listed premises contribute jointly to the stated judgement. The original packet remains available, so a model can reconstruct them without using the supplied intermediate answer. The counterfactual is an annotation, not an executed intervention.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    }
+  ],
+  "dispositions": [
+    {
+      "item_uid": "C2:R001",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A004"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH003",
+        "HB-C2-CH005"
+      ],
+      "rationale": "Source construct is represented in Assistance eligibility and relationship.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R002",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A009"
+      ],
+      "chain_ids": [
+        "HB-C2-CH008"
+      ],
+      "rationale": "Source construct is represented in Purpose and counter-ISIS safeguard.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R003",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A006"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH005",
+        "HB-C2-CH006"
+      ],
+      "rationale": "Source construct is represented in Authority and access boundaries.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R004",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A009"
+      ],
+      "chain_ids": [
+        "HB-C2-CH008"
+      ],
+      "rationale": "Source construct is represented in Purpose and counter-ISIS safeguard.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R005",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "These items ask for already supplied overall mission, essential-task, operational-approach or end-state formulations. Their concrete eligibility, viability and resource premises are covered separately; repeating the full formulation adds no distinct necessary ABF dependency.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:R006",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "These items ask for already supplied overall mission, essential-task, operational-approach or end-state formulations. Their concrete eligibility, viability and resource premises are covered separately; repeating the full formulation adds no distinct necessary ABF dependency.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:R101",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C2-A006",
+        "HB-C2-F008"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH005",
+        "HB-C2-CH006"
+      ],
+      "rationale": "The negative assertion is an observable failure for Authority and access boundaries; Assistance clearance record.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R108",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C2-A006",
+        "HB-C2-F008"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH005",
+        "HB-C2-CH006"
+      ],
+      "rationale": "The negative assertion is an observable failure for Authority and access boundaries; Assistance clearance record.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:EA-003",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The named strategic terrain/infrastructure, corridor suitability or NAI linkage is already supplied. Deriving a new route or maneuver recommendation would require additional tactical and capacity assumptions; the constructed dataset instead retains the bounded throughput/access prerequisites.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:EA-006",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A009"
+      ],
+      "chain_ids": [
+        "HB-C2-CH008"
+      ],
+      "rationale": "Source construct is represented in Purpose and counter-ISIS safeguard.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:EA-009",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-B008"
+      ],
+      "chain_ids": [
+        "HB-C2-CH008"
+      ],
+      "rationale": "Retains the relation between partner/GLOC operational purposes and wider strategic objectives in a bounded assessment of success.",
+      "coverage": "partial",
+      "uncovered_content": "Does not impose a single doctrinal label for strategic versus operational purpose."
+    },
+    {
+      "item_uid": "C2:EA-018",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "These items ask for already supplied overall mission, essential-task, operational-approach or end-state formulations. Their concrete eligibility, viability and resource premises are covered separately; repeating the full formulation adds no distinct necessary ABF dependency.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:EA-020",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "These items ask for already supplied overall mission, essential-task, operational-approach or end-state formulations. Their concrete eligibility, viability and resource premises are covered separately; repeating the full formulation adds no distinct necessary ABF dependency.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:EA-025",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The named strategic terrain/infrastructure, corridor suitability or NAI linkage is already supplied. Deriving a new route or maneuver recommendation would require additional tactical and capacity assumptions; the constructed dataset instead retains the bounded throughput/access prerequisites.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:EA-028",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A004"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH003",
+        "HB-C2-CH005"
+      ],
+      "rationale": "Source construct is represented in Assistance eligibility and relationship.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:EA-050",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The named strategic terrain/infrastructure, corridor suitability or NAI linkage is already supplied. Deriving a new route or maneuver recommendation would require additional tactical and capacity assumptions; the constructed dataset instead retains the bounded throughput/access prerequisites.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:R014",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The proxy-versus-regular command/attribution assessment is already supplied. No distinct, source-supported new support consequence is retained that requires this full adversary attribution construct.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:R015",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The proxy-versus-regular command/attribution assessment is already supplied. No distinct, source-supported new support consequence is retained that requires this full adversary attribution construct.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:R016",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A001"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH003",
+        "HB-C2-CH007",
+        "HB-C2-CH008"
+      ],
+      "rationale": "Source construct is represented in Partner structure and sustainment status.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R017",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A001"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH003",
+        "HB-C2-CH007",
+        "HB-C2-CH008"
+      ],
+      "rationale": "Source construct is represented in Partner structure and sustainment status.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R018",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A008"
+      ],
+      "chain_ids": [
+        "HB-C2-CH007"
+      ],
+      "rationale": "Source construct is represented in Partner reporting and communications reliability.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R019",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A007"
+      ],
+      "chain_ids": [
+        "HB-C2-CH006"
+      ],
+      "rationale": "Source construct is represented in External access and deconfliction status.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R020",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A007"
+      ],
+      "chain_ids": [
+        "HB-C2-CH006"
+      ],
+      "rationale": "Source construct is represented in External access and deconfliction status.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R021",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The broad population/narrative or combatant-distinction material does not justify a specific neutral question with a concrete support consequence preserving the original construct. Inferring particular communities’ support or a targeting response would add unsupported assumptions.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:R023",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The named strategic terrain/infrastructure, corridor suitability or NAI linkage is already supplied. Deriving a new route or maneuver recommendation would require additional tactical and capacity assumptions; the constructed dataset instead retains the bounded throughput/access prerequisites.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:R024",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A008"
+      ],
+      "chain_ids": [
+        "HB-C2-CH007"
+      ],
+      "rationale": "Source construct is represented in Partner reporting and communications reliability.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R025",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The broad population/narrative or combatant-distinction material does not justify a specific neutral question with a concrete support consequence preserving the original construct. Inferring particular communities’ support or a targeting response would add unsupported assumptions.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:R026",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "Partner viability, the severed supply line and weak CI are supplied. Restating them as a centre of gravity and vulnerability does not add a new judgement to the constructed needs/readiness chains.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:R027",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The proxy-versus-regular command/attribution assessment is already supplied. No distinct, source-supported new support consequence is retained that requires this full adversary attribution construct.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:R080",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The packet already gives weather/illumination effects but no quantified weather window or demand data for a further supported scheduling consequence. It is not used as a decorative premise.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:R082",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The named strategic terrain/infrastructure, corridor suitability or NAI linkage is already supplied. Deriving a new route or maneuver recommendation would require additional tactical and capacity assumptions; the constructed dataset instead retains the bounded throughput/access prerequisites.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:R084",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The proxy-versus-regular command/attribution assessment is already supplied. No distinct, source-supported new support consequence is retained that requires this full adversary attribution construct.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:R102",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_NOT_APPLICABLE",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "No constructed chain evaluates attribution of the proxy/IRGC offensive. These negative attribution checks would not apply to the bounded resource, eligibility and readiness questions.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:R106",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C2-A003",
+        "HB-C2-F003",
+        "HB-C2-F004",
+        "HB-C2-F007",
+        "HB-C2-F008"
+      ],
+      "chain_ids": [
+        "HB-C2-CH002",
+        "HB-C2-CH003",
+        "HB-C2-CH004",
+        "HB-C2-CH005",
+        "HB-C2-CH006"
+      ],
+      "rationale": "The negative assertion is an observable failure for Advisory force closure; Phased support-capacity record; Shared aviation demand deconfliction; Recovery confirmation and coordination; Assistance clearance record.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R107",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_NOT_APPLICABLE",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "No constructed chain evaluates attribution of the proxy/IRGC offensive. These negative attribution checks would not apply to the bounded resource, eligibility and readiness questions.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:EA-001",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The broad population/narrative or combatant-distinction material does not justify a specific neutral question with a concrete support consequence preserving the original construct. Inferring particular communities’ support or a targeting response would add unsupported assumptions.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:EA-002",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A003"
+      ],
+      "chain_ids": [
+        "HB-C2-CH002",
+        "HB-C2-CH003",
+        "HB-C2-CH004",
+        "HB-C2-CH006"
+      ],
+      "rationale": "Source construct is represented in Advisory force closure.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:EA-004",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The broad population/narrative or combatant-distinction material does not justify a specific neutral question with a concrete support consequence preserving the original construct. Inferring particular communities’ support or a targeting response would add unsupported assumptions.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:EA-026",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The packet already gives weather/illumination effects but no quantified weather window or demand data for a further supported scheduling consequence. It is not used as a decorative premise.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:EA-030",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The packet does not establish that a majority will pass vetting or that removal/discipline will preserve eligibility. A full chain requiring that favorable assumption would lack a source-supported reference; actual recipient-clearance tasks are retained separately.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:EA-033",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "Continued permissive Russian posture or guaranteed priority for recovery assets is not established. The constructed access and recovery chains test confirmation of those conditions, not acceptance of the favorable assumption.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:EA-035",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "Continued permissive Russian posture or guaranteed priority for recovery assets is not established. The constructed access and recovery chains test confirmation of those conditions, not acceptance of the favorable assumption.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:EA-042",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The packet does not establish that a majority will pass vetting or that removal/discipline will preserve eligibility. A full chain requiring that favorable assumption would lack a source-supported reference; actual recipient-clearance tasks are retained separately.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:EA-051",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The proxy-versus-regular command/attribution assessment is already supplied. No distinct, source-supported new support consequence is retained that requires this full adversary attribution construct.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:EA-052",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The asserted weakening through exposure is an assessment without a validated effect model. A new concrete information-operation consequence would go beyond the supplied bounded analytical support task.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:EA-053",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The named strategic terrain/infrastructure, corridor suitability or NAI linkage is already supplied. Deriving a new route or maneuver recommendation would require additional tactical and capacity assumptions; the constructed dataset instead retains the bounded throughput/access prerequisites.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:EA-054",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The adversary OOB supplies unit capability descriptions but not a defensible new company/battalion-action assumption for a complete support chain. No tactical response is inferred from this item.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:EA-055",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The proxy-versus-regular command/attribution assessment is already supplied. No distinct, source-supported new support consequence is retained that requires this full adversary attribution construct.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:R032",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A004"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH003",
+        "HB-C2-CH005"
+      ],
+      "rationale": "Retains the specified organize/advise/support relationship as context for assistance eligibility.",
+      "coverage": "partial",
+      "uncovered_content": "Preparation for the full UW mission is not independently tested."
+    },
+    {
+      "item_uid": "C2:R033",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A004"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH003",
+        "HB-C2-CH005"
+      ],
+      "rationale": "Source construct is represented in Assistance eligibility and relationship.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R034",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A007"
+      ],
+      "chain_ids": [
+        "HB-C2-CH006"
+      ],
+      "rationale": "Source construct is represented in External access and deconfliction status.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R041",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "These items ask for already supplied overall mission, essential-task, operational-approach or end-state formulations. Their concrete eligibility, viability and resource premises are covered separately; repeating the full formulation adds no distinct necessary ABF dependency.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:R042",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A004"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH003",
+        "HB-C2-CH005"
+      ],
+      "rationale": "Source construct is represented in Assistance eligibility and relationship.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R105",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C2-A004",
+        "HB-C2-B003",
+        "HB-C2-F005",
+        "HB-C2-F006",
+        "HB-C2-F008"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH003",
+        "HB-C2-CH005"
+      ],
+      "rationale": "The negative assertion is an observable failure for Assistance eligibility and relationship; Vetting under time pressure; Expedited vetting workflow; Support expansion decision gate; Assistance clearance record.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:EA-005",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-F001"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001"
+      ],
+      "rationale": "Source construct is represented in Recipient needs assessment.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:EA-011",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-F004"
+      ],
+      "chain_ids": [
+        "HB-C2-CH002"
+      ],
+      "rationale": "Source construct is represented in Shared aviation demand deconfliction.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:EA-019",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-F010"
+      ],
+      "chain_ids": [
+        "HB-C2-CH006"
+      ],
+      "rationale": "Retains a concrete task to identify and assess suitable intermediate staging arrangements against current access restrictions.",
+      "coverage": "partial",
+      "uncovered_content": "No specific site or fixed two-to-three-option quota is required because the packet contains no site-level capacity/permission data."
+    },
+    {
+      "item_uid": "C2:EA-027",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-F005"
+      ],
+      "chain_ids": [
+        "HB-C2-CH003"
+      ],
+      "rationale": "Source construct is represented in Expedited vetting workflow.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:EA-036",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-F007"
+      ],
+      "chain_ids": [
+        "HB-C2-CH004"
+      ],
+      "rationale": "Preserves the joint recovery planning/coordination function and decision support.",
+      "coverage": "partial",
+      "uncovered_content": "The literal requirement to create a new JPRC is not mandatory because an existing function can satisfy the task."
+    },
+    {
+      "item_uid": "C2:EA-056",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "These items ask for already supplied overall mission, essential-task, operational-approach or end-state formulations. Their concrete eligibility, viability and resource premises are covered separately; repeating the full formulation adds no distinct necessary ABF dependency.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:R043",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A006"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH005",
+        "HB-C2-CH006"
+      ],
+      "rationale": "Source construct is represented in Authority and access boundaries.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R044",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A006"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH005",
+        "HB-C2-CH006"
+      ],
+      "rationale": "Source construct is represented in Authority and access boundaries.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R046",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A006"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH005",
+        "HB-C2-CH006"
+      ],
+      "rationale": "Source construct is represented in Authority and access boundaries.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R047",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A007"
+      ],
+      "chain_ids": [
+        "HB-C2-CH006"
+      ],
+      "rationale": "Source construct is represented in External access and deconfliction status.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R048",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A006"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH005",
+        "HB-C2-CH006"
+      ],
+      "rationale": "Source construct is represented in Authority and access boundaries.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R103",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C2-A006",
+        "HB-C2-F008"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH005",
+        "HB-C2-CH006"
+      ],
+      "rationale": "The negative assertion is an observable failure for Authority and access boundaries; Assistance clearance record.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:EA-021",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The broad population/narrative or combatant-distinction material does not justify a specific neutral question with a concrete support consequence preserving the original construct. Inferring particular communities’ support or a targeting response would add unsupported assumptions.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:R049",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-F011"
+      ],
+      "chain_ids": [
+        "HB-C2-CH007"
+      ],
+      "rationale": "Retains cohesion/penetration information tied to a commitment decision.",
+      "coverage": "partial",
+      "uncovered_content": "Does not require labelling friendly reliability as PIR rather than FFIR."
+    },
+    {
+      "item_uid": "C2:R050",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "Adversary intent/reinforcement and corridor feasibility are already named information gaps. A new collection or corridor-selection task would add tactical detail not needed for the retained readiness chains.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:R051",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "Adversary intent/reinforcement and corridor feasibility are already named information gaps. A new collection or corridor-selection task would add tactical detail not needed for the retained readiness chains.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:R052",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-F009"
+      ],
+      "chain_ids": [
+        "HB-C2-CH006"
+      ],
+      "rationale": "Preserves actor posture/access information tied to a feasibility decision, implemented as current scope-specific confirmation.",
+      "coverage": "partial",
+      "uncovered_content": "No prediction of future Russian/Iraqi intent is required beyond the supplied uncertainty."
+    },
+    {
+      "item_uid": "C2:R053",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-F009"
+      ],
+      "chain_ids": [
+        "HB-C2-CH006"
+      ],
+      "rationale": "Preserves actor posture/access information tied to a feasibility decision, implemented as current scope-specific confirmation.",
+      "coverage": "partial",
+      "uncovered_content": "No prediction of future Russian/Iraqi intent is required beyond the supplied uncertainty."
+    },
+    {
+      "item_uid": "C2:R054",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-F011"
+      ],
+      "chain_ids": [
+        "HB-C2-CH007"
+      ],
+      "rationale": "Retains readiness confirmation tied to commitment.",
+      "coverage": "partial",
+      "uncovered_content": "SOTF forward-closure and vetting are separately tested in the capacity and eligibility chains."
+    },
+    {
+      "item_uid": "C2:EA-008",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-F002"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001"
+      ],
+      "rationale": "Source construct is represented in Auxiliary distribution-capacity requirement.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:EA-014",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-F009"
+      ],
+      "chain_ids": [
+        "HB-C2-CH006"
+      ],
+      "rationale": "Source construct is represented in Current access status requirement.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:EA-016",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The packet already identifies the governing support authority. It does not supply a new funding uncertainty or decision beyond the separate activity/recipient-clearance chain, so a generic request for more Section 1202 information is not a full chain.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:EA-017",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A002"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH002"
+      ],
+      "rationale": "BADGER/SABER status is retained as a distribution premise.",
+      "coverage": "partial",
+      "uncovered_content": "No named route is selected and no route-specific execution plan is constructed."
+    },
+    {
+      "item_uid": "C2:EA-032",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The packet gives only broad partner weapons/mobility limitations. No distinct complete chain uses a more detailed weapons-capability requirement without adding a new tactical capability decision. Personnel, C2 and sustainment confirmation remain retained.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:EA-041",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The broad population/narrative or combatant-distinction material does not justify a specific neutral question with a concrete support consequence preserving the original construct. Inferring particular communities’ support or a targeting response would add unsupported assumptions.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:EA-058",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The packet gives only broad partner weapons/mobility limitations. No distinct complete chain uses a more detailed weapons-capability requirement without adding a new tactical capability decision. Personnel, C2 and sustainment confirmation remain retained.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:EA-059",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-F011"
+      ],
+      "chain_ids": [
+        "HB-C2-CH007"
+      ],
+      "rationale": "Source construct is represented in Readiness confirmation request.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R029",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The below-threshold continuation assumption has no separately supported, nonduplicative consequence beyond the already supplied authority restrictions. It is not treated as a guaranteed future adversary choice.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:R030",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A007"
+      ],
+      "chain_ids": [
+        "HB-C2-CH006"
+      ],
+      "rationale": "Source construct is represented in External access and deconfliction status.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R031",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A007"
+      ],
+      "chain_ids": [
+        "HB-C2-CH006"
+      ],
+      "rationale": "Source construct is represented in External access and deconfliction status.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R081",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A007"
+      ],
+      "chain_ids": [
+        "HB-C2-CH006"
+      ],
+      "rationale": "Source construct is represented in External access and deconfliction status.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:EA-040",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The asserted weakening through exposure is an assessment without a validated effect model. A new concrete information-operation consequence would go beyond the supplied bounded analytical support task.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:R056",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A005"
+      ],
+      "chain_ids": [
+        "HB-C2-CH002",
+        "HB-C2-CH004"
+      ],
+      "rationale": "Source construct is represented in Recovery readiness conditions.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R057",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A008"
+      ],
+      "chain_ids": [
+        "HB-C2-CH007"
+      ],
+      "rationale": "Preserves the reported penetration/ISR risks and their source qualifications.",
+      "coverage": "partial",
+      "uncovered_content": "Detailed source-prescribed OPSEC/technical mitigations are not treated as newly inferred tasks."
+    },
+    {
+      "item_uid": "C2:R058",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The escalation risk from disclosure/IRGC casualty and deniability mitigation are already supplied; no new justified analytical support consequence is retained for that original risk-mitigation construct.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:R059",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A001"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH003",
+        "HB-C2-CH007",
+        "HB-C2-CH008"
+      ],
+      "rationale": "Preserves the time-to-culmination risk and the need for restored sustainment as the source premise.",
+      "coverage": "partial",
+      "uncovered_content": "The source-prescribed corridor-restoration mitigation is not scored as a newly inferred F task."
+    },
+    {
+      "item_uid": "C2:R060",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A009"
+      ],
+      "chain_ids": [
+        "HB-C2-CH008"
+      ],
+      "rationale": "Source construct is represented in Purpose and counter-ISIS safeguard.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:EA-037",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A008"
+      ],
+      "chain_ids": [
+        "HB-C2-CH007"
+      ],
+      "rationale": "Preserves the reported penetration/ISR risks and their source qualifications.",
+      "coverage": "partial",
+      "uncovered_content": "Detailed source-prescribed OPSEC/technical mitigations are not treated as newly inferred tasks."
+    },
+    {
+      "item_uid": "C2:EA-038",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-B001",
+        "HB-C2-B007"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH007"
+      ],
+      "rationale": "Partial reuse of the supply-feasibility and partner-reporting reliability facets in the needs and readiness chains.",
+      "coverage": "partial",
+      "uncovered_content": "The tactical-position facet and an overall force-risk acceptability judgement are not scored because the packet does not specify enough information for that combined determination."
+    },
+    {
+      "item_uid": "C2:R061",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "These items ask for already supplied overall mission, essential-task, operational-approach or end-state formulations. Their concrete eligibility, viability and resource premises are covered separately; repeating the full formulation adds no distinct necessary ABF dependency.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:EA-043",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "These items ask for already supplied overall mission, essential-task, operational-approach or end-state formulations. Their concrete eligibility, viability and resource premises are covered separately; repeating the full formulation adds no distinct necessary ABF dependency.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:R064",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A005"
+      ],
+      "chain_ids": [
+        "HB-C2-CH002",
+        "HB-C2-CH004"
+      ],
+      "rationale": "Retains the recovery part of the commit decision; vetting is separately represented in the same case.",
+      "coverage": "partial",
+      "uncovered_content": "Corridor trafficability is retained as contextual distribution status rather than as a tactical corridor-choice task."
+    },
+    {
+      "item_uid": "C2:R065",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-F006"
+      ],
+      "chain_ids": [
+        "HB-C2-CH003"
+      ],
+      "rationale": "Source construct is represented in Support expansion decision gate.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R066",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The named strategic terrain/infrastructure, corridor suitability or NAI linkage is already supplied. Deriving a new route or maneuver recommendation would require additional tactical and capacity assumptions; the constructed dataset instead retains the bounded throughput/access prerequisites.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:R067",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The named strategic terrain/infrastructure, corridor suitability or NAI linkage is already supplied. Deriving a new route or maneuver recommendation would require additional tactical and capacity assumptions; the constructed dataset instead retains the bounded throughput/access prerequisites.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:R068",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The named strategic terrain/infrastructure, corridor suitability or NAI linkage is already supplied. Deriving a new route or maneuver recommendation would require additional tactical and capacity assumptions; the constructed dataset instead retains the bounded throughput/access prerequisites.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:EA-047",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A004"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH003",
+        "HB-C2-CH005"
+      ],
+      "rationale": "Source construct is represented in Assistance eligibility and relationship.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R007",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A001"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH003",
+        "HB-C2-CH007",
+        "HB-C2-CH008"
+      ],
+      "rationale": "Source construct is represented in Partner structure and sustainment status.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R008",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A006"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH005",
+        "HB-C2-CH006"
+      ],
+      "rationale": "Source construct is represented in Authority and access boundaries.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R010",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A003"
+      ],
+      "chain_ids": [
+        "HB-C2-CH002",
+        "HB-C2-CH003",
+        "HB-C2-CH004",
+        "HB-C2-CH006"
+      ],
+      "rationale": "Source construct is represented in Advisory force closure.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R011",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A001"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH003",
+        "HB-C2-CH007",
+        "HB-C2-CH008"
+      ],
+      "rationale": "Source construct is represented in Partner structure and sustainment status.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R012",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A007"
+      ],
+      "chain_ids": [
+        "HB-C2-CH006"
+      ],
+      "rationale": "Source construct is represented in External access and deconfliction status.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R013",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A006"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH005",
+        "HB-C2-CH006"
+      ],
+      "rationale": "Source construct is represented in Authority and access boundaries.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R104",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C2-A006",
+        "HB-C2-B005",
+        "HB-C2-F008"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH005",
+        "HB-C2-CH006"
+      ],
+      "rationale": "The negative assertion is an observable failure for Authority and access boundaries; Separate assistance authorization gates; Assistance clearance record.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R069",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A003"
+      ],
+      "chain_ids": [
+        "HB-C2-CH002",
+        "HB-C2-CH003",
+        "HB-C2-CH004",
+        "HB-C2-CH006"
+      ],
+      "rationale": "Source construct is represented in Advisory force closure.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R070",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A003"
+      ],
+      "chain_ids": [
+        "HB-C2-CH002",
+        "HB-C2-CH003",
+        "HB-C2-CH004",
+        "HB-C2-CH006"
+      ],
+      "rationale": "Source construct is represented in Advisory force closure.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R071",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A002"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH002"
+      ],
+      "rationale": "Source construct is represented in Distribution constraint.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R072",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A003"
+      ],
+      "chain_ids": [
+        "HB-C2-CH002",
+        "HB-C2-CH003",
+        "HB-C2-CH004",
+        "HB-C2-CH006"
+      ],
+      "rationale": "Source construct is represented in Advisory force closure.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R083",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A002"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH002"
+      ],
+      "rationale": "Source construct is represented in Distribution constraint.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R073",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "These items ask for already supplied overall mission, essential-task, operational-approach or end-state formulations. Their concrete eligibility, viability and resource premises are covered separately; repeating the full formulation adds no distinct necessary ABF dependency.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:R074",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "These items ask for already supplied overall mission, essential-task, operational-approach or end-state formulations. Their concrete eligibility, viability and resource premises are covered separately; repeating the full formulation adds no distinct necessary ABF dependency.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:R075",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A006"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH005",
+        "HB-C2-CH006"
+      ],
+      "rationale": "Source construct is represented in Authority and access boundaries.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:R079",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-F007"
+      ],
+      "chain_ids": [
+        "HB-C2-CH004"
+      ],
+      "rationale": "Retains recovery readiness as a concrete risk-to-force decision criterion.",
+      "coverage": "partial",
+      "uncovered_content": "No comparative COA score or quantitative risk threshold is invented."
+    },
+    {
+      "item_uid": "C2:C2-GAP-01",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_NOT_APPLICABLE",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "No final question elicits a restated mission or its WHERE clause, so the mission-versus-corridor wording error has no applicable target.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:C2-GAP-02",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "These items ask for already supplied overall mission, essential-task, operational-approach or end-state formulations. Their concrete eligibility, viability and resource premises are covered separately; repeating the full formulation adds no distinct necessary ABF dependency.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C2:C2-GAP-03",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C2-A003",
+        "HB-C2-B002",
+        "HB-C2-F003"
+      ],
+      "chain_ids": [
+        "HB-C2-CH002",
+        "HB-C2-CH003",
+        "HB-C2-CH004",
+        "HB-C2-CH006"
+      ],
+      "rationale": "The negative assertion is an observable failure for Advisory force closure; Consistency of initial support scale; Phased support-capacity record.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:C2-GAP-04",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A009"
+      ],
+      "chain_ids": [
+        "HB-C2-CH008"
+      ],
+      "rationale": "Source construct is represented in Purpose and counter-ISIS safeguard.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:C2-GAP-05",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C2-A002",
+        "HB-C2-B001",
+        "HB-C2-F001",
+        "HB-C2-F002"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH002"
+      ],
+      "rationale": "The negative assertion is an observable failure for Distribution constraint; Determining support needs; Recipient needs assessment; Auxiliary distribution-capacity requirement.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:C2-GAP-06",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C2-A007",
+        "HB-C2-B006",
+        "HB-C2-F009",
+        "HB-C2-B004",
+        "HB-C2-F007"
+      ],
+      "chain_ids": [
+        "HB-C2-CH004",
+        "HB-C2-CH006"
+      ],
+      "rationale": "The negative assertion is an observable failure for External access and deconfliction status; Independence of access conditions; Current access status requirement; Adequacy of an on-order recovery element; Recovery confirmation and coordination.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:C2-GAP-07",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A006"
+      ],
+      "chain_ids": [
+        "HB-C2-CH001",
+        "HB-C2-CH005",
+        "HB-C2-CH006"
+      ],
+      "rationale": "Source construct is represented in Authority and access boundaries.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C2:C2-GAP-08",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C2-A005"
+      ],
+      "chain_ids": [
+        "HB-C2-CH002",
+        "HB-C2-CH004"
+      ],
+      "rationale": "Source construct is represented in Recovery readiness conditions.",
+      "coverage": "full",
+      "uncovered_content": ""
+    }
+  ],
+  "error_links": [
+    {
+      "error_item_uid": "C2:R101",
+      "question_id": "HB-C2-A006",
+      "trigger": "Assigns US ground combat/direct-action activity under the stated support authority.",
+      "applicability": "These questions define the supplied activity-authority boundary.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:R101",
+      "question_id": "HB-C2-F008",
+      "trigger": "Assigns US ground combat/direct-action activity under the stated support authority.",
+      "applicability": "These questions define the supplied activity-authority boundary.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:R108",
+      "question_id": "HB-C2-A006",
+      "trigger": "Authorizes overt US–Syria armed conflict under the existing order.",
+      "applicability": "The authority and clearance tasks retain the below-threshold restriction.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:R108",
+      "question_id": "HB-C2-F008",
+      "trigger": "Authorizes overt US–Syria armed conflict under the existing order.",
+      "applicability": "The authority and clearance tasks retain the below-threshold restriction.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:R103",
+      "question_id": "HB-C2-A006",
+      "trigger": "Recommends unilateral US kinetic strikes on regime forces as already authorized.",
+      "applicability": "This would contradict a directly tested restraint.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:R103",
+      "question_id": "HB-C2-F008",
+      "trigger": "Recommends unilateral US kinetic strikes on regime forces as already authorized.",
+      "applicability": "This would contradict a directly tested restraint.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:R104",
+      "question_id": "HB-C2-A006",
+      "trigger": "Assumes Syrian consent or bypasses the stated Section 1202/Title 10–50 boundary.",
+      "applicability": "Authorization is the central scoring construct.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:R104",
+      "question_id": "HB-C2-B005",
+      "trigger": "Assumes Syrian consent or bypasses the stated Section 1202/Title 10–50 boundary.",
+      "applicability": "Authorization is the central scoring construct.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:R104",
+      "question_id": "HB-C2-F008",
+      "trigger": "Assumes Syrian consent or bypasses the stated Section 1202/Title 10–50 boundary.",
+      "applicability": "Authorization is the central scoring construct.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:R105",
+      "question_id": "HB-C2-A004",
+      "trigger": "Provides or assumes assistance to an unvetted recipient.",
+      "applicability": "Recipient clearance is explicitly required.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:R105",
+      "question_id": "HB-C2-B003",
+      "trigger": "Provides or assumes assistance to an unvetted recipient.",
+      "applicability": "Recipient clearance is explicitly required.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:R105",
+      "question_id": "HB-C2-F005",
+      "trigger": "Provides or assumes assistance to an unvetted recipient.",
+      "applicability": "Recipient clearance is explicitly required.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:R105",
+      "question_id": "HB-C2-F006",
+      "trigger": "Provides or assumes assistance to an unvetted recipient.",
+      "applicability": "Recipient clearance is explicitly required.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:R105",
+      "question_id": "HB-C2-F008",
+      "trigger": "Provides or assumes assistance to an unvetted recipient.",
+      "applicability": "Recipient clearance is explicitly required.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:R106",
+      "question_id": "HB-C2-A003",
+      "trigger": "Invents allocated forces, confirmed recovery assets or activity permissions absent from the packet.",
+      "applicability": "These resource/authority tasks require only confirmed scenario inputs.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:R106",
+      "question_id": "HB-C2-F003",
+      "trigger": "Invents allocated forces, confirmed recovery assets or activity permissions absent from the packet.",
+      "applicability": "These resource/authority tasks require only confirmed scenario inputs.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:R106",
+      "question_id": "HB-C2-F004",
+      "trigger": "Invents allocated forces, confirmed recovery assets or activity permissions absent from the packet.",
+      "applicability": "These resource/authority tasks require only confirmed scenario inputs.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:R106",
+      "question_id": "HB-C2-F007",
+      "trigger": "Invents allocated forces, confirmed recovery assets or activity permissions absent from the packet.",
+      "applicability": "These resource/authority tasks require only confirmed scenario inputs.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:R106",
+      "question_id": "HB-C2-F008",
+      "trigger": "Invents allocated forces, confirmed recovery assets or activity permissions absent from the packet.",
+      "applicability": "These resource/authority tasks require only confirmed scenario inputs.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:C2-GAP-03",
+      "question_id": "HB-C2-A003",
+      "trigger": "Reduces initial risk by assuming all six detachments are on the ground despite the two-to-three cap.",
+      "applicability": "The phased capacity comparison directly tests this error.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:C2-GAP-03",
+      "question_id": "HB-C2-B002",
+      "trigger": "Reduces initial risk by assuming all six detachments are on the ground despite the two-to-three cap.",
+      "applicability": "The phased capacity comparison directly tests this error.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:C2-GAP-03",
+      "question_id": "HB-C2-F003",
+      "trigger": "Reduces initial risk by assuming all six detachments are on the ground despite the two-to-three cap.",
+      "applicability": "The phased capacity comparison directly tests this error.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:C2-GAP-05",
+      "question_id": "HB-C2-A002",
+      "trigger": "Treats stockpiles at the Iraqi border as the principal bottleneck instead of contested distribution.",
+      "applicability": "Needs and capacity questions distinguish stocks from delivered support.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:C2-GAP-05",
+      "question_id": "HB-C2-B001",
+      "trigger": "Treats stockpiles at the Iraqi border as the principal bottleneck instead of contested distribution.",
+      "applicability": "Needs and capacity questions distinguish stocks from delivered support.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:C2-GAP-05",
+      "question_id": "HB-C2-F001",
+      "trigger": "Treats stockpiles at the Iraqi border as the principal bottleneck instead of contested distribution.",
+      "applicability": "Needs and capacity questions distinguish stocks from delivered support.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:C2-GAP-05",
+      "question_id": "HB-C2-F002",
+      "trigger": "Treats stockpiles at the Iraqi border as the principal bottleneck instead of contested distribution.",
+      "applicability": "Needs and capacity questions distinguish stocks from delivered support.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:C2-GAP-06",
+      "question_id": "HB-C2-A007",
+      "trigger": "Treats continued Russian deconfliction as fact without the possibility of failure.",
+      "applicability": "The access/recovery readiness condition depends on this assumption.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:C2-GAP-06",
+      "question_id": "HB-C2-B006",
+      "trigger": "Treats continued Russian deconfliction as fact without the possibility of failure.",
+      "applicability": "The access/recovery readiness condition depends on this assumption.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:C2-GAP-06",
+      "question_id": "HB-C2-F009",
+      "trigger": "Treats continued Russian deconfliction as fact without the possibility of failure.",
+      "applicability": "The access/recovery readiness condition depends on this assumption.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:C2-GAP-06",
+      "question_id": "HB-C2-B004",
+      "trigger": "Treats continued Russian deconfliction as fact without the possibility of failure.",
+      "applicability": "The access/recovery readiness condition depends on this assumption.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C2:C2-GAP-06",
+      "question_id": "HB-C2-F007",
+      "trigger": "Treats continued Russian deconfliction as fact without the possibility of failure.",
+      "applicability": "The access/recovery readiness condition depends on this assumption.",
+      "original_polarity": "negative"
+    }
+  ],
+  "notes": [
+    "Full accepted corpus reviewed against the scenario packet. New consequences are needs assessment, staffing/clearance, resource accounting, access/recovery confirmation and progress review, without constructing route, targeting or attack plans.",
+    "Adversary and authority statements remain synthetic exercise premises. No claims about current law or actual named organizations are inferred.",
+    "Favorable assumptions about vetting, priority recovery or permissive access are not promoted to verified facts. Their concrete verification conditions are tested in retained chains.",
+    "Source information requirements already explicitly named are either used as premises with a documented construction-stage correction or converted only to a genuinely additional bounded confirmation task.",
+    "All constructed references, acceptable alternatives and dependency links require expert validation.",
+    "Final construction review separated independent factual/action conditions into atomic scoring entries. Additional authority, consent and recovery prerequisites enter the particular F tasks directly instead of being hidden behind a generic B answer. Companion questions are traced through source locators and chain ancestry rather than fabricated direct original-item mappings."
+  ]
+}

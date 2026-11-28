@@ -1,0 +1,31 @@
+﻿model_id,condition,repetition,chain_id,case_id,metric_label,unique_nodes,scoreable,success_observed,success_lower_bound,generation_incomplete_nodes,unscorable_nodes,a_response_source,oracle_caveat
+qwen35_9b,E1,1,HB-C1-CH006,C1,independent_joint_task_success,3,False,,0,0,3,same-model same-repetition E1 response,
+qwen35_9b,E2,1,HB-C1-CH006,C1,oracle_assisted_joint_task_success,3,False,,0,0,3,same-model same-repetition E1 response,"E2 downstream inputs are expert references, so this joint score is not an end-to-end generated chain"
+qwen35_9b,E3,1,HB-C1-CH006,C1,sequential_chain_success,3,False,,0,0,3,same-model same-repetition E1 response,
+qwen35_9b,E1,1,HB-C2-CH007,C2,independent_joint_task_success,4,False,,0,0,4,same-model same-repetition E1 response,
+qwen35_9b,E2,1,HB-C2-CH007,C2,oracle_assisted_joint_task_success,4,False,,0,0,4,same-model same-repetition E1 response,"E2 downstream inputs are expert references, so this joint score is not an end-to-end generated chain"
+qwen35_9b,E3,1,HB-C2-CH007,C2,sequential_chain_success,4,False,,0,0,4,same-model same-repetition E1 response,
+qwen35_9b,E1,1,HB-C3-CH001,C3,independent_joint_task_success,9,False,,0,0,9,same-model same-repetition E1 response,
+qwen35_9b,E2,1,HB-C3-CH001,C3,oracle_assisted_joint_task_success,9,False,,0,0,9,same-model same-repetition E1 response,"E2 downstream inputs are expert references, so this joint score is not an end-to-end generated chain"
+qwen35_9b,E3,1,HB-C3-CH001,C3,sequential_chain_success,9,False,,0,0,9,same-model same-repetition E1 response,
+qwen35_9b,E1,1,HB-C4-CH008,C4,independent_joint_task_success,4,False,,0,0,4,same-model same-repetition E1 response,
+qwen35_9b,E2,1,HB-C4-CH008,C4,oracle_assisted_joint_task_success,4,False,,0,0,4,same-model same-repetition E1 response,"E2 downstream inputs are expert references, so this joint score is not an end-to-end generated chain"
+qwen35_9b,E3,1,HB-C4-CH008,C4,sequential_chain_success,4,False,,0,0,4,same-model same-repetition E1 response,
+qwen35_9b,E1,1,HB-C5-CH005,C5,independent_joint_task_success,5,False,,0,0,5,same-model same-repetition E1 response,
+qwen35_9b,E2,1,HB-C5-CH005,C5,oracle_assisted_joint_task_success,5,False,,0,0,5,same-model same-repetition E1 response,"E2 downstream inputs are expert references, so this joint score is not an end-to-end generated chain"
+qwen35_9b,E3,1,HB-C5-CH005,C5,sequential_chain_success,5,False,,0,0,5,same-model same-repetition E1 response,
+qwen35_9b,E1,1,HB-C6-CH004,C6,independent_joint_task_success,3,False,,0,0,3,same-model same-repetition E1 response,
+qwen35_9b,E2,1,HB-C6-CH004,C6,oracle_assisted_joint_task_success,3,False,,0,0,3,same-model same-repetition E1 response,"E2 downstream inputs are expert references, so this joint score is not an end-to-end generated chain"
+qwen35_9b,E3,1,HB-C6-CH004,C6,sequential_chain_success,3,False,,0,0,3,same-model same-repetition E1 response,
+qwen35_9b,E1,1,HB-C7-CH010,C7,independent_joint_task_success,3,False,,0,0,3,same-model same-repetition E1 response,
+qwen35_9b,E2,1,HB-C7-CH010,C7,oracle_assisted_joint_task_success,3,False,,0,0,3,same-model same-repetition E1 response,"E2 downstream inputs are expert references, so this joint score is not an end-to-end generated chain"
+qwen35_9b,E3,1,HB-C7-CH010,C7,sequential_chain_success,3,False,,0,0,3,same-model same-repetition E1 response,
+qwen35_9b,E1,1,HB-C8-CH018,C8,independent_joint_task_success,4,False,,0,0,4,same-model same-repetition E1 response,
+qwen35_9b,E2,1,HB-C8-CH018,C8,oracle_assisted_joint_task_success,4,False,,0,0,4,same-model same-repetition E1 response,"E2 downstream inputs are expert references, so this joint score is not an end-to-end generated chain"
+qwen35_9b,E3,1,HB-C8-CH018,C8,sequential_chain_success,4,False,,0,0,4,same-model same-repetition E1 response,
+qwen35_9b,E1,1,HB-C9-CH008,C9,independent_joint_task_success,4,False,,0,0,4,same-model same-repetition E1 response,
+qwen35_9b,E2,1,HB-C9-CH008,C9,oracle_assisted_joint_task_success,4,False,,0,0,4,same-model same-repetition E1 response,"E2 downstream inputs are expert references, so this joint score is not an end-to-end generated chain"
+qwen35_9b,E3,1,HB-C9-CH008,C9,sequential_chain_success,4,False,,0,0,4,same-model same-repetition E1 response,
+qwen35_9b,E1,1,HB-C10-CH012,C10,independent_joint_task_success,5,False,,0,0,5,same-model same-repetition E1 response,
+qwen35_9b,E2,1,HB-C10-CH012,C10,oracle_assisted_joint_task_success,5,False,,0,0,5,same-model same-repetition E1 response,"E2 downstream inputs are expert references, so this joint score is not an end-to-end generated chain"
+qwen35_9b,E3,1,HB-C10-CH012,C10,sequential_chain_success,5,False,,0,0,5,same-model same-repetition E1 response,

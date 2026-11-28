@@ -1,0 +1,11 @@
+﻿model_id,condition,stage,repetition,n_scenarios,planned,scored,criterion_score_observed,criterion_score_observed_n_scenarios,criterion_score_lower_bound,criterion_score_lower_bound_n_scenarios,fully_correct_observed,fully_correct_observed_n_scenarios,fully_correct_lower_bound,fully_correct_lower_bound_n_scenarios,any_error_observed,any_error_observed_n_scenarios,inherited_error_rate_observed,inherited_error_rate_observed_n_scenarios,scoring_coverage,scoring_coverage_n_scenarios
+qwen35_9b,E1,A,1,10,22,0,,0,0.0,10,,0,0.0,10,,0,,0,0.0,10
+qwen35_9b,E1,B,1,10,10,0,,0,0.0,10,,0,0.0,10,,0,,0,0.0,10
+qwen35_9b,E1,BF,1,10,22,0,,0,0.0,10,,0,0.0,10,,0,,0,0.0,10
+qwen35_9b,E1,F,1,10,12,0,,0,0.0,10,,0,0.0,10,,0,,0,0.0,10
+qwen35_9b,E2,B,1,10,10,0,,0,0.0,10,,0,0.0,10,,0,,0,0.0,10
+qwen35_9b,E2,BF,1,10,22,0,,0,0.0,10,,0,0.0,10,,0,,0,0.0,10
+qwen35_9b,E2,F,1,10,12,0,,0,0.0,10,,0,0.0,10,,0,,0,0.0,10
+qwen35_9b,E3,B,1,10,10,0,,0,0.0,10,,0,0.0,10,,0,,0,0.0,10
+qwen35_9b,E3,BF,1,10,22,0,,0,0.0,10,,0,0.0,10,,0,,0,0.0,10
+qwen35_9b,E3,F,1,10,12,0,,0,0.0,10,,0,0.0,10,,0,,0,0.0,10

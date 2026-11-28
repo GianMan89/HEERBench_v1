@@ -1,0 +1,70 @@
+{
+  "run_id": "5237907c0020bfb594a9",
+  "config_sha256": "5237907c0020bfb594a922fee359e7dbbb5cddaf7b4719c74a14346d98d34245",
+  "plan_sha256": "35910bb0f2d12dfde16b4248e83ae9a0d85ddc4d8b848d93d2b067d26ce27dd1",
+  "software_sha256": "6e30582e700860dd46fa8214bb0eeb4ae816917932e2b9690b9594bcc68e1d56",
+  "created_utc": "2026-11-28T02:49:31.652722+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "is_mock": false,
+  "n_questions": 488,
+  "study_id": null,
+  "model_repetition_ids": {
+    "muse_spark13": [
+      1
+    ],
+    "grok46": [
+      1
+    ],
+    "claude_opus5": [
+      1
+    ],
+    "glm53": [
+      1
+    ],
+    "gpt6_astra": [
+      1
+    ],
+    "kimi_k3": [
+      1
+    ],
+    "gpt56_sol": [
+      1
+    ],
+    "gpt56_luna": [
+      1
+    ],
+    "nemotron3_ultra": [
+      1
+    ],
+    "minimax_m3": [
+      1
+    ],
+    "claude_fable51": [
+      1
+    ],
+    "qwen38_max": [
+      1
+    ],
+    "deepseek_v4_pro": [
+      1
+    ],
+    "gemini31_pro": [
+      1
+    ],
+    "mistral_medium35": [
+      1
+    ],
+    "gemma4_31b": [
+      1
+    ]
+  },
+  "n_chains": 150,
+  "n_requests": 17824,
+  "requests_by_condition": {
+    "E1": 7808,
+    "E2": 5008,
+    "E3": 5008
+  },
+  "scope": "RQ1 and RQ2 only; no source-degradation or reasoning-mode ablations"
+}

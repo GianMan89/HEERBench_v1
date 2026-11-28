@@ -1,0 +1,496 @@
+{"alternative_id": "HB-C1-A001-ALT1", "question_id": "HB-C1-A001", "text": "A concise table separating surface, aviation and seabed restrictions is acceptable."}
+{"alternative_id": "HB-C1-A002-ALT1", "question_id": "HB-C1-A002", "text": "Commercial operator-led restoration with military coordination is equivalent wording."}
+{"alternative_id": "HB-C1-A003-ALT1", "question_id": "HB-C1-A003", "text": "Omit high-altitude ISR details if the apportionment/allocation distinction is complete."}
+{"alternative_id": "HB-C1-B001-ALT1", "question_id": "HB-C1-B001", "text": "A dependency or critical-path explanation is acceptable without computing unsupported durations."}
+{"alternative_id": "HB-C1-F001-ALT1", "question_id": "HB-C1-F001", "text": "A readiness matrix, synchronized schedule or jointly checked go/no-go record is acceptable."}
+{"alternative_id": "HB-C1-F001-ALT2", "question_id": "HB-C1-F001", "text": "Forensics can be scheduled separately if its separation is explicitly justified and does not misrepresent availability."}
+{"alternative_id": "HB-C1-A004-ALT1", "question_id": "HB-C1-A004", "text": "Dates may be presented in a compact incident table."}
+{"alternative_id": "HB-C1-A005-ALT1", "question_id": "HB-C1-A005", "text": "Distinguish the strategic desired end state from the information still needed to implement it."}
+{"alternative_id": "HB-C1-B002-ALT1", "question_id": "HB-C1-B002", "text": "A conditional ranking is acceptable if assumptions and missing comparisons are explicit."}
+{"alternative_id": "HB-C1-F002-ALT1", "question_id": "HB-C1-F002", "text": "A decision matrix or service-dependency brief is acceptable."}
+{"alternative_id": "HB-C1-F002-ALT2", "question_id": "HB-C1-F002", "text": "No specific priority is mandatory while required data remain absent."}
+{"alternative_id": "HB-C1-A006-ALT1", "question_id": "HB-C1-A006", "text": "A relationship table is acceptable without commanders’ personal names."}
+{"alternative_id": "HB-C1-A007-ALT1", "question_id": "HB-C1-A007", "text": "Paraphrase the packet’s legal assumptions rather than make independent claims about current law."}
+{"alternative_id": "HB-C1-B003-ALT1", "question_id": "HB-C1-B003", "text": "Use an approval-dependency description without recommending a particular coercive task."}
+{"alternative_id": "HB-C1-F003-ALT1", "question_id": "HB-C1-F003", "text": "A contribution matrix or signed coordination record is acceptable."}
+{"alternative_id": "HB-C1-A008-ALT1", "question_id": "HB-C1-A008", "text": "A source-by-source comparison is preferable to averaging confidence labels."}
+{"alternative_id": "HB-C1-B004-ALT1", "question_id": "HB-C1-B004", "text": "A conditional incident-specific conclusion is acceptable."}
+{"alternative_id": "HB-C1-F004-ALT1", "question_id": "HB-C1-F004", "text": "An annotated attribution matrix or reconciliation note is acceptable."}
+{"alternative_id": "HB-C1-A009-ALT1", "question_id": "HB-C1-A009", "text": "Different ordering of these effects is acceptable."}
+{"alternative_id": "HB-C1-B005-ALT1", "question_id": "HB-C1-B005", "text": "A capability-by-function analysis is acceptable without technical equipment specifications."}
+{"alternative_id": "HB-C1-F005-ALT1", "question_id": "HB-C1-F005", "text": "A capability confirmation checklist is acceptable."}
+{"alternative_id": "HB-C1-A010-ALT1", "question_id": "HB-C1-A010", "text": "Describe the gaps as two related but distinct collection subjects."}
+{"alternative_id": "HB-C1-B006-ALT1", "question_id": "HB-C1-B006", "text": "A conditional statement that does not presume a payload was actually deployed is acceptable."}
+{"alternative_id": "HB-C1-F006-ALT1", "question_id": "HB-C1-F006", "text": "A two-part information requirement tied to forensic-gap closure is acceptable."}
+{"alternative_id": "HB-C1-A011-ALT1", "question_id": "HB-C1-A011", "text": "Exact labels are optional if the two assessed possibilities remain distinct."}
+{"alternative_id": "HB-C1-B007-ALT1", "question_id": "HB-C1-B007", "text": "Recommend holding an assumption-dependent commitment pending review rather than automatically cancelling all support."}
+{"alternative_id": "HB-C1-F007-ALT1", "question_id": "HB-C1-F007", "text": "An assumption-change report linked to affected decisions is acceptable."}
+{"alternative_id": "HB-C2-A001-ALT1", "question_id": "HB-C2-A001", "text": "Approximate strength is sufficient; no precise stock duration is implied."}
+{"alternative_id": "HB-C2-A002-ALT1", "question_id": "HB-C2-A002", "text": "A concise origin-to-recipient throughput explanation is acceptable without choosing a route."}
+{"alternative_id": "HB-C2-B001-ALT1", "question_id": "HB-C2-B001", "text": "A needs-versus-delivery-capacity analysis is acceptable."}
+{"alternative_id": "HB-C2-F001-ALT1", "question_id": "HB-C2-F001", "text": "A structured needs assessment is acceptable without a fixed template or exact package."}
+{"alternative_id": "HB-C2-F002-ALT1", "question_id": "HB-C2-F002", "text": "An FFIR or partner-capacity assessment request is acceptable regardless of staff label."}
+{"alternative_id": "HB-C2-A003-ALT1", "question_id": "HB-C2-A003", "text": "Treat two or three as a range rather than select a precise value."}
+{"alternative_id": "HB-C2-B002-ALT1", "question_id": "HB-C2-B002", "text": "Either end of the stated two-to-three range can be explored explicitly as a sensitivity case."}
+{"alternative_id": "HB-C2-F003-ALT1", "question_id": "HB-C2-F003", "text": "A phased force-availability table or capacity-gap brief is acceptable."}
+{"alternative_id": "HB-C2-F004-ALT1", "question_id": "HB-C2-F004", "text": "A deconfliction board, common schedule or allocation matrix is acceptable."}
+{"alternative_id": "HB-C2-A004-ALT1", "question_id": "HB-C2-A004", "text": "Equivalent supported/supporting relationship wording is acceptable."}
+{"alternative_id": "HB-C2-B003-ALT1", "question_id": "HB-C2-B003", "text": "A conditionally limited package is acceptable without assuming that the majority will pass."}
+{"alternative_id": "HB-C2-F005-ALT1", "question_id": "HB-C2-F005", "text": "A case register with agreed coordination points and escalation of delays is acceptable."}
+{"alternative_id": "HB-C2-F006-ALT1", "question_id": "HB-C2-F006", "text": "A scaling decision matrix is acceptable."}
+{"alternative_id": "HB-C2-A005-ALT1", "question_id": "HB-C2-A005", "text": "A prerequisite/status distinction is sufficient without reproducing procedural details."}
+{"alternative_id": "HB-C2-B004-ALT1", "question_id": "HB-C2-B004", "text": "A conditional answer is acceptable if it names the missing confirmations."}
+{"alternative_id": "HB-C2-F007-ALT1", "question_id": "HB-C2-F007", "text": "Use an existing joint recovery function rather than mandate a new JPRC."}
+{"alternative_id": "HB-C2-A006-ALT1", "question_id": "HB-C2-A006", "text": "Treat these as supplied exercise rules without extending them into general legal advice."}
+{"alternative_id": "HB-C2-B005-ALT1", "question_id": "HB-C2-B005", "text": "An authorization-dependency analysis is acceptable without deciding a legal boundary not resolved by the packet."}
+{"alternative_id": "HB-C2-F008-ALT1", "question_id": "HB-C2-F008", "text": "An approval register or authorization checklist is acceptable."}
+{"alternative_id": "HB-C2-A007-ALT1", "question_id": "HB-C2-A007", "text": "A permissions-versus-assumptions table is acceptable."}
+{"alternative_id": "HB-C2-B006-ALT1", "question_id": "HB-C2-B006", "text": "A conditional access assessment is acceptable without recommending a route."}
+{"alternative_id": "HB-C2-F009-ALT1", "question_id": "HB-C2-F009", "text": "A current permissions/status matrix is acceptable."}
+{"alternative_id": "HB-C2-F010-ALT1", "question_id": "HB-C2-F010", "text": "An existing authorized support location may be considered alongside new candidates."}
+{"alternative_id": "HB-C2-F010-ALT2", "question_id": "HB-C2-F010", "text": "One defensible option plus documented unavailable alternatives is acceptable; two or three invented sites are not."}
+{"alternative_id": "HB-C2-A008-ALT1", "question_id": "HB-C2-A008", "text": "Distinguish assessed compromise from a claim that every partner report is false."}
+{"alternative_id": "HB-C2-B007-ALT1", "question_id": "HB-C2-B007", "text": "A confidence-qualified assessment that identifies the unresolved decision variables is acceptable."}
+{"alternative_id": "HB-C2-F011-ALT1", "question_id": "HB-C2-F011", "text": "A readiness FFIR with separate verification fields is acceptable."}
+{"alternative_id": "HB-C2-A009-ALT1", "question_id": "HB-C2-A009", "text": "Describe the risk as possible rather than inevitable."}
+{"alternative_id": "HB-C2-B008-ALT1", "question_id": "HB-C2-B008", "text": "A multi-objective judgement with explicit trade-offs is acceptable."}
+{"alternative_id": "HB-C2-F012-ALT1", "question_id": "HB-C2-F012", "text": "A balanced progress matrix or decision-review annex is acceptable."}
+{"alternative_id": "HB-C3-A001-ALT1", "question_id": "HB-C3-A001", "text": "A needs-and-effects table is acceptable."}
+{"alternative_id": "HB-C3-A002-ALT1", "question_id": "HB-C3-A002", "text": "Group air and sea alternatives in a table."}
+{"alternative_id": "HB-C3-A003-ALT1", "question_id": "HB-C3-A003", "text": "Capability categories suffice without unit designators."}
+{"alternative_id": "HB-C3-B001-ALT1", "question_id": "HB-C3-B001", "text": "A bottleneck or minimum-capacity explanation is acceptable without numerical rates."}
+{"alternative_id": "HB-C3-F001-ALT1", "question_id": "HB-C3-F001", "text": "A joint logistics-over-the-shore capability/compatibility checklist is acceptable."}
+{"alternative_id": "HB-C3-F001-ALT2", "question_id": "HB-C3-F001", "text": "Breakbulk may be afloat or at an authorized staging point if justified by verified interfaces."}
+{"alternative_id": "HB-C3-F002-ALT1", "question_id": "HB-C3-F002", "text": "An FFIR, PIR or logistics information request is acceptable if the functional question is identical."}
+{"alternative_id": "HB-C3-F003-ALT1", "question_id": "HB-C3-F003", "text": "A be-prepared support task or request for engineering assessment is acceptable."}
+{"alternative_id": "HB-C3-A004-ALT1", "question_id": "HB-C3-A004", "text": "Relative distance is sufficient if the time mismatch is correct."}
+{"alternative_id": "HB-C3-B002-ALT1", "question_id": "HB-C3-B002", "text": "A phased capability-versus-need assessment is acceptable."}
+{"alternative_id": "HB-C3-F004-ALT1", "question_id": "HB-C3-F004", "text": "Time to first effective support may be measured by service availability, such as a usable medical service, rather than cargo tonnage."}
+{"alternative_id": "HB-C3-A005-ALT1", "question_id": "HB-C3-A005", "text": "Distinguish an international assistance request from clearance for a specific activity."}
+{"alternative_id": "HB-C3-B003-ALT1", "question_id": "HB-C3-B003", "text": "Hold the affected ashore element while evaluating authorized alternatives."}
+{"alternative_id": "HB-C3-F005-ALT1", "question_id": "HB-C3-F005", "text": "A commit/hold/alternative decision matrix is acceptable."}
+{"alternative_id": "HB-C3-A006-ALT1", "question_id": "HB-C3-A006", "text": "Capability categories and location names suffice without exact force counts."}
+{"alternative_id": "HB-C3-B004-ALT1", "question_id": "HB-C3-B004", "text": "A conditional comparison is acceptable without selecting a unique base."}
+{"alternative_id": "HB-C3-F006-ALT1", "question_id": "HB-C3-F006", "text": "An options-and-approvals matrix is acceptable."}
+{"alternative_id": "HB-C3-F006-ALT2", "question_id": "HB-C3-F006", "text": "APOE/SPOE information may be requested functionally without those abbreviations."}
+{"alternative_id": "HB-C3-A007-ALT1", "question_id": "HB-C3-A007", "text": "Use the source’s agency labels as scenario facts, without assumptions about current institutions."}
+{"alternative_id": "HB-C3-B005-ALT1", "question_id": "HB-C3-B005", "text": "A needs-versus-provision matrix is acceptable."}
+{"alternative_id": "HB-C3-F007-ALT1", "question_id": "HB-C3-F007", "text": "A humanitarian 4W/5W-style record is acceptable without requiring a particular label."}
+{"alternative_id": "HB-C3-F008-ALT1", "question_id": "HB-C3-F008", "text": "A support task register with transition criteria is acceptable."}
+{"alternative_id": "HB-C3-A008-ALT1", "question_id": "HB-C3-A008", "text": "A description of local receipt mechanisms is acceptable without naming unprovided chiefs."}
+{"alternative_id": "HB-C3-B006-ALT1", "question_id": "HB-C3-B006", "text": "Explain the complementary role through a local-needs example without inventing a community position."}
+{"alternative_id": "HB-C3-F009-ALT1", "question_id": "HB-C3-F009", "text": "A community needs/receipt survey is acceptable rather than a precise population-density map."}
+{"alternative_id": "HB-C3-A009-ALT1", "question_id": "HB-C3-A009", "text": "Do not require clinical treatment recommendations or staffing ratios."}
+{"alternative_id": "HB-C3-B007-ALT1", "question_id": "HB-C3-B007", "text": "A service-gap assessment is acceptable without numerical estimates."}
+{"alternative_id": "HB-C3-F010-ALT1", "question_id": "HB-C3-F010", "text": "An equivalent medical platform or partner capability can satisfy the same gap; Mercy is not mandatory."}
+{"alternative_id": "HB-C3-A010-ALT1", "question_id": "HB-C3-A010", "text": "Describe functional shortages without assuming a particular equipment set."}
+{"alternative_id": "HB-C3-B008-ALT1", "question_id": "HB-C3-B008", "text": "A function-based readiness assessment is acceptable without mandating a particular centre type."}
+{"alternative_id": "HB-C3-F011-ALT1", "question_id": "HB-C3-F011", "text": "Use existing coordination mechanisms rather than require a new headquarters."}
+{"alternative_id": "HB-C3-F012-ALT1", "question_id": "HB-C3-F012", "text": "A qualified bilingual liaison may substitute for a separate interpreter."}
+{"alternative_id": "HB-C3-A011-ALT1", "question_id": "HB-C3-A011", "text": "Broad asset classes suffice without hull designators."}
+{"alternative_id": "HB-C3-B009-ALT1", "question_id": "HB-C3-B009", "text": "A conditional risk/readiness assessment is acceptable."}
+{"alternative_id": "HB-C3-F013-ALT1", "question_id": "HB-C3-F013", "text": "A liaison contact and activity-update request can satisfy the same function without a PIR label."}
+{"alternative_id": "HB-C3-A012-ALT1", "question_id": "HB-C3-A012", "text": "Do not require claims that the PRC narrative is accepted by every community."}
+{"alternative_id": "HB-C3-B010-ALT1", "question_id": "HB-C3-B010", "text": "A centre-of-gravity formulation around legitimacy/acceptance is acceptable if tied to observable mission requirements."}
+{"alternative_id": "HB-C3-F014-ALT1", "question_id": "HB-C3-F014", "text": "Qualitative anchored criteria are acceptable where no validated numerical scale exists."}
+{"alternative_id": "HB-C3-F015-ALT1", "question_id": "HB-C3-F015", "text": "A jointly agreed factual public-information product is acceptable rather than a military information-operation label."}
+{"alternative_id": "HB-C4-A001-ALT1", "question_id": "HB-C4-A001", "text": "Equivalent date notation and “roughly two weeks” for endurance are acceptable if the fifteen-day estimate is also clear."}
+{"alternative_id": "HB-C4-A002-ALT1", "question_id": "HB-C4-A002", "text": "“Initial defence of Taiwan” is acceptable if its air, ground and Strait aspects and the limits remain explicit."}
+{"alternative_id": "HB-C4-B001-ALT1", "question_id": "HB-C4-B001", "text": "A qualitative narrow-margin judgement is sufficient without calculating five to eight days."}
+{"alternative_id": "HB-C4-F001-ALT1", "question_id": "HB-C4-F001", "text": "A synchronised force-closure matrix with the same fields is acceptable."}
+{"alternative_id": "HB-C4-A003-ALT1", "question_id": "HB-C4-A003", "text": "“Conditional outchop at N+14” is acceptable."}
+{"alternative_id": "HB-C4-B002-ALT1", "question_id": "HB-C4-B002", "text": "A conditional contribution shown separately from committed forces is acceptable."}
+{"alternative_id": "HB-C4-F002-ALT1", "question_id": "HB-C4-F002", "text": "A conditional force line in the requirements submission is acceptable."}
+{"alternative_id": "HB-C4-A004-ALT1", "question_id": "HB-C4-A004", "text": "“NEO is an essential prerequisite” is acceptable."}
+{"alternative_id": "HB-C4-B003-ALT1", "question_id": "HB-C4-B003", "text": "Conditional planning may proceed with explicit assumptions pending confirmation."}
+{"alternative_id": "HB-C4-F003-ALT1", "question_id": "HB-C4-F003", "text": "A consularly coordinated evacuation manifest estimate is acceptable without personal identifiers."}
+{"alternative_id": "HB-C4-F004-ALT1", "question_id": "HB-C4-F004", "text": "A completion certificate with exceptions and unresolved cases is acceptable."}
+{"alternative_id": "HB-C4-A005-ALT1", "question_id": "HB-C4-A005", "text": "Abbreviated command titles are acceptable if relationships remain distinct."}
+{"alternative_id": "HB-C4-B004-ALT1", "question_id": "HB-C4-B004", "text": "A per-contingent authorisation matrix is a valid way to express the judgement."}
+{"alternative_id": "HB-C4-F005-ALT1", "question_id": "HB-C4-F005", "text": "A task-to-authority checklist with approval owners is acceptable."}
+{"alternative_id": "HB-C4-A006-ALT1", "question_id": "HB-C4-A006", "text": "“Combat-force access is not ruled out by the Philippine assumption” is acceptable without claiming unlimited access."}
+{"alternative_id": "HB-C4-B005-ALT1", "question_id": "HB-C4-B005", "text": "The staff may decline to assume stock access and instead treat it as a prerequisite to confirm."}
+{"alternative_id": "HB-C4-F006-ALT1", "question_id": "HB-C4-F006", "text": "A nation-by-task support matrix is acceptable."}
+{"alternative_id": "HB-C4-A007-ALT1", "question_id": "HB-C4-A007", "text": "APOD/SPOD may be expanded as aerial/sea ports of debarkation."}
+{"alternative_id": "HB-C4-A008-ALT1", "question_id": "HB-C4-A008", "text": "A cautious distinction between broad geography and individual-port status is acceptable."}
+{"alternative_id": "HB-C4-B006-ALT1", "question_id": "HB-C4-B006", "text": "A conditional eastern-port hypothesis is acceptable only if the required capacity verification is explicit."}
+{"alternative_id": "HB-C4-F007-ALT1", "question_id": "HB-C4-F007", "text": "A capacity-constrained force-flow plan or RSOI support estimate is acceptable."}
+{"alternative_id": "HB-C4-F008-ALT1", "question_id": "HB-C4-F008", "text": "Another source-compatible offload alternative may be proposed if its feasibility and capability needs are checked explicitly."}
+{"alternative_id": "HB-C4-A009-ALT1", "question_id": "HB-C4-A009", "text": "A concise risk-and-capability inventory is acceptable."}
+{"alternative_id": "HB-C4-B007-ALT1", "question_id": "HB-C4-B007", "text": "A cascading delay or support-capacity loss is an acceptable implication."}
+{"alternative_id": "HB-C4-F009-ALT1", "question_id": "HB-C4-F009", "text": "A staged continuity and protection plan with the same validation requirements is acceptable."}
+{"alternative_id": "HB-C4-A010-ALT1", "question_id": "HB-C4-A010", "text": "Equivalent capability terminology is acceptable."}
+{"alternative_id": "HB-C4-B008-ALT1", "question_id": "HB-C4-B008", "text": "Conditional access may be retained with explicit protection dependencies."}
+{"alternative_id": "HB-C4-F010-ALT1", "question_id": "HB-C4-F010", "text": "A port-opening readiness assessment is acceptable."}
+{"alternative_id": "HB-C4-A011-ALT1", "question_id": "HB-C4-A011", "text": "“Potential degradation” is acceptable if the assumption is explicit."}
+{"alternative_id": "HB-C4-B009-ALT1", "question_id": "HB-C4-B009", "text": "An equivalent mission-essential-service dependency assessment is acceptable."}
+{"alternative_id": "HB-C4-F011-ALT1", "question_id": "HB-C4-F011", "text": "A documented degraded-service rehearsal or readiness check is acceptable."}
+{"alternative_id": "HB-C4-F012-ALT1", "question_id": "HB-C4-F012", "text": "Protecting exact allocations or departure windows instead of route details is acceptable."}
+{"alternative_id": "HB-C4-A012-ALT1", "question_id": "HB-C4-A012", "text": "“June falls within the stated typhoon-risk period” is acceptable."}
+{"alternative_id": "HB-C4-B010-ALT1", "question_id": "HB-C4-B010", "text": "A requirement to compare forecast conditions with certified equipment limits is acceptable."}
+{"alternative_id": "HB-C4-F013-ALT1", "question_id": "HB-C4-F013", "text": "A METOC-supported go/no-go recommendation with stated source and validity period is acceptable."}
+{"alternative_id": "HB-C4-A013-ALT1", "question_id": "HB-C4-A013", "text": "DDG identification may be added if independently confirmed, but is not required."}
+{"alternative_id": "HB-C4-B011-ALT1", "question_id": "HB-C4-B011", "text": "An explicit unresolved-double-count warning is acceptable without presenting a final fleet total."}
+{"alternative_id": "HB-C4-F014-ALT1", "question_id": "HB-C4-F014", "text": "Quarantining the disputed contribution rather than choosing a group is acceptable."}
+{"alternative_id": "HB-C4-A014-ALT1", "question_id": "HB-C4-A014", "text": "The conditions may be grouped by political, security and commercial outcome."}
+{"alternative_id": "HB-C4-B012-ALT1", "question_id": "HB-C4-B012", "text": "A condition-by-condition verification-gap assessment is acceptable."}
+{"alternative_id": "HB-C4-F015-ALT1", "question_id": "HB-C4-F015", "text": "A verification matrix with open decisions is acceptable."}
+{"alternative_id": "HB-C4-A015-ALT1", "question_id": "HB-C4-A015", "text": "“Post-conflict considerations” is acceptable."}
+{"alternative_id": "HB-C4-B013-ALT1", "question_id": "HB-C4-B013", "text": "An unassigned-responsibility and resource-gap assessment is acceptable."}
+{"alternative_id": "HB-C4-F016-ALT1", "question_id": "HB-C4-F016", "text": "A transition-requirements matrix is acceptable without inventing force sizes or dates."}
+{"alternative_id": "HB-C4-A016-ALT1", "question_id": "HB-C4-A016", "text": "A task-status list is acceptable."}
+{"alternative_id": "HB-C4-B014-ALT1", "question_id": "HB-C4-B014", "text": "An option-specific gap assessment is acceptable without selecting an option."}
+{"alternative_id": "HB-C4-F017-ALT1", "question_id": "HB-C4-F017", "text": "A synchronisation-based feasibility scorecard is acceptable if no unprovided weights or thresholds are claimed."}
+{"alternative_id": "HB-C4-A017-ALT1", "question_id": "HB-C4-A017", "text": "An equivalent range-of-outcomes statement is acceptable."}
+{"alternative_id": "HB-C4-B015-ALT1", "question_id": "HB-C4-B015", "text": "A branch feasibility assessment with explicit triggers is acceptable."}
+{"alternative_id": "HB-C4-F018-ALT1", "question_id": "HB-C4-F018", "text": "A monitored assumption with a named review owner and decision is acceptable."}
+{"alternative_id": "HB-C4-A018-ALT1", "question_id": "HB-C4-A018", "text": "A critical-factor summary is acceptable."}
+{"alternative_id": "HB-C4-B016-ALT1", "question_id": "HB-C4-B016", "text": "A legitimacy-to-access dependency assessment is acceptable."}
+{"alternative_id": "HB-C4-F019-ALT1", "question_id": "HB-C4-F019", "text": "An approved common narrative and caveat check is acceptable without prescribing influence tactics."}
+{"alternative_id": "HB-C4-A019-ALT1", "question_id": "HB-C4-A019", "text": "A concise comparison of support timing is acceptable."}
+{"alternative_id": "HB-C4-B017-ALT1", "question_id": "HB-C4-B017", "text": "An unverified early-coverage judgement is acceptable."}
+{"alternative_id": "HB-C4-F020-ALT1", "question_id": "HB-C4-F020", "text": "A validated early casualty-support plan is acceptable."}
+{"alternative_id": "HB-C4-A020-ALT1", "question_id": "HB-C4-A020", "text": "“Long campaign with inadequate assessed PGM stocks” is acceptable."}
+{"alternative_id": "HB-C4-B018-ALT1", "question_id": "HB-C4-B018", "text": "A time-phased deficit assessment is acceptable without a speculative burn rate."}
+{"alternative_id": "HB-C4-F021-ALT1", "question_id": "HB-C4-F021", "text": "A sustainability estimate with explicit assumptions is acceptable."}
+{"alternative_id": "HB-C4-A021-ALT1", "question_id": "HB-C4-A021", "text": "Equivalent source-grounded terminology is acceptable if the distinction between necessary authorised coordination and unnecessary disclosure is preserved."}
+{"alternative_id": "HB-C4-B019-ALT1", "question_id": "HB-C4-B019", "text": "Equivalent source-grounded terminology is acceptable if the distinction between necessary authorised coordination and unnecessary disclosure is preserved."}
+{"alternative_id": "HB-C5-A001-ALT1", "question_id": "HB-C5-A001", "text": "“The capacity of the whole reception chain” is acceptable."}
+{"alternative_id": "HB-C5-A002-ALT1", "question_id": "HB-C5-A002", "text": "“Existing sites with unquantified usable capacity” is acceptable."}
+{"alternative_id": "HB-C5-B001-ALT1", "question_id": "HB-C5-B001", "text": "A queue or bottleneck explanation is acceptable without inventing rates."}
+{"alternative_id": "HB-C5-F001-ALT1", "question_id": "HB-C5-F001", "text": "A time-phased reception-capacity dashboard with approval-dependent triggers is acceptable."}
+{"alternative_id": "HB-C5-F002-ALT1", "question_id": "HB-C5-F002", "text": "Temporary capacity or additional partner capacity is acceptable if permissions and support are confirmed."}
+{"alternative_id": "HB-C5-A003-ALT1", "question_id": "HB-C5-A003", "text": "A transport-status summary with the same qualifications is acceptable."}
+{"alternative_id": "HB-C5-B002-ALT1", "question_id": "HB-C5-B002", "text": "A weakest-stage throughput assessment is acceptable."}
+{"alternative_id": "HB-C5-F003-ALT1", "question_id": "HB-C5-F003", "text": "A direct movement solution is acceptable if it meets the same handling, support and capacity requirements without an intermediate base."}
+{"alternative_id": "HB-C5-A004-ALT1", "question_id": "HB-C5-A004", "text": "Countries may be grouped by offered role."}
+{"alternative_id": "HB-C5-B003-ALT1", "question_id": "HB-C5-B003", "text": "Separate confirmed and conditional capacity columns are acceptable."}
+{"alternative_id": "HB-C5-F004-ALT1", "question_id": "HB-C5-F004", "text": "A documented host agreement and capacity verification is acceptable."}
+{"alternative_id": "HB-C5-A005-ALT1", "question_id": "HB-C5-A005", "text": "A responsibility-by-function table is acceptable."}
+{"alternative_id": "HB-C5-B004-ALT1", "question_id": "HB-C5-B004", "text": "A continuity-of-care and custody/administrative responsibility explanation is acceptable."}
+{"alternative_id": "HB-C5-F005-ALT1", "question_id": "HB-C5-F005", "text": "A documented interagency transfer checklist is acceptable without collecting unnecessary personal data."}
+{"alternative_id": "HB-C5-A006-ALT1", "question_id": "HB-C5-A006", "text": "Equivalent consular/administrative processing terms are acceptable."}
+{"alternative_id": "HB-C5-B005-ALT1", "question_id": "HB-C5-B005", "text": "A staffing-per-function gap assessment is acceptable without invented ratios."}
+{"alternative_id": "HB-C5-F006-ALT1", "question_id": "HB-C5-F006", "text": "Civilian or contracted authorised support is acceptable if it performs the required function under the appropriate lead."}
+{"alternative_id": "HB-C5-A007-ALT1", "question_id": "HB-C5-A007", "text": "Medical conditions may be described in plain language without proposing treatment."}
+{"alternative_id": "HB-C5-B006-ALT1", "question_id": "HB-C5-B006", "text": "A conditional planning assumption that necessary eligible care can be funded is acceptable only with finance/authority confirmation."}
+{"alternative_id": "HB-C5-F007-ALT1", "question_id": "HB-C5-F007", "text": "The original Class I, IV, VI and VIII terminology may be used instead of descriptive categories."}
+{"alternative_id": "HB-C5-A008-ALT1", "question_id": "HB-C5-A008", "text": "A concise incident table is acceptable."}
+{"alternative_id": "HB-C5-B007-ALT1", "question_id": "HB-C5-B007", "text": "A contingency requirement rather than a claim of confirmed recoveries is acceptable."}
+{"alternative_id": "HB-C5-F008-ALT1", "question_id": "HB-C5-F008", "text": "An authorised civilian/interagency capability may satisfy the function instead of a named military unit."}
+{"alternative_id": "HB-C5-A009-ALT1", "question_id": "HB-C5-A009", "text": "Place names may be grouped as northern-coast departures if all requested locations are identified."}
+{"alternative_id": "HB-C5-A010-ALT1", "question_id": "HB-C5-A010", "text": "“Continuous maritime picture for timely rescue” is acceptable if it includes the supplied coverage problem."}
+{"alternative_id": "HB-C5-B008-ALT1", "question_id": "HB-C5-B008", "text": "A dynamic coverage/readiness assessment is acceptable without assigning rescue stations."}
+{"alternative_id": "HB-C5-F009-ALT1", "question_id": "HB-C5-F009", "text": "A frequently updated rescue-support situation report with decision-linked gaps is acceptable."}
+{"alternative_id": "HB-C5-F010-ALT1", "question_id": "HB-C5-F010", "text": "A decision-linked area-of-interest register is acceptable without specifying surveillance tactics."}
+{"alternative_id": "HB-C5-A011-ALT1", "question_id": "HB-C5-A011", "text": "“Safe-haven role with an exposed perimeter” is acceptable as a source summary."}
+{"alternative_id": "HB-C5-B009-ALT1", "question_id": "HB-C5-B009", "text": "A protection-adjusted capacity estimate is acceptable without an invented reserve factor."}
+{"alternative_id": "HB-C5-F011-ALT1", "question_id": "HB-C5-F011", "text": "Using Puerto Rico or a confirmed partner arrangement is acceptable only if its capacity and transfer permissions are validated."}
+{"alternative_id": "HB-C5-A012-ALT1", "question_id": "HB-C5-A012", "text": "A force-to-function table is acceptable."}
+{"alternative_id": "HB-C5-A013-ALT1", "question_id": "HB-C5-A013", "text": "“Approved base tasks and unapproved execution branches” is acceptable."}
+{"alternative_id": "HB-C5-B010-ALT1", "question_id": "HB-C5-B010", "text": "An opportunity-cost comparison across the two functions is acceptable."}
+{"alternative_id": "HB-C5-F012-ALT1", "question_id": "HB-C5-F012", "text": "A contingent branch-feasibility matrix is acceptable without selecting a force package."}
+{"alternative_id": "HB-C5-A014-ALT1", "question_id": "HB-C5-A014", "text": "Capability categories may be used rather than listing every service."}
+{"alternative_id": "HB-C5-A015-ALT1", "question_id": "HB-C5-A015", "text": "A task-to-rule summary is acceptable without giving engagement instructions."}
+{"alternative_id": "HB-C5-B011-ALT1", "question_id": "HB-C5-B011", "text": "An unverified coverage-sufficiency assessment is acceptable without a tactical air plan."}
+{"alternative_id": "HB-C5-F013-ALT1", "question_id": "HB-C5-F013", "text": "A support/authority readiness matrix is acceptable without prescribing combat patrols or weapons."}
+{"alternative_id": "HB-C5-F014-ALT1", "question_id": "HB-C5-F014", "text": "A decision-linked information requirement for the supplied airspace is acceptable."}
+{"alternative_id": "HB-C5-A016-ALT1", "question_id": "HB-C5-A016", "text": "A priority-and-authority summary is acceptable."}
+{"alternative_id": "HB-C5-B012-ALT1", "question_id": "HB-C5-B012", "text": "Conditional branches may be prepared while support at approved sites is expanded."}
+{"alternative_id": "HB-C5-F015-ALT1", "question_id": "HB-C5-F015", "text": "Phased activation of already-approved OCONUS capacity is acceptable."}
+{"alternative_id": "HB-C5-A017-ALT1", "question_id": "HB-C5-A017", "text": "A source-attributed strategic-context summary is acceptable. The answer is not required to endorse the packet’s international-law interpretation."}
+{"alternative_id": "HB-C5-A018-ALT1", "question_id": "HB-C5-A018", "text": "“Documented factual public reporting consistent with compartmentation” is acceptable."}
+{"alternative_id": "HB-C5-B013-ALT1", "question_id": "HB-C5-B013", "text": "A credibility-and-permission risk assessment is acceptable."}
+{"alternative_id": "HB-C5-F016-ALT1", "question_id": "HB-C5-F016", "text": "A documented release checklist and designated release authority are acceptable."}
+{"alternative_id": "HB-C5-B014-ALT1", "question_id": "HB-C5-B014", "text": "An assessment that communications reach remains unverified is acceptable if linked to the channel decision."}
+{"alternative_id": "HB-C5-F017-ALT1", "question_id": "HB-C5-F017", "text": "An assessed coverage map or provider/agency confirmation is acceptable without disclosing infrastructure coordinates."}
+{"alternative_id": "HB-C5-A019-ALT1", "question_id": "HB-C5-A019", "text": "A critical-factor table is acceptable."}
+{"alternative_id": "HB-C5-B015-ALT1", "question_id": "HB-C5-B015", "text": "A cautious “may undermine that mechanism” judgement is acceptable."}
+{"alternative_id": "HB-C5-F018-ALT1", "question_id": "HB-C5-F018", "text": "A qualitative force-protection/legitimacy criterion with observable supporting facts is acceptable without numerical weights."}
+{"alternative_id": "HB-C5-A020-ALT1", "question_id": "HB-C5-A020", "text": "A range-of-alternatives summary is acceptable."}
+{"alternative_id": "HB-C5-B016-ALT1", "question_id": "HB-C5-B016", "text": "A conditional support-disruption assessment is acceptable."}
+{"alternative_id": "HB-C5-F019-ALT1", "question_id": "HB-C5-F019", "text": "A supported contingency with review responsibilities is acceptable without invented thresholds."}
+{"alternative_id": "HB-C5-A021-ALT1", "question_id": "HB-C5-A021", "text": "Conditions may be grouped by protection, support, security and authority."}
+{"alternative_id": "HB-C5-B017-ALT1", "question_id": "HB-C5-B017", "text": "A criterion-by-criterion verification-gap analysis is acceptable."}
+{"alternative_id": "HB-C5-F020-ALT1", "question_id": "HB-C5-F020", "text": "A transition-readiness matrix with approved agency handover is acceptable."}
+{"alternative_id": "HB-C6-A001-ALT1", "question_id": "HB-C6-A001", "text": "May group the two interdiction restrictions in one sentence if both traffic categories and the release condition remain clear."}
+{"alternative_id": "HB-C6-A002-ALT1", "question_id": "HB-C6-A002", "text": "A dated comparison table is acceptable if earlier permissions are clearly distinguished from the later current baseline."}
+{"alternative_id": "HB-C6-B001-ALT1", "question_id": "HB-C6-B001", "text": "May retain usable older support assumptions conditionally rather than rewriting the entire older plan; the superseded authority must still be removed."}
+{"alternative_id": "HB-C6-F001-ALT1", "question_id": "HB-C6-F001", "text": "A controlled amendment or replacement planning baseline is acceptable instead of editing each old document, provided dependent commitments use the corrected authority."}
+{"alternative_id": "HB-C6-A003-ALT1", "question_id": "HB-C6-A003", "text": "The named munition families may be summarised as precision-munition magazine depth; the distinct enabling functions and decision deadline must remain."}
+{"alternative_id": "HB-C6-B002-ALT1", "question_id": "HB-C6-B002", "text": "A function-by-function readiness matrix is acceptable if it does not equate completion of current presence activity with branch readiness."}
+{"alternative_id": "HB-C6-F002-ALT1", "question_id": "HB-C6-F002", "text": "An authorised substitute for the missing function may satisfy the requirement if its readiness within the interval is verified."}
+{"alternative_id": "HB-C6-F003-ALT1", "question_id": "HB-C6-F003", "text": "May express feasibility as a latest-ready time, time margin or deadline pass/fail, provided integration and permission prerequisites are retained."}
+{"alternative_id": "HB-C6-A004-ALT1", "question_id": "HB-C6-A004", "text": "Dates may be given as 22 AUG and 152300Z SEP 26 with N+25 arrival entries; exact conversion can be reserved for the B task."}
+{"alternative_id": "HB-C6-B003-ALT1", "question_id": "HB-C6-B003", "text": "“D+1 calendar date” is acceptable if explicitly approximate and not interpreted as an exactly 24-hour delay."}
+{"alternative_id": "HB-C6-F004-ALT1", "question_id": "HB-C6-F004", "text": "May phase the whole dependent task or substitute verified interim capacity; neither requires inventing a specific replacement unit."}
+{"alternative_id": "HB-C6-A005-ALT1", "question_id": "HB-C6-A005", "text": "“Demand is approximately 1.3 times standing capacity” is equivalent to the supplied tanker statement."}
+{"alternative_id": "HB-C6-B004-ALT1", "question_id": "HB-C6-B004", "text": "0.30/1.30, 3/13 or approximately 23.1% are acceptable representations; no exact operational capacity estimate is required."}
+{"alternative_id": "HB-C6-F005-ALT1", "question_id": "HB-C6-F005", "text": "Demand reduction, sequencing or a verified capacity increase can address the refuelling gap; confirmation of other bottlenecks remains necessary."}
+{"alternative_id": "HB-C6-A006-ALT1", "question_id": "HB-C6-A006", "text": "May summarise each partner by permitted support type rather than enumerate all base names, except the Singapore nodes central to the task."}
+{"alternative_id": "HB-C6-B005-ALT1", "question_id": "HB-C6-B005", "text": "May identify the transfer allowance as a closure penalty or onward-movement lead time; it must not be treated as newly measured travel time."}
+{"alternative_id": "HB-C6-F006-ALT1", "question_id": "HB-C6-F006", "text": "A reserved capacity-and-movement window or equivalent verified logistics agreement can substantiate the node contribution."}
+{"alternative_id": "HB-C6-A007-ALT1", "question_id": "HB-C6-A007", "text": "A dated status/assumption/target table is acceptable, including a separate entry for the historical provisioning interval."}
+{"alternative_id": "HB-C6-B006-ALT1", "question_id": "HB-C6-B006", "text": "May state that readiness is unverified rather than inadequate at the later date; the old baseline alone establishes neither successful recovery nor continued failure."}
+{"alternative_id": "HB-C6-F007-ALT1", "question_id": "HB-C6-F007", "text": "An approved lower-bandwidth service mode may be used if essential dependent functions remain supported and national interfaces are confirmed."}
+{"alternative_id": "HB-C6-A008-ALT1", "question_id": "HB-C6-A008", "text": "May describe the sea-state values as source planning guidance rather than universal certified platform limits."}
+{"alternative_id": "HB-C6-B007-ALT1", "question_id": "HB-C6-B007", "text": "A conditional readiness assessment is acceptable; an automatic no-go conclusion for every day in typhoon season is not required."}
+{"alternative_id": "HB-C6-F008-ALT1", "question_id": "HB-C6-F008", "text": "Delay support, an authorised refuge option or another validated weather contingency may satisfy the preparation requirement without choosing a tactical route."}
+{"alternative_id": "HB-C6-A009-ALT1", "question_id": "HB-C6-A009", "text": "May tabulate separate AFP/PCG and US groups, provided the approximate-30 conflict remains visible."}
+{"alternative_id": "HB-C6-B008-ALT1", "question_id": "HB-C6-B008", "text": "The repeated 25 may be used provisionally; a clearly labelled 25–approximately-30 range or precautionary higher support-planning count is also acceptable pending reconciliation."}
+{"alternative_id": "HB-C6-F009-ALT1", "question_id": "HB-C6-F009", "text": "A reconciled personnel list with attributed status updates and named liaison responsibility can satisfy the requirement without an invented detention-location report."}
+{"alternative_id": "HB-C6-A010-ALT1", "question_id": "HB-C6-A010", "text": "May refer to “small/constrained island, approximately 37 ha” and preserve the different protection, NEO and displacement populations."}
+{"alternative_id": "HB-C6-B009-ALT1", "question_id": "HB-C6-B009", "text": "Shared transport or reception resources may be proposed if population eligibility and distinct task responsibilities are preserved."}
+{"alternative_id": "HB-C6-F010-ALT1", "question_id": "HB-C6-F010", "text": "One coordinated support package may serve several populations if each task’s eligibility, capacity and receiving responsibility is explicit."}
+{"alternative_id": "HB-C6-A011-ALT1", "question_id": "HB-C6-A011", "text": "May use “planning pool” and “execution allocation” instead of the technical labels while preserving their different status."}
+{"alternative_id": "HB-C6-B010-ALT1", "question_id": "HB-C6-B010", "text": "Either a larger or smaller package can ultimately be suitable; the answer should identify the missing sufficiency/supportability comparison rather than select by size alone."}
+{"alternative_id": "HB-C6-F011-ALT1", "question_id": "HB-C6-F011", "text": "May validate an authorised alternative package instead of requesting I MEF if it closes the documented capability gap."}
+{"alternative_id": "HB-C6-A012-ALT1", "question_id": "HB-C6-A012", "text": "Equivalent descriptions of the listed observable conditions are acceptable; source-defined duration and threshold distinctions must be preserved."}
+{"alternative_id": "HB-C6-B011-ALT1", "question_id": "HB-C6-B011", "text": "May describe the issue as an activity-versus-effect or means-versus-end distinction, without claiming a uniquely predictable political response."}
+{"alternative_id": "HB-C6-F012-ALT1", "question_id": "HB-C6-F012", "text": "An outcome-based review matrix or a named verification task list is acceptable if unresolved conditions feed the D+75 decision."}
+{"alternative_id": "HB-C6-F013-ALT1", "question_id": "HB-C6-F013", "text": "A conditional feasibility score can be separated from an observed-effect score; reserved means may be analysed as a branch without being credited as presently executable."}
+{"alternative_id": "HB-C6-A013-ALT1", "question_id": "HB-C6-A013", "text": "12 nm may be rendered as approximately 22 km, and assessed range values may use equivalent units."}
+{"alternative_id": "HB-C6-B012-ALT1", "question_id": "HB-C6-B012", "text": "May conclude exposure requires review rather than assign a numerical risk level; the supplied reach is insufficient for a hit-probability estimate."}
+{"alternative_id": "HB-C6-F014-ALT1", "question_id": "HB-C6-F014", "text": "An authorised protection contribution, changed task scale or revised timing can address a shortfall; no particular platform or route is uniquely required."}
+{"alternative_id": "HB-C6-A014-ALT1", "question_id": "HB-C6-A014", "text": "May group the collection topics by reinforcement, outpost activity and strategic escalation if the distinct observation subjects remain identifiable."}
+{"alternative_id": "HB-C6-B013-ALT1", "question_id": "HB-C6-B013", "text": "May distinguish “not observed”, “not covered” and “corroborated absent” instead of using a numerical confidence value."}
+{"alternative_id": "HB-C6-F015-ALT1", "question_id": "HB-C6-F015", "text": "Independent corroboration or coverage restoration may resolve the gap; no specific new collection route, sensor or target assignment is required."}
+{"alternative_id": "HB-C6-A015-ALT1", "question_id": "HB-C6-A015", "text": "A responsibility table is acceptable for J39, OSD-PA and DOS R; source support assumptions must remain labelled as assumptions."}
+{"alternative_id": "HB-C6-B014-ALT1", "question_id": "HB-C6-B014", "text": "May compare publication metrics with attributed reception observations without treating favourable reception as a proven change in public policy or behaviour."}
+{"alternative_id": "HB-C6-F016-ALT1", "question_id": "HB-C6-F016", "text": "Existing attributable aggregate reporting can be used instead of commissioning new collection, provided it measures reception in the relevant contexts and its limitations are recorded."}
+{"alternative_id": "HB-C6-F017-ALT1", "question_id": "HB-C6-F017", "text": "Combat camera is one permissible capability; authenticated partner recording or another authorised source can satisfy the same documentation function."}
+{"alternative_id": "HB-C6-A016-ALT1", "question_id": "HB-C6-A016", "text": "May use HOBART offered N+5 versus arrival N+10 as the timing illustration while retaining later formalisation and the separate TOA requirement."}
+{"alternative_id": "HB-C6-B015-ALT1", "question_id": "HB-C6-B015", "text": "A national-command contribution can be counted through an agreed support relationship rather than requiring OPCON transfer in every case."}
+{"alternative_id": "HB-C6-F018-ALT1", "question_id": "HB-C6-F018", "text": "An agreed national coordination/support interface can substitute for command transfer where the contribution remains under national command."}
+{"alternative_id": "HB-C6-A017-ALT1", "question_id": "HB-C6-A017", "text": "May describe Cambodia/Laos as closer to PRC positions without claiming they have individually revoked the listed partner permissions."}
+{"alternative_id": "HB-C6-B016-ALT1", "question_id": "HB-C6-B016", "text": "May conclude that each bilateral offer remains subject to its own conditions rather than predict a single ASEAN-wide availability outcome."}
+{"alternative_id": "HB-C6-F019-ALT1", "question_id": "HB-C6-F019", "text": "May use an existing valid clearance instead of seeking a new one, provided the planned activity and dates fall within its scope."}
+{"alternative_id": "HB-C6-A018-ALT1", "question_id": "HB-C6-A018", "text": "“Assessed incomplete adversary access mapping” is acceptable if it does not turn a threat assumption into confirmed compromise at every node."}
+{"alternative_id": "HB-C6-B017-ALT1", "question_id": "HB-C6-B017", "text": "May frame the missing assurance as untested continuity or unverified recovery, without claiming a breach has actually occurred."}
+{"alternative_id": "HB-C6-F020-ALT1", "question_id": "HB-C6-F020", "text": "A tested alternate service, validated recovery arrangement or authorised repair support can address a particular dependency; no offensive method is required."}
+{"alternative_id": "HB-C6-A019-ALT1", "question_id": "HB-C6-A019", "text": "May use “around a week” for 5–7 days only if the separate approximately-five-day air estimate and its stated premise remain clear."}
+{"alternative_id": "HB-C6-B018-ALT1", "question_id": "HB-C6-B018", "text": "May state that the old estimate is conditional pending release/re-estimation rather than declare it categorically unusable in every future branch."}
+{"alternative_id": "HB-C6-F021-ALT1", "question_id": "HB-C6-F021", "text": "An updated estimate or an explicitly conditional schedule tied to a future release is acceptable; unconditional reuse is not."}
+{"alternative_id": "HB-C6-A020-ALT1", "question_id": "HB-C6-A020", "text": "May render the older garrison estimate as roughly 370 effective out of approximately 400 and keep the 600-person figure explicitly prospective."}
+{"alternative_id": "HB-C6-B019-ALT1", "question_id": "HB-C6-B019", "text": "May state that the forecast is expired or stale; that does not mean its predicted event was disproved."}
+{"alternative_id": "HB-C6-F022-ALT1", "question_id": "HB-C6-F022", "text": "A new corroborated qualitative comparison may support review when precise counts are unavailable, if uncertainty and the transition threshold remain explicit."}
+{"alternative_id": "HB-C6-B020-ALT1", "question_id": "HB-C6-B020", "text": "A verified original, independently corroborated recording or equivalent authenticated record can strengthen confidence; no single detection tool is required."}
+{"alternative_id": "HB-C7-A001-ALT1", "question_id": "HB-C7-A001", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-B001-ALT1", "question_id": "HB-C7-B001", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-F001-ALT1", "question_id": "HB-C7-F001", "text": "A validated alternative lift and staging arrangement may replace runway improvement, but cannot be assumed to carry brigade sustainment."}
+{"alternative_id": "HB-C7-B002-ALT1", "question_id": "HB-C7-B002", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-F002-ALT1", "question_id": "HB-C7-F002", "text": "Either rear node or a justified combination is acceptable; their throughput and aircraft restrictions must be retained."}
+{"alternative_id": "HB-C7-A002-ALT1", "question_id": "HB-C7-A002", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-B003-ALT1", "question_id": "HB-C7-B003", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-F003-ALT1", "question_id": "HB-C7-F003", "text": "A demonstrated alternative surfacing design is acceptable if it establishes the same strength and serviceability conditions."}
+{"alternative_id": "HB-C7-A003-ALT1", "question_id": "HB-C7-A003", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-B004-ALT1", "question_id": "HB-C7-B004", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-F004-ALT1", "question_id": "HB-C7-F004", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-A004-ALT1", "question_id": "HB-C7-A004", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-B005-ALT1", "question_id": "HB-C7-B005", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-F005-ALT1", "question_id": "HB-C7-F005", "text": "Another verified shallow-draft provider can replace the mine fleet; neither an unconfirmed charter nor a direct surface route to Komavi is acceptable."}
+{"alternative_id": "HB-C7-A005-ALT1", "question_id": "HB-C7-A005", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-B006-ALT1", "question_id": "HB-C7-B006", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-F006-ALT1", "question_id": "HB-C7-F006", "text": "Earlier confirmed replenishment, an independently validated reserve or rescheduling/reducing added demand can address a demonstrated gap; no fixed tanker number is implied."}
+{"alternative_id": "HB-C7-A006-ALT1", "question_id": "HB-C7-A006", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-B007-ALT1", "question_id": "HB-C7-B007", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-F007-ALT1", "question_id": "HB-C7-F007", "text": "A formally confirmed coalition medical solution can meet the gap; presence in a national inventory alone cannot."}
+{"alternative_id": "HB-C7-A007-ALT1", "question_id": "HB-C7-A007", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-B008-ALT1", "question_id": "HB-C7-B008", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-F008-ALT1", "question_id": "HB-C7-F008", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-A008-ALT1", "question_id": "HB-C7-A008", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-B009-ALT1", "question_id": "HB-C7-B009", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-F009-ALT1", "question_id": "HB-C7-F009", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-A009-ALT1", "question_id": "HB-C7-A009", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-B010-ALT1", "question_id": "HB-C7-B010", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-F010-ALT1", "question_id": "HB-C7-F010", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-A010-ALT1", "question_id": "HB-C7-A010", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-B011-ALT1", "question_id": "HB-C7-B011", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-F011-ALT1", "question_id": "HB-C7-F011", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-A011-ALT1", "question_id": "HB-C7-A011", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-B012-ALT1", "question_id": "HB-C7-B012", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-F012-ALT1", "question_id": "HB-C7-F012", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-A012-ALT1", "question_id": "HB-C7-A012", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-B013-ALT1", "question_id": "HB-C7-B013", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-F013-ALT1", "question_id": "HB-C7-F013", "text": "A verified voluntary-return arrangement can meet the requirement; automatic blanket expulsion cannot."}
+{"alternative_id": "HB-C7-A013-ALT1", "question_id": "HB-C7-A013", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-B014-ALT1", "question_id": "HB-C7-B014", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-F014-ALT1", "question_id": "HB-C7-F014", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-A014-ALT1", "question_id": "HB-C7-A014", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-B015-ALT1", "question_id": "HB-C7-B015", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-F015-ALT1", "question_id": "HB-C7-F015", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-A015-ALT1", "question_id": "HB-C7-A015", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-B016-ALT1", "question_id": "HB-C7-B016", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-F016-ALT1", "question_id": "HB-C7-F016", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-A016-ALT1", "question_id": "HB-C7-A016", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-B017-ALT1", "question_id": "HB-C7-B017", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-F017-ALT1", "question_id": "HB-C7-F017", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-A017-ALT1", "question_id": "HB-C7-A017", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-B018-ALT1", "question_id": "HB-C7-B018", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-F018-ALT1", "question_id": "HB-C7-F018", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-A018-ALT1", "question_id": "HB-C7-A018", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-B019-ALT1", "question_id": "HB-C7-B019", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-F019-ALT1", "question_id": "HB-C7-F019", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-A019-ALT1", "question_id": "HB-C7-A019", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-B020-ALT1", "question_id": "HB-C7-B020", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-F020-ALT1", "question_id": "HB-C7-F020", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-A020-ALT1", "question_id": "HB-C7-A020", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-B021-ALT1", "question_id": "HB-C7-B021", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-F021-ALT1", "question_id": "HB-C7-F021", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-A021-ALT1", "question_id": "HB-C7-A021", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-A022-ALT1", "question_id": "HB-C7-A022", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-B022-ALT1", "question_id": "HB-C7-B022", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-F022-ALT1", "question_id": "HB-C7-F022", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-A023-ALT1", "question_id": "HB-C7-A023", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-B023-ALT1", "question_id": "HB-C7-B023", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-F023-ALT1", "question_id": "HB-C7-F023", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-A024-ALT1", "question_id": "HB-C7-A024", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-B024-ALT1", "question_id": "HB-C7-B024", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-F024-ALT1", "question_id": "HB-C7-F024", "text": "Equivalent verified environmental protection and rotation arrangements are acceptable; precise medical regimens or invented adjustment percentages are not required."}
+{"alternative_id": "HB-C7-A025-ALT1", "question_id": "HB-C7-A025", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-B025-ALT1", "question_id": "HB-C7-B025", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-F025-ALT1", "question_id": "HB-C7-F025", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-A026-ALT1", "question_id": "HB-C7-A026", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-B026-ALT1", "question_id": "HB-C7-B026", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C7-F026-ALT1", "question_id": "HB-C7-F026", "text": "Equivalent wording preserving the stated conditions and scope."}
+{"alternative_id": "HB-C8-A001-ALT1", "question_id": "HB-C8-A001", "text": "Thirty days apportioned versus twenty-one allocable may be expressed as the source’s nine-day allocation reduction; the duration conditions must remain separate."}
+{"alternative_id": "HB-C8-B001-ALT1", "question_id": "HB-C8-B001", "text": "A qualitative twenty-one-versus-sixty-day mismatch is sufficient if any D+28 calculation is explicitly conditional on the allocation-clock start."}
+{"alternative_id": "HB-C8-F001-ALT1", "question_id": "HB-C8-F001", "text": "A confirmed rotation or other authorised replacement contribution can close the duration gap instead of an extension."}
+{"alternative_id": "HB-C8-F002-ALT1", "question_id": "HB-C8-F002", "text": "A time-phased coverage matrix may replace a numerical score if confirmed contributions and uncovered intervals remain visible."}
+{"alternative_id": "HB-C8-A002-ALT1", "question_id": "HB-C8-A002", "text": "Support arrangements may be grouped as staging, afloat and port-call functions while preserving the thirty-day request and longer-duration risks."}
+{"alternative_id": "HB-C8-B002-ALT1", "question_id": "HB-C8-B002", "text": "A conditionally supportable extension is acceptable if the staffing renewal and throughput dependencies are explicit."}
+{"alternative_id": "HB-C8-F003-ALT1", "question_id": "HB-C8-F003", "text": "Renewed staffing, a relief rotation or another verified staging capability may satisfy the augmentation requirement."}
+{"alternative_id": "HB-C8-A003-ALT1", "question_id": "HB-C8-A003", "text": "Clearance status may be expressed in an activity-by-authority table, with the Kribi assumption separate from EEZ presence."}
+{"alternative_id": "HB-C8-B003-ALT1", "question_id": "HB-C8-B003", "text": "A conditional schedule is acceptable if it allows the relevant national approval lead time."}
+{"alternative_id": "HB-C8-F004-ALT1", "question_id": "HB-C8-F004", "text": "Deferral, an already-approved alternative or a documented timing reserve is acceptable pending the relevant clearance."}
+{"alternative_id": "HB-C8-A004-ALT1", "question_id": "HB-C8-A004", "text": "The functions may be grouped as integration, lift and medical receiving, without naming every embarked subunit."}
+{"alternative_id": "HB-C8-B004-ALT1", "question_id": "HB-C8-B004", "text": "A partial capability loss assessment is acceptable if it identifies exactly which functions remain unverified."}
+{"alternative_id": "HB-C8-F005-ALT1", "question_id": "HB-C8-F005", "text": "Distributed substitute functions across verified platforms are acceptable instead of a one-for-one ship replacement."}
+{"alternative_id": "HB-C8-A005-ALT1", "question_id": "HB-C8-A005", "text": "An ordered timeline is acceptable and may retain D+n notation."}
+{"alternative_id": "HB-C8-B005-ALT1", "question_id": "HB-C8-B005", "text": "A short but unverified integration margin is acceptable without calculating an exact readiness date."}
+{"alternative_id": "HB-C8-F006-ALT1", "question_id": "HB-C8-F006", "text": "A validated interim capability or a delayed dependent commitment can both satisfy the consequence."}
+{"alternative_id": "HB-C8-A006-ALT1", "question_id": "HB-C8-A006", "text": "Significant wave height and visibility may be reported in equivalent units with the original limits preserved."}
+{"alternative_id": "HB-C8-B006-ALT1", "question_id": "HB-C8-B006", "text": "A condition-dependent boarding judgement is acceptable without a numeric probability."}
+{"alternative_id": "HB-C8-F007-ALT1", "question_id": "HB-C8-F007", "text": "Current-condition checks plus a non-boarding observation option are acceptable when the supplied limit is approached."}
+{"alternative_id": "HB-C8-A007-ALT1", "question_id": "HB-C8-A007", "text": "The report may distinguish reach, historical activity and sector geography in separate entries."}
+{"alternative_id": "HB-C8-B007-ALT1", "question_id": "HB-C8-B007", "text": "A qualitative offshore-reach mismatch is acceptable without computing eighty nautical miles."}
+{"alternative_id": "HB-C8-F008-ALT1", "question_id": "HB-C8-F008", "text": "An authorised surface, airborne or partner contribution may meet the uncovered information/support function if reach and integration are verified."}
+{"alternative_id": "HB-C8-A008-ALT1", "question_id": "HB-C8-A008", "text": "Separate capture, current-vessel, hide and hostage-location fields are acceptable."}
+{"alternative_id": "HB-C8-B008-ALT1", "question_id": "HB-C8-B008", "text": "An insufficiency judgement is acceptable if it names the distinct current-site and within-site uncertainties."}
+{"alternative_id": "HB-C8-F009-ALT1", "question_id": "HB-C8-F009", "text": "A dated, confidence-qualified location package can satisfy the information requirement without prescribing collection tactics."}
+{"alternative_id": "HB-C8-A009-ALT1", "question_id": "HB-C8-A009", "text": "A sixteen-person nationality breakdown and a separate released-crew count are acceptable."}
+{"alternative_id": "HB-C8-B009-ALT1", "question_id": "HB-C8-B009", "text": "A current-captive support scope alongside a separate US authority and NEO scope is acceptable."}
+{"alternative_id": "HB-C8-F010-ALT1", "question_id": "HB-C8-F010", "text": "A needs-based receiving plan may remain conditional on release or recovery without inventing medical requirements."}
+{"alternative_id": "HB-C8-A010-ALT1", "question_id": "HB-C8-A010", "text": "A coordination-versus-command map is acceptable if the MMCC pass-through status remains an assumption."}
+{"alternative_id": "HB-C8-B010-ALT1", "question_id": "HB-C8-B010", "text": "A conditionally usable MMCC path is acceptable after distinguishing communications function from actual tasking authority."}
+{"alternative_id": "HB-C8-F011-ALT1", "question_id": "HB-C8-F011", "text": "A tested direct liaison fallback can satisfy the continuity requirement without changing national command relationships."}
+{"alternative_id": "HB-C8-A011-ALT1", "question_id": "HB-C8-A011", "text": "Named national commitments may be grouped in a six-month rotation table while preserving unconfirmed command integration."}
+{"alternative_id": "HB-C8-B011-ALT1", "question_id": "HB-C8-B011", "text": "Conditional feasibility is acceptable if political intent and actual dated allocations are assessed separately."}
+{"alternative_id": "HB-C8-F012-ALT1", "question_id": "HB-C8-F012", "text": "A confirmed rotation calendar with national caveats and support commitments is acceptable."}
+{"alternative_id": "HB-C8-A012-ALT1", "question_id": "HB-C8-A012", "text": "The conjunctive conditions may be listed as a checklist, with preparation and execution powers separate."}
+{"alternative_id": "HB-C8-B012-ALT1", "question_id": "HB-C8-B012", "text": "A necessary-but-not-sufficient explanation is acceptable without formal logical notation."}
+{"alternative_id": "HB-C8-F013-ALT1", "question_id": "HB-C8-F013", "text": "A decision-readiness checklist can be used instead of a prose package if all conditions and the actual authority instrument are identified."}
+{"alternative_id": "HB-C8-A013-ALT1", "question_id": "HB-C8-A013", "text": "The chronology may be reported as conflicting source wording without selecting a current office holder."}
+{"alternative_id": "HB-C8-B013-ALT1", "question_id": "HB-C8-B013", "text": "A task-specific consent requirement is acceptable without predicting the incoming administration’s policy."}
+{"alternative_id": "HB-C8-F014-ALT1", "question_id": "HB-C8-F014", "text": "Diplomatic confirmation of competent authorities and naval support may precede a later task-specific permission decision."}
+{"alternative_id": "HB-C8-A014-ALT1", "question_id": "HB-C8-A014", "text": "A source-attributed coordination/custody checklist is acceptable without treating the packet as general law."}
+{"alternative_id": "HB-C8-B014-ALT1", "question_id": "HB-C8-B014", "text": "Conditional boarding feasibility is acceptable if the receiving custodian, availability and deadline remain explicit."}
+{"alternative_id": "HB-C8-F015-ALT1", "question_id": "HB-C8-F015", "text": "A confirmed alternative custodian or transfer arrangement is acceptable if it meets the stated timing and authority conditions."}
+{"alternative_id": "HB-C8-A015-ALT1", "question_id": "HB-C8-A015", "text": "Separate capability, intent-confidence and indicator-status fields are acceptable."}
+{"alternative_id": "HB-C8-B015-ALT1", "question_id": "HB-C8-B015", "text": "A corroborated change may strengthen or weaken an intent hypothesis without proving it."}
+{"alternative_id": "HB-C8-F016-ALT1", "question_id": "HB-C8-F016", "text": "A decision-linked request comparing new observations with the commercial-ransom baseline is acceptable without prescribing surveillance tactics."}
+{"alternative_id": "HB-C8-A016-ALT1", "question_id": "HB-C8-A016", "text": "Dependencies may be grouped by financial, hide-network and competent-authority functions."}
+{"alternative_id": "HB-C8-B016-ALT1", "question_id": "HB-C8-B016", "text": "A bounded analytical contribution to competent agencies is acceptable while leaving execution decisions with them."}
+{"alternative_id": "HB-C8-F017-ALT1", "question_id": "HB-C8-F017", "text": "A qualified financial/enabler referral with specific missing-data requests is acceptable without naming unverified people."}
+{"alternative_id": "HB-C8-A017-ALT1", "question_id": "HB-C8-A017", "text": "The comparison may use source-attributed prospective advantages and risks without numerical success probabilities."}
+{"alternative_id": "HB-C8-B017-ALT1", "question_id": "HB-C8-B017", "text": "A multidimensional feasibility screen is acceptable without assigning numerical weights to incompatible criteria."}
+{"alternative_id": "HB-C8-F018-ALT1", "question_id": "HB-C8-F018", "text": "A revised option or a request to resource it may be submitted instead of selecting an unsupported posture."}
+{"alternative_id": "HB-C8-A018-ALT1", "question_id": "HB-C8-A018", "text": "Boolean AND/OR notation is acceptable if concurrent end-state conditions remain distinct from alternative termination paths."}
+{"alternative_id": "HB-C8-B018-ALT1", "question_id": "HB-C8-B018", "text": "A truth-condition comparison is acceptable without assuming the discrepancy is a drafting error."}
+{"alternative_id": "HB-C8-F019-ALT1", "question_id": "HB-C8-F019", "text": "A competent transition review may identify which continuing obligations remain after a termination path is met."}
+{"alternative_id": "HB-C9-A001-ALT1", "question_id": "HB-C9-A001", "text": "Equivalent mission wording with the same purpose and limits."}
+{"alternative_id": "HB-C9-A002-ALT1", "question_id": "HB-C9-A002", "text": "Equivalent condition statements retaining partner leadership."}
+{"alternative_id": "HB-C9-A003-ALT1", "question_id": "HB-C9-A003", "text": "A concise recommendation-versus-decision distinction is sufficient."}
+{"alternative_id": "HB-C9-A004-ALT1", "question_id": "HB-C9-A004", "text": "Equivalent authority-and-scope table."}
+{"alternative_id": "HB-C9-A005-ALT1", "question_id": "HB-C9-A005", "text": "Equivalent date format."}
+{"alternative_id": "HB-C9-A006-ALT1", "question_id": "HB-C9-A006", "text": "May mention the separately governed protection/evacuation sequel without treating it as the baseline."}
+{"alternative_id": "HB-C9-A007-ALT1", "question_id": "HB-C9-A007", "text": "Equivalent descriptions retaining the difference between actual activity and its public attribution."}
+{"alternative_id": "HB-C9-A008-ALT1", "question_id": "HB-C9-A008", "text": "May give an approximate early-January horizon without inventing an unconditional end date."}
+{"alternative_id": "HB-C9-A009-ALT1", "question_id": "HB-C9-A009", "text": "Equivalent tabulation with apportionment and allocation clearly separated."}
+{"alternative_id": "HB-C9-A010-ALT1", "question_id": "HB-C9-A010", "text": "Equivalent source-listed results-chain indicators."}
+{"alternative_id": "HB-C9-A011-ALT1", "question_id": "HB-C9-A011", "text": "A qualitative statement of the stated latency constraint is sufficient."}
+{"alternative_id": "HB-C9-A012-ALT1", "question_id": "HB-C9-A012", "text": "Equivalent institutional names and coordination description."}
+{"alternative_id": "HB-C9-A013-ALT1", "question_id": "HB-C9-A013", "text": "Equivalent summary retaining requirements versus vulnerabilities."}
+{"alternative_id": "HB-C9-A014-ALT1", "question_id": "HB-C9-A014", "text": "Equivalent MOP/MOE terminology."}
+{"alternative_id": "HB-C9-A015-ALT1", "question_id": "HB-C9-A015", "text": "Equivalent phrasing without asserting a probability or timing of failure."}
+{"alternative_id": "HB-C9-A016-ALT1", "question_id": "HB-C9-A016", "text": "Majority rather than an exact percentage is acceptable if the dependency is clear."}
+{"alternative_id": "HB-C9-B001-ALT1", "question_id": "HB-C9-B001", "text": "May use distinct objective and end-state indicators rather than those exact labels."}
+{"alternative_id": "HB-C9-B002-ALT1", "question_id": "HB-C9-B002", "text": "A conditional-readiness assessment by activity is acceptable."}
+{"alternative_id": "HB-C9-B003-ALT1", "question_id": "HB-C9-B003", "text": "Can distinguish the D+3 results period from the broader approximate D+30 transition window."}
+{"alternative_id": "HB-C9-B004-ALT1", "question_id": "HB-C9-B004", "text": "A task-by-task scope comparison is acceptable."}
+{"alternative_id": "HB-C9-B005-ALT1", "question_id": "HB-C9-B005", "text": "A critical-path description with unresolved approval durations is acceptable."}
+{"alternative_id": "HB-C9-B006-ALT1", "question_id": "HB-C9-B006", "text": "Equivalent distinction between coordinating access and controlling conclusions."}
+{"alternative_id": "HB-C9-B007-ALT1", "question_id": "HB-C9-B007", "text": "A qualitative assessability judgement supported by named observables is acceptable."}
+{"alternative_id": "HB-C9-B008-ALT1", "question_id": "HB-C9-B008", "text": "Different directional assessments are acceptable if they retain uncertainty and justify both dependencies."}
+{"alternative_id": "HB-C9-B009-ALT1", "question_id": "HB-C9-B009", "text": "A conditional partial-replacement assessment is acceptable."}
+{"alternative_id": "HB-C9-B010-ALT1", "question_id": "HB-C9-B010", "text": "A staged transfer assessment may allow different functions to transition at different times."}
+{"alternative_id": "HB-C9-F001-ALT1", "question_id": "HB-C9-F001", "text": "Qualitative ordinal comparison is acceptable without unsupported numerical probabilities."}
+{"alternative_id": "HB-C9-F002-ALT1", "question_id": "HB-C9-F002", "text": "A release checklist or approval matrix is acceptable."}
+{"alternative_id": "HB-C9-F003-ALT1", "question_id": "HB-C9-F003", "text": "A dated coverage matrix with a contingency handover is acceptable; no particular extra unit is prescribed."}
+{"alternative_id": "HB-C9-F004-ALT1", "question_id": "HB-C9-F004", "text": "An FFIR with qualitative change triggers is acceptable."}
+{"alternative_id": "HB-C9-F005-ALT1", "question_id": "HB-C9-F005", "text": "Deferral, resequencing or another independently authorized support activity is acceptable when its implications are made explicit."}
+{"alternative_id": "HB-C9-F005-ALT2", "question_id": "HB-C9-F005", "text": "A changed-support decision record may implement the same action as an updated schedule."}
+{"alternative_id": "HB-C9-F006-ALT1", "question_id": "HB-C9-F006", "text": "A conditional assessment branch is acceptable."}
+{"alternative_id": "HB-C9-F007-ALT1", "question_id": "HB-C9-F007", "text": "A verified alternative indicator or a revised assessment design can satisfy the requirement."}
+{"alternative_id": "HB-C9-F007-ALT2", "question_id": "HB-C9-F007", "text": "The commander may accept a documented assessment limitation; this does not convert it into measured effectiveness."}
+{"alternative_id": "HB-C9-F008-ALT1", "question_id": "HB-C9-F008", "text": "A branch-planning task with explicit review products is acceptable."}
+{"alternative_id": "HB-C9-F009-ALT1", "question_id": "HB-C9-F009", "text": "A power-support capacity check or decision-linked information requirement is acceptable; no specific engineering remedy is mandated."}
+{"alternative_id": "HB-C9-F010-ALT1", "question_id": "HB-C9-F010", "text": "A function-specific handover checklist with partner acceptance is acceptable."}
+{"alternative_id": "HB-C10-A001-ALT1", "question_id": "HB-C10-A001", "text": "Equivalent mission wording retaining area, purpose, lead and validation conditions."}
+{"alternative_id": "HB-C10-A002-ALT1", "question_id": "HB-C10-A002", "text": "Conditions may be listed without reproducing the order verbatim."}
+{"alternative_id": "HB-C10-A003-ALT1", "question_id": "HB-C10-A003", "text": "Equivalent labels with the same functions and parallel relationship."}
+{"alternative_id": "HB-C10-A004-ALT1", "question_id": "HB-C10-A004", "text": "May give the equivalent date and UTC time."}
+{"alternative_id": "HB-C10-A006-ALT1", "question_id": "HB-C10-A006", "text": "Equivalent dependency descriptions without claiming every installation has failed identically."}
+{"alternative_id": "HB-C10-A008-ALT1", "question_id": "HB-C10-A008", "text": "Equivalent metric runway lengths and explicit conditional status."}
+{"alternative_id": "HB-C10-A009-ALT1", "question_id": "HB-C10-A009", "text": "Force roles may be grouped if every named capability group is retained."}
+{"alternative_id": "HB-C10-A010-ALT1", "question_id": "HB-C10-A010", "text": "Equivalent grouping that preserves the separate reasons for unavailability."}
+{"alternative_id": "HB-C10-A011-ALT1", "question_id": "HB-C10-A011", "text": "Named Okinawa nodes may substitute for the island-level description."}
+{"alternative_id": "HB-C10-A012-ALT1", "question_id": "HB-C10-A012", "text": "Equivalent capability categories without invented quantities or arrival dates."}
+{"alternative_id": "HB-C10-A013-ALT1", "question_id": "HB-C10-A013", "text": "Qualitative worsening/improving descriptions with the stated trend retained."}
+{"alternative_id": "HB-C10-A014-ALT1", "question_id": "HB-C10-A014", "text": "A concise authority-and-condition table is acceptable."}
+{"alternative_id": "HB-C10-A015-ALT1", "question_id": "HB-C10-A015", "text": "Legal titles may be abbreviated accurately; this is source retrieval, not an independent legal opinion."}
+{"alternative_id": "HB-C10-A016-ALT1", "question_id": "HB-C10-A016", "text": "Moderate-to-high confidence in capability is acceptable because the source documents use both formulations."}
+{"alternative_id": "HB-C10-A017-ALT1", "question_id": "HB-C10-A017", "text": "Alternative source-listed indicators are acceptable."}
+{"alternative_id": "HB-C10-A019-ALT1", "question_id": "HB-C10-A019", "text": "Explicitly stating that actual diversion may be absent is acceptable."}
+{"alternative_id": "HB-C10-A020-ALT1", "question_id": "HB-C10-A020", "text": "Equivalent descriptions of the listed rumours and accurate approval roles."}
+{"alternative_id": "HB-C10-A021-ALT1", "question_id": "HB-C10-A021", "text": "Listing all five individually is acceptable."}
+{"alternative_id": "HB-C10-A022-ALT1", "question_id": "HB-C10-A022", "text": "Low but not zero is an acceptable paraphrase of negligible assessed threat with continuing self-defence."}
+{"alternative_id": "HB-C10-A023-ALT1", "question_id": "HB-C10-A023", "text": "Equivalent conditional phrasing."}
+{"alternative_id": "HB-C10-A024-ALT1", "question_id": "HB-C10-A024", "text": "Relevant cellular, microwave and fibre limitations may be grouped."}
+{"alternative_id": "HB-C10-B001-ALT1", "question_id": "HB-C10-B001", "text": "May identify aircraft-specific suitability, debris, access or ground support as checks without inventing technical thresholds."}
+{"alternative_id": "HB-C10-B002-ALT1", "question_id": "HB-C10-B002", "text": "Any equivalent end-to-end link assessment retaining the missing local check."}
+{"alternative_id": "HB-C10-B003-ALT1", "question_id": "HB-C10-B003", "text": "Another verifiable public-information channel can be proposed in addition, without replacing the required radio-status inquiry for the source item."}
+{"alternative_id": "HB-C10-B004-ALT1", "question_id": "HB-C10-B004", "text": "A qualitative conditional risk assessment is sufficient."}
+{"alternative_id": "HB-C10-B005-ALT1", "question_id": "HB-C10-B005", "text": "May conclude that a bounded initial flow is feasible while expansion remains conditional."}
+{"alternative_id": "HB-C10-B006-ALT1", "question_id": "HB-C10-B006", "text": "A demand-capacity comparison with unresolved inputs is acceptable."}
+{"alternative_id": "HB-C10-B007-ALT1", "question_id": "HB-C10-B007", "text": "A comparison of dispatched, received and usable quantities is acceptable."}
+{"alternative_id": "HB-C10-B008-ALT1", "question_id": "HB-C10-B008", "text": "No actual delay need be asserted because approval timestamps are absent."}
+{"alternative_id": "HB-C10-B009-ALT1", "question_id": "HB-C10-B009", "text": "May conclude no diversion if reconciled records support that outcome."}
+{"alternative_id": "HB-C10-B010-ALT1", "question_id": "HB-C10-B010", "text": "May analyse one assumption at a time if all specified categories are covered."}
+{"alternative_id": "HB-C10-B011-ALT1", "question_id": "HB-C10-B011", "text": "A time-bounded working assumption with an explicit trigger is acceptable."}
+{"alternative_id": "HB-C10-B012-ALT1", "question_id": "HB-C10-B012", "text": "A staged, function-specific transition assessment is acceptable."}
+{"alternative_id": "HB-C10-F001-ALT1", "question_id": "HB-C10-F001", "text": "A survey task, FFIR or decision-linked checklist is acceptable."}
+{"alternative_id": "HB-C10-F002-ALT1", "question_id": "HB-C10-F002", "text": "An FFIR plus a communications coordination task is acceptable."}
+{"alternative_id": "HB-C10-F003-ALT1", "question_id": "HB-C10-F003", "text": "A named staff information request with no invented station/frequency is acceptable."}
+{"alternative_id": "HB-C10-F004-ALT1", "question_id": "HB-C10-F004", "text": "An explicit FFIR or equivalent decision-linked readiness report is acceptable."}
+{"alternative_id": "HB-C10-F005-ALT1", "question_id": "HB-C10-F005", "text": "Availability duration, committed capability or qualified qualitative risk can operationalise the criterion if sourced."}
+{"alternative_id": "HB-C10-F006-ALT1", "question_id": "HB-C10-F006", "text": "A supportability gate or qualitative comparison with an auditable resource basis is acceptable."}
+{"alternative_id": "HB-C10-F007-ALT1", "question_id": "HB-C10-F007", "text": "Time to meet a validated service gap or verified delivery milestone is acceptable."}
+{"alternative_id": "HB-C10-F008-ALT1", "question_id": "HB-C10-F008", "text": "A staged transfer-readiness criterion is acceptable."}
+{"alternative_id": "HB-C10-F009-ALT1", "question_id": "HB-C10-F009", "text": "Phasing deliveries, prioritising validated critical loads or an authority-approved alternative mode can qualify; no particular invented asset is mandatory."}
+{"alternative_id": "HB-C10-F010-ALT1", "question_id": "HB-C10-F010", "text": "A release checklist or approval-status board with named institutional owners is acceptable."}
+{"alternative_id": "HB-C10-F011-ALT1", "question_id": "HB-C10-F011", "text": "A request establishing whether, where and how much loss remains, paired with records reconciliation and Japanese liaison, is acceptable."}
+{"alternative_id": "HB-C10-F011-ALT2", "question_id": "HB-C10-F011", "text": "A finding of recording lag, accidental loss or unresolved cause is acceptable when supported; diversion is not a compulsory result."}
+{"alternative_id": "HB-C10-F012-ALT1", "question_id": "HB-C10-F012", "text": "A branch-planning and decision-gate process is acceptable; immediate wholesale mission termination is not mandatory."}
+{"alternative_id": "HB-C10-F013-ALT1", "question_id": "HB-C10-F013", "text": "A time-bounded assumption with an explicit review trigger and interface action is acceptable."}
+{"alternative_id": "HB-C10-F014-ALT1", "question_id": "HB-C10-F014", "text": "A decision request or change-control entry is acceptable."}

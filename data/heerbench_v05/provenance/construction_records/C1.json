@@ -1,0 +1,3147 @@
+{
+  "case_id": "C1",
+  "questions": [
+    {
+      "question_id": "HB-C1-A001",
+      "case_id": "C1",
+      "abf_stage": "A",
+      "title": "Arctic operating constraints",
+      "question": "What environmental conditions and operating restrictions are reported for surface, air and seabed work in SILENT FATHOM?",
+      "expected_answer": "Near-continuous polar night, prevailing sea state 4–6, persistent icing and a shifting northern ice edge restrict surface, aviation, repair and seabed-system operations. Weather windows are narrow. Acoustic gradients, layering and shallow-shelf reverberation also complicate localization and forensic interpretation.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C1-A001-R1",
+          "text": "Identifies near-continuous darkness.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A001-R2",
+          "text": "Identifies prevailing sea state 4–6.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A001-R3",
+          "text": "Identifies narrow operating windows.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A001-R4",
+          "text": "Identifies icing as an operating restriction.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A001-R5",
+          "text": "Identifies the moving ice edge as an access restriction.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A001-R6",
+          "text": "Identifies the reported acoustic localization limitations.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A concise table separating surface, aviation and seabed restrictions is acceptable."
+      ],
+      "error_conditions": [
+        "Claims that darkness or acoustic ambiguity prevents every observation.",
+        "Invents an exact weather-window duration."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C1:D06",
+          "line_start": 56,
+          "line_end": 68,
+          "support": "Weather and its reported effects"
+        },
+        {
+          "doc_id": "C1:D08",
+          "line_start": 25,
+          "line_end": 27,
+          "support": "Acoustic effects"
+        }
+      ],
+      "source_item_uids": [
+        "C1:S2-56",
+        "C1:S2-57",
+        "C1:S2-58",
+        "C1:S2-60",
+        "C1:S7-08"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C1-A002",
+      "case_id": "C1",
+      "abf_stage": "A",
+      "title": "Commercial restoration control",
+      "question": "Who controls the contracted cable-repair ship and its schedule, and what military role is specified?",
+      "expected_answer": "The ship is contracted to cable operators and is outside military command. Operators control restoration priorities and schedule, subject to weather. The military provides protection and escort, including the repair task at Cut Site B, and coordinates with the operators.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C1-A002-R1",
+          "text": "States that cable operators control the commercial repair ship.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A002-R2",
+          "text": "States that repair timing is weather-dependent.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A002-R3",
+          "text": "Identifies escort/protection as the military role.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Commercial operator-led restoration with military coordination is equivalent wording."
+      ],
+      "error_conditions": [
+        "Orders the commercial ship as an allocated naval unit."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C1:D04",
+          "line_start": 61,
+          "line_end": 65,
+          "support": "Commercial control and repair escort"
+        },
+        {
+          "doc_id": "C1:D07",
+          "line_start": 119,
+          "line_end": 120,
+          "support": "Specified escort task"
+        }
+      ],
+      "source_item_uids": [
+        "C1:S3-02-n",
+        "C1:C1-GAP-12"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C1-A003",
+      "case_id": "C1",
+      "abf_stage": "A",
+      "title": "Allocated maritime support",
+      "question": "Which US maritime support assets are actually allocated at the start of SILENT FATHOM, and how does this differ from apportionment?",
+      "expected_answer": "Up to two surface combatants, one SSN, patrol sorties and an ocean-surveillance ship are apportioned. USS Stockbridge is the allocated surface lead and repair escort. USNS Cascadia is allocated for seabed/acoustic forensics. USS Cheyenne has separate ISR/seabed tasking and is not available to the surface escort effort. Patrol and high-altitude ISR are weather/PNT constrained.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C1-A003-R1",
+          "text": "Distinguishes the two-surface apportionment ceiling from the one allocated surface lead.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A003-R2",
+          "text": "Identifies Stockbridge as the allocated escort.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A003-R3",
+          "text": "Identifies Cascadia for forensics.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A003-R4",
+          "text": "States Cheyenne is separately tasked and not an escort allocation.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Omit high-altitude ISR details if the apportionment/allocation distinction is complete."
+      ],
+      "error_conditions": [
+        "Counts Chesapeake or Cheyenne as immediately available additional escorts."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C1:D04",
+          "line_start": 23,
+          "line_end": 45,
+          "support": "Apportionment versus actual allocation"
+        }
+      ],
+      "source_item_uids": [
+        "C1:S2-39",
+        "C1:S2-40",
+        "C1:S2-41a",
+        "C1:S2-41b",
+        "C1:S2-42a"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C1-B001",
+      "case_id": "C1",
+      "abf_stage": "B",
+      "title": "Concurrent repair readiness",
+      "question": "How should the staff assess whether a proposed repair opportunity at Cut Site B is executable when the operator, escort and forensic support are considered together?",
+      "expected_answer": "A weather opportunity or a repair-ship date alone does not establish executability. Commercial repair readiness, the allocated escort commitment and any required forensic support must overlap within their operating limits. Separate ownership and limited allocated capacity can make a nominally available window unusable.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C1-B001-R1",
+          "text": "Distinguishes a single asset/weather opportunity from joint readiness.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-B001-R2",
+          "text": "Identifies the need for overlapping operator and military availability.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-B001-R3",
+          "text": "Uses actual allocated support rather than the apportionment ceiling.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-B001-R4",
+          "text": "Retains the stated environmental operating restrictions.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A dependency or critical-path explanation is acceptable without computing unsupported durations."
+      ],
+      "error_conditions": [
+        "Assumes all apportioned platforms are on hand.",
+        "Treats a forecast weather opening as an order to the commercial ship."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C1:D04",
+          "line_start": 35,
+          "line_end": 45,
+          "support": "Actual support"
+        },
+        {
+          "doc_id": "C1:D04",
+          "line_start": 61,
+          "line_end": 65,
+          "support": "Commercial scheduling"
+        },
+        {
+          "doc_id": "C1:D06",
+          "line_start": 65,
+          "line_end": 68,
+          "support": "Different operating constraints"
+        }
+      ],
+      "source_item_uids": [],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Derived conjunction of independently supplied readiness conditions, not the source statement that bad weather delays repairs.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C1-F001",
+      "case_id": "C1",
+      "abf_stage": "F",
+      "title": "Joint repair readiness check",
+      "question": "What concrete coordination product should be prepared before confirming a Cut Site B repair window?",
+      "expected_answer": "Prepare a jointly confirmed window record with the operator’s repair readiness, Stockbridge escort availability, required Cascadia forensic support and current weather/PNT restrictions. Record the responsible confirmation point for each dependency. If a required element does not overlap, return the proposed window for coordinated rescheduling or an authorized support adjustment rather than confirming it.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C1-F001-R1",
+          "text": "Requires operator confirmation of the proposed window.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-F001-R2",
+          "text": "Requires confirmation of actual military support for the same window.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-F001-R3",
+          "text": "Requires recoordination when a necessary dependency is unmet.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A readiness matrix, synchronized schedule or jointly checked go/no-go record is acceptable.",
+        "Forensics can be scheduled separately if its separation is explicitly justified and does not misrepresent availability."
+      ],
+      "error_conditions": [
+        "Unilaterally retasks the commercial ship or independently tasked SSN.",
+        "Invents an approved substitute escort."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C1:D04",
+          "line_start": 35,
+          "line_end": 45,
+          "support": "Allocated capacity"
+        },
+        {
+          "doc_id": "C1:D04",
+          "line_start": 61,
+          "line_end": 65,
+          "support": "Operator control"
+        },
+        {
+          "doc_id": "C1:D06",
+          "line_start": 65,
+          "line_end": 68,
+          "support": "Operating restrictions"
+        }
+      ],
+      "source_item_uids": [],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C1-A004",
+      "case_id": "C1",
+      "abf_stage": "A",
+      "title": "Cable service and fault status",
+      "question": "What are the reported functions and current fault states of the four affected infrastructure systems?",
+      "expected_answer": "SVL links Longyearbyen/SvalSat with Harstad and carries allied communications and financial data. SVL-2 was severed on 7 January and SVL-1 carries the residual connection without redundancy. Boreal Connect carries transatlantic communications/data and had a partial fault on 9 January. NDL, the Finnmark coastal data link, has intermittent faults from 11 January. Arctic Bridge is an HVDC power link with a 12 January protective trip and suspected anchor-drag damage, not a confirmed deliberate cut.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C1-A004-R1",
+          "text": "Identifies SVL carriage of Svalbard/SvalSat connectivity.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A004-R2",
+          "text": "Identifies SVL carriage of allied military communications.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A004-R3",
+          "text": "Identifies SVL carriage of financial data.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A004-R4",
+          "text": "States that SVL-1 carries the residual connection without redundancy after SVL-2 severance.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A004-R5",
+          "text": "Identifies Boreal Connect as the transatlantic data/communications system.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A004-R6",
+          "text": "States the reported Boreal Connect fault is partial.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A004-R7",
+          "text": "Identifies NDL as the Finnmark coastal data link.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A004-R8",
+          "text": "States NDL has intermittent faults.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A004-R9",
+          "text": "Identifies Arctic Bridge as an HVDC power link.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A004-R10",
+          "text": "Preserves the protective-trip/preliminary suspected-anchor-damage status.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Dates may be presented in a compact incident table."
+      ],
+      "error_conditions": [
+        "Calls all four incidents confirmed severings or deliberate sabotage.",
+        "Calls Arctic Bridge a data cable."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C1:D05",
+          "line_start": 59,
+          "line_end": 68,
+          "support": "Four systems and fault status"
+        },
+        {
+          "doc_id": "C1:D02",
+          "line_start": 23,
+          "line_end": 26,
+          "support": "Incident qualifications"
+        }
+      ],
+      "source_item_uids": [
+        "C1:S2-01-n",
+        "C1:S2-02-n",
+        "C1:S2-03-n",
+        "C1:S2-08-n",
+        "C1:C1-GAP-11"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C1-A005",
+      "case_id": "C1",
+      "abf_stage": "A",
+      "title": "Restoration priority and information gaps",
+      "question": "What priority rule and unresolved information are supplied for CUI restoration?",
+      "expected_answer": "The commander directs priority by military-communications dependency, not length or commercial value. Precise dependency by affected cable and realistic restoration timing remain information gaps. Desired restoration and the military transition-off condition are not yet fully specified.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C1-A005-R1",
+          "text": "States military-dependency prioritization.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A005-R2",
+          "text": "Identifies missing precise cable-service dependency information.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A005-R3",
+          "text": "Identifies missing realistic restoration timing.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A005-R4",
+          "text": "Identifies the unresolved military transition criterion.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Distinguish the strategic desired end state from the information still needed to implement it."
+      ],
+      "error_conditions": [
+        "Treats initial desired end conditions as fully measurable completion criteria."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C1:D10",
+          "line_start": 24,
+          "line_end": 24,
+          "support": "Priority rule"
+        },
+        {
+          "doc_id": "C1:D10",
+          "line_start": 36,
+          "line_end": 44,
+          "support": "Incomplete end conditions"
+        },
+        {
+          "doc_id": "C1:D02",
+          "line_start": 74,
+          "line_end": 74,
+          "support": "Dependency and timing gap"
+        }
+      ],
+      "source_item_uids": [
+        "C1:S1-04-n"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C1-B002",
+      "case_id": "C1",
+      "abf_stage": "B",
+      "title": "Decision readiness of restoration ranking",
+      "question": "What can and cannot be concluded about a final restoration ranking from the reported fault severity and service descriptions?",
+      "expected_answer": "The source supports high concern for residual SVL connectivity and shared allied communications, but it does not supply a complete quantitative dependency, alternative-carriage or restoration-time comparison. A final ranking based only on severed versus partial fault or on cable size would confuse damage severity with operational service consequence. The ranking remains provisional until those dependencies are compared.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C1-B002-R1",
+          "text": "Distinguishes physical fault status from service consequence.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-B002-R2",
+          "text": "Recognizes the specific residual-SVL concern.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-B002-R3",
+          "text": "Identifies why a complete ranking remains underdetermined.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A conditional ranking is acceptable if assumptions and missing comparisons are explicit."
+      ],
+      "error_conditions": [
+        "Ranks solely by commercial value, cable length or user count.",
+        "Invents capacity or restoration durations."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C1:D05",
+          "line_start": 63,
+          "line_end": 68,
+          "support": "Differing functions and faults"
+        },
+        {
+          "doc_id": "C1:D02",
+          "line_start": 74,
+          "line_end": 74,
+          "support": "Unknown detailed dependency"
+        },
+        {
+          "doc_id": "C1:D10",
+          "line_start": 24,
+          "line_end": 24,
+          "support": "Priority rule"
+        }
+      ],
+      "source_item_uids": [],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C1-F002",
+      "case_id": "C1",
+      "abf_stage": "F",
+      "title": "Restoration decision register",
+      "question": "What staff work is required to turn the current CUI picture into a defensible restoration-priority decision?",
+      "expected_answer": "Obtain an operator and DHS/CISA-supported service-impact record for each candidate repair showing affected military functions, residual/alternative carriage and expected restoration time. Present a provisional priority with its missing confirmations and the condition for revising it. Link the proposed military-support transition criterion to verified service recovery rather than simply completion of a cable repair.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C1-F002-R1",
+          "text": "Requires a per-system service/dependency comparison.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-F002-R2",
+          "text": "Requires a per-system restoration-time comparison.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-F002-R3",
+          "text": "Separates confirmed facts from assumptions in the priority recommendation.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-F002-R4",
+          "text": "Connects military-support transition to verified service recovery.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A decision matrix or service-dependency brief is acceptable.",
+        "No specific priority is mandatory while required data remain absent."
+      ],
+      "error_conditions": [
+        "Claims that repairing one cable automatically restores every dependent service."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C1:D02",
+          "line_start": 74,
+          "line_end": 74,
+          "support": "Outstanding information"
+        },
+        {
+          "doc_id": "C1:D04",
+          "line_start": 20,
+          "line_end": 21,
+          "support": "Dependency-analysis coordination"
+        },
+        {
+          "doc_id": "C1:D10",
+          "line_start": 36,
+          "line_end": 44,
+          "support": "Transition definition gap"
+        }
+      ],
+      "source_item_uids": [],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C1-A006",
+      "case_id": "C1",
+      "abf_stage": "A",
+      "title": "National and multinational coordination",
+      "question": "Which command and coordination relationships govern the US and Allied maritime effort?",
+      "expected_answer": "USEUCOM acts in its US national capacity, with NAVEUR-6F as supported maritime component and TF-65/CTF-67 forward elements. Norway is host and lead. Norwegian, UK and SNMG1 contributions retain their respective national/NATO command arrangements. The MARCOM CUI Cell and Norwegian Joint HQ coordinate contributions, and the Cell does not command national forces. SPACECOM supports PNT, CYBERCOM attribution, and DoS/DOJ-FBI/DHS-CISA have diplomatic, investigation and dependency roles.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C1-A006-R1",
+          "text": "Identifies USEUCOM acting in its national capacity.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A006-R2",
+          "text": "Identifies NAVEUR-6F as supported maritime component.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A006-R3",
+          "text": "Identifies Norway as host/lead.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A006-R4",
+          "text": "Preserves separate national/NATO command arrangements for Allied contributions.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A006-R5",
+          "text": "Distinguishes MARCOM coordination from command.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A006-R6",
+          "text": "Identifies SPACECOM support for PNT.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A006-R7",
+          "text": "Identifies CYBERCOM attribution support.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A006-R8",
+          "text": "Identifies DoS diplomatic coordination.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A006-R9",
+          "text": "Identifies DOJ/FBI investigation support.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A006-R10",
+          "text": "Identifies DHS/CISA dependency-analysis support.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A relationship table is acceptable without commanders’ personal names."
+      ],
+      "error_conditions": [
+        "Treats the dual-hatted commander as having activated NATO command through this US order."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C1:D04",
+          "line_start": 14,
+          "line_end": 21,
+          "support": "US/support architecture"
+        },
+        {
+          "doc_id": "C1:D04",
+          "line_start": 49,
+          "line_end": 65,
+          "support": "Allied relationships and coordination"
+        }
+      ],
+      "source_item_uids": [
+        "C1:S1-08-n",
+        "C1:S1-18",
+        "C1:S1-22a",
+        "C1:S1-22b",
+        "C1:S1-22c",
+        "C1:S1-22d",
+        "C1:S2-36a",
+        "C1:S2-36b"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C1-A007",
+      "case_id": "C1",
+      "abf_stage": "A",
+      "title": "Scenario authority limits",
+      "question": "What permissions and restraints does the packet give for vessel interaction and public attribution?",
+      "expected_answer": "The scenario remains below armed conflict and Article 5 is not invoked. Boarding, seizure or diversion in international waters requires a positive legal determination and separately granted authority. Cable damage alone does not create general third-state enforcement authority over a foreign-flagged vessel. Public attribution requires NCA and NATO coordination. The Svalbard regime constrains posture and requires coordination with Norway.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C1-A007-R1",
+          "text": "Preserves the below-armed-conflict limit.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A007-R2",
+          "text": "Identifies Article 4 consultation without Article 5 invocation.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A007-R3",
+          "text": "Requires a positive legal determination for the stated vessel action.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A007-R4",
+          "text": "Requires a separate grant of authority for the stated vessel action.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A007-R5",
+          "text": "Identifies the NCA public-attribution release condition.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A007-R6",
+          "text": "Identifies required NATO coordination for public attribution.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A007-R7",
+          "text": "Identifies Svalbard/Norwegian posture coordination.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Paraphrase the packet’s legal assumptions rather than make independent claims about current law."
+      ],
+      "error_conditions": [
+        "Infers interdiction authority from identification or proximity alone.",
+        "Invokes Article 5 or an unrestricted Svalbard military permission."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C1:D07",
+          "line_start": 129,
+          "line_end": 140,
+          "support": "Scenario restraints"
+        },
+        {
+          "doc_id": "C1:D09",
+          "line_start": 15,
+          "line_end": 35,
+          "support": "Legal prerequisites"
+        }
+      ],
+      "source_item_uids": [
+        "C1:S1-03-n",
+        "C1:S1-15",
+        "C1:S1-16",
+        "C1:S3-05-n",
+        "C1:S4-02-n",
+        "C1:S4-03-n",
+        "C1:S2-50",
+        "C1:S2-51"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C1-B003",
+      "case_id": "C1",
+      "abf_stage": "B",
+      "title": "Support availability versus authority",
+      "question": "How does the availability of an Allied ship affect the readiness of a proposed multinational support task requiring national approval?",
+      "expected_answer": "An available hull supplies physical capacity, but does not establish national release, compatible caveats or consent for the proposed activity. MARCOM coordination and a US planning direction cannot substitute for an Allied national decision. Similarly, stronger attribution does not by itself clear a separate legal or public-release gate.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C1-B003-R1",
+          "text": "Separates physical availability from national approval and caveats.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-B003-R2",
+          "text": "States that coordination does not transfer command authority.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-B003-R3",
+          "text": "Separates attribution confidence from legal/release authorization.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Use an approval-dependency description without recommending a particular coercive task."
+      ],
+      "error_conditions": [
+        "Claims a US or MARCOM tasking overrides national caveats."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C1:D04",
+          "line_start": 49,
+          "line_end": 69,
+          "support": "Caveats and national chains"
+        },
+        {
+          "doc_id": "C1:D07",
+          "line_start": 133,
+          "line_end": 140,
+          "support": "Distinct authority gates"
+        }
+      ],
+      "source_item_uids": [],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C1-F003",
+      "case_id": "C1",
+      "abf_stage": "F",
+      "title": "Contribution acceptance record",
+      "question": "What should the staff obtain and record before counting an Allied contribution in a confirmed support commitment?",
+      "expected_answer": "Obtain the contributing national or NATO authority’s confirmation of the specific support task, availability period and relevant caveats. Record the coordinating interface and unresolved permissions separately from asset availability. Escalate an unresolved release or legal condition through its responsible authority rather than mark the contribution committed on the basis of a coordination meeting.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C1-F003-R1",
+          "text": "Requires contributor confirmation for the particular task and period.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-F003-R2",
+          "text": "Separately records permissions/caveats and physical availability.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-F003-R3",
+          "text": "Refers unresolved conditions to their responsible authority.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A contribution matrix or signed coordination record is acceptable."
+      ],
+      "error_conditions": [
+        "Treats silence or liaison attendance as granted task authority."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C1:D04",
+          "line_start": 49,
+          "line_end": 69,
+          "support": "National controls and coordinating interface"
+        },
+        {
+          "doc_id": "C1:D07",
+          "line_start": 133,
+          "line_end": 140,
+          "support": "Reserved permissions"
+        }
+      ],
+      "source_item_uids": [],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C1-A008",
+      "case_id": "C1",
+      "abf_stage": "A",
+      "title": "Attribution qualifications",
+      "question": "What distinctions do the intelligence products make among Russian capability, incident attribution and intent?",
+      "expected_answer": "The regional summary gives high confidence in capability but low confidence in intent and conclusive attribution. AIS gaps/proximity and accident-plausible mechanisms are suggestive rather than proof. The later JIPOE calls Russian responsibility for the pattern probable with high confidence but conclusive state direction low–moderate. Research/commercial cover and genuine accident frequency sustain ambiguity. The commander’s problem framing uses stronger deliberate-act language.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C1-A008-R1",
+          "text": "Separates capability from attribution and intent.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A008-R2",
+          "text": "Retains the non-conclusive status of vessel proximity and accident-like damage.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A008-R3",
+          "text": "Preserves product-specific differences in confidence.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A008-R4",
+          "text": "Identifies research/commercial cover as an ambiguity mechanism.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A008-R5",
+          "text": "Identifies the genuine accidental-fault baseline as an ambiguity mechanism.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A source-by-source comparison is preferable to averaging confidence labels."
+      ],
+      "error_conditions": [
+        "Treats high capability confidence as confirmed incident responsibility."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C1:D02",
+          "line_start": 14,
+          "line_end": 16,
+          "support": "Regional confidence"
+        },
+        {
+          "doc_id": "C1:D02",
+          "line_start": 39,
+          "line_end": 41,
+          "support": "Proximity limitations"
+        },
+        {
+          "doc_id": "C1:D03",
+          "line_start": 76,
+          "line_end": 84,
+          "support": "Deniability assessment"
+        },
+        {
+          "doc_id": "C1:D08",
+          "line_start": 40,
+          "line_end": 44,
+          "support": "JIPOE framing"
+        },
+        {
+          "doc_id": "C1:D10",
+          "line_start": 17,
+          "line_end": 18,
+          "support": "Commander framing"
+        }
+      ],
+      "source_item_uids": [
+        "C1:S5-02-n",
+        "C1:S6-02-n",
+        "C1:S6-01",
+        "C1:S6-02",
+        "C1:S6-03",
+        "C1:S2-69"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C1-B004",
+      "case_id": "C1",
+      "abf_stage": "B",
+      "title": "Readiness of attribution claim",
+      "question": "How should the staff judge whether the existing packet supports one unqualified public claim of state responsibility for every fault?",
+      "expected_answer": "It does not support a single unqualified per-incident claim. The products differ in scope, time and confidence, and a command problem statement is not additional forensic corroboration. Capability, probable pattern responsibility and conclusive direction of each event must remain separate. The HVDC preliminary anchor-damage account is particularly unsuitable for automatic relabelling as a confirmed deliberate cut.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C1-B004-R1",
+          "text": "Rejects unqualified transfer from pattern assessment to every incident.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-B004-R2",
+          "text": "Separates command framing from additional corroboration.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-B004-R3",
+          "text": "Preserves the HVDC event qualification.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A conditional incident-specific conclusion is acceptable."
+      ],
+      "error_conditions": [
+        "Uses the commander’s wording to erase the intelligence caveats."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C1:D02",
+          "line_start": 16,
+          "line_end": 26,
+          "support": "Confidence and HVDC facts"
+        },
+        {
+          "doc_id": "C1:D08",
+          "line_start": 40,
+          "line_end": 42,
+          "support": "Pattern versus incident confidence"
+        },
+        {
+          "doc_id": "C1:D10",
+          "line_start": 17,
+          "line_end": 18,
+          "support": "Stronger command framing"
+        }
+      ],
+      "source_item_uids": [],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C1-F004",
+      "case_id": "C1",
+      "abf_stage": "F",
+      "title": "Attribution reconciliation task",
+      "question": "What concrete analytical work should precede submission of a public attribution recommendation?",
+      "expected_answer": "Prepare an incident-by-incident reconciliation that records the claim, source date, confidence and supporting observations, and distinguishes observed damage from mechanism and state-direction assessments. Request J2/forensic reconciliation of the regional-summary, JIPOE and command-framing differences. Submit the resulting qualified recommendation through the stated NCA/NATO release process without treating the reconciliation itself as release authority.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C1-F004-R1",
+          "text": "Requires an incident-specific claim/source/confidence record.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-F004-R2",
+          "text": "Requires reconciliation of the identified product differences.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-F004-R3",
+          "text": "Preserves the separate release process.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "An annotated attribution matrix or reconciliation note is acceptable."
+      ],
+      "error_conditions": [
+        "Publishes an attribution solely because analysts completed the matrix."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C1:D02",
+          "line_start": 16,
+          "line_end": 26,
+          "support": "Incident distinctions"
+        },
+        {
+          "doc_id": "C1:D08",
+          "line_start": 40,
+          "line_end": 42,
+          "support": "Assessment scope"
+        },
+        {
+          "doc_id": "C1:D07",
+          "line_start": 139,
+          "line_end": 139,
+          "support": "Release gate"
+        }
+      ],
+      "source_item_uids": [],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C1-A009",
+      "case_id": "C1",
+      "abf_stage": "A",
+      "title": "PNT effects and resilience status",
+      "question": "What friendly effects and mitigation status are reported for PNT disruption?",
+      "expected_answer": "The jamming affects navigation safety, sensor performance and timing-dependent systems. It complicates station-keeping and deconfliction needed for repair and forensics. The protection estimate rates the risk HIGH and says alternate-navigation fits and procedures are uneven. SPACECOM coordination and alternate navigation are directed mitigations, not confirmation that every platform is ready.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C1-A009-R1",
+          "text": "Identifies friendly navigation effects of PNT disruption.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A009-R2",
+          "text": "Identifies friendly sensor-performance effects.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A009-R3",
+          "text": "Identifies effects on timing-dependent systems.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A009-R4",
+          "text": "Identifies the connection to station-keeping/forensics.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A009-R5",
+          "text": "States the supplied HIGH protection-risk rating.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A009-R6",
+          "text": "States that alternate-navigation fits/procedures are uneven.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Different ordering of these effects is acceptable."
+      ],
+      "error_conditions": [
+        "Treats jamming only as a cue to adversary activity."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C1:D11",
+          "line_start": 37,
+          "line_end": 41,
+          "support": "Protection risk and uneven fits"
+        },
+        {
+          "doc_id": "C1:D06",
+          "line_start": 68,
+          "line_end": 68,
+          "support": "Station-keeping"
+        },
+        {
+          "doc_id": "C1:D09",
+          "line_start": 39,
+          "line_end": 41,
+          "support": "Directed coordination"
+        }
+      ],
+      "source_item_uids": [
+        "C1:S7-03-n"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C1-B005",
+      "case_id": "C1",
+      "abf_stage": "B",
+      "title": "Validity of blanket PNT readiness",
+      "question": "How should a general statement that alternate navigation has been activated be used when assessing repair and forensic readiness?",
+      "expected_answer": "It is not sufficient to certify the entire support package. Uneven platform fits and procedures mean navigation, precise station-keeping and timing/sensor needs may remain differently affected. Weather/acoustic limitations compound this, so readiness must be assessed for each required function and platform within the planned window.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C1-B005-R1",
+          "text": "Distinguishes activation from verified function-specific readiness.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-B005-R2",
+          "text": "Uses the uneven-fit premise.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-B005-R3",
+          "text": "Retains relevant weather operating limits.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-B005-R4",
+          "text": "Retains relevant acoustic localization limits.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A capability-by-function analysis is acceptable without technical equipment specifications."
+      ],
+      "error_conditions": [
+        "Assumes any navigation backup restores every sensor and timing function."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C1:D11",
+          "line_start": 39,
+          "line_end": 40,
+          "support": "Uneven mitigation"
+        },
+        {
+          "doc_id": "C1:D06",
+          "line_start": 65,
+          "line_end": 68,
+          "support": "Function-specific restrictions"
+        },
+        {
+          "doc_id": "C1:D08",
+          "line_start": 27,
+          "line_end": 27,
+          "support": "Acoustic limitations"
+        }
+      ],
+      "source_item_uids": [],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C1-F005",
+      "case_id": "C1",
+      "abf_stage": "F",
+      "title": "PNT readiness verification",
+      "question": "What verification is required before the staff marks the repair-support package ready in the PNT-degraded area?",
+      "expected_answer": "Obtain platform-specific confirmation of the navigation, station-keeping and timing/sensor functions needed for the assigned repair or forensic task, including limitations under the current environment. Record unresolved functions as readiness gaps for the window coordinator and SPACECOM support link. Do not certify the package solely from a generic alternate-navigation declaration.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C1-F005-R1",
+          "text": "Requires platform/function-specific verification.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-F005-R2",
+          "text": "Records unresolved functions as readiness gaps.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-F005-R3",
+          "text": "Connects gaps to the window and PNT coordination decision.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A capability confirmation checklist is acceptable."
+      ],
+      "error_conditions": [
+        "Invents an installed alternate-PNT system or guaranteed performance."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C1:D11",
+          "line_start": 39,
+          "line_end": 40,
+          "support": "Verification gap"
+        },
+        {
+          "doc_id": "C1:D09",
+          "line_start": 40,
+          "line_end": 41,
+          "support": "PNT coordination"
+        },
+        {
+          "doc_id": "C1:D04",
+          "line_start": 35,
+          "line_end": 45,
+          "support": "Allocated platforms"
+        }
+      ],
+      "source_item_uids": [],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C1-A010",
+      "case_id": "C1",
+      "abf_stage": "A",
+      "title": "Host submarine and payload gaps",
+      "question": "What is known and unknown about B-90 Vologda and deployed seabed systems?",
+      "expected_answer": "B-90 Vologda is assessed capable of deploying and recovering deep-submergence/seabed-interaction systems. Its location during the incident window is not established. The packet separately identifies the presence and activity of deployed seabed payloads as a gap. This is the least-observed part of the picture, not confirmation that either the host or a payload was at a particular cut.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C1-A010-R1",
+          "text": "States assessed deploy/recover capability.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A010-R2",
+          "text": "States host location is unestablished.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A010-R3",
+          "text": "Separates deployed-payload presence from host location.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Describe the gaps as two related but distinct collection subjects."
+      ],
+      "error_conditions": [
+        "Infers a deployed payload solely from host capability."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C1:D03",
+          "line_start": 29,
+          "line_end": 33,
+          "support": "Host capability"
+        },
+        {
+          "doc_id": "C1:D02",
+          "line_start": 49,
+          "line_end": 49,
+          "support": "Location unknown"
+        },
+        {
+          "doc_id": "C1:D02",
+          "line_start": 72,
+          "line_end": 72,
+          "support": "Separate host/payload gap"
+        }
+      ],
+      "source_item_uids": [
+        "C1:S2-13",
+        "C1:S2-16",
+        "C1:S2-74",
+        "C1:S5-05a",
+        "C1:S5-05b"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Construction-stage correction for the accepted case3 PIR items. Both information gaps are explicitly supplied in the packet, so their retrieval is A; the subsequent reporting decision is newly derived.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C1-B006",
+      "case_id": "C1",
+      "abf_stage": "B",
+      "title": "Independence of host and payload findings",
+      "question": "What would a later report locating B-90 Vologda away from a cut site establish about whether a deployed payload had been present there?",
+      "expected_answer": "Host location at the later report time would not alone settle earlier deployment or the presence of a separately deployed system. The host and payload can have different locations and observation histories. The conclusion must compare report times, what was actually observed and coverage of the seabed question rather than transfer a host-location finding to payload absence.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C1-B006-R1",
+          "text": "Distinguishes later host location from prior deployment.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-B006-R2",
+          "text": "Distinguishes host observation from payload observation.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-B006-R3",
+          "text": "Identifies time/coverage as necessary qualifiers.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A conditional statement that does not presume a payload was actually deployed is acceptable."
+      ],
+      "error_conditions": [
+        "Concludes no payload could exist because the host is elsewhere."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C1:D03",
+          "line_start": 31,
+          "line_end": 33,
+          "support": "Deploy/recover capability"
+        },
+        {
+          "doc_id": "C1:D02",
+          "line_start": 49,
+          "line_end": 49,
+          "support": "Unestablished history"
+        },
+        {
+          "doc_id": "C1:D02",
+          "line_start": 72,
+          "line_end": 72,
+          "support": "Separate gap"
+        }
+      ],
+      "source_item_uids": [],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C1-F006",
+      "case_id": "C1",
+      "abf_stage": "F",
+      "title": "Separate resolution of submarine gaps",
+      "question": "How should the staff structure follow-up reporting before declaring the submarine-related forensic gap closed?",
+      "expected_answer": "Maintain separate host-location and deployed-system questions with the time period and observation coverage required to resolve each. Request clarification of whether a new report answers the host question, the payload question or both. Keep an unresolved payload requirement open for the forensic assessment when only the host has been located.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C1-F006-R1",
+          "text": "Requires separate host and payload reporting fields.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-F006-R2",
+          "text": "Requires the relevant observation time or period.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-F006-R3",
+          "text": "Requires the scope of observation coverage.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-F006-R4",
+          "text": "Keeps the payload question open unless directly resolved.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A two-part information requirement tied to forensic-gap closure is acceptable."
+      ],
+      "error_conditions": [
+        "Declares the complete subsurface gap closed from host localization alone."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C1:D02",
+          "line_start": 72,
+          "line_end": 72,
+          "support": "Separate unknowns"
+        },
+        {
+          "doc_id": "C1:D03",
+          "line_start": 31,
+          "line_end": 33,
+          "support": "Deploy/recover relationship"
+        }
+      ],
+      "source_item_uids": [],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C1-A011",
+      "case_id": "C1",
+      "abf_stage": "A",
+      "title": "Sub-threshold assumption and alternative",
+      "question": "What assumption and alternative adversary scenario govern the escalation framing?",
+      "expected_answer": "The directive assumes Russia continues deniable sub-threshold pressure rather than overt confrontation. JIPOE identifies continued ambiguous sabotage as most likely with moderate confidence and a higher-consequence cut or unsafe/coercive incident as most dangerous with low–moderate confidence. These are conditional assessments. The current order retains use-of-force and posture changes beyond standing authority at the NCA.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C1-A011-R1",
+          "text": "Identifies the sub-threshold continuation assumption.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A011-R2",
+          "text": "Distinguishes MLCOA and MDCOA with their confidence.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-A011-R3",
+          "text": "Identifies reserved authority for changing the posture.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Exact labels are optional if the two assessed possibilities remain distinct."
+      ],
+      "error_conditions": [
+        "Treats the most likely scenario as guaranteed."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C1:D07",
+          "line_start": 98,
+          "line_end": 104,
+          "support": "Planning assumptions"
+        },
+        {
+          "doc_id": "C1:D08",
+          "line_start": 48,
+          "line_end": 54,
+          "support": "Alternative scenarios"
+        },
+        {
+          "doc_id": "C1:D07",
+          "line_start": 140,
+          "line_end": 140,
+          "support": "Reserved authority"
+        }
+      ],
+      "source_item_uids": [
+        "C1:S6-04-n",
+        "C1:S2-90",
+        "C1:S2-91"
+      ],
+      "origin": "decomposed",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C1-B007",
+      "case_id": "C1",
+      "abf_stage": "B",
+      "title": "Effect of escalation-assumption failure",
+      "question": "How would reporting inconsistent with the sub-threshold continuation assumption affect a staff readiness recommendation under the current order?",
+      "expected_answer": "It would invalidate reliance on the current assumption and require review of the readiness recommendation against the changed situation. It would not itself create new authority for offensive action or change the national/NATO command relationship. The staff must distinguish reassessment of feasibility and protection from authorization of a different response.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C1-B007-R1",
+          "text": "Recognizes that the assumption-dependent recommendation must be reviewed.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-B007-R2",
+          "text": "Does not treat assumption failure as new authority.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-B007-R3",
+          "text": "Separates feasibility/protection review from response authorization.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Recommend holding an assumption-dependent commitment pending review rather than automatically cancelling all support."
+      ],
+      "error_conditions": [
+        "Automatically authorizes a different armed response."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C1:D07",
+          "line_start": 98,
+          "line_end": 104,
+          "support": "Conditional premise"
+        },
+        {
+          "doc_id": "C1:D07",
+          "line_start": 133,
+          "line_end": 140,
+          "support": "Unchanged authorization"
+        },
+        {
+          "doc_id": "C1:D08",
+          "line_start": 52,
+          "line_end": 54,
+          "support": "Dangerous alternative"
+        }
+      ],
+      "source_item_uids": [
+        "C1:S6-04-n"
+      ],
+      "origin": "decomposed",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C1-F007",
+      "case_id": "C1",
+      "abf_stage": "F",
+      "title": "Assumption-triggered decision review",
+      "question": "What concrete staff action follows when a new report credibly challenges the sub-threshold assumption used for a support commitment?",
+      "expected_answer": "Flag the challenged assumption in the decision record, identify the specific support commitments and protection assumptions that relied on it, and submit an updated risk/authority review to the responsible commander. Refer any proposed change beyond current permissions for separate national authorization. Do not convert the report itself into an execution order.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C1-F007-R1",
+          "text": "Identifies the challenged assumption.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-F007-R2",
+          "text": "Identifies commitments that depend on that assumption.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-F007-R3",
+          "text": "Requires an updated decision/risk review.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C1-F007-R4",
+          "text": "Preserves separate authorization for changes beyond existing permissions.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "An assumption-change report linked to affected decisions is acceptable."
+      ],
+      "error_conditions": [
+        "Claims a report automatically activates Article 5 or permits offensive action."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C1:D07",
+          "line_start": 133,
+          "line_end": 140,
+          "support": "Retained limits"
+        },
+        {
+          "doc_id": "C1:D08",
+          "line_start": 52,
+          "line_end": 54,
+          "support": "Trigger scenario"
+        }
+      ],
+      "source_item_uids": [
+        "C1:S6-04-n"
+      ],
+      "origin": "decomposed",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    }
+  ],
+  "chains": [
+    {
+      "chain_id": "HB-C1-CH001",
+      "case_id": "C1",
+      "title": "Repair-window synchronization",
+      "a_ids": [
+        "HB-C1-A001",
+        "HB-C1-A002",
+        "HB-C1-A003"
+      ],
+      "b_ids": [
+        "HB-C1-B001"
+      ],
+      "f_ids": [
+        "HB-C1-F001"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C1-A001",
+            "HB-C1-A002",
+            "HB-C1-A003"
+          ],
+          "child_id": "HB-C1-B001",
+          "logic": "ALL",
+          "rationale": "Weather, external scheduling and actual military availability jointly define the window.",
+          "counterfactual_test": "If support becomes independently available or the operator changes its window, the joint feasibility judgement must change."
+        },
+        {
+          "parent_ids": [
+            "HB-C1-B001"
+          ],
+          "child_id": "HB-C1-F001",
+          "logic": "ALL",
+          "rationale": "The joint-readiness assessment requires an explicit synchronized confirmation product.",
+          "counterfactual_test": "If all required confirmations are already current, only confirmation/review rather than rescheduling is required."
+        }
+      ],
+      "chain_rationale": "Connects stated constraints to a new practical readiness product without inventing a repair plan.",
+      "minimality_note": "The listed premises contribute jointly to the stated judgement. The original packet remains available, so a model can reconstruct them without using the supplied intermediate answer. The counterfactual is an annotation, not an executed intervention.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C1-CH002",
+      "case_id": "C1",
+      "title": "Service-based restoration decision",
+      "a_ids": [
+        "HB-C1-A004",
+        "HB-C1-A005"
+      ],
+      "b_ids": [
+        "HB-C1-B002"
+      ],
+      "f_ids": [
+        "HB-C1-F002"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C1-A004",
+            "HB-C1-A005"
+          ],
+          "child_id": "HB-C1-B002",
+          "logic": "ALL",
+          "rationale": "Fault state and priority rule jointly determine whether a final ranking is justified.",
+          "counterfactual_test": "If complete service dependencies and timing were supplied, the final ranking could be assessed directly."
+        },
+        {
+          "parent_ids": [
+            "HB-C1-B002"
+          ],
+          "child_id": "HB-C1-F002",
+          "logic": "ALL",
+          "rationale": "The incomplete comparison yields a concrete data and decision-product requirement.",
+          "counterfactual_test": "If restoration is already verified against agreed transition criteria, a new provisional priority register is unnecessary."
+        }
+      ],
+      "chain_rationale": "Goes beyond reciting the source priority rule by specifying the comparison required before a decision.",
+      "minimality_note": "The listed premises contribute jointly to the stated judgement. The original packet remains available, so a model can reconstruct them without using the supplied intermediate answer. The counterfactual is an annotation, not an executed intervention.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C1-CH003",
+      "case_id": "C1",
+      "title": "Confirming multinational support",
+      "a_ids": [
+        "HB-C1-A006",
+        "HB-C1-A007"
+      ],
+      "b_ids": [
+        "HB-C1-B003"
+      ],
+      "f_ids": [
+        "HB-C1-F003"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C1-A006",
+            "HB-C1-A007"
+          ],
+          "child_id": "HB-C1-B003",
+          "logic": "ALL",
+          "rationale": "Command relationships and separate permission gates show why available support is not automatically committed.",
+          "counterfactual_test": "If command and release authority were delegated for the task, the needed confirmation route would change."
+        },
+        {
+          "parent_ids": [
+            "HB-C1-B003"
+          ],
+          "child_id": "HB-C1-F003",
+          "logic": "ALL",
+          "rationale": "The identified authorization gap requires contributor-specific confirmation.",
+          "counterfactual_test": "If permissions and period are confirmed, only status maintenance rather than a new approval request is needed."
+        }
+      ],
+      "chain_rationale": "Derives a concrete acceptance record rather than merely repeating a legal restraint.",
+      "minimality_note": "The listed premises contribute jointly to the stated judgement. The original packet remains available, so a model can reconstruct them without using the supplied intermediate answer. The counterfactual is an annotation, not an executed intervention.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C1-CH004",
+      "case_id": "C1",
+      "title": "Attribution reconciliation before release",
+      "a_ids": [
+        "HB-C1-A004",
+        "HB-C1-A008",
+        "HB-C1-A007"
+      ],
+      "b_ids": [
+        "HB-C1-B004"
+      ],
+      "f_ids": [
+        "HB-C1-F004"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C1-A004",
+            "HB-C1-A008"
+          ],
+          "child_id": "HB-C1-B004",
+          "logic": "ALL",
+          "rationale": "Incident reports, attribution scopes and release rules jointly constrain the claim.",
+          "counterfactual_test": "If each incident had independently corroborated direction, the scope objection would be removed but release authority would remain."
+        },
+        {
+          "parent_ids": [
+            "HB-C1-B004",
+            "HB-C1-A007"
+          ],
+          "child_id": "HB-C1-F004",
+          "logic": "ALL",
+          "rationale": "The unjustified aggregation identifies the exact reconciliation work required. The additional A parents supply the specific authority, recipient, recovery or resource prerequisite for this consequence.",
+          "counterfactual_test": "If the discrepancies are reconciled, the task becomes submission of the qualified product."
+        }
+      ],
+      "chain_rationale": "Uses actual differences among packet products without declaring the accepted corpus invalid.",
+      "minimality_note": "The listed premises contribute jointly to the stated judgement. The original packet remains available, so a model can reconstruct them without using the supplied intermediate answer. The counterfactual is an annotation, not an executed intervention.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C1-CH005",
+      "case_id": "C1",
+      "title": "Functional readiness under PNT disruption",
+      "a_ids": [
+        "HB-C1-A009",
+        "HB-C1-A001"
+      ],
+      "b_ids": [
+        "HB-C1-B005"
+      ],
+      "f_ids": [
+        "HB-C1-F005"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C1-A009",
+            "HB-C1-A001"
+          ],
+          "child_id": "HB-C1-B005",
+          "logic": "ALL",
+          "rationale": "Uneven resilience and environment limits jointly determine whether blanket readiness is valid.",
+          "counterfactual_test": "If all required functions were verified under the current environment, the blanket-readiness objection would be removed."
+        },
+        {
+          "parent_ids": [
+            "HB-C1-B005"
+          ],
+          "child_id": "HB-C1-F005",
+          "logic": "ALL",
+          "rationale": "A function-specific readiness gap calls for confirmation before commitment.",
+          "counterfactual_test": "If a necessary function remains unavailable, support-window confirmation must be withheld or revised."
+        }
+      ],
+      "chain_rationale": "Creates a concrete verification requirement without prescribing unprovided technical navigation tactics.",
+      "minimality_note": "The listed premises contribute jointly to the stated judgement. The original packet remains available, so a model can reconstruct them without using the supplied intermediate answer. The counterfactual is an annotation, not an executed intervention.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C1-CH006",
+      "case_id": "C1",
+      "title": "Separating host and deployed-system findings",
+      "a_ids": [
+        "HB-C1-A010"
+      ],
+      "b_ids": [
+        "HB-C1-B006"
+      ],
+      "f_ids": [
+        "HB-C1-F006"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C1-A010"
+          ],
+          "child_id": "HB-C1-B006",
+          "logic": "ALL",
+          "rationale": "Host capability and two unknowns establish non-equivalence of host and payload findings.",
+          "counterfactual_test": "If the system could not be separately deployed, host location could have different implications."
+        },
+        {
+          "parent_ids": [
+            "HB-C1-B006"
+          ],
+          "child_id": "HB-C1-F006",
+          "logic": "ALL",
+          "rationale": "The non-equivalence requires separate closure criteria and follow-up.",
+          "counterfactual_test": "If a report directly resolves both questions for the relevant period, two open requests need not remain."
+        }
+      ],
+      "chain_rationale": "Transforms supplied gaps into a new, concrete reporting/closure consequence without specifying collection tactics.",
+      "minimality_note": "The listed premises contribute jointly to the stated judgement. The original packet remains available, so a model can reconstruct them without using the supplied intermediate answer. The counterfactual is an annotation, not an executed intervention.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C1-CH007",
+      "case_id": "C1",
+      "title": "Assumption failure and decision review",
+      "a_ids": [
+        "HB-C1-A011",
+        "HB-C1-A007"
+      ],
+      "b_ids": [
+        "HB-C1-B007"
+      ],
+      "f_ids": [
+        "HB-C1-F007"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C1-A011",
+            "HB-C1-A007"
+          ],
+          "child_id": "HB-C1-B007",
+          "logic": "ALL",
+          "rationale": "The alternative scenario and authority bounds jointly constrain the reassessment.",
+          "counterfactual_test": "If the report is consistent with the assumption, this particular reassessment trigger is not met."
+        },
+        {
+          "parent_ids": [
+            "HB-C1-B007"
+          ],
+          "child_id": "HB-C1-F007",
+          "logic": "ALL",
+          "rationale": "A challenged premise requires an identified decision review rather than an automatic new response.",
+          "counterfactual_test": "If the affected decision does not depend on that assumption, record why its status need not change."
+        }
+      ],
+      "chain_rationale": "Retains the compound assumption item through a concrete change-control consequence.",
+      "minimality_note": "The listed premises contribute jointly to the stated judgement. The original packet remains available, so a model can reconstruct them without using the supplied intermediate answer. The counterfactual is an annotation, not an executed intervention.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    }
+  ],
+  "dispositions": [
+    {
+      "item_uid": "C1:S1-02-n",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The strategic interest/line is supplied as broad guidance. No additional bounded consequence is justified beyond the source’s already stated protection, reassurance and deterrence tasks, so it is not made a decorative premise.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C1:S1-03-n",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A007"
+      ],
+      "chain_ids": [
+        "HB-C1-CH003",
+        "HB-C1-CH004",
+        "HB-C1-CH007"
+      ],
+      "rationale": "Source construct is represented in Scenario authority limits.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S1-04-n",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A005"
+      ],
+      "chain_ids": [
+        "HB-C1-CH002"
+      ],
+      "rationale": "Source construct is represented in Restoration priority and information gaps.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S1-06-n",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "Protect, deter and enable attribution are already specified mission tasks. Repeating them as an F task would test retrieval, and this broad mission-wording criterion adds no distinct dependency to the constructed support chains.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C1:S1-08-n",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A006"
+      ],
+      "chain_ids": [
+        "HB-C1-CH003"
+      ],
+      "rationale": "Source construct is represented in National and multinational coordination.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S1-09a",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The strategic interest/line is supplied as broad guidance. No additional bounded consequence is justified beyond the source’s already stated protection, reassurance and deterrence tasks, so it is not made a decorative premise.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C1:S1-09b",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The strategic interest/line is supplied as broad guidance. No additional bounded consequence is justified beyond the source’s already stated protection, reassurance and deterrence tasks, so it is not made a decorative premise.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C1:S1-10a",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The strategic interest/line is supplied as broad guidance. No additional bounded consequence is justified beyond the source’s already stated protection, reassurance and deterrence tasks, so it is not made a decorative premise.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C1:S1-10b",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The strategic interest/line is supplied as broad guidance. No additional bounded consequence is justified beyond the source’s already stated protection, reassurance and deterrence tasks, so it is not made a decorative premise.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C1:S1-10c",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The strategic interest/line is supplied as broad guidance. No additional bounded consequence is justified beyond the source’s already stated protection, reassurance and deterrence tasks, so it is not made a decorative premise.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C1:S1-15",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A007"
+      ],
+      "chain_ids": [
+        "HB-C1-CH003",
+        "HB-C1-CH004",
+        "HB-C1-CH007"
+      ],
+      "rationale": "Source construct is represented in Scenario authority limits.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S1-16",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A007"
+      ],
+      "chain_ids": [
+        "HB-C1-CH003",
+        "HB-C1-CH004",
+        "HB-C1-CH007"
+      ],
+      "rationale": "Source construct is represented in Scenario authority limits.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S1-18",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A006"
+      ],
+      "chain_ids": [
+        "HB-C1-CH003"
+      ],
+      "rationale": "Source construct is represented in National and multinational coordination.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S1-22a",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A006"
+      ],
+      "chain_ids": [
+        "HB-C1-CH003"
+      ],
+      "rationale": "Source construct is represented in National and multinational coordination.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S1-22b",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A006"
+      ],
+      "chain_ids": [
+        "HB-C1-CH003"
+      ],
+      "rationale": "Source construct is represented in National and multinational coordination.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S1-22c",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A006"
+      ],
+      "chain_ids": [
+        "HB-C1-CH003"
+      ],
+      "rationale": "Source construct is represented in National and multinational coordination.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S1-22d",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A006"
+      ],
+      "chain_ids": [
+        "HB-C1-CH003"
+      ],
+      "rationale": "Source construct is represented in National and multinational coordination.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S2-01-n",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A004"
+      ],
+      "chain_ids": [
+        "HB-C1-CH002",
+        "HB-C1-CH004"
+      ],
+      "rationale": "Source construct is represented in Cable service and fault status.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S2-02-n",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A004"
+      ],
+      "chain_ids": [
+        "HB-C1-CH002",
+        "HB-C1-CH004"
+      ],
+      "rationale": "Source construct is represented in Cable service and fault status.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S2-03-n",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A004"
+      ],
+      "chain_ids": [
+        "HB-C1-CH002",
+        "HB-C1-CH004"
+      ],
+      "rationale": "Source construct is represented in Cable service and fault status.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S2-05-n",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C1-A008",
+        "HB-C1-B004",
+        "HB-C1-F004"
+      ],
+      "chain_ids": [
+        "HB-C1-CH004"
+      ],
+      "rationale": "The negative assertion is an observable failure for Attribution qualifications; Readiness of attribution claim; Attribution reconciliation task.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S2-08-n",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A004"
+      ],
+      "chain_ids": [
+        "HB-C1-CH002",
+        "HB-C1-CH004"
+      ],
+      "rationale": "Source construct is represented in Cable service and fault status.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S2-09-n",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The cut-site jurisdiction description is geographic/legal reference material. The authority chain uses the actual governing restraints directly; requiring the full location inventory would not add a necessary analytical dependency.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C1:S2-10-n",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The actor/platform inventory combines survey vessels, EW and merchants. The constructed attribution and submarine tasks use narrower verified premises, so the broad inventory has no distinct full-chain role.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C1:S2-11-n",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The unit inventory does not establish confirmed task release or current availability. The contribution-confirmation chain uses national command/caveat facts; a second inventory node would not establish the missing approval.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C1:S2-13-n",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "GS Ladoga’s assessed transit and the Bear Island decision-point linkage are already explicitly given. No new supported non-tactical F consequence is established by restating this warning.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C1:S2-14-n",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The cut-site jurisdiction description is geographic/legal reference material. The authority chain uses the actual governing restraints directly; requiring the full location inventory would not add a necessary analytical dependency.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C1:S2-13",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A010"
+      ],
+      "chain_ids": [
+        "HB-C1-CH006"
+      ],
+      "rationale": "Source construct is represented in Host submarine and payload gaps.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S2-16",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A010"
+      ],
+      "chain_ids": [
+        "HB-C1-CH006"
+      ],
+      "rationale": "Source construct is represented in Host submarine and payload gaps.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S2-21",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The lawful Russian Svalbard presence is supplied background. It does not establish activity, intent or a new bounded support consequence for the constructed tasks.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C1:S2-30a",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The named port/chokepoint or proximity fact lacks the transit, endurance and support-capacity information needed for a defensible new logistics choice. Its already supplied operational significance alone does not provide a full chain.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C1:S2-30b",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The named port/chokepoint or proximity fact lacks the transit, endurance and support-capacity information needed for a defensible new logistics choice. Its already supplied operational significance alone does not provide a full chain.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C1:S2-31",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The unit inventory does not establish confirmed task release or current availability. The contribution-confirmation chain uses national command/caveat facts; a second inventory node would not establish the missing approval.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C1:S2-33a",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The unit inventory does not establish confirmed task release or current availability. The contribution-confirmation chain uses national command/caveat facts; a second inventory node would not establish the missing approval.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C1:S2-36a",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A006"
+      ],
+      "chain_ids": [
+        "HB-C1-CH003"
+      ],
+      "rationale": "Source construct is represented in National and multinational coordination.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S2-36b",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A006"
+      ],
+      "chain_ids": [
+        "HB-C1-CH003"
+      ],
+      "rationale": "Source construct is represented in National and multinational coordination.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S2-39",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A003"
+      ],
+      "chain_ids": [
+        "HB-C1-CH001"
+      ],
+      "rationale": "Source construct is represented in Allocated maritime support.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S2-40",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A003"
+      ],
+      "chain_ids": [
+        "HB-C1-CH001"
+      ],
+      "rationale": "The allocated-versus-apportioned US platforms are preserved in the support-availability question.",
+      "coverage": "partial",
+      "uncovered_content": "Detailed sensor-type inventory beyond P-8A and high-altitude ISR is not separately tested."
+    },
+    {
+      "item_uid": "C1:S2-41a",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A003"
+      ],
+      "chain_ids": [
+        "HB-C1-CH001"
+      ],
+      "rationale": "Source construct is represented in Allocated maritime support.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S2-41b",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A003"
+      ],
+      "chain_ids": [
+        "HB-C1-CH001"
+      ],
+      "rationale": "Source construct is represented in Allocated maritime support.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S2-42a",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A003"
+      ],
+      "chain_ids": [
+        "HB-C1-CH001"
+      ],
+      "rationale": "Source construct is represented in Allocated maritime support.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S2-50",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A007"
+      ],
+      "chain_ids": [
+        "HB-C1-CH003",
+        "HB-C1-CH004",
+        "HB-C1-CH007"
+      ],
+      "rationale": "Source construct is represented in Scenario authority limits.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S2-51",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A007"
+      ],
+      "chain_ids": [
+        "HB-C1-CH003",
+        "HB-C1-CH004",
+        "HB-C1-CH007"
+      ],
+      "rationale": "Source construct is represented in Scenario authority limits.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S2-56",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A001"
+      ],
+      "chain_ids": [
+        "HB-C1-CH001",
+        "HB-C1-CH005"
+      ],
+      "rationale": "Source construct is represented in Arctic operating constraints.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S2-57",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A001"
+      ],
+      "chain_ids": [
+        "HB-C1-CH001",
+        "HB-C1-CH005"
+      ],
+      "rationale": "Source construct is represented in Arctic operating constraints.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S2-58",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A001"
+      ],
+      "chain_ids": [
+        "HB-C1-CH001",
+        "HB-C1-CH005"
+      ],
+      "rationale": "Source construct is represented in Arctic operating constraints.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S2-60",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A001"
+      ],
+      "chain_ids": [
+        "HB-C1-CH001",
+        "HB-C1-CH005"
+      ],
+      "rationale": "Source construct is represented in Arctic operating constraints.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S2-69",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A008"
+      ],
+      "chain_ids": [
+        "HB-C1-CH004"
+      ],
+      "rationale": "Source construct is represented in Attribution qualifications.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S2-70",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The named port/chokepoint or proximity fact lacks the transit, endurance and support-capacity information needed for a defensible new logistics choice. Its already supplied operational significance alone does not provide a full chain.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C1:S2-71",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "GS Ladoga’s assessed transit and the Bear Island decision-point linkage are already explicitly given. No new supported non-tactical F consequence is established by restating this warning.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C1:S2-72",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The named port/chokepoint or proximity fact lacks the transit, endurance and support-capacity information needed for a defensible new logistics choice. Its already supplied operational significance alone does not provide a full chain.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C1:S2-73",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The named port/chokepoint or proximity fact lacks the transit, endurance and support-capacity information needed for a defensible new logistics choice. Its already supplied operational significance alone does not provide a full chain.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C1:S2-74",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A010"
+      ],
+      "chain_ids": [
+        "HB-C1-CH006"
+      ],
+      "rationale": "Source construct is represented in Host submarine and payload gaps.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S2-90",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A011"
+      ],
+      "chain_ids": [
+        "HB-C1-CH007"
+      ],
+      "rationale": "Source construct is represented in Sub-threshold assumption and alternative.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S2-91",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A011"
+      ],
+      "chain_ids": [
+        "HB-C1-CH007"
+      ],
+      "rationale": "Source construct is represented in Sub-threshold assumption and alternative.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S3-02-n",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A002"
+      ],
+      "chain_ids": [
+        "HB-C1-CH001"
+      ],
+      "rationale": "Source construct is represented in Commercial restoration control.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S3-05-n",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A007"
+      ],
+      "chain_ids": [
+        "HB-C1-CH003",
+        "HB-C1-CH004",
+        "HB-C1-CH007"
+      ],
+      "rationale": "Source construct is represented in Scenario authority limits.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S4-02-n",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A007"
+      ],
+      "chain_ids": [
+        "HB-C1-CH003",
+        "HB-C1-CH004",
+        "HB-C1-CH007"
+      ],
+      "rationale": "Source construct is represented in Scenario authority limits.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S4-03-n",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A007"
+      ],
+      "chain_ids": [
+        "HB-C1-CH003",
+        "HB-C1-CH004",
+        "HB-C1-CH007"
+      ],
+      "rationale": "Source construct is represented in Scenario authority limits.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S4-04-n",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C1-A007",
+        "HB-C1-B003",
+        "HB-C1-F003"
+      ],
+      "chain_ids": [
+        "HB-C1-CH003",
+        "HB-C1-CH004",
+        "HB-C1-CH007"
+      ],
+      "rationale": "The negative assertion is an observable failure for Scenario authority limits; Support availability versus authority; Contribution acceptance record.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S5-02-n",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A008"
+      ],
+      "chain_ids": [
+        "HB-C1-CH004"
+      ],
+      "rationale": "Source construct is represented in Attribution qualifications.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S5-05a",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A010"
+      ],
+      "chain_ids": [
+        "HB-C1-CH006"
+      ],
+      "rationale": "Source construct is represented in Host submarine and payload gaps. Construction-stage correction preserves the accepted case metadata, but treats the already supplied answer as A rather than an inferred B/F.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S5-05b",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A010"
+      ],
+      "chain_ids": [
+        "HB-C1-CH006"
+      ],
+      "rationale": "Source construct is represented in Host submarine and payload gaps. Construction-stage correction preserves the accepted case metadata, but treats the already supplied answer as A rather than an inferred B/F.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S6-02-n",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A008"
+      ],
+      "chain_ids": [
+        "HB-C1-CH004"
+      ],
+      "rationale": "Source construct is represented in Attribution qualifications.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S6-04-n",
+      "accepted_case": "4_COMPOUND_ANALYTICAL",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A011",
+        "HB-C1-B007",
+        "HB-C1-F007"
+      ],
+      "chain_ids": [
+        "HB-C1-CH007"
+      ],
+      "rationale": "Source construct is represented in Sub-threshold assumption and alternative; Effect of escalation-assumption failure; Assumption-triggered decision review.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S6-01",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A008"
+      ],
+      "chain_ids": [
+        "HB-C1-CH004"
+      ],
+      "rationale": "Source construct is represented in Attribution qualifications.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S6-02",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A008"
+      ],
+      "chain_ids": [
+        "HB-C1-CH004"
+      ],
+      "rationale": "Source construct is represented in Attribution qualifications.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S6-03",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A008"
+      ],
+      "chain_ids": [
+        "HB-C1-CH004"
+      ],
+      "rationale": "Source construct is represented in Attribution qualifications.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S6-06",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The friendly centre-of-gravity formulation is already supplied and is broader than an atomic support decision. The constructed tasks test its concrete dependencies without treating a centre-of-gravity restatement as new inference.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C1:S6-11",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The packet already states that denial narratives raise the public-attribution bar. No separate operational consequence follows beyond the source-stated release discipline and the independently constructed reconciliation task.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C1:S7-03-n",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A009"
+      ],
+      "chain_ids": [
+        "HB-C1-CH005"
+      ],
+      "rationale": "Source construct is represented in PNT effects and resilience status.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:S7-08",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A001"
+      ],
+      "chain_ids": [
+        "HB-C1-CH001",
+        "HB-C1-CH005"
+      ],
+      "rationale": "Source construct is represented in Arctic operating constraints.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:C1-GAP-02",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C1-A006",
+        "HB-C1-B003",
+        "HB-C1-F003"
+      ],
+      "chain_ids": [
+        "HB-C1-CH003"
+      ],
+      "rationale": "The negative assertion is an observable failure for National and multinational coordination; Support availability versus authority; Contribution acceptance record.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:C1-GAP-03",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "Protect, deter and enable attribution are already specified mission tasks. Repeating them as an F task would test retrieval, and this broad mission-wording criterion adds no distinct dependency to the constructed support chains.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C1:C1-GAP-06",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C1-B002",
+        "HB-C1-F002"
+      ],
+      "chain_ids": [
+        "HB-C1-CH002"
+      ],
+      "rationale": "The negative assertion is an observable failure for Decision readiness of restoration ranking; Restoration decision register.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:C1-GAP-07",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The AIS identification risk and its bridge-query/ROE mitigation are already stated in the accepted source construct. Repackaging the same mitigation as F would not provide a newly derived task.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C1:C1-GAP-08",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The Svalbard militarization-narrative risk and Norway/DoS coordination are already supplied. Further tactical posture choices would require assumptions absent from the packet.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C1:C1-GAP-09",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C1-A009",
+        "HB-C1-B005",
+        "HB-C1-F005"
+      ],
+      "chain_ids": [
+        "HB-C1-CH005"
+      ],
+      "rationale": "The negative assertion is an observable failure for PNT effects and resilience status; Validity of blanket PNT readiness; PNT readiness verification.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:C1-GAP-10",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C1-A003",
+        "HB-C1-B001",
+        "HB-C1-F001"
+      ],
+      "chain_ids": [
+        "HB-C1-CH001"
+      ],
+      "rationale": "The negative assertion is an observable failure for Allocated maritime support; Concurrent repair readiness; Joint repair readiness check.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:C1-GAP-11",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A004"
+      ],
+      "chain_ids": [
+        "HB-C1-CH002",
+        "HB-C1-CH004"
+      ],
+      "rationale": "Source construct is represented in Cable service and fault status.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C1:C1-GAP-12",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C1-A002"
+      ],
+      "chain_ids": [
+        "HB-C1-CH001"
+      ],
+      "rationale": "Source construct is represented in Commercial restoration control.",
+      "coverage": "full",
+      "uncovered_content": ""
+    }
+  ],
+  "error_links": [
+    {
+      "error_item_uid": "C1:S2-05-n",
+      "question_id": "HB-C1-A008",
+      "trigger": "Claims vessel proximity or AIS gaps alone prove deliberate state-directed damage.",
+      "applicability": "These questions evaluate incident attribution and its reconciliation.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C1:S2-05-n",
+      "question_id": "HB-C1-B004",
+      "trigger": "Claims vessel proximity or AIS gaps alone prove deliberate state-directed damage.",
+      "applicability": "These questions evaluate incident attribution and its reconciliation.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C1:S2-05-n",
+      "question_id": "HB-C1-F004",
+      "trigger": "Claims vessel proximity or AIS gaps alone prove deliberate state-directed damage.",
+      "applicability": "These questions evaluate incident attribution and its reconciliation.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C1:S4-04-n",
+      "question_id": "HB-C1-A007",
+      "trigger": "Treats foreign-flag cable damage as sufficient interdiction authority.",
+      "applicability": "The authority gate is directly assessed.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C1:S4-04-n",
+      "question_id": "HB-C1-B003",
+      "trigger": "Treats foreign-flag cable damage as sufficient interdiction authority.",
+      "applicability": "The authority gate is directly assessed.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C1:S4-04-n",
+      "question_id": "HB-C1-F003",
+      "trigger": "Treats foreign-flag cable damage as sufficient interdiction authority.",
+      "applicability": "The authority gate is directly assessed.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C1:C1-GAP-02",
+      "question_id": "HB-C1-A006",
+      "trigger": "Treats this national effort as NATO/SACEUR command rather than coordinated separate chains.",
+      "applicability": "Contribution confirmation depends on the correct command relationship.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C1:C1-GAP-02",
+      "question_id": "HB-C1-B003",
+      "trigger": "Treats this national effort as NATO/SACEUR command rather than coordinated separate chains.",
+      "applicability": "Contribution confirmation depends on the correct command relationship.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C1:C1-GAP-02",
+      "question_id": "HB-C1-F003",
+      "trigger": "Treats this national effort as NATO/SACEUR command rather than coordinated separate chains.",
+      "applicability": "Contribution confirmation depends on the correct command relationship.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C1:C1-GAP-06",
+      "question_id": "HB-C1-B002",
+      "trigger": "Prioritizes by commercial value, length or users while omitting military-service dependency.",
+      "applicability": "The restoration comparison must use the commander’s stated priority rule.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C1:C1-GAP-06",
+      "question_id": "HB-C1-F002",
+      "trigger": "Prioritizes by commercial value, length or users while omitting military-service dependency.",
+      "applicability": "The restoration comparison must use the commander’s stated priority rule.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C1:C1-GAP-09",
+      "question_id": "HB-C1-A009",
+      "trigger": "Treats PNT jamming only as an intelligence indicator and omits friendly functional limits.",
+      "applicability": "These questions directly concern friendly task readiness.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C1:C1-GAP-09",
+      "question_id": "HB-C1-B005",
+      "trigger": "Treats PNT jamming only as an intelligence indicator and omits friendly functional limits.",
+      "applicability": "These questions directly concern friendly task readiness.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C1:C1-GAP-09",
+      "question_id": "HB-C1-F005",
+      "trigger": "Treats PNT jamming only as an intelligence indicator and omits friendly functional limits.",
+      "applicability": "These questions directly concern friendly task readiness.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C1:C1-GAP-10",
+      "question_id": "HB-C1-A003",
+      "trigger": "Counts both apportioned surface vessels and the separately tasked SSN as immediately available escort capacity.",
+      "applicability": "Joint-window readiness depends on actual allocation.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C1:C1-GAP-10",
+      "question_id": "HB-C1-B001",
+      "trigger": "Counts both apportioned surface vessels and the separately tasked SSN as immediately available escort capacity.",
+      "applicability": "Joint-window readiness depends on actual allocation.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C1:C1-GAP-10",
+      "question_id": "HB-C1-F001",
+      "trigger": "Counts both apportioned surface vessels and the separately tasked SSN as immediately available escort capacity.",
+      "applicability": "Joint-window readiness depends on actual allocation.",
+      "original_polarity": "negative"
+    }
+  ],
+  "notes": [
+    "All scenario documents were examined. The supplied packet contains extensive pre-existing assessments and mitigations; most retained case1 items remain retrieval premises rather than relabelled reasoning.",
+    "Accepted source classifications are preserved. The two submarine PIR items are corrected only at construction stage because their exact gaps are already stated, and participate as A in a new host-versus-payload reporting chain.",
+    "Source legal statements are treated as exercise premises, not current legal advice. New tasks remain staff coordination, readiness and analytical prerequisites.",
+    "All new questions, criteria, links and consequences await expert validation; no model execution or causal intervention is claimed.",
+    "Final construction review separated independent factual/action conditions into atomic scoring entries. Additional authority, consent and recovery prerequisites enter the particular F tasks directly instead of being hidden behind a generic B answer. Companion questions are traced through source locators and chain ancestry rather than fabricated direct original-item mappings."
+  ]
+}

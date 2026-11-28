@@ -1,0 +1,58 @@
+# Protocol reference. Runtime judge model aliases are selected in the experiment config.
+protocol_version: heerbench-pointwise-judge-v1
+system_prompt: prompts/judge_system.txt
+scoring:
+  type: pointwise_atomic_rubric
+  include_reference_exemplar: true
+  include_acceptable_alternatives: true
+  include_exact_source_passages: true
+  include_local_error_conditions: true
+  include_inherited_negative_checks: true
+  blind_generator_model: true
+  blind_experimental_condition: true
+  exact_verdict_coverage_required: true
+  missing_verdict_policy: protocol_failure
+  ambiguous_reference_policy: unscorable_and_review
+  aggregate_error_severity_weights: false
+  private_chain_of_thought: false
+judges:
+  primary:
+    role: primary
+    selection: experiment_config
+    repetitions_per_answer_main: 1
+  secondary:
+    role: secondary
+    selection: experiment_config
+    selected_fraction: 0.20
+    selection_seed: 20261127
+    selection_independent_of_primary_score: true
+    repetitions_per_selected_answer: 1
+    combine_with_primary_as_majority_vote: false
+validation:
+  answers_total: 60
+  development_answers: 10
+  heldout_answers: 50
+  group_by: component
+  marginal_balance: [case_id, abf_stage, model_id, condition]
+  seed: 20261127
+  human_reviewers: 1
+  reference_type: single_expert
+  reference_file: reviewer_1.csv
+  supported_human_reviewers: [1, 2]
+  adjudication: not_applicable_in_single_expert_mode
+  judge_repetitions_per_validation_answer: 1
+  interhuman_agreement_available: false
+  repeated_judge_stability_available: false
+  disclose_expert_corpus_construction_role: true
+  automatic_acceptance_threshold: null
+  approval_template: configs/judge_approval.template.json
+  preserve_expert_initial_labels: true
+  include_mock_answers: false
+  include_transport_failures: false
+  include_generation_aliases: false
+  smaller_pilot_requires_explicit_sample_sizes: true
+output_budget:
+  recommended_minimum_tokens: 4096
+  recommended_tokens_per_verdict: 256
+  recommended_fixed_allowance_tokens: 512
+  note: Pilot measurements determine the final frozen budget. Truncation is a judge failure.

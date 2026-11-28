@@ -1,0 +1,17 @@
+{
+  "counts": {
+    "cases": 10,
+    "questions": 488,
+    "chains": 150,
+    "criteria": 2235,
+    "accepted_dispositions": 1056,
+    "error_links": 492,
+    "stages": {
+      "A": 175,
+      "B": 147,
+      "F": 166
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "workbook_sheets": 10,
+  "question_rows": 488,
+  "summary_formula_totals": [
+    1257,
+    933,
+    739,
+    194,
+    201,
+    123,
+    114,
+    9
+  ],
+  "summary_formula_totals_match_canonical_data": true,
+  "representative_regions_reviewed": [
+    "Summary",
+    "Questions",
+    "Criteria",
+    "Chains",
+    "Dependencies",
+    "ItemLedger",
+    "ErrorChecks",
+    "Sources",
+    "Memberships",
+    "ReadMe"
+  ],
+  "additional_final_regions_reviewed": [
+    "C6 question/reference rows",
+    "ItemLedger decision/comment columns"
+  ],
+  "review_fields": "Pending / Accept / Revise / Reject; baseline exclusions also Not applicable",
+  "scope": "Format, formulas, field visibility and export consistency; not military or scoring validity"
+}

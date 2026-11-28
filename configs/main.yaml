@@ -1,0 +1,25 @@
+schema_version: 2
+mode: full
+dataset: ../data/heerbench_v05
+model_catalog: provider_catalog.yaml
+seed: 20261127
+repetitions: 3
+conditions:
+- E1
+- E2
+- E3
+generation:
+  max_output_tokens: 4096
+  temperature: null
+execution:
+  transport: batch
+  max_attempts: 3
+  batch_max_requests: 100
+  batch_max_bytes: 15000000
+  max_cost_usd: null
+judge:
+  primary: gpt61_terra
+  secondary: claude_sonnet55
+  secondary_fraction: 0.2
+  secondary_sampling_unit: model_repetition
+model_group: default

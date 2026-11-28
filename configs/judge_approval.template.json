@@ -1,0 +1,21 @@
+{
+  "decision": "pending",
+  "approved_by": "",
+  "approved_at_utc": "",
+  "scope": "",
+  "decision_rationale": "",
+  "configuration_sha256": "",
+  "heldout_report_sha256": "",
+  "limitations": [
+    "Single-expert validation has one human reference and provides no inter-human agreement or adjudicated consensus.",
+    "The expert participated in corpus construction, limiting independent validation.",
+    "The planned held-out sample contains 50 answers, with dependent criterion decisions and potentially sparse error categories.",
+    "One judge call per answer does not assess judge repeatability."
+  ],
+  "note": "Template only. No judge has been validated by creating this repository. Complete after actual blinded human annotation and a frozen held-out assessment. Single-expert mode uses reviewer_1.csv without a fabricated second review or adjudication. Do not fabricate labels, dates or approval.",
+  "human_review": {
+    "reviewers": 1,
+    "reference_type": "single_expert",
+    "reference_file": "reviewer_1.csv"
+  }
+}

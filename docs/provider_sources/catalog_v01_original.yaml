@@ -1,0 +1,228 @@
+schema_version: 1
+verified_on: '2026-11-27'
+currency: USD
+units: per_million_tokens
+notes:
+  - This is a dated rate-card snapshot, not a guarantee of future availability or an invoice.
+  - Native batch rates apply only to requests actually completed through that provider batch API.
+  - Input cache hits are observed per request, never presumed. Repetitions always generate fresh answers.
+  - Unknown weight revisions and undisclosed architectures are recorded, not inferred.
+  - Router prices are specific to the pinned backend. Disable model and backend fallback.
+models:
+  qwen3_8b:
+    model: Qwen/Qwen3-8B
+    kind: openai_compatible
+    base_url: https://api.siliconflow.com/v1
+    api_key_env: SILICONFLOW_API_KEY
+    availability: listed_direct_provider
+    architecture: dense
+    total_parameters_billions: 8.2
+    active_parameters_billions: 8.2
+    weight_revision: unknown
+    precision: fp8
+    max_context_tokens: 131000
+    native_context_tokens: 32768
+    context_note: Host advertises 131K extended context. The configuration conservatively uses 131000, pending exact pilot verification.
+    metadata_note: Host page has inconsistent architecture and reasoning flags. Dense architecture follows original model documentation, while endpoint availability and pricing follow the host.
+    cache: {mode: 'off'}
+    parameters: {enable_thinking: true, thinking_budget: 2048}
+    accepted_response_models: [Qwen/Qwen3-8B]
+    pricing:
+      standard: {input: '0.06', output: '0.06'}
+    sources:
+      - https://www.siliconflow.com/models/qwen3-8b
+      - https://docs.siliconflow.com/en/api-reference/chat-completions/chat-completions
+      - https://openrouter.ai/qwen/qwen3-8b
+  qwen3_32b:
+    model: qwen/qwen3-32b
+    kind: openai_compatible
+    base_url: https://openrouter.ai/api/v1
+    api_key_env: OPENROUTER_API_KEY
+    availability: listed
+    architecture: dense
+    total_parameters_billions: 32.8
+    active_parameters_billions: 32.8
+    weight_revision: unknown
+    precision: fp8
+    max_context_tokens: 131072
+    native_context_tokens: 32768
+    context_note: Advertised extended host context. Freeze the host and validate full prompts before the experiment.
+    cache: {mode: 'off'}
+    parameters:
+      provider: {only: [siliconflow], allow_fallbacks: false, require_parameters: true, quantizations: [fp8]}
+    accepted_response_models: [qwen/qwen3-32b]
+    accepted_backend_names: [SiliconFlow]
+    pricing:
+      standard: {input: '0.14', output: '0.57'}
+    sources: [https://openrouter.ai/qwen/qwen3-32b, https://openrouter.ai/api/v1/models/qwen/qwen3-32b/endpoints]
+  qwen3_30b_a3b:
+    model: qwen/qwen3-30b-a3b
+    kind: openai_compatible
+    base_url: https://openrouter.ai/api/v1
+    api_key_env: OPENROUTER_API_KEY
+    availability: listed_but_context_limited
+    enabled: false
+    architecture: mixture_of_experts
+    total_parameters_billions: 30.5
+    active_parameters_billions: 3.3
+    weight_revision: unknown
+    precision: undisclosed_by_this_listing
+    max_context_tokens: 40960
+    native_context_tokens: 32768
+    provision_note: Advertised current host limit is 40960. Provision an extended-context endpoint for the full corpus rather than truncate sources or drop scenarios per model.
+    cache: {mode: 'off'}
+    parameters:
+      provider: {only: [deepinfra], allow_fallbacks: false, require_parameters: true}
+    accepted_response_models: [qwen/qwen3-30b-a3b]
+    accepted_backend_names: [DeepInfra]
+    pricing:
+      standard: {input: '0.12', output: '0.50'}
+    sources: [https://openrouter.ai/qwen/qwen3-30b-a3b]
+  qwen3_235b_a22b:
+    model: qwen/qwen3-235b-a22b
+    kind: openai_compatible
+    availability: unavailable_on_openrouter
+    enabled: false
+    architecture: mixture_of_experts
+    total_parameters_billions: 235
+    active_parameters_billions: 22
+    weight_revision: unknown
+    precision: unknown
+    max_context_tokens: null
+    native_context_tokens: 32768
+    provision_note: The original model is unavailable on this router. The 2507 variants are distinct checkpoints and require a declared protocol amendment if chosen.
+    pricing: {}
+    sources: [https://openrouter.ai/qwen/qwen3-235b-a22b]
+  gemma4_31b:
+    model: google/gemma-4-31b-it
+    kind: openai_compatible
+    base_url: https://openrouter.ai/api/v1
+    api_key_env: OPENROUTER_API_KEY
+    availability: listed
+    architecture: dense
+    total_parameters_billions: 30.7
+    active_parameters_billions: 30.7
+    weight_revision: unknown
+    precision: fp8
+    max_context_tokens: 262144
+    cache: {mode: 'off'}
+    parameters:
+      provider: {only: [deepinfra], allow_fallbacks: false, require_parameters: true, quantizations: [fp8]}
+    accepted_response_models: [google/gemma-4-31b-it]
+    accepted_backend_names: [DeepInfra]
+    pricing:
+      standard: {input: '0.20', output: '0.40'}
+    sources: [https://openrouter.ai/google/gemma-4-31b-it, https://openrouter.ai/api/v1/models/google/gemma-4-31b-it/endpoints]
+  gpt62_astra:
+    model: gpt-6.2-astra
+    kind: openai_responses
+    base_url: https://api.openai.com/v1
+    api_key_env: OPENAI_API_KEY
+    availability: listed
+    architecture: undisclosed
+    total_parameters_billions: null
+    active_parameters_billions: null
+    weight_revision: provider_managed
+    precision: undisclosed
+    max_context_tokens: 1050000
+    max_input_tokens: 922000
+    max_output_tokens: 128000
+    cache: {mode: explicit, ttl: 30m}
+    parameters: {reasoning: {effort: medium}}
+    accepted_response_models: [gpt-6.2-astra]
+    pricing:
+      standard:
+        tiers:
+          - {max_input_tokens: 272000, input: '8', output: '40', cache_read: '0.40', cache_write_short: '10', cache_write_long: '20'}
+          - {max_input_tokens: null, input: '16', output: '60', cache_read: '0.80', cache_write_short: '20', cache_write_long: '40'}
+      batch:
+        tiers:
+          - {max_input_tokens: 272000, input: '4', output: '20', cache_read: '0.20', cache_write_short: '5', cache_write_long: '10'}
+          - {max_input_tokens: null, input: '8', output: '30', cache_read: '0.40', cache_write_short: '10', cache_write_long: '20'}
+    sources:
+      - https://developers.openai.com/api/docs/models/gpt-6.2-astra
+      - https://developers.openai.com/api/docs/guides/prompt-caching
+      - https://platform.openai.com/pricing
+  claude_opus55:
+    model: claude-opus-5-5
+    kind: anthropic
+    base_url: https://api.anthropic.com/v1
+    api_key_env: ANTHROPIC_API_KEY
+    api_version: '2026-10-21'
+    availability: listed
+    architecture: undisclosed
+    total_parameters_billions: null
+    active_parameters_billions: null
+    weight_revision: provider_managed
+    precision: undisclosed
+    max_context_tokens: 1000000
+    max_output_tokens: 128000
+    cache: {mode: explicit, ttl: 5m}
+    parameters: {}
+    reasoning_note: Adaptive thinking is always enabled. Freeze the documented default medium effort for this model; do not label it non-reasoning.
+    accepted_response_models: [claude-opus-5-5]
+    pricing:
+      standard: {input: '4', output: '20', cache_read: '0.20', cache_write_short: '5', cache_write_long: '8'}
+      batch: {input: '2', output: '10', cache_read: '0.10', cache_write_short: '2.5', cache_write_long: '4'}
+    sources:
+      - https://platform.claude.com/docs/en/models/overview
+      - https://platform.claude.com/docs/en/about-claude/pricing
+      - https://platform.claude.com/docs/en/build-with-claude/batch-processing
+  gemini31_pro:
+    model: gemini-3.1-pro-preview
+    kind: gemini
+    base_url: https://generativelanguage.googleapis.com/v1beta
+    api_key_env: GEMINI_API_KEY
+    availability: preview
+    architecture: undisclosed
+    total_parameters_billions: null
+    active_parameters_billions: null
+    weight_revision: provider_managed_preview
+    precision: undisclosed
+    max_context_tokens: 1114112
+    max_input_tokens: 1048576
+    max_output_tokens: 65536
+    cache: {mode: implicit}
+    parameters: {}
+    accepted_response_models: [gemini-3.1-pro-preview]
+    identity_note: If a dated modelVersion is returned, record and explicitly accept it during pilot configuration. Do not wildcard identities or silently change versions within a run.
+    pricing:
+      standard:
+        tiers:
+          - {max_input_tokens: 200000, input: '2', output: '12', cache_read: '0.20'}
+          - {max_input_tokens: null, input: '4', output: '18', cache_read: '0.40'}
+      batch:
+        tiers:
+          - {max_input_tokens: 200000, input: '1', output: '6', cache_read: '0.20'}
+          - {max_input_tokens: null, input: '2', output: '9', cache_read: '0.40'}
+      explicit_cache_storage_per_million_token_hour: '4.50'
+    sources:
+      - https://aistudio.google.com/docs/models/gemini-3.1-pro-preview
+      - https://ai.google.dev/gemini-api/docs/pricing
+      - https://aistudio.google.com/docs/caching
+judges:
+  gpt62_sol:
+    model: gpt-6.2-sol
+    kind: openai_responses
+    base_url: https://api.openai.com/v1
+    api_key_env: OPENAI_API_KEY
+    availability: listed
+    architecture: undisclosed
+    weight_revision: provider_managed
+    precision: undisclosed
+    max_context_tokens: 1050000
+    max_input_tokens: 922000
+    max_output_tokens: 128000
+    cache: {mode: explicit, ttl: 30m}
+    parameters: {reasoning: {effort: medium}}
+    accepted_response_models: [gpt-6.2-sol]
+    pricing:
+      standard:
+        tiers:
+          - {max_input_tokens: 272000, input: '2', output: '10', cache_read: '0.10', cache_write_short: '2.5', cache_write_long: '5'}
+          - {max_input_tokens: null, input: '4', output: '15', cache_read: '0.20', cache_write_short: '5', cache_write_long: '10'}
+      batch:
+        tiers:
+          - {max_input_tokens: 272000, input: '1', output: '5', cache_read: '0.05', cache_write_short: '1.25', cache_write_long: '2.5'}
+          - {max_input_tokens: null, input: '2', output: '7.5', cache_read: '0.10', cache_write_short: '2.5', cache_write_long: '5'}
+    sources: [https://developers.openai.com/api/docs/models/gpt-6.2-sol]

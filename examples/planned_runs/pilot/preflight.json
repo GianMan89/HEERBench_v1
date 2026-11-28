@@ -1,0 +1,29 @@
+{
+  "ready": true,
+  "models": [
+    {
+      "model_id": "qwen35_9b",
+      "ready": true,
+      "problems": [],
+      "warnings": [
+        "Weight revision is not independently pinned; retain returned identities and run dates."
+      ],
+      "effective_transport": "standard",
+      "max_input_estimate": 103139,
+      "max_byte_upper_bound": 246099
+    },
+    {
+      "model_id": "gemma4_31b",
+      "ready": true,
+      "problems": [],
+      "warnings": [
+        "Weight revision is not independently pinned; retain returned identities and run dates."
+      ],
+      "effective_transport": "standard",
+      "max_input_estimate": 103139,
+      "max_byte_upper_bound": 246099
+    }
+  ],
+  "network_requests": 0,
+  "credentials_checked": false
+}

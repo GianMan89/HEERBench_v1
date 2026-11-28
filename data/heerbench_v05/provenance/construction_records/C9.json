@@ -1,0 +1,3972 @@
+{
+  "case_id": "C9",
+  "questions": [
+    {
+      "question_id": "HB-C9-A001",
+      "case_id": "C9",
+      "abf_stage": "A",
+      "title": "Higher mission and purpose",
+      "question": "What mission, purpose and responsible command does the higher order state for RESOLUTE HERALD?",
+      "expected_answer": "When directed, USEUCOM conducts integrated operations in the information environment, including MISO, cyberspace, electromagnetic-spectrum, public affairs and civil-military activities. The purpose is to preserve Moldova’s sovereign democratic process against coercion while deterring escalation and keeping US action below armed conflict.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-A001-R1",
+          "text": "Identifies USEUCOM as the responsible command.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A001-R2",
+          "text": "Preserves the when-directed execution condition.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A001-R3",
+          "text": "Identifies integrated operations in the information environment as the mission activity.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A001-R4",
+          "text": "Identifies MISO as a stated capability group.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A001-R5",
+          "text": "Identifies cyberspace activities as a stated capability group.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A001-R6",
+          "text": "Identifies electromagnetic-spectrum activities as a stated capability group.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A001-R7",
+          "text": "Identifies public affairs as a stated capability group.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A001-R8",
+          "text": "Identifies civil-military activities as a stated capability group.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A001-R9",
+          "text": "States protection of Moldova’s sovereign democratic process against coercion.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A001-R10",
+          "text": "Preserves the below-armed-conflict ceiling.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A001-R11",
+          "text": "Preserves the aim of deterring escalation.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Equivalent mission wording with the same purpose and limits."
+      ],
+      "error_conditions": [
+        "Changes the mission to autonomous combat or treaty defence of Moldova."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D07",
+          "line_start": 23,
+          "line_end": 27,
+          "support": "Mission and national intent"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S1-01",
+        "C9:RH-MA-S1-02",
+        "C9:RH-MA-S1-17",
+        "C9:RH-MA-S3-07",
+        "C9:RH-MA-S8-03"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "OIE is already explicitly identified as the main effort in the packet. The accepted essential-task item is therefore represented as source identification, with its accepted case preserved in the provenance.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-A002",
+      "case_id": "C9",
+      "abf_stage": "A",
+      "title": "Partner-led end state and objectives",
+      "question": "Which partner-led end-state conditions and campaign objectives are stated?",
+      "expected_answer": "Moldovan and European institutions should visibly and credibly lead the information defence, while the campaign’s reach and deniability are degraded and escalation remains deterred below armed conflict. These are conditions sought, rather than a list of US activities.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-A002-R1",
+          "text": "Identifies visible and credible Moldovan/European institutional leadership.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A002-R2",
+          "text": "Identifies degradation of campaign reach as an end-state condition.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A002-R3",
+          "text": "Identifies degradation of campaign deniability as an end-state condition.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A002-R4",
+          "text": "Preserves deterrence of escalation as a desired condition.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A002-R5",
+          "text": "Preserves the armed-conflict ceiling.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A002-R6",
+          "text": "Describes desired conditions rather than activities alone.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Equivalent condition statements retaining partner leadership."
+      ],
+      "error_conditions": [
+        "Equates more US products or visibility with achievement of the end state."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D01",
+          "line_start": 71,
+          "line_end": 71,
+          "support": "Strategic end state"
+        },
+        {
+          "doc_id": "C9:D10",
+          "line_start": 17,
+          "line_end": 19,
+          "support": "Operational intent and end state"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S1-05",
+        "C9:RH-MA-S12-01"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the stated scenario information, preserving its status and qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-A003",
+      "case_id": "C9",
+      "abf_stage": "A",
+      "title": "National attribution decisions",
+      "question": "What responsibilities are assigned for public attribution and intelligence disclosure?",
+      "expected_answer": "The command develops and maintains recommendations, but national authorities decide public attribution and intelligence release. USEUCOM cannot convert its own analytic confidence or recommendation into national release authority.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-A003-R1",
+          "text": "Distinguishes command recommendations from national decisions.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A003-R2",
+          "text": "Identifies public attribution as a nationally retained decision.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A003-R3",
+          "text": "Identifies intelligence disclosure as a nationally retained decision.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A concise recommendation-versus-decision distinction is sufficient."
+      ],
+      "error_conditions": [
+        "Assigns final public attribution or intelligence-release authority to the command."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D07",
+          "line_start": 39,
+          "line_end": 39,
+          "support": "Recommendation task"
+        },
+        {
+          "doc_id": "C9:D07",
+          "line_start": 51,
+          "line_end": 53,
+          "support": "National reservations"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S1-03",
+        "C9:RH-MA-S3-11"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the stated scenario information, preserving its status and qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-A004",
+      "case_id": "C9",
+      "abf_stage": "A",
+      "title": "Cyberspace coordination and restrictions",
+      "question": "What cyberspace coordination task and execution restrictions does the higher order state?",
+      "expected_answer": "Integrate cyberspace with USCYBERCOM. Stage offensive options without executing them. The baseline is defensive at Moldovan invitation, while offensive effects require national approval.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-A004-R1",
+          "text": "Identifies USCYBERCOM integration.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A004-R2",
+          "text": "Distinguishes staging from executing offensive options.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A004-R3",
+          "text": "Preserves invited defensive baseline.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A004-R4",
+          "text": "Identifies national approval for offensive effects.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Equivalent authority-and-scope table."
+      ],
+      "error_conditions": [
+        "Treats preparation of an offensive option as permission to execute it."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D07",
+          "line_start": 35,
+          "line_end": 41,
+          "support": "Coordination and staging task"
+        },
+        {
+          "doc_id": "C9:D07",
+          "line_start": 53,
+          "line_end": 53,
+          "support": "Approval requirement"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S1-13",
+        "C9:RH-MA-S3-02",
+        "C9:RH-MA-S3-09",
+        "C9:RH-MA-S4-02"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the stated scenario information, preserving its status and qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-A005",
+      "case_id": "C9",
+      "abf_stage": "A",
+      "title": "Planning deliverable and deadline",
+      "question": "What organisational and planning deliverables are directed by higher headquarters, and by when?",
+      "expected_answer": "Establish a joint task force, complete mission analysis and submit a concept of operations to the Joint Staff no later than 10 September 2027. The deliverable deadline is distinct from the authority needed to execute each activity.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-A005-R1",
+          "text": "States establishment of a JTF.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A005-R2",
+          "text": "States completion of mission analysis as a deliverable.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A005-R3",
+          "text": "States submission of the CONOPS as a deliverable.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A005-R4",
+          "text": "Gives the Joint Staff deadline as 10 September 2027.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Equivalent date format."
+      ],
+      "error_conditions": [
+        "Treats timely submission as automatic permission to deploy or execute all proposed activities."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D07",
+          "line_start": 31,
+          "line_end": 33,
+          "support": "Directed deliverables"
+        },
+        {
+          "doc_id": "C9:D07",
+          "line_start": 85,
+          "line_end": 85,
+          "support": "Reporting deadline"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S1-07",
+        "C9:RH-MA-S3-01"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the stated scenario information, preserving its status and qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-A006",
+      "case_id": "C9",
+      "abf_stage": "A",
+      "title": "Support consent and territorial scope",
+      "question": "What conditions govern US support and visible presence in the baseline operation?",
+      "expected_answer": "Moldova is a non-NATO, neutral partner with no US mutual-defence obligation. Support requires Moldovan request/consent and Chief-of-Mission authority for in-country activity. The baseline places visible military presence in Romania, while Moldova is the supported operating area. Expanded visible activity is not presumed approved.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-A006-R1",
+          "text": "Identifies absence of a mutual-defence obligation.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A006-R2",
+          "text": "States the Moldovan request/consent condition.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A006-R3",
+          "text": "States Chief-of-Mission authority for in-country activity.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A006-R4",
+          "text": "Distinguishes Moldova support from visible presence in Romania.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A006-R5",
+          "text": "Preserves the absence of automatic authority for expanded visible activity.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "May mention the separately governed protection/evacuation sequel without treating it as the baseline."
+      ],
+      "error_conditions": [
+        "Assumes existing consent authorises any expanded activity."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D07",
+          "line_start": 15,
+          "line_end": 15,
+          "support": "Partner status and consent"
+        },
+        {
+          "doc_id": "C9:D07",
+          "line_start": 29,
+          "line_end": 29,
+          "support": "Territorial and sequel distinction"
+        },
+        {
+          "doc_id": "C9:D07",
+          "line_start": 83,
+          "line_end": 83,
+          "support": "Reserved visible activity"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S10-02",
+        "C9:RH-MA-S8-04",
+        "C9:RH-MA-S6-23",
+        "C9:RH-MA-S5-03"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the stated scenario information, preserving its status and qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-A007",
+      "case_id": "C9",
+      "abf_stage": "A",
+      "title": "Visibility risk and partner sensitivity",
+      "question": "What risk and partner sensitivities are stated concerning visible US activity?",
+      "expected_answer": "US action perceived as election interference could damage the partner government and reinforce the militarisation narrative. The packet identifies sensitivity to visible uniformed personnel in Chișinău, US-branded messaging and foreign personnel in electoral institutions, and states that consent can narrow.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-A007-R1",
+          "text": "States the partner-damage and interference-perception risk.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A007-R2",
+          "text": "Identifies sensitivity to visible US uniformed personnel in Chișinău.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A007-R3",
+          "text": "Identifies sensitivity to US-branded messaging.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A007-R4",
+          "text": "Identifies sensitivity to foreign personnel in electoral institutions.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A007-R5",
+          "text": "Retains the possibility of narrowing consent.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Equivalent descriptions retaining the difference between actual activity and its public attribution."
+      ],
+      "error_conditions": [
+        "Treats greater US visibility as unconditionally beneficial."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D01",
+          "line_start": 90,
+          "line_end": 92,
+          "support": "Visibility-risk trade"
+        },
+        {
+          "doc_id": "C9:D05",
+          "line_start": 82,
+          "line_end": 84,
+          "support": "Specific sensitivities and dynamic consent"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S7-01",
+        "C9:RH-MA-S7-04"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the stated scenario information, preserving its status and qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-A008",
+      "case_id": "C9",
+      "abf_stage": "A",
+      "title": "Election and transition horizon",
+      "question": "What fixed event and conditional continuation horizon does the packet state?",
+      "expected_answer": "The parliamentary election is fixed for 5 December 2027 and the campaign continues through and beyond it. Guidance envisages a post-election contested-legitimacy window through approximately D+30 before transition to Moldovan/European institutions. The election date is a fact, while the later window is an approximate planning horizon.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-A008-R1",
+          "text": "Gives 5 December 2027 as a fixed election date.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A008-R2",
+          "text": "States continuation beyond voting day.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A008-R3",
+          "text": "Identifies the approximately D+30 contested-legitimacy window.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A008-R4",
+          "text": "Distinguishes the fixed date from the conditional/approximate horizon.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "May give an approximate early-January horizon without inventing an unconditional end date."
+      ],
+      "error_conditions": [
+        "Lists the election date as an assumption or ends the operation automatically on that date."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D05",
+          "line_start": 27,
+          "line_end": 27,
+          "support": "Election date"
+        },
+        {
+          "doc_id": "C9:D07",
+          "line_start": 29,
+          "line_end": 29,
+          "support": "Beyond-election campaign"
+        },
+        {
+          "doc_id": "C9:D10",
+          "line_start": 30,
+          "line_end": 32,
+          "support": "Transition window"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S8-05",
+        "C9:RH-MA-S10-20",
+        "C9:RH-MA-S12-07",
+        "C9:C9-GAP-02"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the stated scenario information, preserving its status and qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-A009",
+      "case_id": "C9",
+      "abf_stage": "A",
+      "title": "Force quantity and duration",
+      "question": "What differences does the packet state between apportioned and allocated information-support and hunt-forward forces?",
+      "expected_answer": "A three-company MISTF and 90-day hunt-forward team are apportioned. Two companies and 60 days of hunt-forward support are allocated. The third company and the duration extension remain pending requests. The packet states that allocated cyber coverage misses election day and the later window.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-A009-R1",
+          "text": "States three versus two MISTF companies.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A009-R2",
+          "text": "States 90 versus 60 days of hunt-forward support.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A009-R3",
+          "text": "Keeps the additional company as a pending request.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A009-R4",
+          "text": "Keeps the duration extension as a pending request.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A009-R5",
+          "text": "Reports the stated election-period coverage gap.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Equivalent tabulation with apportionment and allocation clearly separated."
+      ],
+      "error_conditions": [
+        "Counts a request as an allocated asset.",
+        "Invents exact team start/end dates not stated in the packet."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D04",
+          "line_start": 82,
+          "line_end": 99,
+          "support": "Force gaps and request status"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S11-01",
+        "C9:RH-MA-S11-03",
+        "C9:RH-MA-S11-18",
+        "C9:RH-MA-S11-20",
+        "C9:RH-MA-S7-18"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the stated scenario information, preserving its status and qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-A010",
+      "case_id": "C9",
+      "abf_stage": "A",
+      "title": "Threat courses and warning",
+      "question": "What most-likely and most-dangerous courses of action and warning priorities are stated?",
+      "expected_answer": "The most likely is sustained perception pressure. The most dangerous is election-day disruption or a results-perception attack, with LOW confidence. Warning priorities include deeper access to the results chain and pre-staged false-results material. These are warning indicators, not confirmation that the dangerous course will occur.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-A010-R1",
+          "text": "Identifies the sustained campaign as most likely.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A010-R2",
+          "text": "Identifies the election/results disruption as most dangerous with LOW confidence.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A010-R3",
+          "text": "Identifies deeper results-chain access as a warning indicator.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A010-R4",
+          "text": "Identifies pre-staged false-results material as a warning indicator.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A010-R5",
+          "text": "Does not treat capability indicators as a confirmed decision to act.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Equivalent source-listed results-chain indicators."
+      ],
+      "error_conditions": [
+        "Changes LOW confidence into a forecast of certainty."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D02",
+          "line_start": 61,
+          "line_end": 76,
+          "support": "Courses and indicators"
+        },
+        {
+          "doc_id": "C9:D02",
+          "line_start": 92,
+          "line_end": 94,
+          "support": "Priority warnings"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S2-06",
+        "C9:RH-MA-S2-07",
+        "C9:RH-MA-S5-01",
+        "C9:RH-MA-S5-11"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the stated scenario information, preserving its status and qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-A011",
+      "case_id": "C9",
+      "abf_stage": "A",
+      "title": "Approval timing constraint",
+      "question": "What timing constraint does the packet identify for product and attribution approvals?",
+      "expected_answer": "Routine and sensitive activities follow different release paths, with sensitive products and attribution routed through USEUCOM to national decision. The election is the fixed planning date and approval latency is a binding constraint, but the packet does not provide processing times for every approval.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-A011-R1",
+          "text": "Identifies differing approval paths.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A011-R2",
+          "text": "Links approval completion to the fixed election calendar.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A011-R3",
+          "text": "Avoids inventing measured approval durations.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A qualitative statement of the stated latency constraint is sufficient."
+      ],
+      "error_conditions": [
+        "Assigns a specific approval turnaround unsupported by the packet."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D09",
+          "line_start": 87,
+          "line_end": 87,
+          "support": "Approval chain and timing"
+        },
+        {
+          "doc_id": "C9:D10",
+          "line_start": 38,
+          "line_end": 38,
+          "support": "Approval picture requirement"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S7-11"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the stated scenario information, preserving its status and qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-A012",
+      "case_id": "C9",
+      "abf_stage": "A",
+      "title": "Coordination and independent partners",
+      "question": "What standing coordination arrangements and partner roles are stated?",
+      "expected_answer": "The staff is directed to coordinate through a combined mechanism with EEAS/EUPM liaison. The JTF coordinates rather than commands external actors. OSCE/ODIHR provides neutral observation, and partners can differ in timing, visibility and attribution positions.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-A012-R1",
+          "text": "Identifies combined coordination with EEAS/EUPM.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A012-R2",
+          "text": "Distinguishes coordination from command of external partners.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A012-R3",
+          "text": "Identifies OSCE/ODIHR’s neutral observation role.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A012-R4",
+          "text": "Retains potential divergence between partner positions.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Equivalent institutional names and coordination description."
+      ],
+      "error_conditions": [
+        "Assumes the JTF can order an observer finding or dictate all partner timing."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D04",
+          "line_start": 74,
+          "line_end": 80,
+          "support": "Partner roles"
+        },
+        {
+          "doc_id": "C9:D09",
+          "line_start": 120,
+          "line_end": 136,
+          "support": "Coordination and divergence"
+        },
+        {
+          "doc_id": "C9:D11",
+          "line_start": 35,
+          "line_end": 35,
+          "support": "Combined cell recommendation"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S3-04"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "The coordination mechanism is explicitly directed in the supplied packet, so it remains A despite the original rubric’s implied-task phrasing.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-A013",
+      "case_id": "C9",
+      "abf_stage": "A",
+      "title": "Narrative centre of gravity and requirements",
+      "question": "What centre of gravity, requirements and vulnerabilities does the JIPOE state for the campaign?",
+      "expected_answer": "It identifies coherence and perceived credibility of the narrative as the operational centre of gravity, with authenticity, deniability and synchronisation as requirements. Exposure of inauthenticity and loss of deniability are stated vulnerabilities. These are the supplied intelligence assessment.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-A013-R1",
+          "text": "Identifies coherence/perceived narrative credibility.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A013-R2",
+          "text": "Identifies authenticity as a stated campaign requirement.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A013-R3",
+          "text": "Identifies deniability as a stated campaign requirement.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A013-R4",
+          "text": "Identifies synchronisation as a stated campaign requirement.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A013-R5",
+          "text": "Relates inauthenticity exposure to the stated vulnerability.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A013-R6",
+          "text": "Attributes the assessment to the supplied JIPOE.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Equivalent summary retaining requirements versus vulnerabilities."
+      ],
+      "error_conditions": [
+        "Presents the supplied framing as an independently validated causal finding."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D08",
+          "line_start": 50,
+          "line_end": 58,
+          "support": "Provided centre-of-gravity assessment"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S2-01",
+        "C9:RH-MA-S2-02"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the stated scenario information, preserving its status and qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-A014",
+      "case_id": "C9",
+      "abf_stage": "A",
+      "title": "Assessment observability limits",
+      "question": "What distinction does the packet make between observable activity and campaign effects?",
+      "expected_answer": "Products, reach and characterised networks are activity/performance measures. Audience behaviour and adversary decisions are harder to observe, with decision shifts assessed through proxies. The packet warns against treating campaign volume as campaign effect.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-A014-R1",
+          "text": "Distinguishes activity measures from effects.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A014-R2",
+          "text": "States that decision-shift measures rely on proxies.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A014-R3",
+          "text": "Preserves limits on direct observation of intent or effect.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Equivalent MOP/MOE terminology."
+      ],
+      "error_conditions": [
+        "Treats product counts as direct proof of changed decisions."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D09",
+          "line_start": 89,
+          "line_end": 98,
+          "support": "Assessment measures"
+        },
+        {
+          "doc_id": "C9:D08",
+          "line_start": 83,
+          "line_end": 85,
+          "support": "Proxy and intent limits"
+        }
+      ],
+      "source_item_uids": [
+        "C9:C9-GAP-09"
+      ],
+      "origin": "constructed_companion",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the stated scenario information, preserving its status and qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-A015",
+      "case_id": "C9",
+      "abf_stage": "A",
+      "title": "Strategic assumptions",
+      "question": "What assumptions concerning the ceasefire and Russian objectives are inherited from higher headquarters?",
+      "expected_answer": "The 18 March 2027 Russia–Ukraine ceasefire is assumed to hold, with Russian objectives remaining below armed conflict. The packet states that renewed war could divert capacity from Moldova and alter escalation calculations. These are planning assumptions and conditional assessments.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-A015-R1",
+          "text": "Identifies the ceasefire-holds assumption with its date.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A015-R2",
+          "text": "Identifies the inherited below-threshold objective assumption.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A015-R3",
+          "text": "States possible Russian capacity diversion if the ceasefire fails.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A015-R4",
+          "text": "States that ceasefire failure can change escalation calculations.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A015-R5",
+          "text": "Preserves assumption/conditional status.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Equivalent phrasing without asserting a probability or timing of failure."
+      ],
+      "error_conditions": [
+        "Treats renewed war as a guaranteed end of pressure on Moldova."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D07",
+          "line_start": 19,
+          "line_end": 19,
+          "support": "Inherited assumptions"
+        },
+        {
+          "doc_id": "C9:D01",
+          "line_start": 75,
+          "line_end": 78,
+          "support": "Conditional implications"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S6-01",
+        "C9:RH-MA-S6-05",
+        "C9:C9-GAP-05"
+      ],
+      "origin": "decomposed",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the stated scenario information, preserving its status and qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-A016",
+      "case_id": "C9",
+      "abf_stage": "A",
+      "title": "Energy dependency",
+      "question": "What electricity dependency and alternative supply limits does the packet state?",
+      "expected_answer": "Russian-owned Cuciurgan/MGRES supplies the majority, roughly 70–80%, of right-bank demand. Romanian interconnection exists but is capacity-limited and costlier. Winter heating demand increases the importance of the shortfall. No quantified remaining import margin is supplied.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-A016-R1",
+          "text": "Identifies Russian ownership of Cuciurgan/MGRES.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A016-R2",
+          "text": "Identifies its majority contribution to right-bank electricity demand.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A016-R3",
+          "text": "Identifies the limited Romanian interconnection alternative.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A016-R4",
+          "text": "Relates winter demand to the supply problem.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-A016-R5",
+          "text": "Avoids inventing available replacement megawatts.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Majority rather than an exact percentage is acceptable if the dependency is clear."
+      ],
+      "error_conditions": [
+        "Assumes the interconnector can replace all lost supply."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D05",
+          "line_start": 51,
+          "line_end": 51,
+          "support": "Ownership"
+        },
+        {
+          "doc_id": "C9:D05",
+          "line_start": 63,
+          "line_end": 65,
+          "support": "Supply and interconnection limits"
+        },
+        {
+          "doc_id": "C9:D09",
+          "line_start": 116,
+          "line_end": 116,
+          "support": "Winter demand"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S10-04"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the stated scenario information, preserving its status and qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-B001",
+      "case_id": "C9",
+      "abf_stage": "B",
+      "title": "Operational and end-state distinction",
+      "question": "How should progress against the campaign’s stated vulnerabilities be related to the partner-led end state?",
+      "expected_answer": "Degrading a campaign requirement can support the objective, but does not by itself establish credible partner leadership, preserved consent or below-threshold success. Operational progress and the wider end-state conditions therefore need separate checks.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-B001-R1",
+          "text": "Relates degraded campaign requirements to an intermediate operational objective.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-B001-R2",
+          "text": "Identifies credible partner leadership as an additional end-state condition.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-B001-R3",
+          "text": "Identifies the armed-conflict/escalation restraint as an additional end-state condition.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-B001-R4",
+          "text": "Rejects equivalence between intermediate progress and end-state achievement.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "May use distinct objective and end-state indicators rather than those exact labels."
+      ],
+      "error_conditions": [
+        "Declares mission success from exposure or output counts alone."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D08",
+          "line_start": 50,
+          "line_end": 58,
+          "support": "Campaign requirements"
+        },
+        {
+          "doc_id": "C9:D01",
+          "line_start": 71,
+          "line_end": 71,
+          "support": "End-state conditions"
+        },
+        {
+          "doc_id": "C9:D10",
+          "line_start": 17,
+          "line_end": 19,
+          "support": "Operational objectives"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S12-02"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "derived",
+      "derivation_note": "Compares two specified constructs and identifies the conditions not entailed by one another.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-B002",
+      "case_id": "C9",
+      "abf_stage": "B",
+      "title": "Authority-readiness assessment",
+      "question": "What does completion of planning and technical preparation establish about readiness to execute the proposed activities?",
+      "expected_answer": "It establishes neither national attribution release nor authority for offensive effects or expanded visible activity. Recommendations, preparation, invitation and each applicable approval are distinct prerequisites. A single undifferentiated ready status would conceal which activity remains conditional.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-B002-R1",
+          "text": "Separates completed planning/preparation from execution authority.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-B002-R2",
+          "text": "Distinguishes national approval from technical capability and partner invitation.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-B002-R3",
+          "text": "Identifies the need for activity-specific readiness status.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A conditional-readiness assessment by activity is acceptable."
+      ],
+      "error_conditions": [
+        "Treats the EXORD title, submitted CONOPS or staged option as unrestricted execution authority."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D07",
+          "line_start": 33,
+          "line_end": 41,
+          "support": "Planning and preparation tasks"
+        },
+        {
+          "doc_id": "C9:D07",
+          "line_start": 49,
+          "line_end": 59,
+          "support": "Authority conditions"
+        },
+        {
+          "doc_id": "C9:D07",
+          "line_start": 83,
+          "line_end": 85,
+          "support": "Reserved authorities and deliverable"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S1-03",
+        "C9:RH-MA-S1-13"
+      ],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines distinct task and authority clauses to assess the validity of a consolidated readiness claim.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-B003",
+      "case_id": "C9",
+      "abf_stage": "B",
+      "title": "Critical-period force coverage",
+      "question": "How should the allocated force and duration figures be assessed against the campaign horizon?",
+      "expected_answer": "The company shortage and time-coverage shortage are different constraints. The 60-day allocation is reported to miss the election period, and neither an apportioned 90-day figure nor a pending extension establishes actual dated coverage through all later requirements. Exact start/end dates and handover arrangements are needed to substantiate coverage.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-B003-R1",
+          "text": "Distinguishes force-quantity and duration shortages.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-B003-R2",
+          "text": "Preserves the stated allocated election-period gap.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-B003-R3",
+          "text": "Recognises that nominal duration alone does not establish dated coverage through the full horizon.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-B003-R4",
+          "text": "Avoids assuming a specific start date or automatic post-election coverage.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Can distinguish the D+3 results period from the broader approximate D+30 transition window."
+      ],
+      "error_conditions": [
+        "Assumes the pending 90-day request proves full post-election coverage."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D04",
+          "line_start": 82,
+          "line_end": 99,
+          "support": "Allocation and pending duration extension"
+        },
+        {
+          "doc_id": "C9:D08",
+          "line_start": 66,
+          "line_end": 66,
+          "support": "Results-publication danger period"
+        },
+        {
+          "doc_id": "C9:D10",
+          "line_start": 32,
+          "line_end": 32,
+          "support": "Broader transition horizon"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S11-03",
+        "C9:RH-MA-S11-18"
+      ],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Cross-checks force quantities and nominal durations against several distinct required periods; source labels alone are not treated as a dated coverage schedule.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-B004",
+      "case_id": "C9",
+      "abf_stage": "B",
+      "title": "Consent and visibility assessment",
+      "question": "What does the stated consent posture imply for judging a change in the visible US footprint?",
+      "expected_answer": "Existing consent and a Romania-based baseline cannot be treated as approval for an increased visible footprint in Chișinău. The actual or publicly attributed footprint must be compared with the current invitation and Chief-of-Mission/national limits because visibility can undermine the partner purpose even without a change in technical capability.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-B004-R1",
+          "text": "Distinguishes baseline consent from expanded visible activity.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-B004-R2",
+          "text": "Relates actual or attributed presence to partner risk.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-B004-R3",
+          "text": "Preserves the applicable approval and coordination boundaries.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A task-by-task scope comparison is acceptable."
+      ],
+      "error_conditions": [
+        "Infers unrestricted visible presence from a general assistance request."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D07",
+          "line_start": 15,
+          "line_end": 15,
+          "support": "Consent"
+        },
+        {
+          "doc_id": "C9:D07",
+          "line_start": 29,
+          "line_end": 29,
+          "support": "Baseline presence"
+        },
+        {
+          "doc_id": "C9:D05",
+          "line_start": 82,
+          "line_end": 84,
+          "support": "Visibility sensitivity"
+        }
+      ],
+      "source_item_uids": [
+        "C9:C9-GAP-06"
+      ],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines consent scope, geographical baseline and reported sensitivity to identify the relevant changing variable.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-B005",
+      "case_id": "C9",
+      "abf_stage": "B",
+      "title": "Deadline and approval assessment",
+      "question": "How should the CONOPS deadline and election calendar be related to activity approval readiness?",
+      "expected_answer": "A plan can be due before all execution approvals are obtained. Readiness for the intended support period depends on each approval’s scope and completion time, which the packet does not quantify. Compliance with the 10 September deliverable does not establish permission or timely availability for every proposed activity.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-B005-R1",
+          "text": "Separates the submission milestone from execution approval.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-B005-R2",
+          "text": "Relates approval completion to the activity’s required time.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-B005-R3",
+          "text": "Keeps unspecified processing durations unresolved.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A critical-path description with unresolved approval durations is acceptable."
+      ],
+      "error_conditions": [
+        "Invents guaranteed approval dates or treats the submission deadline as release authority."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D07",
+          "line_start": 33,
+          "line_end": 33,
+          "support": "CONOPS milestone"
+        },
+        {
+          "doc_id": "C9:D09",
+          "line_start": 87,
+          "line_end": 87,
+          "support": "Approval timing"
+        },
+        {
+          "doc_id": "C9:D05",
+          "line_start": 27,
+          "line_end": 27,
+          "support": "Fixed event"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S7-11"
+      ],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines an administrative milestone with a later operational horizon and different approval paths.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-B006",
+      "case_id": "C9",
+      "abf_stage": "B",
+      "title": "Independent observation assessment",
+      "question": "How does the OSCE’s role affect the staff’s use of observer findings in assessing mission progress?",
+      "expected_answer": "Independent observation can inform the legitimacy assessment, but its findings and publication timing are not controlled by the JTF. A staff plan that treats a favourable or timely observer finding as a commanded deliverable has an unsupported dependency.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-B006-R1",
+          "text": "Relates observer findings to the legitimacy assessment.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-B006-R2",
+          "text": "Preserves observer independence and lack of JTF control.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-B006-R3",
+          "text": "Identifies an unsupported dependency if favourable or timely findings are assumed.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Equivalent distinction between coordinating access and controlling conclusions."
+      ],
+      "error_conditions": [
+        "Treats neutral observers as tasked producers of a predetermined favourable judgement."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D04",
+          "line_start": 78,
+          "line_end": 78,
+          "support": "Neutral observation role"
+        },
+        {
+          "doc_id": "C9:D09",
+          "line_start": 120,
+          "line_end": 136,
+          "support": "Coordination without command"
+        },
+        {
+          "doc_id": "C9:D01",
+          "line_start": 71,
+          "line_end": 71,
+          "support": "Legitimacy-related end state"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S2-11"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "derived",
+      "derivation_note": "Derives the staff-planning implication of relying on an independent actor’s product.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-B007",
+      "case_id": "C9",
+      "abf_stage": "B",
+      "title": "Assessability of proposed options",
+      "question": "What would reliance on product-release counts alone establish about the assessability of a proposed option’s claimed outcome?",
+      "expected_answer": "It would establish that output volume can be observed, but not that the claimed outcome can be assessed. The option still needs an obtainable outcome-linked indicator and a justified interpretation of any proxy. A readily countable activity cannot by itself substantiate an effectiveness ranking or prove a causal change in beliefs or decisions.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-B007-R1",
+          "text": "Distinguishes observable output volume from an outcome-linked indicator.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-B007-R2",
+          "text": "Identifies the missing outcome-measurement basis for an effectiveness comparison.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-B007-R3",
+          "text": "Preserves the uncertainty of proxy interpretation.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-B007-R4",
+          "text": "Rejects a causal-effect claim based only on product counts.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A qualitative assessability judgement supported by named observables is acceptable."
+      ],
+      "error_conditions": [
+        "Rates the most prolific output producer as necessarily most effective."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D09",
+          "line_start": 89,
+          "line_end": 98,
+          "support": "Measures and caveat"
+        },
+        {
+          "doc_id": "C9:D08",
+          "line_start": 83,
+          "line_end": 85,
+          "support": "Observability limitations"
+        }
+      ],
+      "source_item_uids": [
+        "C9:C9-GAP-09"
+      ],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Applies the supplied output/effect distinction to a specific deficient option-assessment basis. It does not claim that the general distinction or use of proxies is newly inferred.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-B008",
+      "case_id": "C9",
+      "abf_stage": "B",
+      "title": "Assumption-change assessment",
+      "question": "How would failure of the ceasefire assumption affect use of the current planning baseline?",
+      "expected_answer": "It would require rechecking both Russian capacity assigned to Moldova and the escalation context. Reduced available capacity would not automatically prove reduced risk, because the broader escalation situation could change in another direction. The current estimates should not simply be retained or uniformly scaled down.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-B008-R1",
+          "text": "Identifies the capacity estimate as dependent on the ceasefire assumption.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-B008-R2",
+          "text": "Identifies escalation calculations as dependent on the ceasefire assumption.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-B008-R3",
+          "text": "Rejects automatic reduction of overall risk from possible resource diversion.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-B008-R4",
+          "text": "Treats the change as conditional rather than an observed event.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Different directional assessments are acceptable if they retain uncertainty and justify both dependencies."
+      ],
+      "error_conditions": [
+        "Concludes that ceasefire failure automatically ends the Moldova mission."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D01",
+          "line_start": 75,
+          "line_end": 78,
+          "support": "Assumption and conditional consequences"
+        },
+        {
+          "doc_id": "C9:D07",
+          "line_start": 19,
+          "line_end": 19,
+          "support": "Higher baseline"
+        }
+      ],
+      "source_item_uids": [
+        "C9:C9-GAP-05"
+      ],
+      "origin": "decomposed",
+      "source_answer_status": "derived",
+      "derivation_note": "Distinguishes the two consequences of assumption failure instead of treating resource diversion as a sufficient proxy for overall risk.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-B009",
+      "case_id": "C9",
+      "abf_stage": "B",
+      "title": "Replacement-power adequacy",
+      "question": "What can be concluded about replacement electricity supply from the stated energy dependency and backstop?",
+      "expected_answer": "The existence of a Romanian interconnection does not establish adequate replacement for the lost Cuciurgan contribution during winter. A capacity-limited backstop and unknown import margin leave the residual service shortfall unresolved. No specific deficit can be calculated from the supplied information.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-B009-R1",
+          "text": "Distinguishes the existence of an alternative from adequate replacement capacity.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-B009-R2",
+          "text": "Relates the capacity limit to the high original dependency and winter demand.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-B009-R3",
+          "text": "Leaves the numerical shortfall unresolved.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A conditional partial-replacement assessment is acceptable."
+      ],
+      "error_conditions": [
+        "Claims complete replacement or invents a megawatt deficit."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D05",
+          "line_start": 63,
+          "line_end": 65,
+          "support": "Dependency and alternative limits"
+        },
+        {
+          "doc_id": "C9:D09",
+          "line_start": 116,
+          "line_end": 116,
+          "support": "Winter context"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S10-04"
+      ],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Compares the magnitude and timing of demand with the bounded alternative without inventing missing capacity.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-B010",
+      "case_id": "C9",
+      "abf_stage": "B",
+      "title": "End-of-support assessment",
+      "question": "What should distinguish readiness to transfer the support effort from reaching election day or a single defensive milestone?",
+      "expected_answer": "Neither election day nor one completed protection task establishes that partners can sustain all required functions. The results-publication period and the longer contested-legitimacy window have different needs, so transition needs function-specific continuity and partner acceptance, not a calendar-only decision.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-B010-R1",
+          "text": "Distinguishes the election, results period and broader transition horizon.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-B010-R2",
+          "text": "Separates a completed task from sustained partner capacity.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-B010-R3",
+          "text": "Identifies functional continuity as a transition consideration.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-B010-R4",
+          "text": "Identifies receiving-partner acceptance as a transition consideration.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A staged transfer assessment may allow different functions to transition at different times."
+      ],
+      "error_conditions": [
+        "Treats D+3 or election day as an automatic end to every support function."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D08",
+          "line_start": 66,
+          "line_end": 66,
+          "support": "Results period"
+        },
+        {
+          "doc_id": "C9:D10",
+          "line_start": 32,
+          "line_end": 32,
+          "support": "Transition horizon"
+        },
+        {
+          "doc_id": "C9:D01",
+          "line_start": 71,
+          "line_end": 71,
+          "support": "Partner-led end state"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S12-07",
+        "C9:C9-GAP-02"
+      ],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Compares distinct phase requirements and the partner-led end state to assess whether a calendar milestone is sufficient.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-F001",
+      "case_id": "C9",
+      "abf_stage": "F",
+      "title": "Escalation and partner-purpose criterion",
+      "question": "What criterion should be applied when comparing support options against the stated purpose?",
+      "expected_answer": "Include an explicit comparison of the potential to provide an escalation pretext or undermine partner leadership and consent, alongside the intended operational benefit. Document which approval is required for a material risk and reject treating technical feasibility alone as sufficient.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-F001-R1",
+          "text": "Defines escalation-pretext exposure as a comparison criterion.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F001-R2",
+          "text": "Includes compatibility with partner leadership as a comparison condition.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F001-R3",
+          "text": "Includes compatibility with current partner consent as a comparison condition.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F001-R4",
+          "text": "Links a material approval-dependent risk to the appropriate decision before commitment.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Qualitative ordinal comparison is acceptable without unsupported numerical probabilities."
+      ],
+      "error_conditions": [
+        "Recommends an option solely because it can be technically executed."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D07",
+          "line_start": 27,
+          "line_end": 27,
+          "support": "National purpose"
+        },
+        {
+          "doc_id": "C9:D07",
+          "line_start": 49,
+          "line_end": 49,
+          "support": "Escalation approval"
+        },
+        {
+          "doc_id": "C9:D01",
+          "line_start": 90,
+          "line_end": 92,
+          "support": "Risk interaction"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S12-12"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "derived",
+      "derivation_note": "Derives a concrete comparison and commitment condition from the non-equivalence of intermediate benefit and end-state success.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-F002",
+      "case_id": "C9",
+      "abf_stage": "F",
+      "title": "Activity-specific permission gate",
+      "question": "What control should the staff establish before treating proposed activities as executable?",
+      "expected_answer": "For each proposed activity, record the responsible decision authority, current approval status, authorised scope and partner-consent condition, separately from technical readiness and planning completion. Hold the affected activity until the applicable permissions are confirmed, without assuming that another activity’s approval transfers.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-F002-R1",
+          "text": "Requires the responsible decision authority to be recorded for each activity.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F002-R2",
+          "text": "Requires the current approval status to be recorded for each activity.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F002-R3",
+          "text": "Requires the authorised scope to be recorded for each activity.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F002-R4",
+          "text": "Requires the applicable partner-consent condition to be recorded for each activity.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F002-R5",
+          "text": "Separates permission from technical and planning readiness.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F002-R6",
+          "text": "Makes commitment conditional on confirmation of the applicable approvals.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F002-R7",
+          "text": "Makes commitment conditional on confirmation of the applicable partner consent.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A release checklist or approval matrix is acceptable."
+      ],
+      "error_conditions": [
+        "Uses one blanket ready flag to authorise all activity types."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D07",
+          "line_start": 39,
+          "line_end": 41,
+          "support": "Distinct preparation tasks"
+        },
+        {
+          "doc_id": "C9:D07",
+          "line_start": 49,
+          "line_end": 59,
+          "support": "Distinct approvals and conditions"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S1-03",
+        "C9:RH-MA-S1-13"
+      ],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Adds an explicit readiness gate and separation of status dimensions to the source authority inventory.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-F003",
+      "case_id": "C9",
+      "abf_stage": "F",
+      "title": "Dated force-coverage confirmation",
+      "question": "What force-management action should precede accepting coverage of the critical and transition periods?",
+      "expected_answer": "Obtain confirmed dates and scope for allocated cyber coverage, the extension decision and any authorised handover arrangement, and align them with the election/results and transition needs. Maintain a plan for confirmed resources while submitting or tracking the shortfall request. Treat company numbers and duration coverage as separate requirements.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-F003-R1",
+          "text": "Requests dated allocated availability.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F003-R2",
+          "text": "Requests the duration-extension decision status.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F003-R3",
+          "text": "Requests the status of any authorized handover arrangement.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F003-R4",
+          "text": "Checks coverage against distinct critical and transition periods.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F003-R5",
+          "text": "Keeps the baseline within confirmed resources while tracking unmet requirements.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F003-R6",
+          "text": "Separates quantity shortfalls from duration shortfalls.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A dated coverage matrix with a contingency handover is acceptable; no particular extra unit is prescribed."
+      ],
+      "error_conditions": [
+        "Claims a pending 90-day figure proves all calendar coverage."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D04",
+          "line_start": 82,
+          "line_end": 99,
+          "support": "Allocation and pending requests"
+        },
+        {
+          "doc_id": "C9:D08",
+          "line_start": 66,
+          "line_end": 66,
+          "support": "Results window"
+        },
+        {
+          "doc_id": "C9:D10",
+          "line_start": 32,
+          "line_end": 32,
+          "support": "Transition window"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S11-03",
+        "C9:RH-MA-S11-18"
+      ],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "The source already recommends an extension. The new consequence requires verified calendar coverage and a resource-bounded handover rather than copying the RFF recommendation.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-F004",
+      "case_id": "C9",
+      "abf_stage": "F",
+      "title": "Visible-footprint information requirement",
+      "question": "What friendly-force information requirement follows for controlling the visible support footprint?",
+      "expected_answer": "Track visible US uniformed presence in Chișinău and US military activity publicly attributed within Moldova, together with the applicable consent and approval status. Escalate changes outside the permitted baseline for review before expanding or continuing the affected activity. Do not invent a numerical personnel ceiling.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-F004-R1",
+          "text": "Requests the current visible US uniformed presence.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F004-R2",
+          "text": "Requests the US military activity publicly attributed within Moldova.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F004-R3",
+          "text": "Links the information to current consent/approval scope.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F004-R4",
+          "text": "Defines review or adjustment of the affected activity as its decision use.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "An FFIR with qualitative change triggers is acceptable."
+      ],
+      "error_conditions": [
+        "Treats public attribution of presence as proof that the activity was authorised."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D05",
+          "line_start": 82,
+          "line_end": 84,
+          "support": "Visibility sensitivities"
+        },
+        {
+          "doc_id": "C9:D07",
+          "line_start": 29,
+          "line_end": 29,
+          "support": "Baseline"
+        },
+        {
+          "doc_id": "C9:D07",
+          "line_start": 83,
+          "line_end": 83,
+          "support": "Reserved visible activity"
+        }
+      ],
+      "source_item_uids": [
+        "C9:C9-GAP-06"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "derived",
+      "derivation_note": "Specifies a concrete observable and a footprint-control decision rather than only asking whether consent exists.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-F005",
+      "case_id": "C9",
+      "abf_stage": "F",
+      "title": "Approval schedule information requirement",
+      "question": "What should the staff do if an activity approval cannot be confirmed by the intended support window?",
+      "expected_answer": "Keep the affected activity pending rather than treat CONOPS submission as execution clearance. Identify the support window and dependent commitments affected, and seek revised timing or an alternative within confirmed authority through the responsible decision offices. Update the shared schedule after that decision. Do not invent an approval turnaround time or assume that a fixed election deadline waives the approval.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-F005-R1",
+          "text": "Retains a pending status for the activity until its required approval is confirmed.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F005-R2",
+          "text": "Identifies the support window or dependent commitments affected by the delay.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F005-R3",
+          "text": "Seeks revised timing or an alternative within confirmed authority through the responsible decision offices.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F005-R4",
+          "text": "Keeps plan submission distinct from execution clearance.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Deferral, resequencing or another independently authorized support activity is acceptable when its implications are made explicit.",
+        "A changed-support decision record may implement the same action as an updated schedule."
+      ],
+      "error_conditions": [
+        "Executes the activity to meet the deadline despite missing required approval.",
+        "Assumes a requested alternative has inherited permission from the delayed activity."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D07",
+          "line_start": 33,
+          "line_end": 33,
+          "support": "Submission milestone"
+        },
+        {
+          "doc_id": "C9:D09",
+          "line_start": 87,
+          "line_end": 87,
+          "support": "Approval path"
+        },
+        {
+          "doc_id": "C9:D10",
+          "line_start": 38,
+          "line_end": 38,
+          "support": "Calendar requirement"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S7-11"
+      ],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "The source already orders an approval picture and timeline mapping (D10:38). The newly derived task is the conditional staff response to an approval that cannot meet the required window, including withholding the affected commitment and seeking an authorized schedule or support change.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-F006",
+      "case_id": "C9",
+      "abf_stage": "F",
+      "title": "Independent-findings review provision",
+      "question": "What planning provision follows when progress assessment depends on independent observer findings?",
+      "expected_answer": "Establish liaison for lawful access to the findings and a review point that can use favourable, adverse or delayed reporting without presuming its content. Update the staff’s legitimacy assessment when findings arrive and preserve observer independence. Do not direct the result or treat its timing as a JTF-controlled milestone.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-F006-R1",
+          "text": "Requires an appropriate access or liaison arrangement for observer findings.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F006-R2",
+          "text": "Requires a review provision for findings when available.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F006-R3",
+          "text": "Allows adverse or delayed findings rather than a predetermined result.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F006-R4",
+          "text": "Preserves observer independence in the resulting assessment.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A conditional assessment branch is acceptable."
+      ],
+      "error_conditions": [
+        "Tasks observers to produce favourable findings or treats coordination as command."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D04",
+          "line_start": 78,
+          "line_end": 78,
+          "support": "Neutral observation role"
+        },
+        {
+          "doc_id": "C9:D09",
+          "line_start": 120,
+          "line_end": 136,
+          "support": "External coordination without control"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S2-11"
+      ],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Converts an external analytical dependency into a concrete review and contingency provision.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-F007",
+      "case_id": "C9",
+      "abf_stage": "F",
+      "title": "Assessability comparison requirement",
+      "question": "What action should follow when an option’s proposed outcome indicator is unavailable or cannot distinguish the intended outcome from activity volume?",
+      "expected_answer": "Task the assessment staff to verify an obtainable source and a usable outcome-linked indicator, or to develop and check a defensible alternative measurement plan. Arrange the necessary authorized data access or monitoring before crediting the claimed effect in the option comparison. If no adequate measure can be obtained, refer that specific assessability limitation to the decision authority and make any selection conditional on accepting it, rather than award an unsupported effectiveness advantage.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-F007-R1",
+          "text": "Requires verification or development of an obtainable outcome-linked indicator.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F007-R2",
+          "text": "Requires the necessary authorized data access or monitoring arrangement.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F007-R3",
+          "text": "Withholds an effectiveness advantage based only on unsupported outcome measurement.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F007-R4",
+          "text": "Refers an unresolved assessability limitation for explicit decision acceptance.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A verified alternative indicator or a revised assessment design can satisfy the requirement.",
+        "The commander may accept a documented assessment limitation; this does not convert it into measured effectiveness."
+      ],
+      "error_conditions": [
+        "Uses output volume as a substitute outcome without justification.",
+        "Treats a proxy as direct verification of internal decisions or causal impact."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D09",
+          "line_start": 89,
+          "line_end": 98,
+          "support": "Measure types"
+        },
+        {
+          "doc_id": "C9:D08",
+          "line_start": 83,
+          "line_end": 85,
+          "support": "Proxy limitations"
+        }
+      ],
+      "source_item_uids": [
+        "C9:C9-GAP-09"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "derived",
+      "derivation_note": "The sources already require separating outputs, outcomes and proxies. The new consequence is a measurement-feasibility task and a condition on how the option may be credited or selected when its proposed indicator is unavailable.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-F008",
+      "case_id": "C9",
+      "abf_stage": "F",
+      "title": "Assumption-triggered plan revision",
+      "question": "What staff action should be specified if the ceasefire assumption fails?",
+      "expected_answer": "Trigger a review of the Moldova capacity estimate and escalation assumptions separately, identify affected support tasks and submit necessary changes through the existing command and national-approval arrangements. Preserve authorised tasks that remain justified while revising unsupported commitments. Do not equate resource diversion with an automatic reduction in all risks.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-F008-R1",
+          "text": "Triggers review of the Moldova capacity estimate.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F008-R2",
+          "text": "Triggers review of the escalation estimate.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F008-R3",
+          "text": "Identifies and revises affected support commitments.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F008-R4",
+          "text": "Preserves the required command/national decision process.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A branch-planning task with explicit review products is acceptable."
+      ],
+      "error_conditions": [
+        "Unilaterally expands military activity because the ceasefire has failed."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D01",
+          "line_start": 75,
+          "line_end": 78,
+          "support": "Assumption consequences"
+        },
+        {
+          "doc_id": "C9:D07",
+          "line_start": 49,
+          "line_end": 53,
+          "support": "National decision boundaries"
+        }
+      ],
+      "source_item_uids": [
+        "C9:C9-GAP-05"
+      ],
+      "origin": "decomposed",
+      "source_answer_status": "derived",
+      "derivation_note": "Derives the concrete re-estimation and task-revision process from two potentially divergent effects of assumption failure.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-F009",
+      "case_id": "C9",
+      "abf_stage": "F",
+      "title": "Power-backstop verification requirement",
+      "question": "What support-planning requirement follows before relying on the electricity backstop?",
+      "expected_answer": "Obtain a verified comparison of expected demand, remaining supply and available import capacity for the relevant winter period through the responsible partner/interagency channels. Identify the residual service gap and refer any additional support requirement for coordination before asserting that the backstop provides adequate resilience.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-F009-R1",
+          "text": "Requests expected electricity demand for the relevant period.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F009-R2",
+          "text": "Requests remaining supply for the relevant period.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F009-R3",
+          "text": "Requests available import capacity for the relevant period.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F009-R4",
+          "text": "Uses the comparison to identify a residual service gap.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F009-R5",
+          "text": "Coordinates additional support instead of asserting unsupported adequacy.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A power-support capacity check or decision-linked information requirement is acceptable; no specific engineering remedy is mandated."
+      ],
+      "error_conditions": [
+        "Invents a replacement supply allocation or declares the full gap closed."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D05",
+          "line_start": 63,
+          "line_end": 65,
+          "support": "Dependency and backstop limit"
+        },
+        {
+          "doc_id": "C9:D01",
+          "line_start": 67,
+          "line_end": 67,
+          "support": "Interagency energy support"
+        },
+        {
+          "doc_id": "C9:D09",
+          "line_start": 116,
+          "line_end": 116,
+          "support": "Winter period"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S10-04"
+      ],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Turns an unresolved adequacy judgement into a specific support-capacity verification requirement.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C9-F010",
+      "case_id": "C9",
+      "abf_stage": "F",
+      "title": "Function-specific handover check",
+      "question": "What requirement should precede ending a support function during transition?",
+      "expected_answer": "Check the receiving institution’s agreed responsibility and ability to sustain that function across its remaining required period, with a continuity arrangement for outstanding gaps. Submit staged handover for the appropriate decision against those checks rather than a single election-day or D+3 cut-off for every function.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C9-F010-R1",
+          "text": "Requires confirmation of receiving institutional responsibility.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F010-R2",
+          "text": "Requires confirmation that the receiving institution can sustain the function.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F010-R3",
+          "text": "Matches the check to the function’s remaining required period.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F010-R4",
+          "text": "Requires continuity arrangements for outstanding gaps.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C9-F010-R5",
+          "text": "Allows separately authorized staged handover by function.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A function-specific handover checklist with partner acceptance is acceptable."
+      ],
+      "error_conditions": [
+        "Ends all support solely because election day has passed."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C9:D01",
+          "line_start": 71,
+          "line_end": 71,
+          "support": "Partner-led end state"
+        },
+        {
+          "doc_id": "C9:D10",
+          "line_start": 32,
+          "line_end": 32,
+          "support": "Transition condition"
+        },
+        {
+          "doc_id": "C9:D08",
+          "line_start": 66,
+          "line_end": 66,
+          "support": "Results period"
+        }
+      ],
+      "source_item_uids": [
+        "C9:RH-MA-S12-07",
+        "C9:C9-GAP-02"
+      ],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Specifies a concrete handover check linking partner capacity and distinct time horizons. Handover is submitted to the responsible authority; the staff answer does not itself grant a new execution permission.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    }
+  ],
+  "chains": [
+    {
+      "chain_id": "HB-C9-CH001",
+      "case_id": "C9",
+      "title": "Intermediate objectives to purpose-based comparison",
+      "a_ids": [
+        "HB-C9-A001",
+        "HB-C9-A002",
+        "HB-C9-A013"
+      ],
+      "b_ids": [
+        "HB-C9-B001"
+      ],
+      "f_ids": [
+        "HB-C9-F001"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C9-A001",
+            "HB-C9-A002",
+            "HB-C9-A013"
+          ],
+          "child_id": "HB-C9-B001",
+          "logic": "ALL",
+          "rationale": "The campaign objective and partner-led end state are different conditions; both are needed to judge whether one establishes the other.",
+          "counterfactual_test": "If the end state required only the intermediate outcome, the additional partner/constraint comparison would change."
+        },
+        {
+          "parent_ids": [
+            "HB-C9-B001"
+          ],
+          "child_id": "HB-C9-F001",
+          "logic": "ALL",
+          "rationale": "The assessment identifies the missing prerequisite or trade that the specified staff consequence addresses.",
+          "counterfactual_test": "If a proposed option demonstrably preserves partner leadership and current consent without adding the identified escalation pretext, that particular mitigation or approval issue should not be invented. The remaining mission constraints still apply."
+        }
+      ],
+      "chain_rationale": "The campaign objective and partner-led end state are different conditions; both are needed to judge whether one establishes the other.",
+      "minimality_note": "Inputs specify the external analytical relationship. Full packet access can bypass supplied preceding answers; links do not assert internal model use.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C9-CH002",
+      "case_id": "C9",
+      "title": "Planning completion to activity permission gate",
+      "a_ids": [
+        "HB-C9-A003",
+        "HB-C9-A004",
+        "HB-C9-A005",
+        "HB-C9-A006"
+      ],
+      "b_ids": [
+        "HB-C9-B002"
+      ],
+      "f_ids": [
+        "HB-C9-F002"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C9-A003",
+            "HB-C9-A004",
+            "HB-C9-A005",
+            "HB-C9-A006"
+          ],
+          "child_id": "HB-C9-B002",
+          "logic": "ALL",
+          "rationale": "Distinct preparation tasks and authority conditions determine whether a general ready-to-execute claim is supported.",
+          "counterfactual_test": "If all activity-specific approvals were supplied, permission readiness would no longer be unresolved, though technical readiness would remain separate."
+        },
+        {
+          "parent_ids": [
+            "HB-C9-B002"
+          ],
+          "child_id": "HB-C9-F002",
+          "logic": "ALL",
+          "rationale": "The assessment identifies the missing prerequisite or trade that the specified staff consequence addresses.",
+          "counterfactual_test": "If all applicable approvals and partner consent are confirmed for one activity, it should no longer be held for those permissions merely because another activity remains pending. Its technical readiness must still be checked separately."
+        }
+      ],
+      "chain_rationale": "Distinct preparation tasks and authority conditions determine whether a general ready-to-execute claim is supported.",
+      "minimality_note": "Inputs specify the external analytical relationship. Full packet access can bypass supplied preceding answers; links do not assert internal model use.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C9-CH003",
+      "case_id": "C9",
+      "title": "Allocated duration to dated coverage",
+      "a_ids": [
+        "HB-C9-A008",
+        "HB-C9-A009",
+        "HB-C9-A010"
+      ],
+      "b_ids": [
+        "HB-C9-B003"
+      ],
+      "f_ids": [
+        "HB-C9-F003"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C9-A008",
+            "HB-C9-A009",
+            "HB-C9-A010"
+          ],
+          "child_id": "HB-C9-B003",
+          "logic": "ALL",
+          "rationale": "Allocated resources, required windows and the low-confidence high-consequence threat jointly define the coverage question.",
+          "counterfactual_test": "If dated allocations covered every relevant window, the extension or handover requirement would be reduced; lower threat confidence alone does not remove the coverage dependency."
+        },
+        {
+          "parent_ids": [
+            "HB-C9-B003"
+          ],
+          "child_id": "HB-C9-F003",
+          "logic": "ALL",
+          "rationale": "The assessment identifies the missing prerequisite or trade that the specified staff consequence addresses.",
+          "counterfactual_test": "If confirmed allocations cover the election and the required post-election horizon, a duration-extension request is no longer justified for that period. A separate company-quantity shortfall may remain and must not be treated as resolved by the dates."
+        }
+      ],
+      "chain_rationale": "Allocated resources, required windows and the low-confidence high-consequence threat jointly define the coverage question.",
+      "minimality_note": "Inputs specify the external analytical relationship. Full packet access can bypass supplied preceding answers; links do not assert internal model use.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C9-CH004",
+      "case_id": "C9",
+      "title": "Baseline consent to visible-footprint control",
+      "a_ids": [
+        "HB-C9-A006",
+        "HB-C9-A007"
+      ],
+      "b_ids": [
+        "HB-C9-B004"
+      ],
+      "f_ids": [
+        "HB-C9-F004"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C9-A006",
+            "HB-C9-A007"
+          ],
+          "child_id": "HB-C9-B004",
+          "logic": "ALL",
+          "rationale": "Consent scope and visibility sensitivity determine which changes need review.",
+          "counterfactual_test": "If explicit approval covered an expanded footprint, the status judgement would change while monitoring remained relevant."
+        },
+        {
+          "parent_ids": [
+            "HB-C9-B004"
+          ],
+          "child_id": "HB-C9-F004",
+          "logic": "ALL",
+          "rationale": "The assessment identifies the missing prerequisite or trade that the specified staff consequence addresses.",
+          "counterfactual_test": "If the verified visible and publicly attributed footprint lies within current consent and approval scope, the particular expansion-approval issue disappears. If either footprint or consent changes, the affected activity must be reviewed again."
+        }
+      ],
+      "chain_rationale": "Consent scope and visibility sensitivity determine which changes need review.",
+      "minimality_note": "Inputs specify the external analytical relationship. Full packet access can bypass supplied preceding answers; links do not assert internal model use.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C9-CH005",
+      "case_id": "C9",
+      "title": "Submission and activity dates to approval scheduling",
+      "a_ids": [
+        "HB-C9-A005",
+        "HB-C9-A008",
+        "HB-C9-A011"
+      ],
+      "b_ids": [
+        "HB-C9-B005"
+      ],
+      "f_ids": [
+        "HB-C9-F005"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C9-A005",
+            "HB-C9-A008",
+            "HB-C9-A011"
+          ],
+          "child_id": "HB-C9-B005",
+          "logic": "ALL",
+          "rationale": "A plan-delivery date, operational horizon and separate approval paths define the scheduling dependencies.",
+          "counterfactual_test": "If approval durations and completion were confirmed before each required date, the unresolved timing dependency would disappear."
+        },
+        {
+          "parent_ids": [
+            "HB-C9-B005"
+          ],
+          "child_id": "HB-C9-F005",
+          "logic": "ALL",
+          "rationale": "The assessment identifies the missing prerequisite or trade that the specified staff consequence addresses.",
+          "counterfactual_test": "If delayed approval still arrives before the required support window and resource availability remains valid, rescheduling is unnecessary. If approval misses the window, dependent commitments need revised timing or an authorized alternative; a submitted plan alone resolves neither case."
+        }
+      ],
+      "chain_rationale": "A plan-delivery date, operational horizon and separate approval paths define the scheduling dependencies.",
+      "minimality_note": "Inputs specify the external analytical relationship. Full packet access can bypass supplied preceding answers; links do not assert internal model use.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C9-CH006",
+      "case_id": "C9",
+      "title": "Independent partner to findings review",
+      "a_ids": [
+        "HB-C9-A012",
+        "HB-C9-A002"
+      ],
+      "b_ids": [
+        "HB-C9-B006"
+      ],
+      "f_ids": [
+        "HB-C9-F006"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C9-A012",
+            "HB-C9-A002"
+          ],
+          "child_id": "HB-C9-B006",
+          "logic": "ALL",
+          "rationale": "The independent observation role informs an end-state assessment without becoming a controlled deliverable.",
+          "counterfactual_test": "If observation were unavailable or delayed, the staff must revise the assessment basis rather than assume a favourable finding."
+        },
+        {
+          "parent_ids": [
+            "HB-C9-B006"
+          ],
+          "child_id": "HB-C9-F006",
+          "logic": "ALL",
+          "rationale": "The assessment identifies the missing prerequisite or trade that the specified staff consequence addresses.",
+          "counterfactual_test": "If independent observer findings are delayed or adverse, the review must use their actual availability and content rather than demand a favourable conclusion. If timely findings are already accessible, the outstanding access request can be closed while independent review remains."
+        }
+      ],
+      "chain_rationale": "The independent observation role informs an end-state assessment without becoming a controlled deliverable.",
+      "minimality_note": "Inputs specify the external analytical relationship. Full packet access can bypass supplied preceding answers; links do not assert internal model use.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C9-CH007",
+      "case_id": "C9",
+      "title": "Observable indicators to assessability requirement",
+      "a_ids": [
+        "HB-C9-A002",
+        "HB-C9-A014"
+      ],
+      "b_ids": [
+        "HB-C9-B007"
+      ],
+      "f_ids": [
+        "HB-C9-F007"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C9-A002",
+            "HB-C9-A014"
+          ],
+          "child_id": "HB-C9-B007",
+          "logic": "ALL",
+          "rationale": "The intended outcomes and their observability limits determine whether success can be assessed.",
+          "counterfactual_test": "If reliable direct outcome measures existed, proxy-related uncertainty and the alternative-indicator requirement would change."
+        },
+        {
+          "parent_ids": [
+            "HB-C9-B007"
+          ],
+          "child_id": "HB-C9-F007",
+          "logic": "ALL",
+          "rationale": "The assessment identifies the missing prerequisite or trade that the specified staff consequence addresses.",
+          "counterfactual_test": "If an obtainable outcome-linked indicator and authorized data access are already established, the staff need not create a replacement or refer a missing-measurement gap. Product counts alone still cannot demonstrate causal effectiveness."
+        }
+      ],
+      "chain_rationale": "The intended outcomes and their observability limits determine whether success can be assessed.",
+      "minimality_note": "Inputs specify the external analytical relationship. Full packet access can bypass supplied preceding answers; links do not assert internal model use.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C9-CH008",
+      "case_id": "C9",
+      "title": "Ceasefire assumption to revised support plan",
+      "a_ids": [
+        "HB-C9-A015",
+        "HB-C9-A001"
+      ],
+      "b_ids": [
+        "HB-C9-B008"
+      ],
+      "f_ids": [
+        "HB-C9-F008"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C9-A015"
+          ],
+          "child_id": "HB-C9-B008",
+          "logic": "ALL",
+          "rationale": "The ceasefire assumption and its two conditional consequences are sufficient for the capacity-versus-escalation judgement.",
+          "counterfactual_test": "If the ceasefire continued to hold, the failure-triggered review would remain a contingency rather than a current action."
+        },
+        {
+          "parent_ids": [
+            "HB-C9-B008",
+            "HB-C9-A001"
+          ],
+          "child_id": "HB-C9-F008",
+          "logic": "ALL",
+          "rationale": "The changed-risk judgement and the actual mission/constraint scope jointly identify which support commitments require review.",
+          "counterfactual_test": "If the ceasefire assumption still holds, the failure-triggered revision remains a contingency. If it fails, revise only support commitments affected by the updated capacity and escalation assessments, preserving the unchanged mission and decision authorities."
+        }
+      ],
+      "chain_rationale": "The assumed capacity context and constrained mission purpose jointly determine the consequences of a changed strategic baseline.",
+      "minimality_note": "A015 supplies the challenged premise for B008. A001 supplies mission scope directly to the follow-up action F008 rather than being treated as a necessary premise for the ceasefire assessment. Full source access remains available.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C9-CH009",
+      "case_id": "C9",
+      "title": "Constrained backstop to support verification",
+      "a_ids": [
+        "HB-C9-A016"
+      ],
+      "b_ids": [
+        "HB-C9-B009"
+      ],
+      "f_ids": [
+        "HB-C9-F009"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C9-A016"
+          ],
+          "child_id": "HB-C9-B009",
+          "logic": "ALL",
+          "rationale": "Majority dependence and a bounded alternative cannot establish replacement adequacy without capacity and demand information.",
+          "counterfactual_test": "If verified import plus remaining supply met demand, the residual-gap task would narrow to confirmation rather than additional support coordination."
+        },
+        {
+          "parent_ids": [
+            "HB-C9-B009"
+          ],
+          "child_id": "HB-C9-F009",
+          "logic": "ALL",
+          "rationale": "The assessment identifies the missing prerequisite or trade that the specified staff consequence addresses.",
+          "counterfactual_test": "If verified remaining supply plus import capacity meets demand for the relevant period, no additional power support is required for a residual gap. If demand exceeds that total, the support request must address the resulting gap rather than merely the existence of an interconnection."
+        }
+      ],
+      "chain_rationale": "Majority dependence and a bounded alternative cannot establish replacement adequacy without capacity and demand information.",
+      "minimality_note": "Inputs specify the external analytical relationship. Full packet access can bypass supplied preceding answers; links do not assert internal model use.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C9-CH010",
+      "case_id": "C9",
+      "title": "Different horizons to staged handover",
+      "a_ids": [
+        "HB-C9-A002",
+        "HB-C9-A008",
+        "HB-C9-A010"
+      ],
+      "b_ids": [
+        "HB-C9-B010"
+      ],
+      "f_ids": [
+        "HB-C9-F010"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C9-A002",
+            "HB-C9-A008",
+            "HB-C9-A010"
+          ],
+          "child_id": "HB-C9-B010",
+          "logic": "ALL",
+          "rationale": "Partner-led end state, results-risk period and longer transition horizon define different conditions for ending support.",
+          "counterfactual_test": "If partner capacity and all remaining needs were confirmed closed, the handover could proceed without an additional continuity arrangement."
+        },
+        {
+          "parent_ids": [
+            "HB-C9-B010"
+          ],
+          "child_id": "HB-C9-F010",
+          "logic": "ALL",
+          "rationale": "The assessment identifies the missing prerequisite or trade that the specified staff consequence addresses.",
+          "counterfactual_test": "If a receiving institution can sustain one function for its remaining required period and accepts responsibility, that function can be proposed for authorized handover even while another needs continued support. A calendar milestone alone cannot justify either transfer."
+        }
+      ],
+      "chain_rationale": "Partner-led end state, results-risk period and longer transition horizon define different conditions for ending support.",
+      "minimality_note": "Inputs specify the external analytical relationship. Full packet access can bypass supplied preceding answers; links do not assert internal model use.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    }
+  ],
+  "dispositions": [
+    {
+      "item_uid": "C9:RH-MA-S1-01",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A001"
+      ],
+      "chain_ids": [
+        "HB-C9-CH001",
+        "HB-C9-CH008"
+      ],
+      "rationale": "Retained through Higher mission and purpose.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S1-02",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A001"
+      ],
+      "chain_ids": [
+        "HB-C9-CH001",
+        "HB-C9-CH008"
+      ],
+      "rationale": "Retained through Higher mission and purpose.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S1-03",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A003",
+        "HB-C9-B002",
+        "HB-C9-F002"
+      ],
+      "chain_ids": [
+        "HB-C9-CH002"
+      ],
+      "rationale": "Retained through National attribution decisions, Authority-readiness assessment, Activity-specific permission gate.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S1-05",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A002"
+      ],
+      "chain_ids": [
+        "HB-C9-CH001",
+        "HB-C9-CH006",
+        "HB-C9-CH007",
+        "HB-C9-CH010"
+      ],
+      "rationale": "Retained through Partner-led end state and objectives.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S1-07",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A005"
+      ],
+      "chain_ids": [
+        "HB-C9-CH002",
+        "HB-C9-CH005"
+      ],
+      "rationale": "Retained through Planning deliverable and deadline.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S1-13",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A004",
+        "HB-C9-B002",
+        "HB-C9-F002"
+      ],
+      "chain_ids": [
+        "HB-C9-CH002"
+      ],
+      "rationale": "Retained through Cyberspace coordination and restrictions, Authority-readiness assessment, Activity-specific permission gate.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S1-14",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C9-A005",
+        "HB-C9-B002",
+        "HB-C9-B005",
+        "HB-C9-F002",
+        "HB-C9-F005"
+      ],
+      "chain_ids": [
+        "HB-C9-CH002",
+        "HB-C9-CH005"
+      ],
+      "rationale": "Readiness and deadline questions distinguish planning tasks from activity-specific authorities; the trigger is narrower than an unsupported blanket statement about the order title.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S1-15",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C9-A001",
+        "HB-C9-A006",
+        "HB-C9-B004",
+        "HB-C9-F004"
+      ],
+      "chain_ids": [
+        "HB-C9-CH001",
+        "HB-C9-CH002",
+        "HB-C9-CH004",
+        "HB-C9-CH008"
+      ],
+      "rationale": "Mission/consent questions depend on the stated non-treaty partner status.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S1-16",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C9-A001",
+        "HB-C9-A005",
+        "HB-C9-A008"
+      ],
+      "chain_ids": [
+        "HB-C9-CH001",
+        "HB-C9-CH002",
+        "HB-C9-CH003",
+        "HB-C9-CH005",
+        "HB-C9-CH008",
+        "HB-C9-CH010"
+      ],
+      "rationale": "These nodes distinguish mission, higher deadlines and subordinate transition guidance.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S1-17",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A001"
+      ],
+      "chain_ids": [
+        "HB-C9-CH001",
+        "HB-C9-CH008"
+      ],
+      "rationale": "Retained through Higher mission and purpose.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S2-01",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A013"
+      ],
+      "chain_ids": [
+        "HB-C9-CH001"
+      ],
+      "rationale": "Retained through Narrative centre of gravity and requirements.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S2-02",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A013"
+      ],
+      "chain_ids": [
+        "HB-C9-CH001"
+      ],
+      "rationale": "Retained through Narrative centre of gravity and requirements.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S2-06",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A010"
+      ],
+      "chain_ids": [
+        "HB-C9-CH003",
+        "HB-C9-CH010"
+      ],
+      "rationale": "Retained through Threat courses and warning.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S2-07",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A010"
+      ],
+      "chain_ids": [
+        "HB-C9-CH003",
+        "HB-C9-CH010"
+      ],
+      "rationale": "Retained through Threat courses and warning.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S2-11",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-B006",
+        "HB-C9-F006"
+      ],
+      "chain_ids": [
+        "HB-C9-CH006"
+      ],
+      "rationale": "Retained through Independent observation assessment, Independent-findings review provision.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S3-01",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A005"
+      ],
+      "chain_ids": [
+        "HB-C9-CH002",
+        "HB-C9-CH005"
+      ],
+      "rationale": "Retained through Planning deliverable and deadline.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S3-02",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A004"
+      ],
+      "chain_ids": [
+        "HB-C9-CH002"
+      ],
+      "rationale": "Retained through Cyberspace coordination and restrictions.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S3-04",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A012"
+      ],
+      "chain_ids": [
+        "HB-C9-CH006"
+      ],
+      "rationale": "Retained through Coordination and independent partners.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S3-07",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A001"
+      ],
+      "chain_ids": [
+        "HB-C9-CH001",
+        "HB-C9-CH008"
+      ],
+      "rationale": "Retained through Higher mission and purpose. Construction-stage correction to A because OIE is explicitly the supplied main effort; accepted case-2 metadata is unchanged.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S3-09",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A004"
+      ],
+      "chain_ids": [
+        "HB-C9-CH002"
+      ],
+      "rationale": "Retained through Cyberspace coordination and restrictions.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S3-11",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A003"
+      ],
+      "chain_ids": [
+        "HB-C9-CH002"
+      ],
+      "rationale": "Retained through National attribution decisions.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S4-02",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A004"
+      ],
+      "chain_ids": [
+        "HB-C9-CH002"
+      ],
+      "rationale": "Retained through Cyberspace coordination and restrictions.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S4-16",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C9-A004",
+        "HB-C9-B002",
+        "HB-C9-F002"
+      ],
+      "chain_ids": [
+        "HB-C9-CH002"
+      ],
+      "rationale": "The permission chain explicitly separates preparation and execution.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S4-17",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C9-A006",
+        "HB-C9-B004",
+        "HB-C9-F004",
+        "HB-C9-F002"
+      ],
+      "chain_ids": [
+        "HB-C9-CH002",
+        "HB-C9-CH004"
+      ],
+      "rationale": "These questions address scope-specific consent and commitment gates.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S5-01",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A010"
+      ],
+      "chain_ids": [
+        "HB-C9-CH003",
+        "HB-C9-CH010"
+      ],
+      "rationale": "Retained through Threat courses and warning.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S5-03",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A006"
+      ],
+      "chain_ids": [
+        "HB-C9-CH002",
+        "HB-C9-CH004"
+      ],
+      "rationale": "Retained through Support consent and territorial scope.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S5-11",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A010"
+      ],
+      "chain_ids": [
+        "HB-C9-CH003",
+        "HB-C9-CH010"
+      ],
+      "rationale": "Retained through Threat courses and warning.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S6-01",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A015"
+      ],
+      "chain_ids": [
+        "HB-C9-CH008"
+      ],
+      "rationale": "Retained through Strategic assumptions.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S6-05",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A015"
+      ],
+      "chain_ids": [
+        "HB-C9-CH008"
+      ],
+      "rationale": "Retained through Strategic assumptions.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S6-12",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C9-A008",
+        "HB-C9-B003",
+        "HB-C9-B005",
+        "HB-C9-F003",
+        "HB-C9-F005"
+      ],
+      "chain_ids": [
+        "HB-C9-CH003",
+        "HB-C9-CH005",
+        "HB-C9-CH010"
+      ],
+      "rationale": "Calendar-dependent support questions require the date/status distinction.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S6-23",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A006"
+      ],
+      "chain_ids": [
+        "HB-C9-CH002",
+        "HB-C9-CH004"
+      ],
+      "rationale": "Retained through Support consent and territorial scope.",
+      "coverage": "partial",
+      "uncovered_content": "The continuing-consent assumption is retained as a condition in the baseline question; no separate verbatim enumeration of all higher-level assumptions is required."
+    },
+    {
+      "item_uid": "C9:RH-MA-S7-01",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A007"
+      ],
+      "chain_ids": [
+        "HB-C9-CH004"
+      ],
+      "rationale": "Retained through Visibility risk and partner sensitivity.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S7-04",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A007"
+      ],
+      "chain_ids": [
+        "HB-C9-CH004"
+      ],
+      "rationale": "Retained through Visibility risk and partner sensitivity.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S7-11",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A011",
+        "HB-C9-B005",
+        "HB-C9-F005"
+      ],
+      "chain_ids": [
+        "HB-C9-CH005"
+      ],
+      "rationale": "Retained through Approval timing constraint, Deadline and approval assessment, Approval schedule information requirement.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S7-18",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A009"
+      ],
+      "chain_ids": [
+        "HB-C9-CH003"
+      ],
+      "rationale": "Retained through Force quantity and duration.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S8-03",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A001"
+      ],
+      "chain_ids": [
+        "HB-C9-CH001",
+        "HB-C9-CH008"
+      ],
+      "rationale": "Retained through Higher mission and purpose.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S8-04",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A006"
+      ],
+      "chain_ids": [
+        "HB-C9-CH002",
+        "HB-C9-CH004"
+      ],
+      "rationale": "Retained through Support consent and territorial scope.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S8-05",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A008"
+      ],
+      "chain_ids": [
+        "HB-C9-CH003",
+        "HB-C9-CH005",
+        "HB-C9-CH010"
+      ],
+      "rationale": "Retained through Election and transition horizon.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S8-13",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C9-A003",
+        "HB-C9-B002",
+        "HB-C9-F002",
+        "HB-C9-F005"
+      ],
+      "chain_ids": [
+        "HB-C9-CH002",
+        "HB-C9-CH005"
+      ],
+      "rationale": "These approval questions depend on national retention.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S8-15",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C9-F001",
+        "HB-C9-F002",
+        "HB-C9-F008"
+      ],
+      "chain_ids": [
+        "HB-C9-CH001",
+        "HB-C9-CH002",
+        "HB-C9-CH008"
+      ],
+      "rationale": "These consequence questions could propose action beyond command authority; the error is triggered only if such a task is actually proposed.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S10-01",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The campaign codename is an administrative label. No constructed assessment or concrete consequence depends on retrieving the label, so a standalone codename question would add a nominal rather than analytical chain.",
+      "coverage": "none",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S10-02",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A006"
+      ],
+      "chain_ids": [
+        "HB-C9-CH002",
+        "HB-C9-CH004"
+      ],
+      "rationale": "Retained through Support consent and territorial scope.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S10-04",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A016",
+        "HB-C9-B009",
+        "HB-C9-F009"
+      ],
+      "chain_ids": [
+        "HB-C9-CH009"
+      ],
+      "rationale": "Retained through Energy dependency, Replacement-power adequacy, Power-backstop verification requirement.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S10-15",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C9-A008",
+        "HB-C9-A009",
+        "HB-C9-A011",
+        "HB-C9-A016",
+        "HB-C9-B003",
+        "HB-C9-B005",
+        "HB-C9-B009",
+        "HB-C9-F003",
+        "HB-C9-F004",
+        "HB-C9-F005",
+        "HB-C9-F009"
+      ],
+      "chain_ids": [
+        "HB-C9-CH003",
+        "HB-C9-CH004",
+        "HB-C9-CH005",
+        "HB-C9-CH009",
+        "HB-C9-CH010"
+      ],
+      "rationale": "These are the nodes where missing quantitative information materially affects the conclusion; evaluator checks claims against the supplied packet, not string matching.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S10-20",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A008"
+      ],
+      "chain_ids": [
+        "HB-C9-CH003",
+        "HB-C9-CH005",
+        "HB-C9-CH010"
+      ],
+      "rationale": "Retained through Election and transition horizon.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S11-01",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A009"
+      ],
+      "chain_ids": [
+        "HB-C9-CH003"
+      ],
+      "rationale": "Retained through Force quantity and duration.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S11-03",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A009",
+        "HB-C9-B003",
+        "HB-C9-F003"
+      ],
+      "chain_ids": [
+        "HB-C9-CH003"
+      ],
+      "rationale": "Retained through Force quantity and duration, Critical-period force coverage, Dated force-coverage confirmation.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S11-15",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C9-A009",
+        "HB-C9-B003",
+        "HB-C9-F003"
+      ],
+      "chain_ids": [
+        "HB-C9-CH003"
+      ],
+      "rationale": "The force-coverage chain depends on actual allocation status.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S11-18",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A009",
+        "HB-C9-B003",
+        "HB-C9-F003"
+      ],
+      "chain_ids": [
+        "HB-C9-CH003"
+      ],
+      "rationale": "Retained through Force quantity and duration, Critical-period force coverage, Dated force-coverage confirmation.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S11-20",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A009"
+      ],
+      "chain_ids": [
+        "HB-C9-CH003"
+      ],
+      "rationale": "Retained through Force quantity and duration.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S12-01",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A002"
+      ],
+      "chain_ids": [
+        "HB-C9-CH001",
+        "HB-C9-CH006",
+        "HB-C9-CH007",
+        "HB-C9-CH010"
+      ],
+      "rationale": "Retained through Partner-led end state and objectives.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S12-02",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-B001"
+      ],
+      "chain_ids": [
+        "HB-C9-CH001"
+      ],
+      "rationale": "Retained through Operational and end-state distinction.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S12-07",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A008",
+        "HB-C9-B010",
+        "HB-C9-F010"
+      ],
+      "chain_ids": [
+        "HB-C9-CH003",
+        "HB-C9-CH005",
+        "HB-C9-CH010"
+      ],
+      "rationale": "Retained through Election and transition horizon, End-of-support assessment, Function-specific handover check.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:RH-MA-S12-12",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-F001"
+      ],
+      "chain_ids": [
+        "HB-C9-CH001"
+      ],
+      "rationale": "Retained through Escalation and partner-purpose criterion.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:C9-GAP-02",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A008",
+        "HB-C9-B010",
+        "HB-C9-F010"
+      ],
+      "chain_ids": [
+        "HB-C9-CH003",
+        "HB-C9-CH005",
+        "HB-C9-CH010"
+      ],
+      "rationale": "Retained through Election and transition horizon, End-of-support assessment, Function-specific handover check.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:C9-GAP-05",
+      "accepted_case": "4_COMPOUND_ANALYTICAL",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A015",
+        "HB-C9-B008",
+        "HB-C9-F008"
+      ],
+      "chain_ids": [
+        "HB-C9-CH008"
+      ],
+      "rationale": "Retained through Strategic assumptions, Assumption-change assessment, Assumption-triggered plan revision.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:C9-GAP-06",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-B004",
+        "HB-C9-F004"
+      ],
+      "chain_ids": [
+        "HB-C9-CH004"
+      ],
+      "rationale": "Retained through Consent and visibility assessment, Visible-footprint information requirement.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:C9-GAP-09",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C9-A014",
+        "HB-C9-B007",
+        "HB-C9-F007"
+      ],
+      "chain_ids": [
+        "HB-C9-CH007"
+      ],
+      "rationale": "Retained through Assessment observability limits, Assessability of proposed options, Assessability comparison requirement.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C9:C9-GAP-11",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_NOT_APPLICABLE",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "No retained question asks for a regional adversary list or treatment of Gagauzia. The specific Gagauzia misclassification check has no direct construct opportunity here and is retained as unapplied metadata.",
+      "coverage": "none",
+      "uncovered_content": ""
+    }
+  ],
+  "error_links": [
+    {
+      "error_item_uid": "C9:RH-MA-S1-14",
+      "question_id": "HB-C9-A005",
+      "trigger": "Treats planning completion, submission or preparation as unrestricted authority to execute or deploy.",
+      "applicability": "Readiness and deadline questions distinguish planning tasks from activity-specific authorities; the trigger is narrower than an unsupported blanket statement about the order title.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S1-14",
+      "question_id": "HB-C9-B002",
+      "trigger": "Treats planning completion, submission or preparation as unrestricted authority to execute or deploy.",
+      "applicability": "Readiness and deadline questions distinguish planning tasks from activity-specific authorities; the trigger is narrower than an unsupported blanket statement about the order title.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S1-14",
+      "question_id": "HB-C9-B005",
+      "trigger": "Treats planning completion, submission or preparation as unrestricted authority to execute or deploy.",
+      "applicability": "Readiness and deadline questions distinguish planning tasks from activity-specific authorities; the trigger is narrower than an unsupported blanket statement about the order title.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S1-14",
+      "question_id": "HB-C9-F002",
+      "trigger": "Treats planning completion, submission or preparation as unrestricted authority to execute or deploy.",
+      "applicability": "Readiness and deadline questions distinguish planning tasks from activity-specific authorities; the trigger is narrower than an unsupported blanket statement about the order title.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S1-14",
+      "question_id": "HB-C9-F005",
+      "trigger": "Treats planning completion, submission or preparation as unrestricted authority to execute or deploy.",
+      "applicability": "Readiness and deadline questions distinguish planning tasks from activity-specific authorities; the trigger is narrower than an unsupported blanket statement about the order title.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S1-15",
+      "question_id": "HB-C9-A001",
+      "trigger": "Claims a mutual-defence obligation to Moldova.",
+      "applicability": "Mission/consent questions depend on the stated non-treaty partner status.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S1-15",
+      "question_id": "HB-C9-A006",
+      "trigger": "Claims a mutual-defence obligation to Moldova.",
+      "applicability": "Mission/consent questions depend on the stated non-treaty partner status.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S1-15",
+      "question_id": "HB-C9-B004",
+      "trigger": "Claims a mutual-defence obligation to Moldova.",
+      "applicability": "Mission/consent questions depend on the stated non-treaty partner status.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S1-15",
+      "question_id": "HB-C9-F004",
+      "trigger": "Claims a mutual-defence obligation to Moldova.",
+      "applicability": "Mission/consent questions depend on the stated non-treaty partner status.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S1-16",
+      "question_id": "HB-C9-A001",
+      "trigger": "Presents a CJTF planning preference or post-election guidance as a directed higher-headquarters task without distinguishing its origin.",
+      "applicability": "These nodes distinguish mission, higher deadlines and subordinate transition guidance.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S1-16",
+      "question_id": "HB-C9-A005",
+      "trigger": "Presents a CJTF planning preference or post-election guidance as a directed higher-headquarters task without distinguishing its origin.",
+      "applicability": "These nodes distinguish mission, higher deadlines and subordinate transition guidance.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S1-16",
+      "question_id": "HB-C9-A008",
+      "trigger": "Presents a CJTF planning preference or post-election guidance as a directed higher-headquarters task without distinguishing its origin.",
+      "applicability": "These nodes distinguish mission, higher deadlines and subordinate transition guidance.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S4-16",
+      "question_id": "HB-C9-A004",
+      "trigger": "Treats staging offensive options as authority to conduct offensive effects.",
+      "applicability": "The permission chain explicitly separates preparation and execution.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S4-16",
+      "question_id": "HB-C9-B002",
+      "trigger": "Treats staging offensive options as authority to conduct offensive effects.",
+      "applicability": "The permission chain explicitly separates preparation and execution.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S4-16",
+      "question_id": "HB-C9-F002",
+      "trigger": "Treats staging offensive options as authority to conduct offensive effects.",
+      "applicability": "The permission chain explicitly separates preparation and execution.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S4-17",
+      "question_id": "HB-C9-A006",
+      "trigger": "Treats general Moldovan consent as approval for expanded activity.",
+      "applicability": "These questions address scope-specific consent and commitment gates.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S4-17",
+      "question_id": "HB-C9-B004",
+      "trigger": "Treats general Moldovan consent as approval for expanded activity.",
+      "applicability": "These questions address scope-specific consent and commitment gates.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S4-17",
+      "question_id": "HB-C9-F004",
+      "trigger": "Treats general Moldovan consent as approval for expanded activity.",
+      "applicability": "These questions address scope-specific consent and commitment gates.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S4-17",
+      "question_id": "HB-C9-F002",
+      "trigger": "Treats general Moldovan consent as approval for expanded activity.",
+      "applicability": "These questions address scope-specific consent and commitment gates.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S6-12",
+      "question_id": "HB-C9-A008",
+      "trigger": "Classifies the fixed 5 December election date as a planning assumption.",
+      "applicability": "Calendar-dependent support questions require the date/status distinction.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S6-12",
+      "question_id": "HB-C9-B003",
+      "trigger": "Classifies the fixed 5 December election date as a planning assumption.",
+      "applicability": "Calendar-dependent support questions require the date/status distinction.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S6-12",
+      "question_id": "HB-C9-B005",
+      "trigger": "Classifies the fixed 5 December election date as a planning assumption.",
+      "applicability": "Calendar-dependent support questions require the date/status distinction.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S6-12",
+      "question_id": "HB-C9-F003",
+      "trigger": "Classifies the fixed 5 December election date as a planning assumption.",
+      "applicability": "Calendar-dependent support questions require the date/status distinction.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S6-12",
+      "question_id": "HB-C9-F005",
+      "trigger": "Classifies the fixed 5 December election date as a planning assumption.",
+      "applicability": "Calendar-dependent support questions require the date/status distinction.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S8-13",
+      "question_id": "HB-C9-A003",
+      "trigger": "Makes USEUCOM the final authority for public attribution or intelligence release.",
+      "applicability": "These approval questions depend on national retention.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S8-13",
+      "question_id": "HB-C9-B002",
+      "trigger": "Makes USEUCOM the final authority for public attribution or intelligence release.",
+      "applicability": "These approval questions depend on national retention.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S8-13",
+      "question_id": "HB-C9-F002",
+      "trigger": "Makes USEUCOM the final authority for public attribution or intelligence release.",
+      "applicability": "These approval questions depend on national retention.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S8-13",
+      "question_id": "HB-C9-F005",
+      "trigger": "Makes USEUCOM the final authority for public attribution or intelligence release.",
+      "applicability": "These approval questions depend on national retention.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S8-15",
+      "question_id": "HB-C9-F001",
+      "trigger": "Assigns designation of Treasury financial measures to the military command.",
+      "applicability": "These consequence questions could propose action beyond command authority; the error is triggered only if such a task is actually proposed.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S8-15",
+      "question_id": "HB-C9-F002",
+      "trigger": "Assigns designation of Treasury financial measures to the military command.",
+      "applicability": "These consequence questions could propose action beyond command authority; the error is triggered only if such a task is actually proposed.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S8-15",
+      "question_id": "HB-C9-F008",
+      "trigger": "Assigns designation of Treasury financial measures to the military command.",
+      "applicability": "These consequence questions could propose action beyond command authority; the error is triggered only if such a task is actually proposed.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S10-15",
+      "question_id": "HB-C9-A008",
+      "trigger": "Adds an unsupported allocation date, approval duration, personnel ceiling or power figure as a fact.",
+      "applicability": "These are the nodes where missing quantitative information materially affects the conclusion; evaluator checks claims against the supplied packet, not string matching.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S10-15",
+      "question_id": "HB-C9-A009",
+      "trigger": "Adds an unsupported allocation date, approval duration, personnel ceiling or power figure as a fact.",
+      "applicability": "These are the nodes where missing quantitative information materially affects the conclusion; evaluator checks claims against the supplied packet, not string matching.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S10-15",
+      "question_id": "HB-C9-A011",
+      "trigger": "Adds an unsupported allocation date, approval duration, personnel ceiling or power figure as a fact.",
+      "applicability": "These are the nodes where missing quantitative information materially affects the conclusion; evaluator checks claims against the supplied packet, not string matching.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S10-15",
+      "question_id": "HB-C9-A016",
+      "trigger": "Adds an unsupported allocation date, approval duration, personnel ceiling or power figure as a fact.",
+      "applicability": "These are the nodes where missing quantitative information materially affects the conclusion; evaluator checks claims against the supplied packet, not string matching.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S10-15",
+      "question_id": "HB-C9-B003",
+      "trigger": "Adds an unsupported allocation date, approval duration, personnel ceiling or power figure as a fact.",
+      "applicability": "These are the nodes where missing quantitative information materially affects the conclusion; evaluator checks claims against the supplied packet, not string matching.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S10-15",
+      "question_id": "HB-C9-B005",
+      "trigger": "Adds an unsupported allocation date, approval duration, personnel ceiling or power figure as a fact.",
+      "applicability": "These are the nodes where missing quantitative information materially affects the conclusion; evaluator checks claims against the supplied packet, not string matching.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S10-15",
+      "question_id": "HB-C9-B009",
+      "trigger": "Adds an unsupported allocation date, approval duration, personnel ceiling or power figure as a fact.",
+      "applicability": "These are the nodes where missing quantitative information materially affects the conclusion; evaluator checks claims against the supplied packet, not string matching.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S10-15",
+      "question_id": "HB-C9-F003",
+      "trigger": "Adds an unsupported allocation date, approval duration, personnel ceiling or power figure as a fact.",
+      "applicability": "These are the nodes where missing quantitative information materially affects the conclusion; evaluator checks claims against the supplied packet, not string matching.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S10-15",
+      "question_id": "HB-C9-F004",
+      "trigger": "Adds an unsupported allocation date, approval duration, personnel ceiling or power figure as a fact.",
+      "applicability": "These are the nodes where missing quantitative information materially affects the conclusion; evaluator checks claims against the supplied packet, not string matching.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S10-15",
+      "question_id": "HB-C9-F005",
+      "trigger": "Adds an unsupported allocation date, approval duration, personnel ceiling or power figure as a fact.",
+      "applicability": "These are the nodes where missing quantitative information materially affects the conclusion; evaluator checks claims against the supplied packet, not string matching.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S10-15",
+      "question_id": "HB-C9-F009",
+      "trigger": "Adds an unsupported allocation date, approval duration, personnel ceiling or power figure as a fact.",
+      "applicability": "These are the nodes where missing quantitative information materially affects the conclusion; evaluator checks claims against the supplied packet, not string matching.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S11-15",
+      "question_id": "HB-C9-A009",
+      "trigger": "Counts the pending company or hunt-forward extension request as allocated and available.",
+      "applicability": "The force-coverage chain depends on actual allocation status.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S11-15",
+      "question_id": "HB-C9-B003",
+      "trigger": "Counts the pending company or hunt-forward extension request as allocated and available.",
+      "applicability": "The force-coverage chain depends on actual allocation status.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C9:RH-MA-S11-15",
+      "question_id": "HB-C9-F003",
+      "trigger": "Counts the pending company or hunt-forward extension request as allocated and available.",
+      "applicability": "The force-coverage chain depends on actual allocation status.",
+      "original_polarity": "negative"
+    }
+  ],
+  "notes": [
+    "The source strongly pre-specifies assessments and recommended tasks. New B/F nodes therefore test distinct comparisons, commitment prerequisites and verification/handover requirements, not rote repetition of those recommendations.",
+    "Nominal 60/90-day durations cannot by themselves prove calendar coverage without confirmed start/end dates. No unprovided service dates are inferred.",
+    "The campaign codename item is excluded because no substantive dependency uses the label. The Gagauzia-specific negative item is preserved but not attached outside its applicable scope.",
+    "All newly constructed questions, references and chains require military-expert validation. The accepted v0.4 inclusion decisions and case metadata remain preserved.",
+    "Independent construction review sharpened F005/F007 to distinguish existing source instructions from the newly derived conditional action, applied B007 to a deficient measurement basis, and kept F010 handover authority explicit.",
+    "Independent graph review moved the mission-scope parent in CH008 to the consequence step. Independent factual and decision conditions were split into separate scoring atoms; true comparison relations were retained.",
+    "Final criterion atomicity review split independent enumerated capabilities, approval conditions and requested facts without changing question wording, references or graph membership. Genuine relational comparisons remain intact.",
+    "Final dependency review replaced generic counterfactual wording with scenario-specific qualitative checks. These are unexecuted construction annotations for expert review, not empirical intervention results."
+  ]
+}

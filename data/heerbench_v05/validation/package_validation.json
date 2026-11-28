@@ -1,0 +1,12 @@
+{
+  "questions": 488,
+  "chains": 150,
+  "criteria": 2235,
+  "items": 1257,
+  "documents": 112,
+  "dependency_sets": 313,
+  "source_links": 1219,
+  "error_links": 492,
+  "source_packets_checked": 10,
+  "errors": []
+}

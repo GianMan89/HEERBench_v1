@@ -1,0 +1,12 @@
+{
+  "known_subtotal_usd": "0",
+  "accounted_response_count": 176,
+  "attempt_count": 176,
+  "complete_for_recorded_attempts": true,
+  "total_usd": "0",
+  "incomplete_usage_or_price_request_ids": [],
+  "unquantified_attempt_request_ids": [],
+  "basis": "observed_tokens_list_prices_not_invoice",
+  "note": "Observed generation costs in a judge-development fork belong to the parent run, not new charges.",
+  "historical_generation_cost_excluded": false
+}

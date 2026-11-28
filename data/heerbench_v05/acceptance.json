@@ -1,0 +1,11 @@
+{
+  "dataset_version": "0.5",
+  "source_archive_sha256": "3d8636cefe60925290c45a3d3345589e9609c9e28ad1ceea115e651322b75a92",
+  "acceptance_status": "user_reported_joint_expert_acceptance",
+  "acceptance_date": "2026-11-27",
+  "scope": "All v0.5 constructed questions, references and chains",
+  "basis": "User states that they reviewed the corpus with their military colleague and fully agree.",
+  "independent_annotations_available": false,
+  "inter_rater_agreement": null,
+  "note": "Original construction files retain their historical pending-validation fields; this overlay records the subsequent acceptance without rewriting them."
+}

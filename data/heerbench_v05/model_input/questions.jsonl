@@ -1,0 +1,488 @@
+{"question_id": "HB-C1-A001", "case_id": "C1", "question": "What environmental conditions and operating restrictions are reported for surface, air and seabed work in SILENT FATHOM?"}
+{"question_id": "HB-C1-A002", "case_id": "C1", "question": "Who controls the contracted cable-repair ship and its schedule, and what military role is specified?"}
+{"question_id": "HB-C1-A003", "case_id": "C1", "question": "Which US maritime support assets are actually allocated at the start of SILENT FATHOM, and how does this differ from apportionment?"}
+{"question_id": "HB-C1-B001", "case_id": "C1", "question": "How should the staff assess whether a proposed repair opportunity at Cut Site B is executable when the operator, escort and forensic support are considered together?"}
+{"question_id": "HB-C1-F001", "case_id": "C1", "question": "What concrete coordination product should be prepared before confirming a Cut Site B repair window?"}
+{"question_id": "HB-C1-A004", "case_id": "C1", "question": "What are the reported functions and current fault states of the four affected infrastructure systems?"}
+{"question_id": "HB-C1-A005", "case_id": "C1", "question": "What priority rule and unresolved information are supplied for CUI restoration?"}
+{"question_id": "HB-C1-B002", "case_id": "C1", "question": "What can and cannot be concluded about a final restoration ranking from the reported fault severity and service descriptions?"}
+{"question_id": "HB-C1-F002", "case_id": "C1", "question": "What staff work is required to turn the current CUI picture into a defensible restoration-priority decision?"}
+{"question_id": "HB-C1-A006", "case_id": "C1", "question": "Which command and coordination relationships govern the US and Allied maritime effort?"}
+{"question_id": "HB-C1-A007", "case_id": "C1", "question": "What permissions and restraints does the packet give for vessel interaction and public attribution?"}
+{"question_id": "HB-C1-B003", "case_id": "C1", "question": "How does the availability of an Allied ship affect the readiness of a proposed multinational support task requiring national approval?"}
+{"question_id": "HB-C1-F003", "case_id": "C1", "question": "What should the staff obtain and record before counting an Allied contribution in a confirmed support commitment?"}
+{"question_id": "HB-C1-A008", "case_id": "C1", "question": "What distinctions do the intelligence products make among Russian capability, incident attribution and intent?"}
+{"question_id": "HB-C1-B004", "case_id": "C1", "question": "How should the staff judge whether the existing packet supports one unqualified public claim of state responsibility for every fault?"}
+{"question_id": "HB-C1-F004", "case_id": "C1", "question": "What concrete analytical work should precede submission of a public attribution recommendation?"}
+{"question_id": "HB-C1-A009", "case_id": "C1", "question": "What friendly effects and mitigation status are reported for PNT disruption?"}
+{"question_id": "HB-C1-B005", "case_id": "C1", "question": "How should a general statement that alternate navigation has been activated be used when assessing repair and forensic readiness?"}
+{"question_id": "HB-C1-F005", "case_id": "C1", "question": "What verification is required before the staff marks the repair-support package ready in the PNT-degraded area?"}
+{"question_id": "HB-C1-A010", "case_id": "C1", "question": "What is known and unknown about B-90 Vologda and deployed seabed systems?"}
+{"question_id": "HB-C1-B006", "case_id": "C1", "question": "What would a later report locating B-90 Vologda away from a cut site establish about whether a deployed payload had been present there?"}
+{"question_id": "HB-C1-F006", "case_id": "C1", "question": "How should the staff structure follow-up reporting before declaring the submarine-related forensic gap closed?"}
+{"question_id": "HB-C1-A011", "case_id": "C1", "question": "What assumption and alternative adversary scenario govern the escalation framing?"}
+{"question_id": "HB-C1-B007", "case_id": "C1", "question": "How would reporting inconsistent with the sub-threshold continuation assumption affect a staff readiness recommendation under the current order?"}
+{"question_id": "HB-C1-F007", "case_id": "C1", "question": "What concrete staff action follows when a new report credibly challenges the sub-threshold assumption used for a support commitment?"}
+{"question_id": "HB-C2-A001", "case_id": "C2", "question": "What does the packet report about ARC organization, strength and current sustainment?"}
+{"question_id": "HB-C2-A002", "case_id": "C2", "question": "What limits the amount of support that can reach the partner?"}
+{"question_id": "HB-C2-B001", "case_id": "C2", "question": "How much can the staff infer about a suitable support package from the reported partner strength and low-stock condition?"}
+{"question_id": "HB-C2-F001", "case_id": "C2", "question": "What staff task should precede specification of a materiel or sustainment package for the ARC?"}
+{"question_id": "HB-C2-F002", "case_id": "C2", "question": "What specific information should be requested about the Hêlîn network before crediting it with the distribution capacity required by a support package?"}
+{"question_id": "HB-C2-A003", "case_id": "C2", "question": "What forces and support are apportioned, and which portion can initially close?"}
+{"question_id": "HB-C2-B002", "case_id": "C2", "question": "How should a support estimate that relies on all six advisory detachments being present at the outset be assessed?"}
+{"question_id": "HB-C2-F003", "case_id": "C2", "question": "What concrete correction should be made to the initial support estimate before it is submitted?"}
+{"question_id": "HB-C2-F004", "case_id": "C2", "question": "What coordination requirement follows for shared aviation supporting closure, resupply and recovery?"}
+{"question_id": "HB-C2-A004", "case_id": "C2", "question": "What conditions and command relationships govern assistance to ARC elements?"}
+{"question_id": "HB-C2-B003", "case_id": "C2", "question": "How should the staff assess the eligibility of a broad assistance package when partner cohesion is deteriorating and only some recipients may have completed vetting?"}
+{"question_id": "HB-C2-F005", "case_id": "C2", "question": "What staff process should be established to address urgent support requests while respecting the recipient-vetting condition?"}
+{"question_id": "HB-C2-F006", "case_id": "C2", "question": "What decision condition should govern expansion from a cleared subset to additional ARC elements?"}
+{"question_id": "HB-C2-A005", "case_id": "C2", "question": "What personnel-recovery conditions and dependencies are stated before commitment of advisers?"}
+{"question_id": "HB-C2-B004", "case_id": "C2", "question": "What does designation of an on-order personnel-recovery element establish about the adviser commitment gate?"}
+{"question_id": "HB-C2-F007", "case_id": "C2", "question": "What concrete recovery-readiness action is needed before the commitment decision?"}
+{"question_id": "HB-C2-A006", "case_id": "C2", "question": "What authority and access limits are stated for JAGGED ANVIL?"}
+{"question_id": "HB-C2-B005", "case_id": "C2", "question": "How should the staff assess an assistance proposal that is within the general support mission but lacks recipient clearance or a specific activity determination?"}
+{"question_id": "HB-C2-F008", "case_id": "C2", "question": "What should the staff require before recording a proposed assistance line as cleared for execution?"}
+{"question_id": "HB-C2-A007", "case_id": "C2", "question": "What access and deconfliction conditions are supplied for the operation?"}
+{"question_id": "HB-C2-B006", "case_id": "C2", "question": "What does confirmation of Russian air deconfliction establish about the other access conditions required for a proposed support commitment?"}
+{"question_id": "HB-C2-F009", "case_id": "C2", "question": "What information and coordination record is required before treating access as confirmed for a support commitment?"}
+{"question_id": "HB-C2-F010", "case_id": "C2", "question": "What staging-location preparation is justified before a support arrangement is treated as feasible?"}
+{"question_id": "HB-C2-A008", "case_id": "C2", "question": "What limitations affect the staff’s partner-derived reports and communications?"}
+{"question_id": "HB-C2-B007", "case_id": "C2", "question": "How should a single partner report of readiness be assessed when independent observation and communications are limited?"}
+{"question_id": "HB-C2-F011", "case_id": "C2", "question": "What should be requested before using the partner report to support a commitment decision?"}
+{"question_id": "HB-C2-A009", "case_id": "C2", "question": "What objectives and unintended risk must the staff preserve in evaluating the operation?"}
+{"question_id": "HB-C2-B008", "case_id": "C2", "question": "Would improved partner readiness alone establish progress against all the stated purposes, and why?"}
+{"question_id": "HB-C2-F012", "case_id": "C2", "question": "What concrete change should be made to a progress brief that currently reports only partner capacity?"}
+{"question_id": "HB-C3-A001", "case_id": "C3", "question": "What disaster effects and affected populations are reported for CORAL TEMPEST?"}
+{"question_id": "HB-C3-A002", "case_id": "C3", "question": "What condition and distribution constraints are reported for the main air and sea entry points?"}
+{"question_id": "HB-C3-A003", "case_id": "C3", "question": "What sea-based and other support is apportioned, and what is its availability status?"}
+{"question_id": "HB-C3-B001", "case_id": "C3", "question": "What determines whether a large arrival of relief cargo would translate into usable relief for dispersed outer-island populations?"}
+{"question_id": "HB-C3-F001", "case_id": "C3", "question": "What concrete logistics requirement should be established before confirming an over-the-shore relief package?"}
+{"question_id": "HB-C3-F002", "case_id": "C3", "question": "What current entry-point information should be requested to compare fixed-port and sea-based relief delivery?"}
+{"question_id": "HB-C3-F003", "case_id": "C3", "question": "What preparation is justified for Lapetasi while its usable throughput remains unresolved?"}
+{"question_id": "HB-C3-A004", "case_id": "C3", "question": "How do reported humanitarian urgency and full US force closure compare?"}
+{"question_id": "HB-C3-B002", "case_id": "C3", "question": "What does the mismatch between acute-needs timing and full force closure imply for an initial relief estimate?"}
+{"question_id": "HB-C3-F004", "case_id": "C3", "question": "What information and evaluation measure should be used to assess the speed of a proposed relief package?"}
+{"question_id": "HB-C3-A005", "case_id": "C3", "question": "What does the packet establish about host-nation consent and political restrictions?"}
+{"question_id": "HB-C3-B003", "case_id": "C3", "question": "How would denial of permission to use Port Vila affect the feasibility of a sea-based or outer-island relief option?"}
+{"question_id": "HB-C3-F005", "case_id": "C3", "question": "What conditions should the staff place on committing relief ashore or through a sea-based alternative?"}
+{"question_id": "HB-C3-A006", "case_id": "C3", "question": "Which regional staging and partner capabilities are described, and what authorization is established?"}
+{"question_id": "HB-C3-B004", "case_id": "C3", "question": "How should the staff compare a nearby potential staging location with a more distant established support location?"}
+{"question_id": "HB-C3-F006", "case_id": "C3", "question": "What should be obtained before selecting and timing requests for a staging arrangement?"}
+{"question_id": "HB-C3-A007", "case_id": "C3", "question": "What lead, validation and funding conditions govern the military relief contribution?"}
+{"question_id": "HB-C3-B005", "case_id": "C3", "question": "How should the staff determine whether an available military capability addresses a valid relief gap?"}
+{"question_id": "HB-C3-F007", "case_id": "C3", "question": "What information should the staff collect to support the unique-capability test?"}
+{"question_id": "HB-C3-F008", "case_id": "C3", "question": "What should accompany a validated military assistance task to keep it within the stated support construct?"}
+{"question_id": "HB-C3-A008", "case_id": "C3", "question": "What local and humanitarian structures affect distribution beyond Port Vila?"}
+{"question_id": "HB-C3-B006", "case_id": "C3", "question": "How can regional and humanitarian relationships address gaps in a military-led picture of relief needs and receipt?"}
+{"question_id": "HB-C3-F009", "case_id": "C3", "question": "What destination-level information should be obtained before allocating relief to outer-island communities?"}
+{"question_id": "HB-C3-A009", "case_id": "C3", "question": "What medical needs and support categories are reported?"}
+{"question_id": "HB-C3-B007", "case_id": "C3", "question": "What does the presence of a hospital ship or a planned medical detachment establish about whether affected communities’ medical needs can be met?"}
+{"question_id": "HB-C3-F010", "case_id": "C3", "question": "What medical support information should the staff request before nominating additional support?"}
+{"question_id": "HB-C3-A010", "case_id": "C3", "question": "What limits the establishment of relief coordination at the outset?"}
+{"question_id": "HB-C3-B008", "case_id": "C3", "question": "What does activation of a coordination-centre title establish about its ability to process and deconflict relief requests?"}
+{"question_id": "HB-C3-F011", "case_id": "C3", "question": "What concrete coordination arrangements should be established before the centre is treated as operational?"}
+{"question_id": "HB-C3-F012", "case_id": "C3", "question": "What additional capability checks are needed for reliable liaison with affected communities, FRANZ and co-located PRC elements?"}
+{"question_id": "HB-C3-A011", "case_id": "C3", "question": "What is reported and assessed about the PRC presence and permitted interaction?"}
+{"question_id": "HB-C3-B009", "case_id": "C3", "question": "How should the assessment that PRC forces are unlikely to obstruct by force be used when deciding whether relief interactions are ready to proceed?"}
+{"question_id": "HB-C3-F013", "case_id": "C3", "question": "What information should be requested to support a specific relief interaction with co-located PRC elements?"}
+{"question_id": "HB-C3-A012", "case_id": "C3", "question": "What purposes and communication constraints should shape evaluation of the relief effort?"}
+{"question_id": "HB-C3-B010", "case_id": "C3", "question": "How should a proposed success measure based on reducing PRC visibility be assessed against the supplied relief purpose?"}
+{"question_id": "HB-C3-F014", "case_id": "C3", "question": "What evaluation criteria should be used to compare relief proposals without making competition the outcome?"}
+{"question_id": "HB-C3-F015", "case_id": "C3", "question": "What communication task follows from the need to demonstrate credible civilian-led relief while avoiding a competing military narrative?"}
+{"question_id": "HB-C4-A001", "case_id": "C4", "question": "What force-closure estimate, N-Day and overall duration are supplied for SEA TIGER?"}
+{"question_id": "HB-C4-A002", "case_id": "C4", "question": "What role and assessed limitations are assigned to Taiwan’s forces?"}
+{"question_id": "HB-C4-B001", "case_id": "C4", "question": "How do the stated closure and endurance estimates affect confidence that reinforcements will be usable in time?"}
+{"question_id": "HB-C4-F001", "case_id": "C4", "question": "What force-status information should the staff obtain before judging whether the reinforcement schedule supports the immediate tasks?"}
+{"question_id": "HB-C4-A003", "case_id": "C4", "question": "What availability status is given for the Carl Vinson strike group?"}
+{"question_id": "HB-C4-B002", "case_id": "C4", "question": "How should the Carl Vinson entry affect the force-availability assessment for early tasks?"}
+{"question_id": "HB-C4-F002", "case_id": "C4", "question": "What action is required before the staff credits the Carl Vinson group to a time-critical requirement?"}
+{"question_id": "HB-C4-A004", "case_id": "C4", "question": "What requirements govern the evacuation of American citizens and subsequent military options?"}
+{"question_id": "HB-C4-B003", "case_id": "C4", "question": "What prevents the evacuation task from being treated as a scheduled, executable prerequisite on the current packet alone?"}
+{"question_id": "HB-C4-F003", "case_id": "C4", "question": "What information and coordination should be completed to size the evacuation requirement?"}
+{"question_id": "HB-C4-F004", "case_id": "C4", "question": "What status should be reported to support the decision on progression to a military option?"}
+{"question_id": "HB-C4-A005", "case_id": "C4", "question": "What command and rules-of-engagement arrangements are supplied for the multinational force?"}
+{"question_id": "HB-C4-B004", "case_id": "C4", "question": "How do the supplied command arrangements affect the readiness of a combined task involving several national contingents?"}
+{"question_id": "HB-C4-F005", "case_id": "C4", "question": "What should be added to the staff’s readiness report before a combined task is declared executable?"}
+{"question_id": "HB-C4-A006", "case_id": "C4", "question": "What contributions, access arrangements and caveats are given for Japan, Korea and the Philippines?"}
+{"question_id": "HB-C4-B005", "case_id": "C4", "question": "What can the staff infer about drawing stocks from Japan or Korea and adjusting Japanese trade-protection support?"}
+{"question_id": "HB-C4-F006", "case_id": "C4", "question": "What coalition information should be obtained before the support plan credits national contributions?"}
+{"question_id": "HB-C4-A007", "case_id": "C4", "question": "What factors are identified as limiting receipt and sustainment of the force?"}
+{"question_id": "HB-C4-A008", "case_id": "C4", "question": "What does the packet say about Taiwan’s landing and port geography and the adversary’s amphibious lift?"}
+{"question_id": "HB-C4-B006", "case_id": "C4", "question": "What follows for sustainment feasibility from the port geography and throughput constraints?"}
+{"question_id": "HB-C4-F007", "case_id": "C4", "question": "What support work is required before the force-flow plan can be treated as feasible?"}
+{"question_id": "HB-C4-F008", "case_id": "C4", "question": "What additional offload preparation should the staff consider for the theatre support plan?"}
+{"question_id": "HB-C4-A009", "case_id": "C4", "question": "What threat and protection limitations are given for forward support bases?"}
+{"question_id": "HB-C4-B007", "case_id": "C4", "question": "How could the stated base exposure change the reliability of the planned build-up and sustainment?"}
+{"question_id": "HB-C4-F009", "case_id": "C4", "question": "What should the staff prepare to address protection gaps in the support plan?"}
+{"question_id": "HB-C4-A010", "case_id": "C4", "question": "What threats and protective-capability shortfalls are recorded for maritime access?"}
+{"question_id": "HB-C4-B008", "case_id": "C4", "question": "How do the maritime shortfalls affect confidence in port access and support movement?"}
+{"question_id": "HB-C4-F010", "case_id": "C4", "question": "What information should be obtained before a port or support movement is credited as available?"}
+{"question_id": "HB-C4-A011", "case_id": "C4", "question": "What cyber, space and navigation-related effects are reported or assumed?"}
+{"question_id": "HB-C4-B009", "case_id": "C4", "question": "How do the stated PNT and communications risks affect confidence in synchronised force reception?"}
+{"question_id": "HB-C4-F011", "case_id": "C4", "question": "What preparation should support the force-flow plan under the stated service risks?"}
+{"question_id": "HB-C4-F012", "case_id": "C4", "question": "What planning information requires protection to preserve the reliability of the build-up and evacuation?"}
+{"question_id": "HB-C4-A012", "case_id": "C4", "question": "What weather and seasonal conditions in the packet are relevant to support movement?"}
+{"question_id": "HB-C4-B010", "case_id": "C4", "question": "What can the staff conclude about selecting a support-movement window from the seasonal description?"}
+{"question_id": "HB-C4-F013", "case_id": "C4", "question": "What environmental information should be requested to finalise the support schedule?"}
+{"question_id": "HB-C4-A013", "case_id": "C4", "question": "Where is USS Dewey listed in the supplied coalition force list?"}
+{"question_id": "HB-C4-B011", "case_id": "C4", "question": "What is the consequence of using both Dewey entries in a force total?"}
+{"question_id": "HB-C4-F014", "case_id": "C4", "question": "What must the staff do before using the destroyer list in a capability calculation?"}
+{"question_id": "HB-C4-A014", "case_id": "C4", "question": "What strategic end state and proposed termination conditions are specified?"}
+{"question_id": "HB-C4-B012", "case_id": "C4", "question": "What limitations arise if the proposed conditions are used directly as a checklist for ending the operation?"}
+{"question_id": "HB-C4-F015", "case_id": "C4", "question": "How should the staff refine the termination assessment for command review?"}
+{"question_id": "HB-C4-A015", "case_id": "C4", "question": "What post-conflict arrangements are proposed for review?"}
+{"question_id": "HB-C4-B013", "case_id": "C4", "question": "What is missing before the proposed post-conflict arrangements can be credited as deliverable?"}
+{"question_id": "HB-C4-F016", "case_id": "C4", "question": "What should the staff submit for the proposed follow-on arrangements?"}
+{"question_id": "HB-C4-A016", "case_id": "C4", "question": "What immediate and conditional tasks and planning submissions are directed?"}
+{"question_id": "HB-C4-B014", "case_id": "C4", "question": "How should the staff judge whether the four options are supportable from the available-force list?"}
+{"question_id": "HB-C4-F017", "case_id": "C4", "question": "What criteria should the staff add to the option comparison to assess timely fulfilment of the directed tasks?"}
+{"question_id": "HB-C4-A017", "case_id": "C4", "question": "What alternative enemy courses and third-party assumptions should remain visible in planning?"}
+{"question_id": "HB-C4-B015", "case_id": "C4", "question": "How should possible escalation affect confidence in the existing force and support plan?"}
+{"question_id": "HB-C4-F018", "case_id": "C4", "question": "What information and decision trigger should be added to the support review?"}
+{"question_id": "HB-C4-A018", "case_id": "C4", "question": "What coalition vulnerability and information context are identified?"}
+{"question_id": "HB-C4-B016", "case_id": "C4", "question": "How could inconsistent coalition statements affect the support plan?"}
+{"question_id": "HB-C4-F019", "case_id": "C4", "question": "What coordination requirement follows before the staff publishes the common account of the operation?"}
+{"question_id": "HB-C4-A019", "case_id": "C4", "question": "What does the packet provide about medical support availability and limitations?"}
+{"question_id": "HB-C4-B017", "case_id": "C4", "question": "What does the support timeline imply for confidence in early personnel-recovery and medical coverage?"}
+{"question_id": "HB-C4-F020", "case_id": "C4", "question": "What support requirement should be raised for the early phase?"}
+{"question_id": "HB-C4-A020", "case_id": "C4", "question": "What munition and duration information is provided?"}
+{"question_id": "HB-C4-B018", "case_id": "C4", "question": "How should the stock shortfall affect the judgement of force sustainability?"}
+{"question_id": "HB-C4-F021", "case_id": "C4", "question": "What should the staff prepare before crediting long-duration support?"}
+{"question_id": "HB-C4-A021", "case_id": "C4", "question": "Which information-related protection functions are listed for operating forces?"}
+{"question_id": "HB-C4-B019", "case_id": "C4", "question": "What do the force-closure and evacuation requirements imply for the handling of detailed movement information?"}
+{"question_id": "HB-C5-A001", "case_id": "C5", "question": "What does the packet identify as the main constraint on mission feasibility?"}
+{"question_id": "HB-C5-A002", "case_id": "C5", "question": "What reception infrastructure and access characteristics are described for Guantanamo Bay and Puerto Rico?"}
+{"question_id": "HB-C5-B001", "case_id": "C5", "question": "What does the relationship between arrival flow, processing and onward movement imply for reception occupancy and support demand?"}
+{"question_id": "HB-C5-F001", "case_id": "C5", "question": "What should the staff obtain to decide when to activate or expand reception arrangements?"}
+{"question_id": "HB-C5-F002", "case_id": "C5", "question": "What engineering and life-support preparation is required for the proposed reception system?"}
+{"question_id": "HB-C5-A003", "case_id": "C5", "question": "What transport and support availability is stated for the reception effort?"}
+{"question_id": "HB-C5-B002", "case_id": "C5", "question": "How should the staff assess a transport schedule before counting its contribution to reception?"}
+{"question_id": "HB-C5-F003", "case_id": "C5", "question": "What transport and staging arrangements should be prepared for the reception plan?"}
+{"question_id": "HB-C5-A004", "case_id": "C5", "question": "Which partner and international reception contributions are described and how firm are they?"}
+{"question_id": "HB-C5-B003", "case_id": "C5", "question": "How should partner offers be treated in the reception-capacity calculation?"}
+{"question_id": "HB-C5-F004", "case_id": "C5", "question": "What coordination and information are required before routing people to partner facilities?"}
+{"question_id": "HB-C5-A005", "case_id": "C5", "question": "How are military enforcement and migrant disposition responsibilities divided?"}
+{"question_id": "HB-C5-B004", "case_id": "C5", "question": "Assess whether successful at-sea rescue alone fulfils the assigned disposition process."}
+{"question_id": "HB-C5-F005", "case_id": "C5", "question": "What procedures should be agreed between rescuing units and the disposition organisations?"}
+{"question_id": "HB-C5-A006", "case_id": "C5", "question": "Which reception personnel requirements are explicitly identified?"}
+{"question_id": "HB-C5-B005", "case_id": "C5", "question": "How do the personnel shortfalls affect use of the available reception spaces?"}
+{"question_id": "HB-C5-F006", "case_id": "C5", "question": "What staffing request should accompany the validated reception plan?"}
+{"question_id": "HB-C5-A007", "case_id": "C5", "question": "What humanitarian and medical demands are described for rescued people?"}
+{"question_id": "HB-C5-B006", "case_id": "C5", "question": "How does continuing rescue affect the support requirement beyond the initial act of recovery?"}
+{"question_id": "HB-C5-F007", "case_id": "C5", "question": "What support requirements and status requests should the staff raise for continuing care?"}
+{"question_id": "HB-C5-A008", "case_id": "C5", "question": "Which fatal incidents are reported in the scenario?"}
+{"question_id": "HB-C5-B007", "case_id": "C5", "question": "What additional support implication follows for a mass-rescue effort from the reported fatalities?"}
+{"question_id": "HB-C5-F008", "case_id": "C5", "question": "What additional support should be considered for deceased persons within the rescue effort?"}
+{"question_id": "HB-C5-A009", "case_id": "C5", "question": "What geographical and weather conditions affect people crossing the Straits?"}
+{"question_id": "HB-C5-A010", "case_id": "C5", "question": "What surveillance requirement and current emphasis are supplied?"}
+{"question_id": "HB-C5-B008", "case_id": "C5", "question": "How should current and weather information be used when judging whether the rescue-support arrangement can reach people in time?"}
+{"question_id": "HB-C5-F009", "case_id": "C5", "question": "What information and support adjustment should the staff arrange to maintain timely rescue?"}
+{"question_id": "HB-C5-F010", "case_id": "C5", "question": "What information and coordination should guide support for alternate seaborne routes?"}
+{"question_id": "HB-C5-A011", "case_id": "C5", "question": "What requirements and vulnerabilities are described for Guantanamo Bay?"}
+{"question_id": "HB-C5-B009", "case_id": "C5", "question": "How does the base’s dual role affect the reception capacity that the staff may credit?"}
+{"question_id": "HB-C5-F011", "case_id": "C5", "question": "What support and coordination should accompany the Guantanamo reception plan?"}
+{"question_id": "HB-C5-A012", "case_id": "C5", "question": "Which fielded forces provide the principal functions and what is Nimitz’s status?"}
+{"question_id": "HB-C5-A013", "case_id": "C5", "question": "What is authorised for the base operation and which activities remain subject to a later national decision?"}
+{"question_id": "HB-C5-B010", "case_id": "C5", "question": "What must be considered before assigning the amphibious force to a proposed ashore branch?"}
+{"question_id": "HB-C5-F012", "case_id": "C5", "question": "What support and status requirements should accompany an ashore-branch recommendation?"}
+{"question_id": "HB-C5-A014", "case_id": "C5", "question": "What does the packet distinguish between Cuba’s conventional capability and the remaining threats?"}
+{"question_id": "HB-C5-A015", "case_id": "C5", "question": "What requirements are stated for maintaining the declared NFZ and applying force under the packet’s rules?"}
+{"question_id": "HB-C5-B011", "case_id": "C5", "question": "What can the staff infer about continuous protective coverage from the listed forces and threat information?"}
+{"question_id": "HB-C5-F013", "case_id": "C5", "question": "What should the staff obtain and prepare before crediting sustained protective coverage?"}
+{"question_id": "HB-C5-F014", "case_id": "C5", "question": "What reporting should be associated with the declared NFZ area for the staff’s support review?"}
+{"question_id": "HB-C5-A016", "case_id": "C5", "question": "What limits and priorities define the protective mission and the treatment of intercepted persons?"}
+{"question_id": "HB-C5-B012", "case_id": "C5", "question": "How should the staff treat a reception shortfall when no onward CONUS decision has been made?"}
+{"question_id": "HB-C5-F015", "case_id": "C5", "question": "What should the staff prepare for a forecast reception deficit under the current decisions?"}
+{"question_id": "HB-C5-A017", "case_id": "C5", "question": "What political and information conditions are explicitly supplied for the protective operation?"}
+{"question_id": "HB-C5-A018", "case_id": "C5", "question": "What information-production and communication tasks are directed?"}
+{"question_id": "HB-C5-B013", "case_id": "C5", "question": "How could communication choices affect the reception and partner-support effort?"}
+{"question_id": "HB-C5-F016", "case_id": "C5", "question": "What concrete coordination should precede public release of an operational update?"}
+{"question_id": "HB-C5-B014", "case_id": "C5", "question": "What does the restricted information environment imply about the effectiveness of a planned public communication channel?"}
+{"question_id": "HB-C5-F017", "case_id": "C5", "question": "What information should be requested before relying on a local network for approved public communication?"}
+{"question_id": "HB-C5-A019", "case_id": "C5", "question": "What does the supplied analysis identify as the regime’s objective and critical factors?"}
+{"question_id": "HB-C5-B015", "case_id": "C5", "question": "What political implication may follow from protecting people, and how should it be bounded in planning?"}
+{"question_id": "HB-C5-F018", "case_id": "C5", "question": "What should the staff require in the acceptability review of a proposed support option?"}
+{"question_id": "HB-C5-A020", "case_id": "C5", "question": "What alternatives and unresolved intent questions are given for escalation?"}
+{"question_id": "HB-C5-B016", "case_id": "C5", "question": "How could the escalation alternatives affect support even without a conventional attack on the fleet?"}
+{"question_id": "HB-C5-F019", "case_id": "C5", "question": "What support-continuity preparation should accompany the protective operation?"}
+{"question_id": "HB-C5-A021", "case_id": "C5", "question": "What conditions define the desired end state in the packet?"}
+{"question_id": "HB-C5-B017", "case_id": "C5", "question": "What is missing if the broad end conditions are used directly to decide that support can be reduced?"}
+{"question_id": "HB-C5-F020", "case_id": "C5", "question": "What should the staff prepare for a decision to transition or reduce support?"}
+{"question_id": "HB-C6-A001", "case_id": "C6", "question": "What does the latest CJCS EXORD establish as the current course, conditional branch and principal restraints?"}
+{"question_id": "HB-C6-A002", "case_id": "C6", "question": "What mission and outpost-engagement assumptions appear in earlier planning documents?"}
+{"question_id": "HB-C6-B001", "case_id": "C6", "question": "How should the older restoration and engagement assumptions be assessed against the later COA-2 EXORD?"}
+{"question_id": "HB-C6-F001", "case_id": "C6", "question": "What correction is required before an older staff product is used for current COA-2 planning?"}
+{"question_id": "HB-C6-A003", "case_id": "C6", "question": "What readiness standard, reporting requirements and relevant phase milestones are directed for the restoration branch?"}
+{"question_id": "HB-C6-B002", "case_id": "C6", "question": "Assess whether conducting the current pressure course establishes that the 96-hour branch is executable."}
+{"question_id": "HB-C6-F002", "case_id": "C6", "question": "What concrete preparation should follow a shortfall in a required branch-readiness function?"}
+{"question_id": "HB-C6-F003", "case_id": "C6", "question": "What feasibility criterion should distinguish options claiming rapid closure and branch readiness?"}
+{"question_id": "HB-C6-A004", "case_id": "C6", "question": "What N-day, D-day and relevant N-relative arrival estimates are supplied?"}
+{"question_id": "HB-C6-B003", "case_id": "C6", "question": "Convert the BOXER ARG and HMS DEFENDER arrivals to the D-day clock and assess their availability at commencement."}
+{"question_id": "HB-C6-F004", "case_id": "C6", "question": "What change follows for a schedule that counts these two forces on D-day?"}
+{"question_id": "HB-C6-A005", "case_id": "C6", "question": "What tanker, airfield and strategic sealift limitations are reported?"}
+{"question_id": "HB-C6-B004", "case_id": "C6", "question": "Assess the size and significance of the tanker-capacity gap using the stated relative demand."}
+{"question_id": "HB-C6-F005", "case_id": "C6", "question": "What resource information and changes are needed before approving the planned force-flow rate?"}
+{"question_id": "HB-C6-A006", "case_id": "C6", "question": "What Singapore and other regional partner support is recorded, and what conditions apply?"}
+{"question_id": "HB-C6-B005", "case_id": "C6", "question": "Assess how Singapore support relates to the identified logistics gaps."}
+{"question_id": "HB-C6-F006", "case_id": "C6", "question": "What should be confirmed before adding Singapore as capacity in the deployment plan?"}
+{"question_id": "HB-C6-A007", "case_id": "C6", "question": "What communications capacity, alternate paths and coalition-integration assumptions are recorded in the dated running estimate?"}
+{"question_id": "HB-C6-B006", "case_id": "C6", "question": "What does the dated communications estimate establish about coalition C2 readiness at the later execution baseline?"}
+{"question_id": "HB-C6-F007", "case_id": "C6", "question": "What C2 preparation follows before counting coalition elements as integrated?"}
+{"question_id": "HB-C6-A008", "case_id": "C6", "question": "What weather, sea-state and disruption guidance applies in the planning window?"}
+{"question_id": "HB-C6-B007", "case_id": "C6", "question": "Assess whether the 96-hour branch-readiness standard guarantees that weather permits the branch when directed."}
+{"question_id": "HB-C6-F008", "case_id": "C6", "question": "What preparation follows for the readiness and support schedule?"}
+{"question_id": "HB-C6-A009", "case_id": "C6", "question": "What capture counts and liaison requirements are reported for the 22 August event?"}
+{"question_id": "HB-C6-B008", "case_id": "C6", "question": "What is a defensible working count for notification planning, and what uncertainty remains?"}
+{"question_id": "HB-C6-F009", "case_id": "C6", "question": "What information and coordination task is required before treating captured-person accountability and repatriation liaison as complete?"}
+{"question_id": "HB-C6-A010", "case_id": "C6", "question": "What civilian population and protection tasks are supplied for Pag-asa and the wider mission?"}
+{"question_id": "HB-C6-B009", "case_id": "C6", "question": "Assess whether a NEO plan alone establishes civilian-protection readiness for the Pag-asa population."}
+{"question_id": "HB-C6-F010", "case_id": "C6", "question": "What preparation is required to substantiate readiness for the civilian-support tasks?"}
+{"question_id": "HB-C6-A011", "case_id": "C6", "question": "What force-pool status, package alternatives and standing-commitment limits are supplied?"}
+{"question_id": "HB-C6-B010", "case_id": "C6", "question": "Assess what the supplied I MEF apportionment and smaller-force option establish about the necessary initial force package."}
+{"question_id": "HB-C6-F011", "case_id": "C6", "question": "What force-management action should precede requesting or counting a larger force package?"}
+{"question_id": "HB-C6-A012", "case_id": "C6", "question": "What restoration purpose, end-state and verification conditions are stated?"}
+{"question_id": "HB-C6-B011", "case_id": "C6", "question": "Assess whether a plan showing force presence and pressure activity alone establishes achievement of the restoration purpose."}
+{"question_id": "HB-C6-F012", "case_id": "C6", "question": "What must an option evaluation establish before crediting progress toward restoration and a diplomatic off-ramp?"}
+{"question_id": "HB-C6-F013", "case_id": "C6", "question": "What should a comparison claiming effective isolation or degradation require under the current approved course?"}
+{"question_id": "HB-C6-A013", "case_id": "C6", "question": "What distance, assessed coverage and presence permissions are supplied for Subi and Pag-asa?"}
+{"question_id": "HB-C6-B012", "case_id": "C6", "question": "Assess what the proximity and authority data imply for treating authorised presence as an assured low-risk activity."}
+{"question_id": "HB-C6-F014", "case_id": "C6", "question": "What staff requirement follows before treating a proposed presence task as supported?"}
+{"question_id": "HB-C6-A014", "case_id": "C6", "question": "What continuous monitoring priorities and limitations are supplied?"}
+{"question_id": "HB-C6-B013", "case_id": "C6", "question": "Assess what an absence of detected reinforcement or escalation indicates when monitoring coverage has degraded."}
+{"question_id": "HB-C6-F015", "case_id": "C6", "question": "What information and support action should accompany the monitoring report?"}
+{"question_id": "HB-C6-A015", "case_id": "C6", "question": "What narrative guidance, public-support assumptions and communication roles are supplied?"}
+{"question_id": "HB-C6-B014", "case_id": "C6", "question": "Assess whether issuing coordinated information products establishes the assumed public-support conditions."}
+{"question_id": "HB-C6-F016", "case_id": "C6", "question": "What information requirement should support review of the public-support assumptions?"}
+{"question_id": "HB-C6-F017", "case_id": "C6", "question": "What documentation support is needed when official incident reporting must be checked against potentially fabricated material?"}
+{"question_id": "HB-C6-A016", "case_id": "C6", "question": "What Australian, Japanese and New Zealand contributions and command conditions are supplied?"}
+{"question_id": "HB-C6-B015", "case_id": "C6", "question": "How should offered coalition contributions be counted in an executable support schedule?"}
+{"question_id": "HB-C6-F018", "case_id": "C6", "question": "What preparation should precede assigning a dependent task to a coalition contribution?"}
+{"question_id": "HB-C6-A017", "case_id": "C6", "question": "What does the packet state about ASEAN consensus and individual regional support?"}
+{"question_id": "HB-C6-B016", "case_id": "C6", "question": "Assess whether ASEAN consensus difficulty establishes that the recorded bilateral support is unavailable."}
+{"question_id": "HB-C6-F019", "case_id": "C6", "question": "What coordination action follows before using regional partner support in the movement plan?"}
+{"question_id": "HB-C6-A018", "case_id": "C6", "question": "What cyber threat and defensive-support posture are supplied for friendly infrastructure?"}
+{"question_id": "HB-C6-B017", "case_id": "C6", "question": "Assess whether listed cyber teams and currently functioning infrastructure establish that the support network is ready under the stated threat."}
+{"question_id": "HB-C6-F020", "case_id": "C6", "question": "What defensive support preparation follows before crediting critical infrastructure as continuously available?"}
+{"question_id": "HB-C6-A019", "case_id": "C6", "question": "What timing estimates and enabling activity are stated in the earlier JIPOE?"}
+{"question_id": "HB-C6-B018", "case_id": "C6", "question": "Assess whether the earlier air-superiority timing estimate can be carried unchanged into current COA-2 scheduling."}
+{"question_id": "HB-C6-F021", "case_id": "C6", "question": "What scheduling action follows before using the earlier estimate to promise an enabling condition?"}
+{"question_id": "HB-C6-A020", "case_id": "C6", "question": "What garrison strength and reinforcement projection are supplied, and what is their reference date?"}
+{"question_id": "HB-C6-B019", "case_id": "C6", "question": "How should the late-August reinforcement forecast and later qualitative report inform a reinforcement-trigger assessment at D-day?"}
+{"question_id": "HB-C6-F022", "case_id": "C6", "question": "What information should be requested before recommending transition on the basis of reinforcement?"}
+{"question_id": "HB-C6-B020", "case_id": "C6", "question": "What can visual plausibility or message repetition establish about a contested incident in the described information environment?"}
+{"question_id": "HB-C7-A001", "case_id": "C7", "question": "What landing-surface dimensions, facilities and serviceability are reported for Komavi, and what C-130 and C-17 contingency criteria does the planning cell apply?"}
+{"question_id": "HB-C7-B001", "case_id": "C7", "question": "Assess Komavi against the supplied C-130 contingency criteria and the requirement for a sustained air bridge."}
+{"question_id": "HB-C7-F001", "case_id": "C7", "question": "What airfield-development requirement follows for planning a C-130 air bridge into Komavi?"}
+{"question_id": "HB-C7-B002", "case_id": "C7", "question": "Assess whether the reported Komavi surface satisfies the supplied C-17 semi-prepared criteria."}
+{"question_id": "HB-C7-F002", "case_id": "C7", "question": "What reception and onward-movement requirement follows when strategic lift is considered for the Komavi deployment?"}
+{"question_id": "HB-C7-A002", "case_id": "C7", "question": "What wet-weather conditions and engineering reconnaissance status are recorded for Komavi?"}
+{"question_id": "HB-C7-B003", "case_id": "C7", "question": "How do the reported weather and engineering data affect confidence in an airfield opening schedule for Komavi?"}
+{"question_id": "HB-C7-F003", "case_id": "C7", "question": "What information and engineering checks are required before approving the Komavi air-bridge opening schedule?"}
+{"question_id": "HB-C7-A003", "case_id": "C7", "question": "What brigade and engineer notice-to-move dates, adversary timing assumption and forward-deployment objective are supplied?"}
+{"question_id": "HB-C7-B004", "case_id": "C7", "question": "Assess the timing margin for the Hawaii brigade and the earlier-notice Alaska brigade against the N+14 planning assumption."}
+{"question_id": "HB-C7-F004", "case_id": "C7", "question": "What must the staff establish before treating a brigade as available in Komavi by the required decision date?"}
+{"question_id": "HB-C7-A004", "case_id": "C7", "question": "What are the reported Daru–Kiunga route constraints and commercial-barge availability, and how is Kiunga connected to Komavi?"}
+{"question_id": "HB-C7-B005", "case_id": "C7", "question": "Assess what the Fly River data allow the staff to assume about sustainment delivery to Komavi."}
+{"question_id": "HB-C7-F005", "case_id": "C7", "question": "What preparations are required to use the Fly River as a supporting sustainment route for Komavi?"}
+{"question_id": "HB-C7-A005", "case_id": "C7", "question": "What fuel stocks, replenishment interval and military-support arrangements are reported at Jacksons, Nadzab and in PNG generally?"}
+{"question_id": "HB-C7-B006", "case_id": "C7", "question": "How does the reported Jacksons fuel coverage compare with the replenishment cycle for a deployment requiring additional aviation activity?"}
+{"question_id": "HB-C7-F006", "case_id": "C7", "question": "What fuel preparation follows before increasing aviation demand through the PNG rear nodes?"}
+{"question_id": "HB-C7-A006", "case_id": "C7", "question": "What medical treatment and casualty-movement resources are listed for Komavi and the apportioned force?"}
+{"question_id": "HB-C7-B007", "case_id": "C7", "question": "Assess whether the apportioned medical treatment capacity establishes a complete patient-movement chain from Komavi."}
+{"question_id": "HB-C7-F007", "case_id": "C7", "question": "What medical-support requirement should be raised before committing personnel to Komavi?"}
+{"question_id": "HB-C7-A007", "case_id": "C7", "question": "What partner-dependent task and local PNG force capacity are supplied for the Komavi area?"}
+{"question_id": "HB-C7-B008", "case_id": "C7", "question": "How does the supplied PNG posture affect the feasibility of the proposed partnered activity at Komavi?"}
+{"question_id": "HB-C7-F008", "case_id": "C7", "question": "What must the staff coordinate with PNG before counting the partnered Komavi activity as feasible?"}
+{"question_id": "HB-C7-A008", "case_id": "C7", "question": "What is the status of Australian participation, command relationships and force-list timing?"}
+{"question_id": "HB-C7-B009", "case_id": "C7", "question": "What can be concluded about Australian force closure from the available planning data?"}
+{"question_id": "HB-C7-F009", "case_id": "C7", "question": "What information should be obtained from Australia before relying on its ground contribution?"}
+{"question_id": "HB-C7-A009", "case_id": "C7", "question": "What planning channels and release restrictions govern coordination with Australia, PNG and Indonesia?"}
+{"question_id": "HB-C7-B010", "case_id": "C7", "question": "Assess the coordination implications of the proposed dual command and the authorised planning channels."}
+{"question_id": "HB-C7-F010", "case_id": "C7", "question": "What coordination mechanism should be prepared for the combined plan?"}
+{"question_id": "HB-C7-A010", "case_id": "C7", "question": "What consent, basing and deployment-authority status is provided in the planning documents?"}
+{"question_id": "HB-C7-B011", "case_id": "C7", "question": "Does the planning baseline establish readiness to begin force flow into the proposed bases? Assess the prerequisites."}
+{"question_id": "HB-C7-F011", "case_id": "C7", "question": "What readiness information is required before a recommendation to begin force flow?"}
+{"question_id": "HB-C7-A011", "case_id": "C7", "question": "What security-assistance task and funding status are supplied for PNG?"}
+{"question_id": "HB-C7-B012", "case_id": "C7", "question": "Assess whether the security-assistance direction establishes usable resources for a new PNG support package."}
+{"question_id": "HB-C7-F012", "case_id": "C7", "question": "What resourcing action follows before scheduling a new PNG security-assistance package?"}
+{"question_id": "HB-C7-A012", "case_id": "C7", "question": "What does the packet state about the Komavi population, its protection status and the desired end state?"}
+{"question_id": "HB-C7-B013", "case_id": "C7", "question": "Assess whether the desired repatriation condition can be treated as an unconditional planning requirement for the whole Komavi population."}
+{"question_id": "HB-C7-F013", "case_id": "C7", "question": "What concrete staff requirement follows before including refugee return in an executable support plan?"}
+{"question_id": "HB-C7-A013", "case_id": "C7", "question": "What is reported about civilian and armed-person overlap at Komavi and the directed deployment area?"}
+{"question_id": "HB-C7-B014", "case_id": "C7", "question": "How does the population information affect the use of visual presence or area occupancy as a basis for classifying persons at Komavi?"}
+{"question_id": "HB-C7-F014", "case_id": "C7", "question": "What practical preparation is required before the staff treats the Komavi population picture as adequate for planning?"}
+{"question_id": "HB-C7-A014", "case_id": "C7", "question": "What US-person counts, accountability arrangements and evacuation deadline are supplied?"}
+{"question_id": "HB-C7-B015", "case_id": "C7", "question": "Assess whether the listed registrations and military presence establish an evacuation-ready population picture."}
+{"question_id": "HB-C7-F015", "case_id": "C7", "question": "What accountability and readiness actions are needed for the N+7 evacuation branch?"}
+{"question_id": "HB-C7-A015", "case_id": "C7", "question": "What does the packet say about OPM air-defence holdings and the role of aviation in reaching Komavi?"}
+{"question_id": "HB-C7-B016", "case_id": "C7", "question": "What does the MANPADS reporting allow the staff to conclude about the security of the Komavi air line of communication?"}
+{"question_id": "HB-C7-F016", "case_id": "C7", "question": "What specific information requirement follows before validating air-access arrangements for Komavi?"}
+{"question_id": "HB-C7-A016", "case_id": "C7", "question": "What Mi-35P range, basing and commitment indicators are supplied for the Komavi assessment?"}
+{"question_id": "HB-C7-B017", "case_id": "C7", "question": "Assess whether the stated Mi-35P combat-radius figure supports direct operations from Timika to Komavi at the stated load."}
+{"question_id": "HB-C7-F017", "case_id": "C7", "question": "What additional information should the staff seek before counting Mi-35 support over Komavi in the threat timeline?"}
+{"question_id": "HB-C7-A017", "case_id": "C7", "question": "What maritime activity and geographic limits are supplied alongside the border-only planning assumption?"}
+{"question_id": "HB-C7-B018", "case_id": "C7", "question": "Assess the adequacy of a border-only threat assumption for planning sustainment through Daru."}
+{"question_id": "HB-C7-F018", "case_id": "C7", "question": "What information requirement follows for assessing the Daru and Fly River sustainment approach?"}
+{"question_id": "HB-C7-A018", "case_id": "C7", "question": "What indicators distinguish the supplied Indonesian demonstration and ground-offensive assessments?"}
+{"question_id": "HB-C7-B019", "case_id": "C7", "question": "Assess what the supplied indicator set establishes about an Indonesian decision to cross the border."}
+{"question_id": "HB-C7-F019", "case_id": "C7", "question": "What concrete warning requirement should support the decision to revise force-readiness measures?"}
+{"question_id": "HB-C7-A019", "case_id": "C7", "question": "What does the packet state about local support to OPM and its durability?"}
+{"question_id": "HB-C7-B020", "case_id": "C7", "question": "How does uncertainty about clan support affect reliance on the supplied local-support centre-of-gravity assessment?"}
+{"question_id": "HB-C7-F020", "case_id": "C7", "question": "What information should be required before reporting that the local-support dependency has been reduced?"}
+{"question_id": "HB-C7-A020", "case_id": "C7", "question": "Where are 31 MEU and its amphibious shipping located, what notices apply, and what Sasebo–Lae sailing time is supplied?"}
+{"question_id": "HB-C7-B021", "case_id": "C7", "question": "What does the separate MEU and shipping posture imply for treating the amphibious package as immediately available in PNG?"}
+{"question_id": "HB-C7-F021", "case_id": "C7", "question": "What movement preparation is needed before the staff counts the amphibious package in the PNG force timeline?"}
+{"question_id": "HB-C7-A021", "case_id": "C7", "question": "What air-access and infrastructure requirements does the commander specify for the forward force?"}
+{"question_id": "HB-C7-A022", "case_id": "C7", "question": "What aviation operating window and airspace-control limitations are reported for Western Province?"}
+{"question_id": "HB-C7-B022", "case_id": "C7", "question": "Assess whether a continuous daily lift schedule into Komavi is supported by the weather and airspace data."}
+{"question_id": "HB-C7-F022", "case_id": "C7", "question": "What preparations follow for the air-bridge movement schedule?"}
+{"question_id": "HB-C7-A023", "case_id": "C7", "question": "What humanitarian needs and lead arrangements are reported for Komavi and Port Moresby?"}
+{"question_id": "HB-C7-B023", "case_id": "C7", "question": "How do the humanitarian requirements affect planning for the Komavi air bridge?"}
+{"question_id": "HB-C7-F023", "case_id": "C7", "question": "What support arrangement should be added to the movement plan?"}
+{"question_id": "HB-C7-A024", "case_id": "C7", "question": "What environmental effects, acclimatisation constraints and construction rates are reported for preparing the Komavi force?"}
+{"question_id": "HB-C7-B024", "case_id": "C7", "question": "How should the climate information affect an estimate based on the nominal strength and construction capacity of arriving units?"}
+{"question_id": "HB-C7-F024", "case_id": "C7", "question": "What practical support changes should be built into preparations for the Komavi force?"}
+{"question_id": "HB-C7-A025", "case_id": "C7", "question": "What planning mission, purpose and national boundaries are stated for USPACOM?"}
+{"question_id": "HB-C7-B025", "case_id": "C7", "question": "Assess how the border-defence and sanctuary-denial objectives relate to the national purpose and employment limits."}
+{"question_id": "HB-C7-F025", "case_id": "C7", "question": "What should the staff do with a proposed support task that exceeds the stated employment limits?"}
+{"question_id": "HB-C7-A026", "case_id": "C7", "question": "What is the status of reported OPM camps and caches east of the border and the specified collection requirement?"}
+{"question_id": "HB-C7-B026", "case_id": "C7", "question": "What limits does the camp reporting place on using it to specify location-dependent support requirements?"}
+{"question_id": "HB-C7-F026", "case_id": "C7", "question": "What verification requirement should be attached to a support task whose feasibility depends on a reported camp location?"}
+{"question_id": "HB-C8-A001", "case_id": "C8", "question": "What destroyer apportionment, allocation and arrival timing are supplied, and what sustained-presence condition is directed?"}
+{"question_id": "HB-C8-B001", "case_id": "C8", "question": "Assess how the supplied destroyer availability relates to the 60-day patrol-density requirement."}
+{"question_id": "HB-C8-F001", "case_id": "C8", "question": "What resource decision follows before the staff relies on FORREST SHERMAN to sustain the patrol plan?"}
+{"question_id": "HB-C8-F002", "case_id": "C8", "question": "What resource-feasibility criterion should be applied when comparing candidate presence plans?"}
+{"question_id": "HB-C8-A002", "case_id": "C8", "question": "What sustainment horizon, staging arrangements and extension risks are supplied?"}
+{"question_id": "HB-C8-B002", "case_id": "C8", "question": "Assess the supportability of extending the stated sustainment concept to six months."}
+{"question_id": "HB-C8-F003", "case_id": "C8", "question": "What support actions are required before committing to the extended presence option?"}
+{"question_id": "HB-C8-A003", "case_id": "C8", "question": "What access arrangements and approval timing apply to Kribi and Equatorial Guinea?"}
+{"question_id": "HB-C8-B003", "case_id": "C8", "question": "How do the stated approval arrangements affect a short-notice Kribi port call or Equatoguinean EEZ presence?"}
+{"question_id": "HB-C8-F004", "case_id": "C8", "question": "What should be prepared before committing a port-dependent movement or Equatoguinean EEZ-presence date?"}
+{"question_id": "HB-C8-A004", "case_id": "C8", "question": "Which support functions does FORT LAUDERDALE carry in the supplied personnel-recovery concept?"}
+{"question_id": "HB-C8-B004", "case_id": "C8", "question": "Assess the support consequence if FORT LAUDERDALE is unavailable during the planned readiness period."}
+{"question_id": "HB-C8-F005", "case_id": "C8", "question": "What support preparation follows from the shared platform dependency?"}
+{"question_id": "HB-C8-A005", "case_id": "C8", "question": "What arrival dates are supplied for the principal US surface units and theatre ISR, and what patrol-restoration deadline is directed?"}
+{"question_id": "HB-C8-B005", "case_id": "C8", "question": "How does the arrival sequence affect LPD-dependent readiness and the patrol-restoration milestone?"}
+{"question_id": "HB-C8-F006", "case_id": "C8", "question": "What should the staff change in the readiness schedule to reflect the force-arrival sequence?"}
+{"question_id": "HB-C8-A006", "case_id": "C8", "question": "What sea-state and visibility conditions are forecast, and what boarding limit is supplied?"}
+{"question_id": "HB-C8-B006", "case_id": "C8", "question": "Assess the dependable availability of opportunistic boarding within the stated environmental range."}
+{"question_id": "HB-C8-F007", "case_id": "C8", "question": "What preparation follows for the planned maritime-presence task?"}
+{"question_id": "HB-C8-A007", "case_id": "C8", "question": "What offshore ranges and sector differences are reported for pirate and Cameroonian assets?"}
+{"question_id": "HB-C8-B007", "case_id": "C8", "question": "Assess whether the stated Cameroonian reach alone covers the supplied current pirate operating envelope."}
+{"question_id": "HB-C8-F008", "case_id": "C8", "question": "What resource or coordination preparation follows from the offshore-reach comparison?"}
+{"question_id": "HB-C8-A008", "case_id": "C8", "question": "What is established about AURORA STAR capture location and present whereabouts?"}
+{"question_id": "HB-C8-B008", "case_id": "C8", "question": "Assess whether the capture sector and broad cell attribution establish the location information required for the retained recovery option."}
+{"question_id": "HB-C8-F009", "case_id": "C8", "question": "What information must be validated before presenting a location-dependent readiness claim for the recovery option?"}
+{"question_id": "HB-C8-A009", "case_id": "C8", "question": "Who remains in captivity, and what nationality and liaison arrangements are supplied?"}
+{"question_id": "HB-C8-B009", "case_id": "C8", "question": "What population should bound support and liaison planning, given the current counts and the four-person US mission framing?"}
+{"question_id": "HB-C8-F010", "case_id": "C8", "question": "What support preparation follows from the verified hostage population?"}
+{"question_id": "HB-C8-A010", "case_id": "C8", "question": "What does the packet state about NAVAF, MMCC Douala and coalition liaison arrangements?"}
+{"question_id": "HB-C8-B010", "case_id": "C8", "question": "Assess whether a functioning MMCC Douala establishes a reliable coalition tasking path."}
+{"question_id": "HB-C8-F011", "case_id": "C8", "question": "What coordination preparation should precede reliance on the MMCC path?"}
+{"question_id": "HB-C8-A011", "case_id": "C8", "question": "What partner commitment, control and sustained-presence requirements are supplied?"}
+{"question_id": "HB-C8-B011", "case_id": "C8", "question": "Assess how partner commitment affects the feasibility of sustained presence."}
+{"question_id": "HB-C8-F012", "case_id": "C8", "question": "What additional friendly-force information should accompany reporting on partner political intent?"}
+{"question_id": "HB-C8-A012", "case_id": "C8", "question": "What conditions and authority boundaries govern consideration and execution of the retained military recovery option?"}
+{"question_id": "HB-C8-B012", "case_id": "C8", "question": "Assess whether satisfying one or more of the listed recovery-option conditions is enough to treat execution as authorised."}
+{"question_id": "HB-C8-F013", "case_id": "C8", "question": "What information package should be prepared for review of the military recovery option?"}
+{"question_id": "HB-C8-A013", "case_id": "C8", "question": "What assumptions and reporting govern Nigerian participation and the national coordination channel?"}
+{"question_id": "HB-C8-B013", "case_id": "C8", "question": "How do the assumed assistance acceptance and inconsistent transition chronology affect reliance on host-nation consent?"}
+{"question_id": "HB-C8-F014", "case_id": "C8", "question": "What friendly-force and host-coordination information is needed before relying on Nigerian support or entry permission?"}
+{"question_id": "HB-C8-A014", "case_id": "C8", "question": "What coordination, custody-transfer and boundary-handoff requirements are stated in the scenario packet?"}
+{"question_id": "HB-C8-B014", "case_id": "C8", "question": "Assess what must be established for a boarding plan to satisfy the stated custody-transfer requirement."}
+{"question_id": "HB-C8-F015", "case_id": "C8", "question": "What concrete preparation follows before a custody-dependent boarding commitment?"}
+{"question_id": "HB-C8-A015", "case_id": "C8", "question": "What confidence levels and indicators are supplied for pirate capability and possible future intent?"}
+{"question_id": "HB-C8-B015", "case_id": "C8", "question": "How should the staff interpret weapons or messaging changes relative to the supplied commercial-ransom baseline?"}
+{"question_id": "HB-C8-F016", "case_id": "C8", "question": "What information requirement should support a decision to revise protection and presence priorities?"}
+{"question_id": "HB-C8-A016", "case_id": "C8", "question": "What network dependencies and coalition constraints are identified for disruption planning?"}
+{"question_id": "HB-C8-B016", "case_id": "C8", "question": "How do the identified enablers and host-nation-lead constraint shape a bounded military support contribution?"}
+{"question_id": "HB-C8-F017", "case_id": "C8", "question": "What bounded staff-support requirement follows from the enabler analysis?"}
+{"question_id": "HB-C8-A017", "case_id": "C8", "question": "What objectives, default posture and unacceptable risks govern the recovery-versus-presence trade-off?"}
+{"question_id": "HB-C8-B017", "case_id": "C8", "question": "How should the staff compare options that differ in recovery speed and sustained-presence burden?"}
+{"question_id": "HB-C8-F018", "case_id": "C8", "question": "What criteria should be required before selecting and resourcing a posture?"}
+{"question_id": "HB-C8-A018", "case_id": "C8", "question": "What end-state conditions and alternative termination paths are given?"}
+{"question_id": "HB-C8-B018", "case_id": "C8", "question": "Assess whether satisfying the first listed termination path proves that every concurrent end-state condition has been achieved."}
+{"question_id": "HB-C8-F019", "case_id": "C8", "question": "What should be required before recommending stand-down or transition on the basis of a termination path?"}
+{"question_id": "HB-C9-A001", "case_id": "C9", "question": "What mission, purpose and responsible command does the higher order state for RESOLUTE HERALD?"}
+{"question_id": "HB-C9-A002", "case_id": "C9", "question": "Which partner-led end-state conditions and campaign objectives are stated?"}
+{"question_id": "HB-C9-A003", "case_id": "C9", "question": "What responsibilities are assigned for public attribution and intelligence disclosure?"}
+{"question_id": "HB-C9-A004", "case_id": "C9", "question": "What cyberspace coordination task and execution restrictions does the higher order state?"}
+{"question_id": "HB-C9-A005", "case_id": "C9", "question": "What organisational and planning deliverables are directed by higher headquarters, and by when?"}
+{"question_id": "HB-C9-A006", "case_id": "C9", "question": "What conditions govern US support and visible presence in the baseline operation?"}
+{"question_id": "HB-C9-A007", "case_id": "C9", "question": "What risk and partner sensitivities are stated concerning visible US activity?"}
+{"question_id": "HB-C9-A008", "case_id": "C9", "question": "What fixed event and conditional continuation horizon does the packet state?"}
+{"question_id": "HB-C9-A009", "case_id": "C9", "question": "What differences does the packet state between apportioned and allocated information-support and hunt-forward forces?"}
+{"question_id": "HB-C9-A010", "case_id": "C9", "question": "What most-likely and most-dangerous courses of action and warning priorities are stated?"}
+{"question_id": "HB-C9-A011", "case_id": "C9", "question": "What timing constraint does the packet identify for product and attribution approvals?"}
+{"question_id": "HB-C9-A012", "case_id": "C9", "question": "What standing coordination arrangements and partner roles are stated?"}
+{"question_id": "HB-C9-A013", "case_id": "C9", "question": "What centre of gravity, requirements and vulnerabilities does the JIPOE state for the campaign?"}
+{"question_id": "HB-C9-A014", "case_id": "C9", "question": "What distinction does the packet make between observable activity and campaign effects?"}
+{"question_id": "HB-C9-A015", "case_id": "C9", "question": "What assumptions concerning the ceasefire and Russian objectives are inherited from higher headquarters?"}
+{"question_id": "HB-C9-A016", "case_id": "C9", "question": "What electricity dependency and alternative supply limits does the packet state?"}
+{"question_id": "HB-C9-B001", "case_id": "C9", "question": "How should progress against the campaign’s stated vulnerabilities be related to the partner-led end state?"}
+{"question_id": "HB-C9-B002", "case_id": "C9", "question": "What does completion of planning and technical preparation establish about readiness to execute the proposed activities?"}
+{"question_id": "HB-C9-B003", "case_id": "C9", "question": "How should the allocated force and duration figures be assessed against the campaign horizon?"}
+{"question_id": "HB-C9-B004", "case_id": "C9", "question": "What does the stated consent posture imply for judging a change in the visible US footprint?"}
+{"question_id": "HB-C9-B005", "case_id": "C9", "question": "How should the CONOPS deadline and election calendar be related to activity approval readiness?"}
+{"question_id": "HB-C9-B006", "case_id": "C9", "question": "How does the OSCE’s role affect the staff’s use of observer findings in assessing mission progress?"}
+{"question_id": "HB-C9-B007", "case_id": "C9", "question": "What would reliance on product-release counts alone establish about the assessability of a proposed option’s claimed outcome?"}
+{"question_id": "HB-C9-B008", "case_id": "C9", "question": "How would failure of the ceasefire assumption affect use of the current planning baseline?"}
+{"question_id": "HB-C9-B009", "case_id": "C9", "question": "What can be concluded about replacement electricity supply from the stated energy dependency and backstop?"}
+{"question_id": "HB-C9-B010", "case_id": "C9", "question": "What should distinguish readiness to transfer the support effort from reaching election day or a single defensive milestone?"}
+{"question_id": "HB-C9-F001", "case_id": "C9", "question": "What criterion should be applied when comparing support options against the stated purpose?"}
+{"question_id": "HB-C9-F002", "case_id": "C9", "question": "What control should the staff establish before treating proposed activities as executable?"}
+{"question_id": "HB-C9-F003", "case_id": "C9", "question": "What force-management action should precede accepting coverage of the critical and transition periods?"}
+{"question_id": "HB-C9-F004", "case_id": "C9", "question": "What friendly-force information requirement follows for controlling the visible support footprint?"}
+{"question_id": "HB-C9-F005", "case_id": "C9", "question": "What should the staff do if an activity approval cannot be confirmed by the intended support window?"}
+{"question_id": "HB-C9-F006", "case_id": "C9", "question": "What planning provision follows when progress assessment depends on independent observer findings?"}
+{"question_id": "HB-C9-F007", "case_id": "C9", "question": "What action should follow when an option’s proposed outcome indicator is unavailable or cannot distinguish the intended outcome from activity volume?"}
+{"question_id": "HB-C9-F008", "case_id": "C9", "question": "What staff action should be specified if the ceasefire assumption fails?"}
+{"question_id": "HB-C9-F009", "case_id": "C9", "question": "What support-planning requirement follows before relying on the electricity backstop?"}
+{"question_id": "HB-C9-F010", "case_id": "C9", "question": "What requirement should precede ending a support function during transition?"}
+{"question_id": "HB-C10-A001", "case_id": "C10", "question": "What mission and support method does the higher order assign to USINDOPACOM for ONYX RAIN?"}
+{"question_id": "HB-C10-A002", "case_id": "C10", "question": "What end-state and transition conditions are stated for the US relief contribution?"}
+{"question_id": "HB-C10-A003", "case_id": "C10", "question": "Which parallel lines of effort does the higher order specify?"}
+{"question_id": "HB-C10-A004", "case_id": "C10", "question": "What command, coordination and force-allocation responsibilities are assigned for the US effort?"}
+{"question_id": "HB-C10-A006", "case_id": "C10", "question": "Which infrastructure dependencies and distribution concern are stated in the country study?"}
+{"question_id": "HB-C10-A008", "case_id": "C10", "question": "What runway characteristics and reopening conditions are stated for Shimojishima and New Ishigaki?"}
+{"question_id": "HB-C10-A009", "case_id": "C10", "question": "Which principal force elements are apportioned for planning, and what is their allocation status?"}
+{"question_id": "HB-C10-A010", "case_id": "C10", "question": "What standing commitments and unavailable alternatives constrain the relief force?"}
+{"question_id": "HB-C10-A011", "case_id": "C10", "question": "What transport and staging arrangements are stated for relief delivery?"}
+{"question_id": "HB-C10-A012", "case_id": "C10", "question": "What sustainment basis, cross-servicing arrangement and pending augmentations are stated?"}
+{"question_id": "HB-C10-A013", "case_id": "C10", "question": "What environmental constraints affect sea-based relief and logistics over the shore?"}
+{"question_id": "HB-C10-A014", "case_id": "C10", "question": "What activities may US forces provide to the JCG, subject to which conditions, and who conducts enforcement?"}
+{"question_id": "HB-C10-A015", "case_id": "C10", "question": "What authority basis and assistance-request scope does the packet state for US involvement?"}
+{"question_id": "HB-C10-A016", "case_id": "C10", "question": "How does the packet characterise the pre-existing criminal ecosystem and confidence in its current disaster-related activity?"}
+{"question_id": "HB-C10-A017", "case_id": "C10", "question": "Which three disaster-adaptation hypotheses and distinguishing indicators does J2 retain, and what remains unresolved about their connection?"}
+{"question_id": "HB-C10-A019", "case_id": "C10", "question": "What is reported about relief dispatch and receipt discrepancies, and what alternative explanations remain?"}
+{"question_id": "HB-C10-A020", "case_id": "C10", "question": "What aid-information risk and employment conditions does the packet specify for public-information support?"}
+{"question_id": "HB-C10-A021", "case_id": "C10", "question": "Which strategic assumptions does the higher order provide, and what status do they have?"}
+{"question_id": "HB-C10-A022", "case_id": "C10", "question": "What force-protection posture and self-defence provision does the packet state?"}
+{"question_id": "HB-C10-A023", "case_id": "C10", "question": "What is the stated status of UN OCHA coordination, and what condition would change it?"}
+{"question_id": "HB-C10-A024", "case_id": "C10", "question": "What communications damage and space-support task are stated for the affected islands?"}
+{"question_id": "HB-C10-B001", "case_id": "C10", "question": "What can the staff conclude about current fixed-wing and rotary/VTOL delivery options from the listed airfields and apportioned aircraft?"}
+{"question_id": "HB-C10-B002", "case_id": "C10", "question": "What does the communications posture imply for assuring command links into the disaster area?"}
+{"question_id": "HB-C10-B003", "case_id": "C10", "question": "How do the communications conditions affect delivery of approved relief information to island residents?"}
+{"question_id": "HB-C10-B004", "case_id": "C10", "question": "What follows for the feasibility of concurrent relief and standing theater tasks from the available force pool?"}
+{"question_id": "HB-C10-B005", "case_id": "C10", "question": "How should the staff assess reliance on logistics over the shore during the initial relief period?"}
+{"question_id": "HB-C10-B006", "case_id": "C10", "question": "What does the stated sustainment basis imply for expanding the relief contribution?"}
+{"question_id": "HB-C10-B007", "case_id": "C10", "question": "How should relief performance be judged across the staging and final distribution stages?"}
+{"question_id": "HB-C10-B008", "case_id": "C10", "question": "How do the support authorities and uncertainty in the criminal picture affect relief-integrity support readiness?"}
+{"question_id": "HB-C10-B009", "case_id": "C10", "question": "What does the current reporting permit the staff to conclude about the location and scale of diversion?"}
+{"question_id": "HB-C10-B010", "case_id": "C10", "question": "What planning dependencies would be affected if the higher-level support assumptions ceased to hold?"}
+{"question_id": "HB-C10-B011", "case_id": "C10", "question": "What can be inferred about future coordination arrangements from OCHA’s present status?"}
+{"question_id": "HB-C10-B012", "case_id": "C10", "question": "What distinguishes closing a current support task from meeting the mission’s transition conditions?"}
+{"question_id": "HB-C10-F001", "case_id": "C10", "question": "What information requirement should be established before tasking rotary-wing or VTOL delivery through the damaged airfields?"}
+{"question_id": "HB-C10-F002", "case_id": "C10", "question": "What requirement follows for establishing reliable command connectivity with the affected islands?"}
+{"question_id": "HB-C10-F003", "case_id": "C10", "question": "What requirement follows for planning delivery of approved relief information through local radio?"}
+{"question_id": "HB-C10-F004", "case_id": "C10", "question": "What friendly-force information requirement is needed to support allocation of the ARG/31st MEU to relief?"}
+{"question_id": "HB-C10-F005", "case_id": "C10", "question": "What criterion should be added when comparing relief options that use the forward amphibious force?"}
+{"question_id": "HB-C10-F006", "case_id": "C10", "question": "What sustainment criterion should govern comparison of proposed relief-force packages?"}
+{"question_id": "HB-C10-F007", "case_id": "C10", "question": "What delivery criterion should be used to compare relief options against the mission purpose?"}
+{"question_id": "HB-C10-F008", "case_id": "C10", "question": "What transition criterion should be included when comparing relief-integrity support options?"}
+{"question_id": "HB-C10-F009", "case_id": "C10", "question": "What staff action should precede committing to an expanded LOTS delivery schedule?"}
+{"question_id": "HB-C10-F010", "case_id": "C10", "question": "What coordination action follows before scheduling US sensing and track-sharing support to the JCG?"}
+{"question_id": "HB-C10-F011", "case_id": "C10", "question": "What concrete information and coordination task should resolve the relief-diversion question?"}
+{"question_id": "HB-C10-F012", "case_id": "C10", "question": "What staff response is required when a monitored support assumption is no longer supported?"}
+{"question_id": "HB-C10-F013", "case_id": "C10", "question": "What coordination provision follows from the conditional status of OCHA participation?"}
+{"question_id": "HB-C10-F014", "case_id": "C10", "question": "What prerequisite should govern a proposed relief package outside the currently requested capability set or force scale?"}

@@ -1,0 +1,229 @@
+{
+  "is_forecast": true,
+  "assumptions": [
+    "Estimated input tokens, no cache hits, native batch only where supported.",
+    "Every configured cache breakpoint is assumed to miss and write its prefix at the stated TTL rate.",
+    "References substitute for unknown generated parents in the planning estimate.",
+    "Output includes billed reasoning where the provider reports it.",
+    "Judge costs have a separate offline forecast and are recalculated from observed usage after scoring.",
+    "Pilot measurements supersede these estimates. Tax, hosting, storage and failed-attempt charges may be additional.",
+    "Offline UTF-8 bytes/3 estimates with 256 tokens of request overhead; no tokenizer claim.",
+    "Real question, reference, alternatives, all criterion/error checks, validated source excerpts and response schema are included.",
+    "Every planned generation is assumed successful; actual scoring excludes transport failures and mock answers.",
+    "Candidate text is a length surrogate only; requested output tokens include billed reasoning.",
+    "No cache hits are assumed. Explicit writes are included only when the actual request contains a cache breakpoint.",
+    "Secondary and optional calibration costs use the planned prompt mix; min/max envelopes do not bound future answer lengths.",
+    "Optional calibration is 60 answers times 1 primary-judge call(s), additional to scoring; group feasibility is not asserted.",
+    "Pilot measurements replace estimates. Rates, retries, tax, hosting, tools and any storage charges require reconciliation."
+  ],
+  "models": [
+    {
+      "model_id": "gpt6_luna",
+      "requests_per_repetition": 1114,
+      "generation_usd_per_repetition": "3.8780864125",
+      "ordinary_judging_usd_per_repetition": "7.820695206463195691202872530",
+      "total_usd_per_repetition": "11.69878161896319569120287253",
+      "transport": "batch"
+    },
+    {
+      "model_id": "claude_haiku55",
+      "requests_per_repetition": 1114,
+      "generation_usd_per_repetition": "3.8780864125",
+      "ordinary_judging_usd_per_repetition": "7.820695206463195691202872530",
+      "total_usd_per_repetition": "11.69878161896319569120287253",
+      "transport": "batch"
+    },
+    {
+      "model_id": "gemini35_flash_lite",
+      "requests_per_repetition": 1114,
+      "generation_usd_per_repetition": "10.04221640",
+      "ordinary_judging_usd_per_repetition": "7.820695206463195691202872530",
+      "total_usd_per_repetition": "17.86291160646319569120287253",
+      "transport": "batch"
+    },
+    {
+      "model_id": "qwen35_9b",
+      "requests_per_repetition": 1114,
+      "generation_usd_per_repetition": "5.040755960",
+      "ordinary_judging_usd_per_repetition": "7.820695206463195691202872530",
+      "total_usd_per_repetition": "12.86145116646319569120287253",
+      "transport": "standard"
+    },
+    {
+      "model_id": "qwen36_27b",
+      "requests_per_repetition": 1114,
+      "generation_usd_per_repetition": "16.64419400",
+      "ordinary_judging_usd_per_repetition": "7.820695206463195691202872530",
+      "total_usd_per_repetition": "24.46488920646319569120287253",
+      "transport": "standard"
+    },
+    {
+      "model_id": "qwen36_35b_a3b",
+      "requests_per_repetition": 1114,
+      "generation_usd_per_repetition": "6.75793760",
+      "ordinary_judging_usd_per_repetition": "7.820695206463195691202872530",
+      "total_usd_per_repetition": "14.57863280646319569120287253",
+      "transport": "standard"
+    },
+    {
+      "model_id": "gemma4_31b",
+      "requests_per_repetition": 1114,
+      "generation_usd_per_repetition": "6.14523760",
+      "ordinary_judging_usd_per_repetition": "7.820695206463195691202872531",
+      "total_usd_per_repetition": "13.96593280646319569120287253",
+      "transport": "standard"
+    },
+    {
+      "model_id": "deepseek_v4_flash",
+      "requests_per_repetition": 1114,
+      "generation_usd_per_repetition": "5.39034984",
+      "ordinary_judging_usd_per_repetition": "7.820695206463195691202872530",
+      "total_usd_per_repetition": "13.21104504646319569120287253",
+      "transport": "standard"
+    },
+    {
+      "model_id": "mistral_small4",
+      "requests_per_repetition": 1114,
+      "generation_usd_per_repetition": "9.31811640",
+      "ordinary_judging_usd_per_repetition": "7.820695206463195691202872530",
+      "total_usd_per_repetition": "17.13881160646319569120287253",
+      "transport": "standard"
+    },
+    {
+      "model_id": "llama4_maverick",
+      "requests_per_repetition": 1114,
+      "generation_usd_per_repetition": "21.29667160",
+      "ordinary_judging_usd_per_repetition": "7.820695206463195691202872530",
+      "total_usd_per_repetition": "29.11736680646319569120287253",
+      "transport": "standard"
+    },
+    {
+      "model_id": "nemotron35_lightning",
+      "requests_per_repetition": 1114,
+      "generation_usd_per_repetition": "3.63812656",
+      "ordinary_judging_usd_per_repetition": "7.820695206463195691202872530",
+      "total_usd_per_repetition": "11.45882176646319569120287253",
+      "transport": "standard"
+    },
+    {
+      "model_id": "muse_spark13",
+      "requests_per_repetition": 1114,
+      "generation_usd_per_repetition": "76.81547000",
+      "ordinary_judging_usd_per_repetition": "7.820695206463195691202872531",
+      "total_usd_per_repetition": "84.63616520646319569120287253",
+      "transport": "standard"
+    },
+    {
+      "model_id": "grok46",
+      "requests_per_repetition": 1114,
+      "generation_usd_per_repetition": "122.013552",
+      "ordinary_judging_usd_per_repetition": "7.820695206463195691202872531",
+      "total_usd_per_repetition": "129.8342472064631956912028725",
+      "transport": "standard"
+    },
+    {
+      "model_id": "claude_opus5",
+      "requests_per_repetition": 1114,
+      "generation_usd_per_repetition": "193.904320625",
+      "ordinary_judging_usd_per_repetition": "7.820695206463195691202872531",
+      "total_usd_per_repetition": "201.7250158314631956912028725",
+      "transport": "batch"
+    },
+    {
+      "model_id": "glm53",
+      "requests_per_repetition": 1114,
+      "generation_usd_per_repetition": "85.6322864",
+      "ordinary_judging_usd_per_repetition": "7.820695206463195691202872531",
+      "total_usd_per_repetition": "93.45298160646319569120287253",
+      "transport": "standard"
+    },
+    {
+      "model_id": "gpt6_astra",
+      "requests_per_repetition": 1114,
+      "generation_usd_per_repetition": "387.80864125",
+      "ordinary_judging_usd_per_repetition": "7.820695206463195691202872531",
+      "total_usd_per_repetition": "395.6293364564631956912028725",
+      "transport": "batch"
+    },
+    {
+      "model_id": "kimi_k3",
+      "requests_per_repetition": 1114,
+      "generation_usd_per_repetition": "189.704328",
+      "ordinary_judging_usd_per_repetition": "7.820695206463195691202872531",
+      "total_usd_per_repetition": "197.5250232064631956912028725",
+      "transport": "standard"
+    },
+    {
+      "model_id": "gpt56_sol",
+      "requests_per_repetition": 1114,
+      "generation_usd_per_repetition": "155.1234565",
+      "ordinary_judging_usd_per_repetition": "7.820695206463195691202872531",
+      "total_usd_per_repetition": "162.9441517064631956912028725",
+      "transport": "batch"
+    },
+    {
+      "model_id": "gpt56_luna",
+      "requests_per_repetition": 1114,
+      "generation_usd_per_repetition": "7.867572825",
+      "ordinary_judging_usd_per_repetition": "7.820695206463195691202872531",
+      "total_usd_per_repetition": "15.68826803146319569120287253",
+      "transport": "batch"
+    },
+    {
+      "model_id": "nemotron3_ultra",
+      "requests_per_repetition": 1114,
+      "generation_usd_per_repetition": "31.22748800",
+      "ordinary_judging_usd_per_repetition": "7.820695206463195691202872531",
+      "total_usd_per_repetition": "39.04818320646319569120287253",
+      "transport": "standard"
+    },
+    {
+      "model_id": "minimax_m3",
+      "requests_per_repetition": 1114,
+      "generation_usd_per_repetition": "17.37153728",
+      "ordinary_judging_usd_per_repetition": "7.820695206463195691202872531",
+      "total_usd_per_repetition": "25.19223248646319569120287253",
+      "transport": "standard"
+    },
+    {
+      "model_id": "claude_fable51",
+      "requests_per_repetition": 1114,
+      "generation_usd_per_repetition": "387.80864125",
+      "ordinary_judging_usd_per_repetition": "7.820695206463195691202872531",
+      "total_usd_per_repetition": "395.6293364564631956912028725",
+      "transport": "batch"
+    },
+    {
+      "model_id": "qwen38_max",
+      "requests_per_repetition": 1114,
+      "generation_usd_per_repetition": "122.013552",
+      "ordinary_judging_usd_per_repetition": "7.820695206463195691202872531",
+      "total_usd_per_repetition": "129.8342472064631956912028725",
+      "transport": "standard"
+    },
+    {
+      "model_id": "deepseek_v4_pro",
+      "requests_per_repetition": 1114,
+      "generation_usd_per_repetition": "53.7920984",
+      "ordinary_judging_usd_per_repetition": "7.820695206463195691202872531",
+      "total_usd_per_repetition": "61.61279360646319569120287253",
+      "transport": "standard"
+    },
+    {
+      "model_id": "gemini31_pro",
+      "requests_per_repetition": 1114,
+      "generation_usd_per_repetition": "64.348776",
+      "ordinary_judging_usd_per_repetition": "7.820695206463195691202872531",
+      "total_usd_per_repetition": "72.16947120646319569120287253",
+      "transport": "batch"
+    },
+    {
+      "model_id": "mistral_medium35",
+      "requests_per_repetition": 1114,
+      "generation_usd_per_repetition": "94.8521640",
+      "ordinary_judging_usd_per_repetition": "7.820695206463195691202872531",
+      "total_usd_per_repetition": "102.6728592064631956912028725",
+      "transport": "standard"
+    }
+  ]
+}

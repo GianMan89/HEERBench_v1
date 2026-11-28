@@ -1,0 +1,4832 @@
+{
+  "case_id": "C3",
+  "questions": [
+    {
+      "question_id": "HB-C3-A001",
+      "case_id": "C3",
+      "abf_stage": "A",
+      "title": "Disaster and population needs",
+      "question": "What disaster effects and affected populations are reported for CORAL TEMPEST?",
+      "expected_answer": "Category-5 Cyclone RUA struck Efate on 5 February, severely damaging Port Vila, Bauerfield and Lapetasi. Water, power and fixed communications on Efate are largely inoperative. Displacement is reported on Efate, the Shepherd Islands and parts of Espiritu Santo, with incomplete casualty/displacement totals and acute water, medical and shelter needs.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-A001-R1",
+          "text": "Identifies Category-5 Cyclone RUA as the event.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A001-R2",
+          "text": "Identifies damage to Port Vila/Bauerfield/Lapetasi.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A001-R3",
+          "text": "Identifies loss of water services.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A001-R4",
+          "text": "Identifies power loss.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A001-R5",
+          "text": "Identifies loss of fixed communications.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A001-R6",
+          "text": "Identifies Efate as affected.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A001-R7",
+          "text": "Identifies the Shepherd Islands as affected.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A001-R8",
+          "text": "Identifies parts of Espiritu Santo as affected.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A001-R9",
+          "text": "Preserves incomplete casualty/displacement totals.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A001-R10",
+          "text": "Identifies acute water, medical and shelter needs as reported.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A needs-and-effects table is acceptable."
+      ],
+      "error_conditions": [
+        "Invents population totals or implies every island is equally affected."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D02",
+          "line_start": 5,
+          "line_end": 7,
+          "support": "Disaster effects and initial needs"
+        },
+        {
+          "doc_id": "C3:D05",
+          "line_start": 7,
+          "line_end": 7,
+          "support": "Dispersed population"
+        }
+      ],
+      "source_item_uids": [
+        "C3:R006",
+        "C3:R018",
+        "C3:R068"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-A002",
+      "case_id": "C3",
+      "abf_stage": "A",
+      "title": "Entry points and distribution limits",
+      "question": "What condition and distribution constraints are reported for the main air and sea entry points?",
+      "expected_answer": "Bauerfield has degraded airfield/terminal/navigation infrastructure with constrained ramp and handling capacity. Lapetasi is partially blocked and structurally degraded pending survey/clearance. Santo-Pekoa is less affected and offers a northern aerial alternative. Luganville wharf is intact and can berth large ships, but use is politically contested. Arrival at any entry point is separate from delivery to outer islands, which needs rotary-wing or small-craft movement.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-A002-R1",
+          "text": "States the Bauerfield operating constraints.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A002-R2",
+          "text": "States the Lapetasi operating constraints.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A002-R3",
+          "text": "Identifies less-affected Santo-Pekoa as a northern alternate.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A002-R4",
+          "text": "Identifies intact but contested Luganville wharf.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A002-R5",
+          "text": "Distinguishes entry-point arrival from onward distribution.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Group air and sea alternatives in a table."
+      ],
+      "error_conditions": [
+        "Assumes intact infrastructure is approved for use.",
+        "Equates landing cargo with delivery to affected communities."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D06",
+          "line_start": 9,
+          "line_end": 25,
+          "support": "Entry nodes and last-mile distribution"
+        }
+      ],
+      "source_item_uids": [
+        "C3:R011",
+        "C3:R019",
+        "C3:C3-GAP-03"
+      ],
+      "origin": "decomposed",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-A003",
+      "case_id": "C3",
+      "abf_stage": "A",
+      "title": "Sea-based support and closure",
+      "question": "What sea-based and other support is apportioned, and what is its availability status?",
+      "expected_answer": "Planning apportionment includes a JTF headquarters, an amphibious/sea-based component with rotary/tilt-wing lift, landing craft, medical and over-the-shore logistics, plus airlift and engineer/medical/logistics elements. These assets close over time; strategic lift, sealift and ISR are shared. Sea-based and over-the-shore delivery are supplied alternatives to degraded ports, not confirmed fully available capability at start.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-A003-R1",
+          "text": "Identifies the main apportioned support categories.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A003-R2",
+          "text": "Identifies sea-based connectors and over-the-shore capability.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A003-R3",
+          "text": "States that support is shared against theater priorities.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A003-R4",
+          "text": "States time-phased force closure.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Capability categories suffice without unit designators."
+      ],
+      "error_conditions": [
+        "Treats all apportioned assets as immediately on scene."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D04",
+          "line_start": 15,
+          "line_end": 25,
+          "support": "Apportioned forces"
+        },
+        {
+          "doc_id": "C3:D06",
+          "line_start": 21,
+          "line_end": 21,
+          "support": "Supplied sea-based alternative"
+        },
+        {
+          "doc_id": "C3:D11",
+          "line_start": 17,
+          "line_end": 21,
+          "support": "Time-phased limits"
+        }
+      ],
+      "source_item_uids": [
+        "C3:R010",
+        "C3:R032",
+        "C3:R064"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Construction-stage correction for R032. Sea-basing/over-the-shore delivery is already explicitly supplied and is used as A, with a separate derived compatibility/readiness consequence.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-B001",
+      "case_id": "C3",
+      "abf_stage": "B",
+      "title": "End-to-end relief feasibility",
+      "question": "What determines whether a large arrival of relief cargo would translate into usable relief for dispersed outer-island populations?",
+      "expected_answer": "Usable delivery depends on the whole path, including entry-point handling, onward connectors, landing/offload conditions and local receipt/distribution. Large upstream stocks or shipping capacity can exceed the constrained downstream segment. Sea-basing reduces fixed-port dependence but still requires compatible ship-to-shore and local distribution capacity.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-B001-R1",
+          "text": "Assesses the complete arrival-to-recipient path.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-B001-R2",
+          "text": "Identifies the downstream bottleneck possibility.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-B001-R3",
+          "text": "Retains connector/offload/local-distribution requirements under sea-basing.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A bottleneck or minimum-capacity explanation is acceptable without numerical rates."
+      ],
+      "error_conditions": [
+        "Treats sea-basing as eliminating shore-access or distribution constraints."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D06",
+          "line_start": 11,
+          "line_end": 25,
+          "support": "Entry and onward constraints"
+        },
+        {
+          "doc_id": "C3:D11",
+          "line_start": 21,
+          "line_end": 21,
+          "support": "Throughput rather than stockholding"
+        }
+      ],
+      "source_item_uids": [
+        "C3:R065"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-F001",
+      "case_id": "C3",
+      "abf_stage": "F",
+      "title": "Delivery-interface requirements",
+      "question": "What concrete logistics requirement should be established before confirming an over-the-shore relief package?",
+      "expected_answer": "Confirm the available ship-to-shore transport, offload/handling capability, landing-site suitability and onward distribution capacity for the intended relief destinations. Match load configuration and any breakbulk arrangements to those confirmed interfaces, rather than assuming a large shipload can pass unchanged to small craft or final recipients. Request unresolved connector/handling support before confirming throughput.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-F001-R1",
+          "text": "Requires confirmation of ship-to-shore connector capability.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F001-R2",
+          "text": "Requires confirmation of offload/handling capability.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F001-R3",
+          "text": "Requires destination and onward-distribution compatibility.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F001-R4",
+          "text": "Requires load/breakbulk configuration matched to confirmed interfaces.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A joint logistics-over-the-shore capability/compatibility checklist is acceptable.",
+        "Breakbulk may be afloat or at an authorized staging point if justified by verified interfaces."
+      ],
+      "error_conditions": [
+        "Invents a landing site or guaranteed JLOTS throughput."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D04",
+          "line_start": 21,
+          "line_end": 23,
+          "support": "Relevant capabilities"
+        },
+        {
+          "doc_id": "C3:D06",
+          "line_start": 17,
+          "line_end": 25,
+          "support": "Port/shore/distribution interfaces"
+        }
+      ],
+      "source_item_uids": [
+        "C3:S-11",
+        "C3:A-10"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-F002",
+      "case_id": "C3",
+      "abf_stage": "F",
+      "title": "Port operating-capacity requirement",
+      "question": "What current entry-point information should be requested to compare fixed-port and sea-based relief delivery?",
+      "expected_answer": "Request the operating status, usable handling/berthing or runway/ramp capacity, restrictions and restoration estimate for Bauerfield and Lapetasi, and the corresponding access/capacity status of any proposed alternative. Tie the response to the feasible relief-throughput comparison, not just an open/closed label.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-F002-R1",
+          "text": "Requests current Bauerfield operating status.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F002-R2",
+          "text": "Requests usable Bauerfield handling/airfield capacity.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F002-R3",
+          "text": "Requests current Lapetasi operating status.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F002-R4",
+          "text": "Requests usable Lapetasi berthing/handling capacity.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F002-R5",
+          "text": "Requests relevant operating restrictions.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F002-R6",
+          "text": "Requests restoration timing.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F002-R7",
+          "text": "Links the answer to the fixed-port versus alternative-throughput decision.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "An FFIR, PIR or logistics information request is acceptable if the functional question is identical."
+      ],
+      "error_conditions": [
+        "Assumes an open port has adequate throughput or approved access."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D06",
+          "line_start": 11,
+          "line_end": 21,
+          "support": "Status and alternatives"
+        },
+        {
+          "doc_id": "C3:D08",
+          "line_start": 23,
+          "line_end": 23,
+          "support": "Unresolved throughput/restoration"
+        }
+      ],
+      "source_item_uids": [
+        "C3:R048",
+        "C3:A-06"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-F003",
+      "case_id": "C3",
+      "abf_stage": "F",
+      "title": "Conditional port-restoration preparation",
+      "question": "What preparation is justified for Lapetasi while its usable throughput remains unresolved?",
+      "expected_answer": "Prepare a conditional survey/clearance and port-restoration support package for lead-agency validation, identifying the engineering/handling capability, assessment information and permissions required. Make execution contingent on host consent, tasking and validated need. Preparation does not establish that the US is authorized to open the port or that port opening is the fastest relief option.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-F003-R1",
+          "text": "Requires assessment/preparation of port-restoration support.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F003-R2",
+          "text": "Keeps port-support execution conditional on the relevant consent/tasking.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F003-R3",
+          "text": "Keeps port-support execution conditional on validated need.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F003-R4",
+          "text": "Does not assume restoration feasibility or superiority before comparison.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A be-prepared support task or request for engineering assessment is acceptable."
+      ],
+      "error_conditions": [
+        "Begins port opening under a blanket immediate-response exception."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D06",
+          "line_start": 17,
+          "line_end": 17,
+          "support": "Survey/clearance condition"
+        },
+        {
+          "doc_id": "C3:D04",
+          "line_start": 23,
+          "line_end": 23,
+          "support": "Engineer capability"
+        },
+        {
+          "doc_id": "C3:D09",
+          "line_start": 9,
+          "line_end": 17,
+          "support": "Request and authority limits"
+        }
+      ],
+      "source_item_uids": [
+        "C3:A-05"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-A004",
+      "case_id": "C3",
+      "abf_stage": "A",
+      "title": "Need horizon and force horizon",
+      "question": "How do reported humanitarian urgency and full US force closure compare?",
+      "expected_answer": "The running estimate places acute needs in days but full force closure in weeks. Lift/sealift are shared and constrained by long distances. New Caledonia is about 500 km away, eastern Australia about 1,800 km and Guam about 4,000 nautical miles, but staging permissions are not pre-authorized.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-A004-R1",
+          "text": "States days for acute needs and weeks for full closure.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A004-R2",
+          "text": "Identifies shared/time-phased lift.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A004-R3",
+          "text": "Identifies relative distance to potential staging anchors.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A004-R4",
+          "text": "Preserves unconfirmed staging permissions.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Relative distance is sufficient if the time mismatch is correct."
+      ],
+      "error_conditions": [
+        "Invents exact arrival dates from distance alone."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D11",
+          "line_start": 21,
+          "line_end": 21,
+          "support": "Different horizons"
+        },
+        {
+          "doc_id": "C3:D06",
+          "line_start": 7,
+          "line_end": 7,
+          "support": "Distances"
+        },
+        {
+          "doc_id": "C3:D04",
+          "line_start": 35,
+          "line_end": 35,
+          "support": "No preauthorization"
+        }
+      ],
+      "source_item_uids": [
+        "C3:C-07"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-B002",
+      "case_id": "C3",
+      "abf_stage": "B",
+      "title": "Adequacy of waiting for full closure",
+      "question": "What does the mismatch between acute-needs timing and full force closure imply for an initial relief estimate?",
+      "expected_answer": "An estimate that starts useful relief only after full closure cannot be assumed to meet the early need window. Initial available capability and delivered benefit must be assessed separately from later scale. Nearby partner capability may reduce delay, but proximity alone does not establish permission, allocation or actual delivery time.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-B002-R1",
+          "text": "Identifies the mismatch with early needs.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-B002-R2",
+          "text": "Separates initial delivery from later full capacity.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-B002-R3",
+          "text": "Does not infer available support from proximity alone.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A phased capability-versus-need assessment is acceptable."
+      ],
+      "error_conditions": [
+        "Assumes every acute need can wait until the complete force arrives."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D11",
+          "line_start": 21,
+          "line_end": 21,
+          "support": "Urgency versus closure"
+        },
+        {
+          "doc_id": "C3:D04",
+          "line_start": 9,
+          "line_end": 25,
+          "support": "Partner and US capability"
+        },
+        {
+          "doc_id": "C3:D04",
+          "line_start": 35,
+          "line_end": 35,
+          "support": "Permissions"
+        }
+      ],
+      "source_item_uids": [
+        "C3:R054"
+      ],
+      "origin": "decomposed",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-F004",
+      "case_id": "C3",
+      "abf_stage": "F",
+      "title": "Phased delivery and closure information",
+      "question": "What information and evaluation measure should be used to assess the speed of a proposed relief package?",
+      "expected_answer": "Request confirmed dates and usable quantities for the initial and follow-on lift, sea-basing and support components. Measure time to the first useful delivery of the prioritized need at the affected destination, and subsequent sustainable throughput, rather than time to deployment order or arrival at a staging base. Identify the unmet early needs if confirmed capacity arrives too late.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-F004-R1",
+          "text": "Requests phased actual closure/capability confirmation.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F004-R2",
+          "text": "Defines speed by useful delivery at the destination.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F004-R3",
+          "text": "Separately identifies sustainable delivery throughput.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F004-R4",
+          "text": "Identifies unmet needs within the early window.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Time to first effective support may be measured by service availability, such as a usable medical service, rather than cargo tonnage."
+      ],
+      "error_conditions": [
+        "Reports a staging arrival as completed relief."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D11",
+          "line_start": 21,
+          "line_end": 21,
+          "support": "Horizon mismatch"
+        },
+        {
+          "doc_id": "C3:D06",
+          "line_start": 25,
+          "line_end": 25,
+          "support": "Arrival is not delivery"
+        },
+        {
+          "doc_id": "C3:D04",
+          "line_start": 17,
+          "line_end": 25,
+          "support": "Phased capabilities"
+        }
+      ],
+      "source_item_uids": [
+        "C3:R050",
+        "C3:S-15",
+        "C3:R054"
+      ],
+      "origin": "decomposed",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-A005",
+      "case_id": "C3",
+      "abf_stage": "A",
+      "title": "Consent status and limits",
+      "question": "What does the packet establish about host-nation consent and political restrictions?",
+      "expected_answer": "Consent is contested and its authoritative locus unstable during caretaker political maneuvering. Some Port Vila/district access has been restricted. Deliberate restriction is assessed at moderate confidence as at least partly plausible, but administrative confusion has not been ruled out. No sovereign-territory activity may presume ungranted consent, and sea-based options do not authorize entry without it.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-A005-R1",
+          "text": "Identifies contested/unstable consent.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A005-R2",
+          "text": "Preserves uncertainty about deliberate versus administrative restriction.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A005-R3",
+          "text": "States the consent requirement for sovereign-territory activity.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Distinguish an international assistance request from clearance for a specific activity."
+      ],
+      "error_conditions": [
+        "States that the Vanua Tasi bloc’s deliberate obstruction is conclusively established."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D02",
+          "line_start": 11,
+          "line_end": 11,
+          "support": "Qualified restriction assessment"
+        },
+        {
+          "doc_id": "C3:D05",
+          "line_start": 11,
+          "line_end": 23,
+          "support": "Unstable locus and district differences"
+        },
+        {
+          "doc_id": "C3:D09",
+          "line_start": 25,
+          "line_end": 25,
+          "support": "No entry without consent"
+        },
+        {
+          "doc_id": "C3:D10",
+          "line_start": 37,
+          "line_end": 37,
+          "support": "Planning restraint"
+        }
+      ],
+      "source_item_uids": [
+        "C3:R009",
+        "C3:R041",
+        "C3:S-03"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-B003",
+      "case_id": "C3",
+      "abf_stage": "B",
+      "title": "Sea-basing and consent",
+      "question": "How would denial of permission to use Port Vila affect the feasibility of a sea-based or outer-island relief option?",
+      "expected_answer": "It would remove or constrain that entry point, making alternatives relevant, but would not automatically authorize any other landing or distribution activity. Sea-basing can reduce fixed-port dependence; the receiving location still requires its own access/consent and delivery-feasibility assessment. A denial cannot be treated as permission to bypass sovereignty through another beach or island.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-B003-R1",
+          "text": "Identifies the effect on the denied entry point.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-B003-R2",
+          "text": "Distinguishes fixed-port independence from consent independence.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-B003-R3",
+          "text": "Requires location-specific assessment of the alternative.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Hold the affected ashore element while evaluating authorized alternatives."
+      ],
+      "error_conditions": [
+        "Moves ashore elsewhere solely because Port Vila consent was denied."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D06",
+          "line_start": 21,
+          "line_end": 25,
+          "support": "Alternative and receiving interface"
+        },
+        {
+          "doc_id": "C3:D09",
+          "line_start": 25,
+          "line_end": 25,
+          "support": "Consent rule"
+        },
+        {
+          "doc_id": "C3:D05",
+          "line_start": 23,
+          "line_end": 23,
+          "support": "District-specific access"
+        }
+      ],
+      "source_item_uids": [
+        "C3:R027",
+        "C3:R052"
+      ],
+      "origin": "decomposed",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-F005",
+      "case_id": "C3",
+      "abf_stage": "F",
+      "title": "Relief commitment decision gate",
+      "question": "What conditions should the staff place on committing relief ashore or through a sea-based alternative?",
+      "expected_answer": "Require current confirmation of consent/appropriate tasking for the specific receiving activity, usable end-to-end throughput and an acceptable incident-avoidance/force-protection arrangement. Record each condition independently. If a condition is unresolved, defer that activity and pursue clarification or another independently authorized option; do not force access or invoke a standing immediate-response workaround.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-F005-R1",
+          "text": "Requires activity-specific consent/tasking.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F005-R2",
+          "text": "Requires usable throughput.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F005-R3",
+          "text": "Requires incident-avoidance/force-protection readiness.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F005-R4",
+          "text": "Gives a hold/review consequence for an unresolved gate.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A commit/hold/alternative decision matrix is acceptable."
+      ],
+      "error_conditions": [
+        "Uses sea-basing or immediate-response language to bypass required consent."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D09",
+          "line_start": 9,
+          "line_end": 25,
+          "support": "Support and consent rules"
+        },
+        {
+          "doc_id": "C3:D06",
+          "line_start": 21,
+          "line_end": 25,
+          "support": "Alternative throughput"
+        },
+        {
+          "doc_id": "C3:D10",
+          "line_start": 19,
+          "line_end": 31,
+          "support": "Feasibility and incident avoidance"
+        }
+      ],
+      "source_item_uids": [
+        "C3:R059",
+        "C3:R060",
+        "C3:R052"
+      ],
+      "origin": "decomposed",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-A006",
+      "case_id": "C3",
+      "abf_stage": "A",
+      "title": "Potential staging and partner support",
+      "question": "Which regional staging and partner capabilities are described, and what authorization is established?",
+      "expected_answer": "FRANZ comprises France, Australia and New Zealand. Australia has substantial regional lift including an LHD, helicopters and landing craft; New Zealand offers sealift, patrol, engineering and medical capability; France has regional aviation/engineering support at Nouméa. New Caledonia, Australia and Guam are potential staging anchors, but the packet does not pre-authorize basing, staging or overflight.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-A006-R1",
+          "text": "Identifies France, Australia and New Zealand as FRANZ.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A006-R2",
+          "text": "Identifies the supplied broad partner capability differences.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A006-R3",
+          "text": "Identifies the three potential staging anchors.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A006-R4",
+          "text": "States that permissions are not pre-authorized.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Capability categories and location names suffice without exact force counts."
+      ],
+      "error_conditions": [
+        "Treats Nouméa or Australian staging as already approved."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D04",
+          "line_start": 5,
+          "line_end": 13,
+          "support": "Partner support"
+        },
+        {
+          "doc_id": "C3:D04",
+          "line_start": 35,
+          "line_end": 35,
+          "support": "Potential staging only"
+        },
+        {
+          "doc_id": "C3:D06",
+          "line_start": 7,
+          "line_end": 7,
+          "support": "Distances"
+        }
+      ],
+      "source_item_uids": [
+        "C3:R013",
+        "C3:R045"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-B004",
+      "case_id": "C3",
+      "abf_stage": "B",
+      "title": "Availability of a nearby staging option",
+      "question": "How should the staff compare a nearby potential staging location with a more distant established support location?",
+      "expected_answer": "Proximity reduces one distance but does not establish a usable support option. Approval, departure-point handling, actual lift allocation and onward delivery capacity must be considered with travel/closure time. A nearby unapproved or handling-limited point cannot automatically be credited as faster effective relief.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-B004-R1",
+          "text": "Separates geographic proximity from approval and capacity.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-B004-R2",
+          "text": "Includes departure handling and onward lift.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-B004-R3",
+          "text": "Compares time to useful relief rather than map distance alone.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A conditional comparison is acceptable without selecting a unique base."
+      ],
+      "error_conditions": [
+        "Selects the closest site solely on distance."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D06",
+          "line_start": 7,
+          "line_end": 25,
+          "support": "Distance and distribution"
+        },
+        {
+          "doc_id": "C3:D04",
+          "line_start": 35,
+          "line_end": 35,
+          "support": "Approval not established"
+        },
+        {
+          "doc_id": "C3:D11",
+          "line_start": 21,
+          "line_end": 21,
+          "support": "Throughput horizon"
+        }
+      ],
+      "source_item_uids": [],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-F006",
+      "case_id": "C3",
+      "abf_stage": "F",
+      "title": "Staging decision and information request",
+      "question": "What should be obtained before selecting and timing requests for a staging arrangement?",
+      "expected_answer": "Obtain the relevant partners’ contribution and basing/overflight approvals, the operating status and handling throughput of candidate departure points, allocated lift and realistic closure/onward-delivery estimates. Compare authorized feasible options, including afloat support, and identify the decision/request deadline required by the early relief need. Do not prescribe a date or unique base absent those data.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-F006-R1",
+          "text": "Requests actual partner-contribution confirmation.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F006-R2",
+          "text": "Requests relevant staging/basing approval.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F006-R3",
+          "text": "Requests relevant overflight approval.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F006-R4",
+          "text": "Requests departure-point operating status.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F006-R5",
+          "text": "Requests departure-point handling throughput.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F006-R6",
+          "text": "Requests actual lift/force-closure timing.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F006-R7",
+          "text": "Links comparison/request timing to early delivery need.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "An options-and-approvals matrix is acceptable.",
+        "APOE/SPOE information may be requested functionally without those abbreviations."
+      ],
+      "error_conditions": [
+        "Invents approvals, exact transit times or departure-port capacity."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D04",
+          "line_start": 9,
+          "line_end": 35,
+          "support": "Capabilities and permissions"
+        },
+        {
+          "doc_id": "C3:D06",
+          "line_start": 7,
+          "line_end": 25,
+          "support": "Distances and interfaces"
+        },
+        {
+          "doc_id": "C3:D11",
+          "line_start": 21,
+          "line_end": 21,
+          "support": "Urgent horizon"
+        }
+      ],
+      "source_item_uids": [
+        "C3:R051",
+        "C3:R061",
+        "C3:S-14"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-A007",
+      "case_id": "C3",
+      "abf_stage": "A",
+      "title": "Civilian lead and humanitarian support rules",
+      "question": "What lead, validation and funding conditions govern the military relief contribution?",
+      "expected_answer": "USINDOPACOM is supported for DoD execution, while USAID/BHA DART leads the US disaster response and validates requests. The Chief of Mission leads consent diplomacy. DoD assistance is request-driven, time-bound, cost-reimbursable and limited to capability not reasonably available from civilian/host/international sources. Humanitarian principles and the UN cluster system govern coordination; direct military delivery is a last resort.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-A007-R1",
+          "text": "Distinguishes supported military command from civilian response lead.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A007-R2",
+          "text": "States that support requires a validated request/tasking.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A007-R3",
+          "text": "States the unique-capability/last-resort condition.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A007-R4",
+          "text": "States the time-bound support limit.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A007-R5",
+          "text": "States the cost-reimbursable support condition.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A007-R6",
+          "text": "Identifies humanitarian/cluster coordination.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A007-R7",
+          "text": "States direct military delivery is a last resort.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Use the source’s agency labels as scenario facts, without assumptions about current institutions."
+      ],
+      "error_conditions": [
+        "Makes the joint force the lead disaster-response authority.",
+        "Treats military capacity as self-authorizing relief."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D04",
+          "line_start": 27,
+          "line_end": 35,
+          "support": "Lead roles"
+        },
+        {
+          "doc_id": "C3:D07",
+          "line_start": 71,
+          "line_end": 75,
+          "support": "Military command and support limits"
+        },
+        {
+          "doc_id": "C3:D09",
+          "line_start": 7,
+          "line_end": 21,
+          "support": "Humanitarian and funding conditions"
+        }
+      ],
+      "source_item_uids": [
+        "C3:R001",
+        "C3:R003",
+        "C3:R008",
+        "C3:R031",
+        "C3:R035",
+        "C3:R042",
+        "C3:A-08",
+        "C3:C-06",
+        "C3:D-13"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-B005",
+      "case_id": "C3",
+      "abf_stage": "B",
+      "title": "Need for a military contribution",
+      "question": "How should the staff determine whether an available military capability addresses a valid relief gap?",
+      "expected_answer": "Availability is not enough. The intended need must be validated and compared with civilian, host, partner and other existing relief provision. Existing provision may be incomplete or inaccessible, so its nominal presence is not proof that the need is met either. The military contribution should fill a confirmed capability/time/location gap and remain accountable to the civilian-led process.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-B005-R1",
+          "text": "Separates military availability from validated unmet need.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-B005-R2",
+          "text": "Considers actual accessible existing provision.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-B005-R3",
+          "text": "Defines the contribution by a specific capability/time/location gap.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A needs-versus-provision matrix is acceptable."
+      ],
+      "error_conditions": [
+        "Uses competitor presence alone to justify duplicating aid."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D09",
+          "line_start": 9,
+          "line_end": 21,
+          "support": "Unique-capability and neutrality rules"
+        },
+        {
+          "doc_id": "C3:D02",
+          "line_start": 19,
+          "line_end": 19,
+          "support": "Underserved outer islands"
+        },
+        {
+          "doc_id": "C3:D03",
+          "line_start": 9,
+          "line_end": 9,
+          "support": "Existing medical provision"
+        }
+      ],
+      "source_item_uids": [],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-F007",
+      "case_id": "C3",
+      "abf_stage": "F",
+      "title": "Relief-provider capability register",
+      "question": "What information should the staff collect to support the unique-capability test?",
+      "expected_answer": "Through the lead agency and humanitarian coordination mechanism, establish who is providing which commodity/service, where, when and at usable capacity, including committed NGO/IGO, host and partner provision and available PRC relief services. Distinguish an announced commitment from delivered/accessible capacity. Use the register to identify validated gaps, not to rank providers by nationality.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-F007-R1",
+          "text": "Requests provider/service/location/time/capacity information.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F007-R2",
+          "text": "Includes committed civilian/international and other existing relief.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F007-R3",
+          "text": "Distinguishes announced from usable provision.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F007-R4",
+          "text": "Uses the record for unmet need rather than competitor displacement.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A humanitarian 4W/5W-style record is acceptable without requiring a particular label."
+      ],
+      "error_conditions": [
+        "Assumes the hospital ship meets all medical needs or that foreign provision should be displaced."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D05",
+          "line_start": 19,
+          "line_end": 19,
+          "support": "Humanitarian partners"
+        },
+        {
+          "doc_id": "C3:D03",
+          "line_start": 9,
+          "line_end": 19,
+          "support": "Existing PRC provision"
+        },
+        {
+          "doc_id": "C3:D09",
+          "line_start": 9,
+          "line_end": 21,
+          "support": "Gap-based support"
+        }
+      ],
+      "source_item_uids": [
+        "C3:A-09",
+        "C3:A-02"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-F008",
+      "case_id": "C3",
+      "abf_stage": "F",
+      "title": "Time-bounded support and transition record",
+      "question": "What should accompany a validated military assistance task to keep it within the stated support construct?",
+      "expected_answer": "Record the validated need, tasking/consent, specific capability gap, supported location, authorized support period and reimbursement/accounting responsibility. Identify the civilian/host/partner capacity that would permit handover and a review condition for ending or adjusting military support. Do not invent a funding ceiling or continue solely because military capability remains available.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-F008-R1",
+          "text": "Records the validated assistance task.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F008-R2",
+          "text": "Records its authorized support period.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F008-R3",
+          "text": "Records accounting/reimbursement responsibility.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F008-R4",
+          "text": "Identifies a receiving capacity or condition for handover.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F008-R5",
+          "text": "Requires review when the gap closes or the authorized period changes.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A support task register with transition criteria is acceptable."
+      ],
+      "error_conditions": [
+        "Treats initial approval as unlimited-duration assistance."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D09",
+          "line_start": 9,
+          "line_end": 17,
+          "support": "Time/funding/request limits"
+        },
+        {
+          "doc_id": "C3:D07",
+          "line_start": 47,
+          "line_end": 47,
+          "support": "Civilian/UN/host transition"
+        }
+      ],
+      "source_item_uids": [],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-A008",
+      "case_id": "C3",
+      "abf_stage": "A",
+      "title": "Community access and coordination",
+      "question": "What local and humanitarian structures affect distribution beyond Port Vila?",
+      "expected_answer": "Customary chiefs have significant community-level authority, particularly on outer islands, and influence receipt and distribution. The UN cluster system and NGOs are established partners. Dispersed mountainous/coastal communities often require sea/air access, and permission for the capital does not establish access to every district.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-A008-R1",
+          "text": "Identifies customary authority in receipt/distribution.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A008-R2",
+          "text": "Identifies UN clusters/NGOs.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A008-R3",
+          "text": "States dispersed sea/air access requirements.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A008-R4",
+          "text": "Preserves district-specific access differences.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A description of local receipt mechanisms is acceptable without naming unprovided chiefs."
+      ],
+      "error_conditions": [
+        "Treats capital access as universal community consent."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D05",
+          "line_start": 7,
+          "line_end": 23,
+          "support": "Community structures and district access"
+        },
+        {
+          "doc_id": "C3:D06",
+          "line_start": 25,
+          "line_end": 25,
+          "support": "Distribution challenge"
+        }
+      ],
+      "source_item_uids": [
+        "C3:R018"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-B006",
+      "case_id": "C3",
+      "abf_stage": "B",
+      "title": "Value of partner and community interfaces",
+      "question": "How can regional and humanitarian relationships address gaps in a military-led picture of relief needs and receipt?",
+      "expected_answer": "FRANZ, humanitarian and customary-authority contacts can clarify local needs, reception and distribution constraints that a remote military picture may miss. These interfaces complement lift capability but do not automatically provide capacity or substitute for formal tasking/consent. Their value is in verified local coordination and needs assessment, not assumed universal acceptance.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-B006-R1",
+          "text": "Links local relationships to otherwise missing receipt/needs information.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-B006-R2",
+          "text": "Distinguishes coordination knowledge from physical lift capacity.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-B006-R3",
+          "text": "Preserves formal authority/consent requirements.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Explain the complementary role through a local-needs example without inventing a community position."
+      ],
+      "error_conditions": [
+        "Assumes every chief supports the proposed activity."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D05",
+          "line_start": 19,
+          "line_end": 23,
+          "support": "Customary and humanitarian interface"
+        },
+        {
+          "doc_id": "C3:D04",
+          "line_start": 7,
+          "line_end": 13,
+          "support": "FRANZ relationships"
+        },
+        {
+          "doc_id": "C3:D09",
+          "line_start": 21,
+          "line_end": 25,
+          "support": "Coordination and consent"
+        }
+      ],
+      "source_item_uids": [
+        "C3:C-08"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-F009",
+      "case_id": "C3",
+      "abf_stage": "F",
+      "title": "Destination needs and acceptance request",
+      "question": "What destination-level information should be obtained before allocating relief to outer-island communities?",
+      "expected_answer": "Request current affected-population location and estimated size, priority unmet needs, workable receipt/distribution arrangements and the relevant community leaders’ acceptance or concerns, through the recognized humanitarian/host interfaces. Distinguish local acceptance from formal authority. Tie the result to what relief can be delivered effectively to Efate, Shepherd and Espiritu Santo destinations.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-F009-R1",
+          "text": "Requests current affected-population locations.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F009-R2",
+          "text": "Requests current population estimates.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F009-R3",
+          "text": "Requests priority unmet needs.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F009-R4",
+          "text": "Requests local receipt/distribution arrangements.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F009-R5",
+          "text": "Requests relevant community acceptance or concerns.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F009-R6",
+          "text": "Distinguishes local views from formal authority.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A community needs/receipt survey is acceptable rather than a precise population-density map."
+      ],
+      "error_conditions": [
+        "Allocates solely by population size while ignoring unmet need or receipt conditions."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D02",
+          "line_start": 7,
+          "line_end": 19,
+          "support": "Incomplete/dispersed needs"
+        },
+        {
+          "doc_id": "C3:D05",
+          "line_start": 19,
+          "line_end": 23,
+          "support": "Community authority/access"
+        },
+        {
+          "doc_id": "C3:D06",
+          "line_start": 25,
+          "line_end": 25,
+          "support": "Receipt/distribution"
+        }
+      ],
+      "source_item_uids": [
+        "C3:D-01",
+        "C3:A-07"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-A009",
+      "case_id": "C3",
+      "abf_stage": "A",
+      "title": "Medical situation and available categories",
+      "question": "What medical needs and support categories are reported?",
+      "expected_answer": "Acute trauma care, water/sanitation and disease-prevention needs are reported among displaced populations. Fixed ashore medical infrastructure is degraded. Afloat medical support is described as an offset; apportioned US maritime forces include medical capability and New Zealand offers medical detachments. Peace Ark is already conducting medical assistance, but no sufficient quantified capacity, accessibility or US hospital-ship commitment is supplied.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-A009-R1",
+          "text": "Identifies acute medical-care needs.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A009-R2",
+          "text": "Identifies water/sanitation/disease-prevention needs.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A009-R3",
+          "text": "Identifies degraded ashore medical infrastructure.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A009-R4",
+          "text": "Identifies afloat medical support as a candidate offset.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A009-R5",
+          "text": "Distinguishes existing/candidate providers from quantified confirmed coverage.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Do not require clinical treatment recommendations or staffing ratios."
+      ],
+      "error_conditions": [
+        "Claims USNS Mercy is already committed or Peace Ark meets all needs."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D11",
+          "line_start": 31,
+          "line_end": 33,
+          "support": "Medical estimate"
+        },
+        {
+          "doc_id": "C3:D04",
+          "line_start": 11,
+          "line_end": 23,
+          "support": "Medical capability categories"
+        },
+        {
+          "doc_id": "C3:D03",
+          "line_start": 9,
+          "line_end": 9,
+          "support": "Existing Peace Ark support"
+        }
+      ],
+      "source_item_uids": [],
+      "origin": "constructed_companion",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-B007",
+      "case_id": "C3",
+      "abf_stage": "B",
+      "title": "Assessment of medical-capacity adequacy",
+      "question": "What does the presence of a hospital ship or a planned medical detachment establish about whether affected communities’ medical needs can be met?",
+      "expected_answer": "It establishes a potential service source, not adequacy for all needs or locations. Type of care, usable capacity, access/referral arrangements and arrival/availability time must match the needs. Afloat care also does not by itself solve water, sanitation and prevention needs or transport between dispersed communities and the service.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-B007-R1",
+          "text": "Separates provider presence from adequate accessible coverage.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-B007-R2",
+          "text": "Requires care type/capacity/time and access matching.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-B007-R3",
+          "text": "Distinguishes hospital care from broader public-health/distribution needs.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A service-gap assessment is acceptable without numerical estimates."
+      ],
+      "error_conditions": [
+        "Treats one hospital ship as the complete medical solution."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D11",
+          "line_start": 33,
+          "line_end": 33,
+          "support": "Multiple need types"
+        },
+        {
+          "doc_id": "C3:D06",
+          "line_start": 25,
+          "line_end": 25,
+          "support": "Dispersed access"
+        },
+        {
+          "doc_id": "C3:D09",
+          "line_start": 11,
+          "line_end": 11,
+          "support": "Unique-capability test"
+        }
+      ],
+      "source_item_uids": [],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-F010",
+      "case_id": "C3",
+      "abf_stage": "F",
+      "title": "Medical-capability confirmation",
+      "question": "What medical support information should the staff request before nominating additional support?",
+      "expected_answer": "Request current accessible service capacity and timing from the humanitarian health interface, including New Caledonia/regional support and any US hospital ship such as Mercy or an equivalent capability. Confirm actual availability, referral/transfer access and the need types it can cover. Nominate additional support only against a validated gap, without assuming a named ship is assigned.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-F010-R1",
+          "text": "Requests actual regional/afloat medical availability.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F010-R2",
+          "text": "Requests the availability or arrival time.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F010-R3",
+          "text": "Requests the available service types.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F010-R4",
+          "text": "Requests usable service capacity.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F010-R5",
+          "text": "Requests referral/transfer access arrangements.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F010-R6",
+          "text": "Links any additional request to a validated gap.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "An equivalent medical platform or partner capability can satisfy the same gap; Mercy is not mandatory."
+      ],
+      "error_conditions": [
+        "Adds Mercy to the force list without confirmation."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D11",
+          "line_start": 33,
+          "line_end": 33,
+          "support": "Medical gap"
+        },
+        {
+          "doc_id": "C3:D04",
+          "line_start": 11,
+          "line_end": 23,
+          "support": "Candidate capability categories"
+        },
+        {
+          "doc_id": "C3:D09",
+          "line_start": 9,
+          "line_end": 11,
+          "support": "Validation requirement"
+        }
+      ],
+      "source_item_uids": [
+        "C3:D-04",
+        "C3:D-18"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-A010",
+      "case_id": "C3",
+      "abf_stage": "A",
+      "title": "Coordination communications and staffing",
+      "question": "What limits the establishment of relief coordination at the outset?",
+      "expected_answer": "Fixed communications on Efate are largely inoperative. Deployable/satellite communications are needed from the outset and are themselves lift-dependent. Shared ISR and degraded PNT limit persistent awareness. Civil-military, contracting and FRANZ/UN liaison augmentation is a limiting factor and headquarters personnel close over time.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-A010-R1",
+          "text": "Identifies degraded fixed communications.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A010-R2",
+          "text": "Identifies lift-dependent deployable communications.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A010-R3",
+          "text": "Identifies limited persistent awareness.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A010-R4",
+          "text": "Identifies civil-military coordination staffing as a limiting function.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A010-R5",
+          "text": "Identifies contracting staffing as a limiting function.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A010-R6",
+          "text": "Identifies FRANZ/UN liaison staffing as a limiting function.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A010-R7",
+          "text": "States that headquarters staff close over time.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Describe functional shortages without assuming a particular equipment set."
+      ],
+      "error_conditions": [
+        "Treats establishment of a headquarters as proof of functioning liaison or communications."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D11",
+          "line_start": 9,
+          "line_end": 13,
+          "support": "Staffing and awareness"
+        },
+        {
+          "doc_id": "C3:D11",
+          "line_start": 29,
+          "line_end": 29,
+          "support": "Communications dependency"
+        }
+      ],
+      "source_item_uids": [
+        "C3:R017",
+        "C3:R037",
+        "C3:R067",
+        "C3:C3-GAP-10"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-B008",
+      "case_id": "C3",
+      "abf_stage": "B",
+      "title": "Readiness of a coordination centre",
+      "question": "What does activation of a coordination-centre title establish about its ability to process and deconflict relief requests?",
+      "expected_answer": "The title alone does not establish functional readiness. The centre needs connected civilian/host/FRANZ/UN interfaces, staff able to validate and pass requests and working communications. Because personnel and communications depend on time-phased lift, physical headquarters activation can precede a usable coordination service.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-B008-R1",
+          "text": "Distinguishes organizational designation from functional coordination.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-B008-R2",
+          "text": "Requires staffed external coordination interfaces.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-B008-R3",
+          "text": "Requires functioning coordination communications.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-B008-R4",
+          "text": "Uses time-phased lift as a readiness dependency.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A function-based readiness assessment is acceptable without mandating a particular centre type."
+      ],
+      "error_conditions": [
+        "Assumes the military centre commands NGOs or partner nations."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D11",
+          "line_start": 9,
+          "line_end": 29,
+          "support": "Manning/communications limitations"
+        },
+        {
+          "doc_id": "C3:D04",
+          "line_start": 35,
+          "line_end": 35,
+          "support": "Coordination not predetermined"
+        },
+        {
+          "doc_id": "C3:D09",
+          "line_start": 21,
+          "line_end": 29,
+          "support": "Humanitarian/FRANZ architecture"
+        }
+      ],
+      "source_item_uids": [],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-F011",
+      "case_id": "C3",
+      "abf_stage": "F",
+      "title": "Functional relief-coordination setup",
+      "question": "What concrete coordination arrangements should be established before the centre is treated as operational?",
+      "expected_answer": "Agree a civilian-led request-validation and military-support interface with DART, host authorities, FRANZ and the UN clusters. Identify points of contact, the process for resolving duplicate or conflicting requests and a means to report delivered support. Confirm the liaison/contracting/civil-military staff and communications are available. A CMOC, multinational centre or equivalent arrangement is acceptable if it performs these functions without assuming command of civilian responders.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-F011-R1",
+          "text": "Establishes a request-validation and support interface.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F011-R2",
+          "text": "Provides a process for duplicate/conflicting relief requests.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F011-R3",
+          "text": "Provides delivered-support reporting.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F011-R4",
+          "text": "Requires confirmed relevant staff.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F011-R5",
+          "text": "Requires confirmed coordination communications.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F011-R6",
+          "text": "Preserves civilian/partner independence.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Use existing coordination mechanisms rather than require a new headquarters."
+      ],
+      "error_conditions": [
+        "Creates a military command over NGOs or FRANZ."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D09",
+          "line_start": 9,
+          "line_end": 29,
+          "support": "Existing humanitarian rules"
+        },
+        {
+          "doc_id": "C3:D04",
+          "line_start": 35,
+          "line_end": 35,
+          "support": "Relationships for staff development"
+        },
+        {
+          "doc_id": "C3:D11",
+          "line_start": 9,
+          "line_end": 29,
+          "support": "Manning/comms"
+        }
+      ],
+      "source_item_uids": [
+        "C3:C-09",
+        "C3:D-07",
+        "C3:D-19"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-F012",
+      "case_id": "C3",
+      "abf_stage": "F",
+      "title": "Communication and language support requirements",
+      "question": "What additional capability checks are needed for reliable liaison with affected communities, FRANZ and co-located PRC elements?",
+      "expected_answer": "Identify the actual working languages and channels used by the relevant community and partner contacts, verify interpreter/liaison capability where a language gap exists, and confirm the information/communications personnel available to maintain those interfaces. Include Chinese-language support if needed for PRC deconfliction and the relevant local languages for community coordination. Do not assume one invented “Vanuatu language” or a fixed interpreter quantity.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-F012-R1",
+          "text": "Requires checking working languages and actual communication gaps.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F012-R2",
+          "text": "Requires appropriate local-language support where a verified gap exists.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F012-R3",
+          "text": "Requires Chinese-language support where needed for PRC deconfliction.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F012-R4",
+          "text": "Requests available partner/US communication or information support for the interfaces.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A qualified bilingual liaison may substitute for a separate interpreter."
+      ],
+      "error_conditions": [
+        "Prescribes unsupported staff numbers or assumes all communities use one language."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D05",
+          "line_start": 19,
+          "line_end": 19,
+          "support": "Community interfaces"
+        },
+        {
+          "doc_id": "C3:D04",
+          "line_start": 7,
+          "line_end": 13,
+          "support": "FRANZ interfaces"
+        },
+        {
+          "doc_id": "C3:D07",
+          "line_start": 55,
+          "line_end": 55,
+          "support": "PRC deconfliction"
+        },
+        {
+          "doc_id": "C3:D11",
+          "line_start": 9,
+          "line_end": 29,
+          "support": "Staff/comms limits"
+        }
+      ],
+      "source_item_uids": [
+        "C3:S-10",
+        "C3:D-03",
+        "C3:D-17"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-A011",
+      "case_id": "C3",
+      "abf_stage": "A",
+      "title": "PRC presence and conduct assessment",
+      "question": "What is reported and assessed about the PRC presence and permitted interaction?",
+      "expected_answer": "Peace Ark, naval escorts and a coast-guard cutter are present, with police advisors reported ashore. The packet assesses a gray-zone legitimacy/access purpose with moderate confidence, unlike the purely humanitarian surface framing. Physical obstruction by force is assessed unlikely, while shadowing/visibility competition are plausible. US forces are directed to deconflict and avoid incidents, with force limited to the stated self-defense/designated-defense scope.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-A011-R1",
+          "text": "Identifies the PRC maritime relief/security presence.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A011-R2",
+          "text": "Identifies reported PRC police advisers ashore.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A011-R3",
+          "text": "Separates reported presence from assessed intent.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A011-R4",
+          "text": "Preserves the unlikely-force assessment rather than a guarantee.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A011-R5",
+          "text": "States the requirement to deconflict.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A011-R6",
+          "text": "States the no-armed-challenge limit.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Broad asset classes suffice without hull designators."
+      ],
+      "error_conditions": [
+        "Treats PRC presence as an armed attack or guarantees noninterference."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D03",
+          "line_start": 5,
+          "line_end": 29,
+          "support": "Presence and assessed intent"
+        },
+        {
+          "doc_id": "C3:D08",
+          "line_start": 19,
+          "line_end": 23,
+          "support": "Scope of assessment"
+        },
+        {
+          "doc_id": "C3:D09",
+          "line_start": 25,
+          "line_end": 25,
+          "support": "Permitted interaction"
+        }
+      ],
+      "source_item_uids": [
+        "C3:R012",
+        "C3:R014",
+        "C3:R022",
+        "C3:R024",
+        "C3:R030",
+        "C3:R040",
+        "C3:R053",
+        "C3:C-15"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-B009",
+      "case_id": "C3",
+      "abf_stage": "B",
+      "title": "Limits of a non-obstruction assessment",
+      "question": "How should the assessment that PRC forces are unlikely to obstruct by force be used when deciding whether relief interactions are ready to proceed?",
+      "expected_answer": "It informs risk but does not confirm current locations, intentions or functioning deconfliction contacts for a particular interaction. A mistaken identity or uncoordinated movement can still create an incident without a planned attack. The staff therefore needs current contact/activity and communication status without treating the competitor as a target.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-B009-R1",
+          "text": "Distinguishes probabilistic assessment from current confirmation.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-B009-R2",
+          "text": "Identifies current location/contact/channel information gaps.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-B009-R3",
+          "text": "Preserves incident avoidance and noncombat framing.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A conditional risk/readiness assessment is acceptable."
+      ],
+      "error_conditions": [
+        "Treats unlikely obstruction as permission to omit deconfliction."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D03",
+          "line_start": 29,
+          "line_end": 29,
+          "support": "Probabilistic assessment"
+        },
+        {
+          "doc_id": "C3:D07",
+          "line_start": 55,
+          "line_end": 55,
+          "support": "Deconfliction task"
+        },
+        {
+          "doc_id": "C3:D09",
+          "line_start": 25,
+          "line_end": 25,
+          "support": "Incident avoidance"
+        }
+      ],
+      "source_item_uids": [],
+      "origin": "constructed_companion",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-F013",
+      "case_id": "C3",
+      "abf_stage": "F",
+      "title": "Deconfliction contact and activity requirement",
+      "question": "What information should be requested to support a specific relief interaction with co-located PRC elements?",
+      "expected_answer": "Establish the responsible contact/command point and working communication channel, and request current relevant locations, activities and any reported change in posture that would affect the timing or incident risk of relief. Tie updates to the coordination decision and report changes through the authorized mechanism. Identity/contact information is for deconfliction rather than targeting.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-F013-R1",
+          "text": "Requires a responsible deconfliction contact/command point.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F013-R2",
+          "text": "Requires a working deconfliction communication channel.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F013-R3",
+          "text": "Requests current relevant location/activity.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F013-R4",
+          "text": "Requests relevant changes in posture.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F013-R5",
+          "text": "Links updates to relief coordination/incident avoidance.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A liaison contact and activity-update request can satisfy the same function without a PIR label."
+      ],
+      "error_conditions": [
+        "Uses the request to plan harassment, interdiction or armed displacement."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D03",
+          "line_start": 9,
+          "line_end": 29,
+          "support": "Elements and posture"
+        },
+        {
+          "doc_id": "C3:D07",
+          "line_start": 55,
+          "line_end": 55,
+          "support": "Coordination task"
+        },
+        {
+          "doc_id": "C3:D08",
+          "line_start": 23,
+          "line_end": 23,
+          "support": "Unresolved response"
+        }
+      ],
+      "source_item_uids": [
+        "C3:D-15",
+        "C3:C-13",
+        "C3:R047"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-A012",
+      "case_id": "C3",
+      "abf_stage": "A",
+      "title": "Relief purpose and legitimacy guidance",
+      "question": "What purposes and communication constraints should shape evaluation of the relief effort?",
+      "expected_answer": "The specified purpose is timely credible relief that supports the civilian-led response and affected-state sovereignty, followed by transition to civilian/UN/host authorities. The military should support FRANZ rather than appear unilateral. PRC messaging portrays US relief as militarized; the commander directs speed and legitimacy to be considered together, with humanitarian neutrality and incident avoidance preserved.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-A012-R1",
+          "text": "Identifies relief of suffering as a purpose.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A012-R2",
+          "text": "Identifies respect for affected-state sovereignty as a purpose.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A012-R3",
+          "text": "Preserves civilian-led response.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A012-R4",
+          "text": "Identifies FRANZ-supportive rather than unilateral method.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A012-R5",
+          "text": "Identifies the narrative context and speed/legitimacy tension.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A012-R6",
+          "text": "Preserves humanitarian neutrality.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-A012-R7",
+          "text": "Preserves transition to civilian/UN/host authorities.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Do not require claims that the PRC narrative is accepted by every community."
+      ],
+      "error_conditions": [
+        "Measures success solely by competitor displacement."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D07",
+          "line_start": 43,
+          "line_end": 47,
+          "support": "Mission and end state"
+        },
+        {
+          "doc_id": "C3:D01",
+          "line_start": 19,
+          "line_end": 23,
+          "support": "FRANZ legitimacy"
+        },
+        {
+          "doc_id": "C3:D03",
+          "line_start": 23,
+          "line_end": 25,
+          "support": "Narrative"
+        },
+        {
+          "doc_id": "C3:D10",
+          "line_start": 13,
+          "line_end": 31,
+          "support": "Speed/legitimacy guidance"
+        }
+      ],
+      "source_item_uids": [
+        "C3:R005",
+        "C3:R016",
+        "C3:R029",
+        "C3:R044",
+        "C3:R056",
+        "C3:C-02",
+        "C3:C-10",
+        "C3:C-14",
+        "C3:S-01",
+        "C3:S-02",
+        "C3:S-06"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "explicit",
+      "derivation_note": "Retrieves the supplied scenario statement with its qualifications.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-B010",
+      "case_id": "C3",
+      "abf_stage": "B",
+      "title": "Validity of competitor-based success measures",
+      "question": "How should a proposed success measure based on reducing PRC visibility be assessed against the supplied relief purpose?",
+      "expected_answer": "It is not sufficient as a military relief-success measure. Visibility can change without improving delivered assistance, affected-state acceptance or neutral treatment of needs. Measures should distinguish useful relief and credible civilian/partner-led conduct from competitive appearance. A faster unilateral activity that lacks consent can undermine the very acceptance required for the mission.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-B010-R1",
+          "text": "Distinguishes competitor visibility from relief outcomes.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-B010-R2",
+          "text": "Connects acceptance/consent to mission feasibility.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-B010-R3",
+          "text": "Preserves speed and legitimacy jointly.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A centre-of-gravity formulation around legitimacy/acceptance is acceptable if tied to observable mission requirements."
+      ],
+      "error_conditions": [
+        "Treats out-delivering Peace Ark as an independent objective regardless of need."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D07",
+          "line_start": 47,
+          "line_end": 47,
+          "support": "Specified purpose"
+        },
+        {
+          "doc_id": "C3:D09",
+          "line_start": 21,
+          "line_end": 25,
+          "support": "Humanitarian/sovereignty rules"
+        },
+        {
+          "doc_id": "C3:D10",
+          "line_start": 13,
+          "line_end": 31,
+          "support": "Speed/legitimacy"
+        }
+      ],
+      "source_item_uids": [
+        "C3:R020",
+        "C3:A-11",
+        "C3:R055"
+      ],
+      "origin": "decomposed",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-F014",
+      "case_id": "C3",
+      "abf_stage": "F",
+      "title": "Relief and credibility evaluation criteria",
+      "question": "What evaluation criteria should be used to compare relief proposals without making competition the outcome?",
+      "expected_answer": "Use time to effective assistance and unmet-need coverage, confirmed consent/civilian validation, local acceptance and maintenance of neutral need-based delivery, and incident/force-protection risk. Report trade-offs separately. Do not define success as displacing or discrediting another provider. Record what information would allow acceptance or neutrality to be assessed rather than declaring them from publicity alone.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-F014-R1",
+          "text": "Specifies relief delivery/need as an outcome.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F014-R2",
+          "text": "Includes consent in the comparison.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F014-R3",
+          "text": "Includes civilian-led validation in the comparison.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F014-R4",
+          "text": "Includes neutrality/need-based treatment in the comparison.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F014-R5",
+          "text": "Includes affected-community acceptance in the comparison.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F014-R6",
+          "text": "Includes incident/force-protection risk.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F014-R7",
+          "text": "Excludes competitor displacement as an independent outcome.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "Qualitative anchored criteria are acceptable where no validated numerical scale exists."
+      ],
+      "error_conditions": [
+        "Equates publicity or competitor loss of visibility with humanitarian effectiveness."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D07",
+          "line_start": 47,
+          "line_end": 47,
+          "support": "Outcome"
+        },
+        {
+          "doc_id": "C3:D09",
+          "line_start": 21,
+          "line_end": 25,
+          "support": "Neutrality and force limits"
+        },
+        {
+          "doc_id": "C3:D10",
+          "line_start": 19,
+          "line_end": 31,
+          "support": "Evaluation priorities"
+        }
+      ],
+      "source_item_uids": [
+        "C3:S-16",
+        "C3:R074",
+        "C3:R055"
+      ],
+      "origin": "decomposed",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "question_id": "HB-C3-F015",
+      "case_id": "C3",
+      "abf_stage": "F",
+      "title": "Coordinated factual relief communication",
+      "question": "What communication task follows from the need to demonstrate credible civilian-led relief while avoiding a competing military narrative?",
+      "expected_answer": "Coordinate factual updates with the civilian lead, affected-state authorities and France, Australia and New Zealand, identifying validated services, how people can access them and the partners’ support roles. Check statements against actual delivery and consent. Address inaccurate claims through verifiable facts while maintaining humanitarian neutrality, rather than use relief as a vehicle for discrediting another provider.",
+      "criteria": [
+        {
+          "criterion_id": "HB-C3-F015-R1",
+          "text": "Requires coordination with civilian/host counterparts.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F015-R2",
+          "text": "Requires coordination with FRANZ counterparts.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F015-R3",
+          "text": "Uses verified relief/service-access facts.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F015-R4",
+          "text": "Preserves humanitarian neutrality in communication.",
+          "required": true
+        },
+        {
+          "criterion_id": "HB-C3-F015-R5",
+          "text": "Avoids competitor-displacement messaging as an independent purpose.",
+          "required": true
+        }
+      ],
+      "acceptable_alternatives": [
+        "A jointly agreed factual public-information product is acceptable rather than a military information-operation label."
+      ],
+      "error_conditions": [
+        "Makes unsupported provider allegations or hides the civilian lead."
+      ],
+      "source_refs": [
+        {
+          "doc_id": "C3:D03",
+          "line_start": 23,
+          "line_end": 25,
+          "support": "Narrative context"
+        },
+        {
+          "doc_id": "C3:D07",
+          "line_start": 47,
+          "line_end": 59,
+          "support": "Support roles"
+        },
+        {
+          "doc_id": "C3:D09",
+          "line_start": 21,
+          "line_end": 21,
+          "support": "Humanitarian principles"
+        }
+      ],
+      "source_item_uids": [
+        "C3:D-16",
+        "C3:R036"
+      ],
+      "origin": "adapted",
+      "source_answer_status": "derived",
+      "derivation_note": "Combines the cited premises for this bounded staff consequence. The full source packet remains visible.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    }
+  ],
+  "chains": [
+    {
+      "chain_id": "HB-C3-CH001",
+      "case_id": "C3",
+      "title": "End-to-end relief throughput",
+      "a_ids": [
+        "HB-C3-A002",
+        "HB-C3-A003",
+        "HB-C3-A001",
+        "HB-C3-A005",
+        "HB-C3-A007"
+      ],
+      "b_ids": [
+        "HB-C3-B001"
+      ],
+      "f_ids": [
+        "HB-C3-F001",
+        "HB-C3-F002",
+        "HB-C3-F003"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C3-A002",
+            "HB-C3-A003",
+            "HB-C3-A001"
+          ],
+          "child_id": "HB-C3-B001",
+          "logic": "ALL",
+          "rationale": "Infrastructure, transport capability and dispersed need jointly determine delivered relief.",
+          "counterfactual_test": "If destination distribution and port handling were unconstrained, the limiting interface could shift upstream."
+        },
+        {
+          "parent_ids": [
+            "HB-C3-B001"
+          ],
+          "child_id": "HB-C3-F001",
+          "logic": "ALL",
+          "rationale": "The bottleneck assessment yields compatibility, current-status and conditional restoration tasks.",
+          "counterfactual_test": "If verified connector or port capacity cannot meet the proposed flow, revise the package or its timing before confirmation."
+        },
+        {
+          "parent_ids": [
+            "HB-C3-B001"
+          ],
+          "child_id": "HB-C3-F002",
+          "logic": "ALL",
+          "rationale": "The bottleneck assessment yields compatibility, current-status and conditional restoration tasks.",
+          "counterfactual_test": "If verified connector or port capacity cannot meet the proposed flow, revise the package or its timing before confirmation."
+        },
+        {
+          "parent_ids": [
+            "HB-C3-B001",
+            "HB-C3-A005",
+            "HB-C3-A007"
+          ],
+          "child_id": "HB-C3-F003",
+          "logic": "ALL",
+          "rationale": "The bottleneck assessment yields compatibility, current-status and conditional restoration tasks. The additional A parents supply the specific authority, recipient, recovery or resource prerequisite for this consequence.",
+          "counterfactual_test": "If verified connector or port capacity cannot meet the proposed flow, revise the package or its timing before confirmation."
+        }
+      ],
+      "chain_rationale": "Retains concrete logistics consequences rather than treating the source sea-basing option itself as a novel conclusion.",
+      "minimality_note": "The listed premises contribute jointly to the stated judgement. The original packet remains available, so a model can reconstruct them without using the supplied intermediate answer. The counterfactual is an annotation, not an executed intervention.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C3-CH002",
+      "case_id": "C3",
+      "title": "Relief before full force closure",
+      "a_ids": [
+        "HB-C3-A004",
+        "HB-C3-A001",
+        "HB-C3-A003"
+      ],
+      "b_ids": [
+        "HB-C3-B002"
+      ],
+      "f_ids": [
+        "HB-C3-F004"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C3-A004",
+            "HB-C3-A003"
+          ],
+          "child_id": "HB-C3-B002",
+          "logic": "ALL",
+          "rationale": "The need horizon and actual capacity horizon jointly expose the timing mismatch.",
+          "counterfactual_test": "If urgent need begins after confirmed full closure, early-phasing pressure changes."
+        },
+        {
+          "parent_ids": [
+            "HB-C3-B002",
+            "HB-C3-A001"
+          ],
+          "child_id": "HB-C3-F004",
+          "logic": "ALL",
+          "rationale": "The mismatch requires phased confirmation and a delivery-based speed criterion. The additional A parents supply the specific authority, recipient, recovery or resource prerequisite for this consequence.",
+          "counterfactual_test": "If confirmed first delivery is too late, the staff must expose the gap rather than credit later capacity."
+        }
+      ],
+      "chain_rationale": "Derives a measurable consequence without fabricating deployment schedules.",
+      "minimality_note": "The listed premises contribute jointly to the stated judgement. The original packet remains available, so a model can reconstruct them without using the supplied intermediate answer. The counterfactual is an annotation, not an executed intervention.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C3-CH003",
+      "case_id": "C3",
+      "title": "Consent-aware relief commitment",
+      "a_ids": [
+        "HB-C3-A005",
+        "HB-C3-A002",
+        "HB-C3-A003",
+        "HB-C3-A007",
+        "HB-C3-A011"
+      ],
+      "b_ids": [
+        "HB-C3-B003"
+      ],
+      "f_ids": [
+        "HB-C3-F005"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C3-A005",
+            "HB-C3-A002",
+            "HB-C3-A003"
+          ],
+          "child_id": "HB-C3-B003",
+          "logic": "ALL",
+          "rationale": "Location-specific permission and the physical delivery path jointly bound alternatives.",
+          "counterfactual_test": "If the proposed alternate has independently confirmed permission and capacity, it can be assessed on those facts."
+        },
+        {
+          "parent_ids": [
+            "HB-C3-B003",
+            "HB-C3-A007",
+            "HB-C3-A011"
+          ],
+          "child_id": "HB-C3-F005",
+          "logic": "ALL",
+          "rationale": "The distinction requires separate consent, throughput and protection gates. The additional A parents supply the specific authority, recipient, recovery or resource prerequisite for this consequence.",
+          "counterfactual_test": "If any required gate fails, that activity is not ready merely because other gates pass."
+        }
+      ],
+      "chain_rationale": "Builds a concrete commitment condition while preserving affected-state sovereignty.",
+      "minimality_note": "The listed premises contribute jointly to the stated judgement. The original packet remains available, so a model can reconstruct them without using the supplied intermediate answer. The counterfactual is an annotation, not an executed intervention.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C3-CH004",
+      "case_id": "C3",
+      "title": "Selecting a usable staging arrangement",
+      "a_ids": [
+        "HB-C3-A006",
+        "HB-C3-A004",
+        "HB-C3-A002"
+      ],
+      "b_ids": [
+        "HB-C3-B004"
+      ],
+      "f_ids": [
+        "HB-C3-F006"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C3-A006",
+            "HB-C3-A004",
+            "HB-C3-A002"
+          ],
+          "child_id": "HB-C3-B004",
+          "logic": "ALL",
+          "rationale": "Distance, permissions and end-to-end interfaces jointly determine staging utility.",
+          "counterfactual_test": "If a nearby point were approved and fully capable, its shorter leg could contribute to earlier relief."
+        },
+        {
+          "parent_ids": [
+            "HB-C3-B004"
+          ],
+          "child_id": "HB-C3-F006",
+          "logic": "ALL",
+          "rationale": "The incomplete comparison requires defined approvals and throughput information before selection.",
+          "counterfactual_test": "If an approval or capacity fails, compare another independently feasible option rather than assume substitution."
+        }
+      ],
+      "chain_rationale": "Supports a concrete staging decision without inventing capacities or diplomatic permissions.",
+      "minimality_note": "The listed premises contribute jointly to the stated judgement. The original packet remains available, so a model can reconstruct them without using the supplied intermediate answer. The counterfactual is an annotation, not an executed intervention.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C3-CH005",
+      "case_id": "C3",
+      "title": "Validated gap and bounded military support",
+      "a_ids": [
+        "HB-C3-A007",
+        "HB-C3-A001"
+      ],
+      "b_ids": [
+        "HB-C3-B005"
+      ],
+      "f_ids": [
+        "HB-C3-F007",
+        "HB-C3-F008"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C3-A007",
+            "HB-C3-A001"
+          ],
+          "child_id": "HB-C3-B005",
+          "logic": "ALL",
+          "rationale": "Humanitarian needs and the last-resort rule jointly define when military support is justified.",
+          "counterfactual_test": "If existing accessible civilian capacity meets the need in time, the military gap is absent."
+        },
+        {
+          "parent_ids": [
+            "HB-C3-B005"
+          ],
+          "child_id": "HB-C3-F007",
+          "logic": "ALL",
+          "rationale": "The gap judgement needs a provider register and a bounded task/transition record.",
+          "counterfactual_test": "If the gap closes or the authorization expires, review/transition replaces continuation by default."
+        },
+        {
+          "parent_ids": [
+            "HB-C3-B005"
+          ],
+          "child_id": "HB-C3-F008",
+          "logic": "ALL",
+          "rationale": "The gap judgement needs a provider register and a bounded task/transition record.",
+          "counterfactual_test": "If the gap closes or the authorization expires, review/transition replaces continuation by default."
+        }
+      ],
+      "chain_rationale": "Creates concrete information and task-accounting outputs without replacing civilian humanitarian leadership.",
+      "minimality_note": "The listed premises contribute jointly to the stated judgement. The original packet remains available, so a model can reconstruct them without using the supplied intermediate answer. The counterfactual is an annotation, not an executed intervention.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C3-CH006",
+      "case_id": "C3",
+      "title": "Community-informed relief allocation",
+      "a_ids": [
+        "HB-C3-A008",
+        "HB-C3-A001",
+        "HB-C3-A007"
+      ],
+      "b_ids": [
+        "HB-C3-B006"
+      ],
+      "f_ids": [
+        "HB-C3-F009"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C3-A008",
+            "HB-C3-A001",
+            "HB-C3-A007"
+          ],
+          "child_id": "HB-C3-B006",
+          "logic": "ALL",
+          "rationale": "Dispersed needs, local reception structures and formal support rules jointly define the information gap.",
+          "counterfactual_test": "If timely community needs and reception data were already verified, additional requests could be limited to changes."
+        },
+        {
+          "parent_ids": [
+            "HB-C3-B006"
+          ],
+          "child_id": "HB-C3-F009",
+          "logic": "ALL",
+          "rationale": "The local-coordination judgement yields specific destination questions.",
+          "counterfactual_test": "If local receipt is not feasible or accepted, revise the proposed delivery through the proper coordination process."
+        }
+      ],
+      "chain_rationale": "Produces a concrete civilian-centered allocation prerequisite rather than an abstract uncertainty statement.",
+      "minimality_note": "The listed premises contribute jointly to the stated judgement. The original packet remains available, so a model can reconstruct them without using the supplied intermediate answer. The counterfactual is an annotation, not an executed intervention.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C3-CH007",
+      "case_id": "C3",
+      "title": "Matching medical service to accessible need",
+      "a_ids": [
+        "HB-C3-A009",
+        "HB-C3-A008",
+        "HB-C3-A007"
+      ],
+      "b_ids": [
+        "HB-C3-B007"
+      ],
+      "f_ids": [
+        "HB-C3-F010"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C3-A009",
+            "HB-C3-A008"
+          ],
+          "child_id": "HB-C3-B007",
+          "logic": "ALL",
+          "rationale": "Need types, dispersed access and last-resort validation jointly determine adequacy.",
+          "counterfactual_test": "If accessible civilian services cover the identified need, an additional military request may be unnecessary."
+        },
+        {
+          "parent_ids": [
+            "HB-C3-B007",
+            "HB-C3-A007"
+          ],
+          "child_id": "HB-C3-F010",
+          "logic": "ALL",
+          "rationale": "The adequacy assessment requires provider capacity/access confirmation before nomination. The additional A parents supply the specific authority, recipient, recovery or resource prerequisite for this consequence.",
+          "counterfactual_test": "If candidate support is unavailable or too late, keep the gap visible rather than assume allocation."
+        }
+      ],
+      "chain_rationale": "Creates a medical-support information requirement without clinical advice or fictitious platform availability.",
+      "minimality_note": "The listed premises contribute jointly to the stated judgement. The original packet remains available, so a model can reconstruct them without using the supplied intermediate answer. The counterfactual is an annotation, not an executed intervention.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C3-CH008",
+      "case_id": "C3",
+      "title": "Functional coordination before activation",
+      "a_ids": [
+        "HB-C3-A010",
+        "HB-C3-A007",
+        "HB-C3-A008"
+      ],
+      "b_ids": [
+        "HB-C3-B008"
+      ],
+      "f_ids": [
+        "HB-C3-F011",
+        "HB-C3-F012"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C3-A010",
+            "HB-C3-A007",
+            "HB-C3-A008"
+          ],
+          "child_id": "HB-C3-B008",
+          "logic": "ALL",
+          "rationale": "Required interfaces plus actual staff/communications determine functional readiness.",
+          "counterfactual_test": "If trained liaison and communications were already confirmed, centre activation could indicate a usable service."
+        },
+        {
+          "parent_ids": [
+            "HB-C3-B008"
+          ],
+          "child_id": "HB-C3-F011",
+          "logic": "ALL",
+          "rationale": "The readiness judgement yields an interface setup and specific capability-check requirement.",
+          "counterfactual_test": "If an essential interface lacks staff or communication, keep that function pending even if the centre exists."
+        },
+        {
+          "parent_ids": [
+            "HB-C3-B008"
+          ],
+          "child_id": "HB-C3-F012",
+          "logic": "ALL",
+          "rationale": "The readiness judgement yields an interface setup and specific capability-check requirement.",
+          "counterfactual_test": "If an essential interface lacks staff or communication, keep that function pending even if the centre exists."
+        }
+      ],
+      "chain_rationale": "Constructs practical coordination consequences while preserving humanitarian leadership.",
+      "minimality_note": "The listed premises contribute jointly to the stated judgement. The original packet remains available, so a model can reconstruct them without using the supplied intermediate answer. The counterfactual is an annotation, not an executed intervention.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C3-CH009",
+      "case_id": "C3",
+      "title": "Current deconfliction readiness",
+      "a_ids": [
+        "HB-C3-A011"
+      ],
+      "b_ids": [
+        "HB-C3-B009"
+      ],
+      "f_ids": [
+        "HB-C3-F013"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C3-A011"
+          ],
+          "child_id": "HB-C3-B009",
+          "logic": "ALL",
+          "rationale": "The supplied PRC posture is probabilistic, while the same A node states the concrete incident-avoidance requirement; a generic civilian-lead node is not needed for this inference.",
+          "counterfactual_test": "If current contacts and activities are confirmed, the remaining risk review can use them rather than an unresolved general estimate."
+        },
+        {
+          "parent_ids": [
+            "HB-C3-B009"
+          ],
+          "child_id": "HB-C3-F013",
+          "logic": "ALL",
+          "rationale": "A scenario-level likelihood cannot replace activity-specific contact and update requirements.",
+          "counterfactual_test": "If posture changes, coordination timing/risk must be revisited without automatically authorizing force."
+        }
+      ],
+      "chain_rationale": "Derives a concrete safety/coordination information requirement.",
+      "minimality_note": "The listed premises contribute jointly to the stated judgement. The original packet remains available, so a model can reconstruct them without using the supplied intermediate answer. The counterfactual is an annotation, not an executed intervention.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    },
+    {
+      "chain_id": "HB-C3-CH010",
+      "case_id": "C3",
+      "title": "Measuring and communicating legitimate relief",
+      "a_ids": [
+        "HB-C3-A012",
+        "HB-C3-A005",
+        "HB-C3-A011",
+        "HB-C3-A007"
+      ],
+      "b_ids": [
+        "HB-C3-B010"
+      ],
+      "f_ids": [
+        "HB-C3-F014",
+        "HB-C3-F015"
+      ],
+      "dependencies": [
+        {
+          "parent_ids": [
+            "HB-C3-A012",
+            "HB-C3-A005",
+            "HB-C3-A011",
+            "HB-C3-A007"
+          ],
+          "child_id": "HB-C3-B010",
+          "logic": "ALL",
+          "rationale": "Relief purpose, consent, competitor context and humanitarian rules jointly determine legitimate evaluation and communication.",
+          "counterfactual_test": "If competitor visibility falls without better relief/acceptance, the proposed success claim must still be rejected."
+        },
+        {
+          "parent_ids": [
+            "HB-C3-B010"
+          ],
+          "child_id": "HB-C3-F014",
+          "logic": "ALL",
+          "rationale": "A deficient competition metric requires outcome-based criteria and verified coordinated information.",
+          "counterfactual_test": "If a factual service claim is unverified, withhold or qualify it rather than equate communication with delivered effect."
+        },
+        {
+          "parent_ids": [
+            "HB-C3-B010"
+          ],
+          "child_id": "HB-C3-F015",
+          "logic": "ALL",
+          "rationale": "A deficient competition metric requires outcome-based criteria and verified coordinated information.",
+          "counterfactual_test": "If a factual service claim is unverified, withhold or qualify it rather than equate communication with delivered effect."
+        }
+      ],
+      "chain_rationale": "Derives usable evaluation criteria and communication tasks without confusing military competition with humanitarian success.",
+      "minimality_note": "The listed premises contribute jointly to the stated judgement. The original packet remains available, so a model can reconstruct them without using the supplied intermediate answer. The counterfactual is an annotation, not an executed intervention.",
+      "new_reference_status": "constructed_pending_expert_validation"
+    }
+  ],
+  "dispositions": [
+    {
+      "item_uid": "C3:R001",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A007"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001",
+        "HB-C3-CH003",
+        "HB-C3-CH005",
+        "HB-C3-CH006",
+        "HB-C3-CH007",
+        "HB-C3-CH008",
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in Civilian lead and humanitarian support rules.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R003",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A007"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001",
+        "HB-C3-CH003",
+        "HB-C3-CH005",
+        "HB-C3-CH006",
+        "HB-C3-CH007",
+        "HB-C3-CH008",
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in Civilian lead and humanitarian support rules.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R005",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A012"
+      ],
+      "chain_ids": [
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in Relief purpose and legitimacy guidance.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R006",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A001"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001",
+        "HB-C3-CH002",
+        "HB-C3-CH005",
+        "HB-C3-CH006"
+      ],
+      "rationale": "Source construct is represented in Disaster and population needs.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R007",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The directive/essential relief task or broad operational-problem statement is already supplied. Its concrete delivery, consent and validation dependencies are retained in narrower chains; reproducing the whole mission statement adds no distinct necessary dependency.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C3:R008",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A007"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001",
+        "HB-C3-CH003",
+        "HB-C3-CH005",
+        "HB-C3-CH006",
+        "HB-C3-CH007",
+        "HB-C3-CH008",
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in Civilian lead and humanitarian support rules.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R009",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A005"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001",
+        "HB-C3-CH003",
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in Consent status and limits.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R010",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A003"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001",
+        "HB-C3-CH002",
+        "HB-C3-CH003"
+      ],
+      "rationale": "Source construct is represented in Sea-based support and closure.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R011",
+      "accepted_case": "4_COMPOUND_ANALYTICAL",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A002"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001",
+        "HB-C3-CH003",
+        "HB-C3-CH004"
+      ],
+      "rationale": "Retains the port condition as A. The derived distribution/capability chain addresses the required alternative without falsely treating the source-stated sea-basing option as new inference.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R012",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A011"
+      ],
+      "chain_ids": [
+        "HB-C3-CH003",
+        "HB-C3-CH009",
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in PRC presence and conduct assessment.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R013",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A006"
+      ],
+      "chain_ids": [
+        "HB-C3-CH004"
+      ],
+      "rationale": "Source construct is represented in Potential staging and partner support.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R014",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A011"
+      ],
+      "chain_ids": [
+        "HB-C3-CH003",
+        "HB-C3-CH009",
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in PRC presence and conduct assessment.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R016",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A012"
+      ],
+      "chain_ids": [
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in Relief purpose and legitimacy guidance.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R017",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A010"
+      ],
+      "chain_ids": [
+        "HB-C3-CH008"
+      ],
+      "rationale": "Source construct is represented in Coordination communications and staffing.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R018",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A001",
+        "HB-C3-A008"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001",
+        "HB-C3-CH002",
+        "HB-C3-CH005",
+        "HB-C3-CH006",
+        "HB-C3-CH007",
+        "HB-C3-CH008"
+      ],
+      "rationale": "Retains dispersed populations and humanitarian needs in this node; the cluster/NGO overlay is represented in the humanitarian-system node.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R019",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A002"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001",
+        "HB-C3-CH003",
+        "HB-C3-CH004"
+      ],
+      "rationale": "Source construct is represented in Entry points and distribution limits.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R020",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-B010"
+      ],
+      "chain_ids": [
+        "HB-C3-CH010"
+      ],
+      "rationale": "Retains legitimacy/acceptance and contested access as mission-critical dependencies in a bounded judgement.",
+      "coverage": "partial",
+      "uncovered_content": "Does not require an exhaustive COG critical-capability/requirement/vulnerability taxonomy."
+    },
+    {
+      "item_uid": "C3:R021",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The exact competitor centre-of-gravity taxonomy is an interpretive option, not uniquely required for the humanitarian decision chains. Presence and assessed intent are retained, but no further provider-displacement task is derived from that taxonomy.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C3:R022",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A011"
+      ],
+      "chain_ids": [
+        "HB-C3-CH003",
+        "HB-C3-CH009",
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in PRC presence and conduct assessment.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R024",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A011"
+      ],
+      "chain_ids": [
+        "HB-C3-CH003",
+        "HB-C3-CH009",
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in PRC presence and conduct assessment.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R025",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "These original items request favorable assumptions about staging, host/civilian access or use of partner stocks/staging. The packet does not establish those permissions/capacities, and a full chain requiring the favorable result would not have a supported reference. The corresponding confirmation tasks are retained separately.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C3:R027",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-B003"
+      ],
+      "chain_ids": [
+        "HB-C3-CH003"
+      ],
+      "rationale": "Source construct is represented in Sea-basing and consent.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R028",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The directive/essential relief task or broad operational-problem statement is already supplied. Its concrete delivery, consent and validation dependencies are retained in narrower chains; reproducing the whole mission statement adds no distinct necessary dependency.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C3:R029",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A012"
+      ],
+      "chain_ids": [
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in Relief purpose and legitimacy guidance.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R030",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A011"
+      ],
+      "chain_ids": [
+        "HB-C3-CH003",
+        "HB-C3-CH009",
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in PRC presence and conduct assessment.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R031",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A007"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001",
+        "HB-C3-CH003",
+        "HB-C3-CH005",
+        "HB-C3-CH006",
+        "HB-C3-CH007",
+        "HB-C3-CH008",
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in Civilian lead and humanitarian support rules.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R032",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A003"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001",
+        "HB-C3-CH002",
+        "HB-C3-CH003"
+      ],
+      "rationale": "Source construct is represented in Sea-based support and closure. Construction-stage correction preserves the accepted case metadata, but treats the already supplied answer as A rather than an inferred B/F.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R035",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A007"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001",
+        "HB-C3-CH003",
+        "HB-C3-CH005",
+        "HB-C3-CH006",
+        "HB-C3-CH007",
+        "HB-C3-CH008",
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in Civilian lead and humanitarian support rules.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R036",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F015"
+      ],
+      "chain_ids": [
+        "HB-C3-CH010"
+      ],
+      "rationale": "Retains truthful coordinated response to inaccurate relief narratives under humanitarian neutrality.",
+      "coverage": "partial",
+      "uncovered_content": "Does not make PRC discrediting or military influence success an independent objective."
+    },
+    {
+      "item_uid": "C3:R037",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A010"
+      ],
+      "chain_ids": [
+        "HB-C3-CH008"
+      ],
+      "rationale": "Source construct is represented in Coordination communications and staffing.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R038",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The directive/essential relief task or broad operational-problem statement is already supplied. Its concrete delivery, consent and validation dependencies are retained in narrower chains; reproducing the whole mission statement adds no distinct necessary dependency.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C3:R040",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A011"
+      ],
+      "chain_ids": [
+        "HB-C3-CH003",
+        "HB-C3-CH009",
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in PRC presence and conduct assessment.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R041",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A005"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001",
+        "HB-C3-CH003",
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in Consent status and limits.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R042",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A007"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001",
+        "HB-C3-CH003",
+        "HB-C3-CH005",
+        "HB-C3-CH006",
+        "HB-C3-CH007",
+        "HB-C3-CH008",
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in Civilian lead and humanitarian support rules.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R044",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A012"
+      ],
+      "chain_ids": [
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in Relief purpose and legitimacy guidance.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R045",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A006"
+      ],
+      "chain_ids": [
+        "HB-C3-CH004"
+      ],
+      "rationale": "Source construct is represented in Potential staging and partner support.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R047",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F013"
+      ],
+      "chain_ids": [
+        "HB-C3-CH009"
+      ],
+      "rationale": "Source construct is represented in Deconfliction contact and activity requirement.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R048",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F002"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001"
+      ],
+      "rationale": "Source construct is represented in Port operating-capacity requirement.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R050",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F004"
+      ],
+      "chain_ids": [
+        "HB-C3-CH002"
+      ],
+      "rationale": "Source construct is represented in Phased delivery and closure information.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R051",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F006"
+      ],
+      "chain_ids": [
+        "HB-C3-CH004"
+      ],
+      "rationale": "Source construct is represented in Staging decision and information request.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R052",
+      "accepted_case": "4_COMPOUND_ANALYTICAL",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-B003",
+        "HB-C3-F005"
+      ],
+      "chain_ids": [
+        "HB-C3-CH003"
+      ],
+      "rationale": "Preserves the contested-access risk and a conditional alternatives/diplomatic-clarification consequence.",
+      "coverage": "partial",
+      "uncovered_content": "Sea-based or outer-island relief is not treated as automatically authorized when consent fails."
+    },
+    {
+      "item_uid": "C3:R053",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A011"
+      ],
+      "chain_ids": [
+        "HB-C3-CH003",
+        "HB-C3-CH009",
+        "HB-C3-CH010"
+      ],
+      "rationale": "Retains the source-stated co-location incident risk and deconfliction requirement.",
+      "coverage": "partial",
+      "uncovered_content": "A fixed prescribed deterrent posture is not made the newly inferred consequence."
+    },
+    {
+      "item_uid": "C3:R054",
+      "accepted_case": "4_COMPOUND_ANALYTICAL",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-B002",
+        "HB-C3-F004"
+      ],
+      "chain_ids": [
+        "HB-C3-CH002"
+      ],
+      "rationale": "Source construct is represented in Adequacy of waiting for full closure; Phased delivery and closure information.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R055",
+      "accepted_case": "4_COMPOUND_ANALYTICAL",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-B010",
+        "HB-C3-F014"
+      ],
+      "chain_ids": [
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in Validity of competitor-based success measures; Relief and credibility evaluation criteria.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R056",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A012"
+      ],
+      "chain_ids": [
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in Relief purpose and legitimacy guidance.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R059",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F005"
+      ],
+      "chain_ids": [
+        "HB-C3-CH003"
+      ],
+      "rationale": "Source construct is represented in Relief commitment decision gate.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R060",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F005"
+      ],
+      "chain_ids": [
+        "HB-C3-CH003"
+      ],
+      "rationale": "Source construct is represented in Relief commitment decision gate.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R061",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F006"
+      ],
+      "chain_ids": [
+        "HB-C3-CH004"
+      ],
+      "rationale": "Source construct is represented in Staging decision and information request.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R064",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A003"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001",
+        "HB-C3-CH002",
+        "HB-C3-CH003"
+      ],
+      "rationale": "Source construct is represented in Sea-based support and closure.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R065",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-B001"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001"
+      ],
+      "rationale": "Source construct is represented in End-to-end relief feasibility.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R067",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A010"
+      ],
+      "chain_ids": [
+        "HB-C3-CH008"
+      ],
+      "rationale": "Source construct is represented in Coordination communications and staffing.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R068",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A001"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001",
+        "HB-C3-CH002",
+        "HB-C3-CH005",
+        "HB-C3-CH006"
+      ],
+      "rationale": "Source construct is represented in Disaster and population needs.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:R074",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F014"
+      ],
+      "chain_ids": [
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in Relief and credibility evaluation criteria.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:A-01",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The packet does not establish that PRC forces will refuse all cooperation. A complete chain requiring categorical noncooperation would rest on an unsupported assumption; the retained contact/deconfliction chain leaves cooperation status open.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C3:A-02",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F007"
+      ],
+      "chain_ids": [
+        "HB-C3-CH005"
+      ],
+      "rationale": "Source construct is represented in Relief-provider capability register.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:A-03",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "These original items request favorable assumptions about staging, host/civilian access or use of partner stocks/staging. The packet does not establish those permissions/capacities, and a full chain requiring the favorable result would not have a supported reference. The corresponding confirmation tasks are retained separately.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C3:A-05",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F003"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001"
+      ],
+      "rationale": "Source construct is represented in Conditional port-restoration preparation.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:A-06",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F002"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001"
+      ],
+      "rationale": "Source construct is represented in Port operating-capacity requirement.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:A-07",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F009"
+      ],
+      "chain_ids": [
+        "HB-C3-CH006"
+      ],
+      "rationale": "Source construct is represented in Destination needs and acceptance request.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:A-08",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A007"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001",
+        "HB-C3-CH003",
+        "HB-C3-CH005",
+        "HB-C3-CH006",
+        "HB-C3-CH007",
+        "HB-C3-CH008",
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in Civilian lead and humanitarian support rules.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:A-09",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F007"
+      ],
+      "chain_ids": [
+        "HB-C3-CH005"
+      ],
+      "rationale": "Source construct is represented in Relief-provider capability register.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:A-10",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F001"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001"
+      ],
+      "rationale": "Source construct is represented in Delivery-interface requirements.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:A-11",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-B010"
+      ],
+      "chain_ids": [
+        "HB-C3-CH010"
+      ],
+      "rationale": "Retains legitimacy/acceptance and contested access as mission-critical dependencies in a bounded judgement.",
+      "coverage": "partial",
+      "uncovered_content": "Does not require an exhaustive COG critical-capability/requirement/vulnerability taxonomy."
+    },
+    {
+      "item_uid": "C3:A-12",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "These original items request favorable assumptions about staging, host/civilian access or use of partner stocks/staging. The packet does not establish those permissions/capacities, and a full chain requiring the favorable result would not have a supported reference. The corresponding confirmation tasks are retained separately.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C3:C-02",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A012"
+      ],
+      "chain_ids": [
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in Relief purpose and legitimacy guidance.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:C-04",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "This item bundles all major information gaps across consent, competitor response, ports and population. Separate narrower questions preserve the actual decision links; no additional omnibus question is needed in a minimal complete chain.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C3:C-05",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The directive/essential relief task or broad operational-problem statement is already supplied. Its concrete delivery, consent and validation dependencies are retained in narrower chains; reproducing the whole mission statement adds no distinct necessary dependency.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C3:C-06",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A007"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001",
+        "HB-C3-CH003",
+        "HB-C3-CH005",
+        "HB-C3-CH006",
+        "HB-C3-CH007",
+        "HB-C3-CH008",
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in Civilian lead and humanitarian support rules.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:C-07",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A004"
+      ],
+      "chain_ids": [
+        "HB-C3-CH002",
+        "HB-C3-CH004"
+      ],
+      "rationale": "Source construct is represented in Need horizon and force horizon.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:C-08",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-B006"
+      ],
+      "chain_ids": [
+        "HB-C3-CH006"
+      ],
+      "rationale": "Source construct is represented in Value of partner and community interfaces.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:C-09",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F011"
+      ],
+      "chain_ids": [
+        "HB-C3-CH008"
+      ],
+      "rationale": "Retains the necessary civil-military/multinational coordination functions.",
+      "coverage": "partial",
+      "uncovered_content": "A newly established centre with a particular title is not mandatory if existing arrangements perform the functions."
+    },
+    {
+      "item_uid": "C3:C-10",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A012"
+      ],
+      "chain_ids": [
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in Relief purpose and legitimacy guidance.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:C-13",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F013"
+      ],
+      "chain_ids": [
+        "HB-C3-CH009"
+      ],
+      "rationale": "Source construct is represented in Deconfliction contact and activity requirement.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:C-14",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A012"
+      ],
+      "chain_ids": [
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in Relief purpose and legitimacy guidance.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:C-15",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A011"
+      ],
+      "chain_ids": [
+        "HB-C3-CH003",
+        "HB-C3-CH009",
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in PRC presence and conduct assessment.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:D-01",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F009"
+      ],
+      "chain_ids": [
+        "HB-C3-CH006"
+      ],
+      "rationale": "Source construct is represented in Destination needs and acceptance request.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:D-03",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F012"
+      ],
+      "chain_ids": [
+        "HB-C3-CH008"
+      ],
+      "rationale": "Retains confirmation of US/FRANZ information and communication support needed for the actual liaison function.",
+      "coverage": "partial",
+      "uncovered_content": "Does not require a complete inventory of every theater information-operations capability."
+    },
+    {
+      "item_uid": "C3:D-04",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F010"
+      ],
+      "chain_ids": [
+        "HB-C3-CH007"
+      ],
+      "rationale": "Source construct is represented in Medical-capability confirmation.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:D-05",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "No source identifies functioning broadcast stations or whether broadcasting is the appropriate channel for the required service information. The retained communication task verifies actual interfaces without imposing a TV/radio inventory as a necessary dependency.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C3:D-07",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F011"
+      ],
+      "chain_ids": [
+        "HB-C3-CH008"
+      ],
+      "rationale": "Retains the necessary civil-military/multinational coordination functions.",
+      "coverage": "partial",
+      "uncovered_content": "A newly established centre with a particular title is not mandatory if existing arrangements perform the functions."
+    },
+    {
+      "item_uid": "C3:D-08",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "These original items request favorable assumptions about staging, host/civilian access or use of partner stocks/staging. The packet does not establish those permissions/capacities, and a full chain requiring the favorable result would not have a supported reference. The corresponding confirmation tasks are retained separately.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C3:D-09",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "These original items request favorable assumptions about staging, host/civilian access or use of partner stocks/staging. The packet does not establish those permissions/capacities, and a full chain requiring the favorable result would not have a supported reference. The corresponding confirmation tasks are retained separately.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C3:D-11",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "EXCLUDED_NO_FULL_CHAIN",
+      "question_ids": [],
+      "chain_ids": [],
+      "rationale": "The packet identifies the Chief-of-Mission role but supplies no embassy/consulate personnel-status problem or threatened diplomatic facility. No full chain for that separate FFIR can be grounded without adding a new premise.",
+      "coverage": "none",
+      "uncovered_content": "Entire original construct."
+    },
+    {
+      "item_uid": "C3:D-13",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A007"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001",
+        "HB-C3-CH003",
+        "HB-C3-CH005",
+        "HB-C3-CH006",
+        "HB-C3-CH007",
+        "HB-C3-CH008",
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in Civilian lead and humanitarian support rules.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:D-15",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F013"
+      ],
+      "chain_ids": [
+        "HB-C3-CH009"
+      ],
+      "rationale": "Source construct is represented in Deconfliction contact and activity requirement.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:D-16",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F015"
+      ],
+      "chain_ids": [
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in Coordinated factual relief communication.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:D-17",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F012"
+      ],
+      "chain_ids": [
+        "HB-C3-CH008"
+      ],
+      "rationale": "Retains confirmation of US/FRANZ information and communication support needed for the actual liaison function.",
+      "coverage": "partial",
+      "uncovered_content": "Does not require a complete inventory of every theater information-operations capability."
+    },
+    {
+      "item_uid": "C3:D-18",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F010"
+      ],
+      "chain_ids": [
+        "HB-C3-CH007"
+      ],
+      "rationale": "Source construct is represented in Medical-capability confirmation.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:D-19",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F011"
+      ],
+      "chain_ids": [
+        "HB-C3-CH008"
+      ],
+      "rationale": "Source construct is represented in Functional relief-coordination setup.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:S-01",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A012"
+      ],
+      "chain_ids": [
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in Relief purpose and legitimacy guidance.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:S-02",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A012"
+      ],
+      "chain_ids": [
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in Relief purpose and legitimacy guidance.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:S-03",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A005"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001",
+        "HB-C3-CH003",
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in Consent status and limits.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:S-06",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A012"
+      ],
+      "chain_ids": [
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in Relief purpose and legitimacy guidance.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:S-10",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F012"
+      ],
+      "chain_ids": [
+        "HB-C3-CH008"
+      ],
+      "rationale": "Preserves the need to resolve local/Chinese communication gaps for coordination, using verified working-language requirements.",
+      "coverage": "partial",
+      "uncovered_content": "Does not impose a single Vanuatu language or assume an interpreter is always needed if qualified bilingual liaison exists."
+    },
+    {
+      "item_uid": "C3:S-11",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F001"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001"
+      ],
+      "rationale": "Source construct is represented in Delivery-interface requirements.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:S-14",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F006"
+      ],
+      "chain_ids": [
+        "HB-C3-CH004"
+      ],
+      "rationale": "Source construct is represented in Staging decision and information request.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:S-15",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F004"
+      ],
+      "chain_ids": [
+        "HB-C3-CH002"
+      ],
+      "rationale": "Source construct is represented in Phased delivery and closure information.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:S-16",
+      "accepted_case": "3_DERIVED_REQUIREMENT",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-F014"
+      ],
+      "chain_ids": [
+        "HB-C3-CH010"
+      ],
+      "rationale": "Source construct is represented in Relief and credibility evaluation criteria.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:CD-01",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C3-A011",
+        "HB-C3-F013",
+        "HB-C3-F005"
+      ],
+      "chain_ids": [
+        "HB-C3-CH003",
+        "HB-C3-CH009",
+        "HB-C3-CH010"
+      ],
+      "rationale": "The negative assertion is an observable failure for PRC presence and conduct assessment; Deconfliction contact and activity requirement; Relief commitment decision gate.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:CD-02",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C3-B003",
+        "HB-C3-F005",
+        "HB-C3-F003",
+        "HB-C3-F001"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001",
+        "HB-C3-CH003"
+      ],
+      "rationale": "The negative assertion is an observable failure for Sea-basing and consent; Relief commitment decision gate; Conditional port-restoration preparation; Delivery-interface requirements.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:C3-GAP-01",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C3-A007",
+        "HB-C3-F011",
+        "HB-C3-F008",
+        "HB-C3-A012",
+        "HB-C3-F015"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001",
+        "HB-C3-CH003",
+        "HB-C3-CH005",
+        "HB-C3-CH006",
+        "HB-C3-CH007",
+        "HB-C3-CH008",
+        "HB-C3-CH010"
+      ],
+      "rationale": "The negative assertion is an observable failure for Civilian lead and humanitarian support rules; Functional relief-coordination setup; Time-bounded support and transition record; Relief purpose and legitimacy guidance; Coordinated factual relief communication.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:C3-GAP-03",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A002"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001",
+        "HB-C3-CH003",
+        "HB-C3-CH004"
+      ],
+      "rationale": "Source construct is represented in Entry points and distribution limits.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:C3-GAP-05",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C3-A005",
+        "HB-C3-B003",
+        "HB-C3-F005"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001",
+        "HB-C3-CH003",
+        "HB-C3-CH010"
+      ],
+      "rationale": "The negative assertion is an observable failure for Consent status and limits; Sea-basing and consent; Relief commitment decision gate.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:C3-GAP-06",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C3-A006",
+        "HB-C3-B004",
+        "HB-C3-F006",
+        "HB-C3-B002"
+      ],
+      "chain_ids": [
+        "HB-C3-CH002",
+        "HB-C3-CH004"
+      ],
+      "rationale": "The negative assertion is an observable failure for Potential staging and partner support; Availability of a nearby staging option; Staging decision and information request; Adequacy of waiting for full closure.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:C3-GAP-07",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C3-F005",
+        "HB-C3-F003",
+        "HB-C3-F008"
+      ],
+      "chain_ids": [
+        "HB-C3-CH001",
+        "HB-C3-CH003",
+        "HB-C3-CH005"
+      ],
+      "rationale": "The negative assertion is an observable failure for Relief commitment decision gate; Conditional port-restoration preparation; Time-bounded support and transition record.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:C3-GAP-08",
+      "accepted_case": "2_ASSESSMENT",
+      "accepted_role": "ERROR_CHECK_ONLY",
+      "construction_status": "ERROR_CHECK_LINKED",
+      "question_ids": [
+        "HB-C3-B010",
+        "HB-C3-F014",
+        "HB-C3-F015",
+        "HB-C3-F007"
+      ],
+      "chain_ids": [
+        "HB-C3-CH005",
+        "HB-C3-CH010"
+      ],
+      "rationale": "The negative assertion is an observable failure for Validity of competitor-based success measures; Relief and credibility evaluation criteria; Coordinated factual relief communication; Relief-provider capability register.",
+      "coverage": "full",
+      "uncovered_content": ""
+    },
+    {
+      "item_uid": "C3:C3-GAP-10",
+      "accepted_case": "1_EXPLICIT_INFORMATION",
+      "accepted_role": "TASK_CANDIDATE",
+      "construction_status": "RETAINED_IN_CHAIN",
+      "question_ids": [
+        "HB-C3-A010"
+      ],
+      "chain_ids": [
+        "HB-C3-CH008"
+      ],
+      "rationale": "Source construct is represented in Coordination communications and staffing.",
+      "coverage": "full",
+      "uncovered_content": ""
+    }
+  ],
+  "error_links": [
+    {
+      "error_item_uid": "C3:CD-01",
+      "question_id": "HB-C3-A011",
+      "trigger": "Introduces harassment, interdiction or armed engagement beyond the supplied defense permissions.",
+      "applicability": "These questions concern permitted interactions and relief commitment.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C3:CD-01",
+      "question_id": "HB-C3-F013",
+      "trigger": "Introduces harassment, interdiction or armed engagement beyond the supplied defense permissions.",
+      "applicability": "These questions concern permitted interactions and relief commitment.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C3:CD-01",
+      "question_id": "HB-C3-F005",
+      "trigger": "Introduces harassment, interdiction or armed engagement beyond the supplied defense permissions.",
+      "applicability": "These questions concern permitted interactions and relief commitment.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C3:CD-02",
+      "question_id": "HB-C3-B003",
+      "trigger": "Proceeds ashore or at a port without confirmed consent/tasking for the proposed activity.",
+      "applicability": "Sea-based, port and delivery tasks retain location-specific permission requirements.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C3:CD-02",
+      "question_id": "HB-C3-F005",
+      "trigger": "Proceeds ashore or at a port without confirmed consent/tasking for the proposed activity.",
+      "applicability": "Sea-based, port and delivery tasks retain location-specific permission requirements.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C3:CD-02",
+      "question_id": "HB-C3-F003",
+      "trigger": "Proceeds ashore or at a port without confirmed consent/tasking for the proposed activity.",
+      "applicability": "Sea-based, port and delivery tasks retain location-specific permission requirements.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C3:CD-02",
+      "question_id": "HB-C3-F001",
+      "trigger": "Proceeds ashore or at a port without confirmed consent/tasking for the proposed activity.",
+      "applicability": "Sea-based, port and delivery tasks retain location-specific permission requirements.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C3:C3-GAP-01",
+      "question_id": "HB-C3-A007",
+      "trigger": "Puts USINDOPACOM/JTF in charge of the disaster response instead of supporting the civilian lead.",
+      "applicability": "These nodes directly test civilian/military roles.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C3:C3-GAP-01",
+      "question_id": "HB-C3-F011",
+      "trigger": "Puts USINDOPACOM/JTF in charge of the disaster response instead of supporting the civilian lead.",
+      "applicability": "These nodes directly test civilian/military roles.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C3:C3-GAP-01",
+      "question_id": "HB-C3-F008",
+      "trigger": "Puts USINDOPACOM/JTF in charge of the disaster response instead of supporting the civilian lead.",
+      "applicability": "These nodes directly test civilian/military roles.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C3:C3-GAP-01",
+      "question_id": "HB-C3-A012",
+      "trigger": "Puts USINDOPACOM/JTF in charge of the disaster response instead of supporting the civilian lead.",
+      "applicability": "These nodes directly test civilian/military roles.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C3:C3-GAP-01",
+      "question_id": "HB-C3-F015",
+      "trigger": "Puts USINDOPACOM/JTF in charge of the disaster response instead of supporting the civilian lead.",
+      "applicability": "These nodes directly test civilian/military roles.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C3:C3-GAP-05",
+      "question_id": "HB-C3-A005",
+      "trigger": "States deliberate host obstruction as certain while omitting the alternative of administrative confusion.",
+      "applicability": "These nodes rely on the qualified consent picture.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C3:C3-GAP-05",
+      "question_id": "HB-C3-B003",
+      "trigger": "States deliberate host obstruction as certain while omitting the alternative of administrative confusion.",
+      "applicability": "These nodes rely on the qualified consent picture.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C3:C3-GAP-05",
+      "question_id": "HB-C3-F005",
+      "trigger": "States deliberate host obstruction as certain while omitting the alternative of administrative confusion.",
+      "applicability": "These nodes rely on the qualified consent picture.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C3:C3-GAP-06",
+      "question_id": "HB-C3-A006",
+      "trigger": "Treats New Caledonia/Australia staging or overflight as pre-approved.",
+      "applicability": "Staging and timing require actual permissions.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C3:C3-GAP-06",
+      "question_id": "HB-C3-B004",
+      "trigger": "Treats New Caledonia/Australia staging or overflight as pre-approved.",
+      "applicability": "Staging and timing require actual permissions.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C3:C3-GAP-06",
+      "question_id": "HB-C3-F006",
+      "trigger": "Treats New Caledonia/Australia staging or overflight as pre-approved.",
+      "applicability": "Staging and timing require actual permissions.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C3:C3-GAP-06",
+      "question_id": "HB-C3-B002",
+      "trigger": "Treats New Caledonia/Australia staging or overflight as pre-approved.",
+      "applicability": "Staging and timing require actual permissions.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C3:C3-GAP-07",
+      "question_id": "HB-C3-F005",
+      "trigger": "Uses immediate-response authority as a general workaround for USAID tasking or host consent.",
+      "applicability": "These concrete tasks require separate validated authority.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C3:C3-GAP-07",
+      "question_id": "HB-C3-F003",
+      "trigger": "Uses immediate-response authority as a general workaround for USAID tasking or host consent.",
+      "applicability": "These concrete tasks require separate validated authority.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C3:C3-GAP-07",
+      "question_id": "HB-C3-F008",
+      "trigger": "Uses immediate-response authority as a general workaround for USAID tasking or host consent.",
+      "applicability": "These concrete tasks require separate validated authority.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C3:C3-GAP-08",
+      "question_id": "HB-C3-B010",
+      "trigger": "Defines competitor displacement/discrediting as an independent relief objective or evaluation outcome.",
+      "applicability": "The relief-gap, metrics and communication nodes preserve humanitarian purpose.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C3:C3-GAP-08",
+      "question_id": "HB-C3-F014",
+      "trigger": "Defines competitor displacement/discrediting as an independent relief objective or evaluation outcome.",
+      "applicability": "The relief-gap, metrics and communication nodes preserve humanitarian purpose.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C3:C3-GAP-08",
+      "question_id": "HB-C3-F015",
+      "trigger": "Defines competitor displacement/discrediting as an independent relief objective or evaluation outcome.",
+      "applicability": "The relief-gap, metrics and communication nodes preserve humanitarian purpose.",
+      "original_polarity": "negative"
+    },
+    {
+      "error_item_uid": "C3:C3-GAP-08",
+      "question_id": "HB-C3-F007",
+      "trigger": "Defines competitor displacement/discrediting as an independent relief objective or evaluation outcome.",
+      "applicability": "The relief-gap, metrics and communication nodes preserve humanitarian purpose.",
+      "original_polarity": "negative"
+    }
+  ],
+  "notes": [
+    "All 107 accepted items were examined against the complete scenario packet. The resulting chains emphasize delivered relief, consent, feasible capacity, civilian validation and concrete coordination.",
+    "The sea-basing task is already explicitly in the sources, so R032 is retained as an A premise with its original accepted case preserved and a construction-stage correction recorded.",
+    "Several original organizational labels and medical-platform names are treated as acceptable exemplars rather than mandatory unique solutions. Functional equivalence is explicitly scored.",
+    "The original language requirement is operationalized as verifying actual working-language needs; no single invented Vanuatu language or fixed linguist quantity is assumed.",
+    "All new answers, criteria and links remain constructed proposals pending expert validation. No actual force availability, deployment, effect or experiment is claimed.",
+    "Final construction review separated independent factual/action conditions into atomic scoring entries. Additional authority, consent and recovery prerequisites enter the particular F tasks directly instead of being hidden behind a generic B answer. Companion questions are traced through source locators and chain ancestry rather than fabricated direct original-item mappings."
+  ]
+}

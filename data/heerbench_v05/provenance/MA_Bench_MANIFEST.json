@@ -1,0 +1,545 @@
+{
+ "created": "2026-09-25",
+ "files": {
+  "README.md": {
+   "sha256": "b020373d186dfce03dc8177ea8de6bbc044c481a150266e2ae00e1e6c394469a",
+   "bytes": 11379
+  },
+  "data/cases.jsonl": {
+   "sha256": "3d8bc46c20869a2b6f73c02a0bd2df079e602c49b957b4b6516258e2b1a3fd1f",
+   "bytes": 2306
+  },
+  "data/documents.jsonl": {
+   "sha256": "4a452c229a32db76d06a95162e02e65982926e22ef6acef45461e9d917acf800",
+   "bytes": 1407246
+  },
+  "data/rubric_items.jsonl": {
+   "sha256": "6a88bf34a46131046ded838a9e427d6aa4f14ca6fe1370c80a954086ecba71d6",
+   "bytes": 1163012
+  },
+  "packets/C10_ONYX_RAIN/01_Strategic_Context.md": {
+   "sha256": "41988e6211e9066836f79cd4821d19bc77d4b2f77447f320e56c86d7d48c5b02",
+   "bytes": 7497
+  },
+  "packets/C10_ONYX_RAIN/02_Regional_Intel_Summary.md": {
+   "sha256": "9b17a514c1e65b58698804fb1d76aeaa249267b6f59df0ef448ab08d3f46b0ec",
+   "bytes": 14525
+  },
+  "packets/C10_ONYX_RAIN/03_Threat_Network_Laydown.md": {
+   "sha256": "d469b9fe623eba849a180c2a67a6082808aafff15bfb4c0f537b84c7e3c4751c",
+   "bytes": 8646
+  },
+  "packets/C10_ONYX_RAIN/04_Friendly_Partner_OOB.md": {
+   "sha256": "345c46c2529a549b7880dc299eadc160348032a6d0443854bb5afb86ee906d68",
+   "bytes": 8821
+  },
+  "packets/C10_ONYX_RAIN/05_Country_Fact_Sheet.md": {
+   "sha256": "1115453e6a7ff5dd7194b990d8f838989d35c750f6f61eb5ca378f25b6491ff2",
+   "bytes": 7960
+  },
+  "packets/C10_ONYX_RAIN/06_Critical_Geography.md": {
+   "sha256": "5608e9f715a4b3397fbceeb6df1511c8bd0a0fc805d232519e5194ee9a04d4a2",
+   "bytes": 8118
+  },
+  "packets/C10_ONYX_RAIN/07_SecDef_CJCS_EXORD.md": {
+   "sha256": "e1d05d806f1695a46f8a32eb4c2a4ab0bb8f8b3eb2f1591070bde2f7c8984ec4",
+   "bytes": 14221
+  },
+  "packets/C10_ONYX_RAIN/10_JIPOE_Brief.md": {
+   "sha256": "f7b33ee80583ad6aba12a765c703dfb2d2cd41299f63232daa309f5939d6a771",
+   "bytes": 8913
+  },
+  "packets/C10_ONYX_RAIN/11_Annexes.md": {
+   "sha256": "72087ca5c5691742184ef0a3273274921701a0f87a4cb0f57e376f0424005407",
+   "bytes": 9145
+  },
+  "packets/C10_ONYX_RAIN/16_OSINT_Bundle.md": {
+   "sha256": "30e61275f994bd5836e56ae410888a86f323079bf78a40d101adc1719f1852bd",
+   "bytes": 5722
+  },
+  "packets/C1_SILENT_FATHOM/01_Strategic_Context.md": {
+   "sha256": "ea1bf918b5dd77a202120d2fc439c94853bee1b9c9e17eba5df3814a7fb81126",
+   "bytes": 11855
+  },
+  "packets/C1_SILENT_FATHOM/02_Regional_Intel_Summary.md": {
+   "sha256": "e4bc6017895c9a5d99d7fc992cdde87715821af902bdf6f2cfeb1e54eda9c415",
+   "bytes": 12894
+  },
+  "packets/C1_SILENT_FATHOM/03_Adversary_OOB.md": {
+   "sha256": "ce003191bc717c93a39c93bb855d564fd4b27558a6e2a16fdb54cccc10614aad",
+   "bytes": 12155
+  },
+  "packets/C1_SILENT_FATHOM/04_Coalition_OOB.md": {
+   "sha256": "6f2dcf432f1745aa278186429c59aadcf9b84191290190e1e134b8b05b42aa8c",
+   "bytes": 9798
+  },
+  "packets/C1_SILENT_FATHOM/05_Country_Fact_Sheet.md": {
+   "sha256": "409ecf9fb66548b0d9a92af06bf4f1b4b721c016da4dd52fa275f7ae2abf025a",
+   "bytes": 11390
+  },
+  "packets/C1_SILENT_FATHOM/06_Critical_Geography.md": {
+   "sha256": "ac81200a482df4d8eb3950a3378e4a73daa46ff1e926a1eb5c8266cfa1eb9ec4",
+   "bytes": 9247
+  },
+  "packets/C1_SILENT_FATHOM/07_CJCS_EXORD.md": {
+   "sha256": "279aa74d632845173fcb8f9f867074c12418798749f1193f8ca6475acce6f55a",
+   "bytes": 15796
+  },
+  "packets/C1_SILENT_FATHOM/10_JIPOE_Brief.md": {
+   "sha256": "3b6f85d8aaee1922e84ed5eb6e90043ac12bb4173396128fa3b8f53b1ac7a77b",
+   "bytes": 11149
+  },
+  "packets/C1_SILENT_FATHOM/11_Annexes.md": {
+   "sha256": "7b36a80c74321e36c452d816515b09f623c41d511bf5442392aa75efb890611a",
+   "bytes": 10651
+  },
+  "packets/C1_SILENT_FATHOM/12_CIPG.md": {
+   "sha256": "aa04447e882f8a66a3620244cd67bb97b667ae0a5b9806b43615e1f2ee90759b",
+   "bytes": 12270
+  },
+  "packets/C1_SILENT_FATHOM/14_Running_Estimates.md": {
+   "sha256": "b2824031aa44511dba75744e919d80720b6379dc7f73e31baadb47337a4818b6",
+   "bytes": 8139
+  },
+  "packets/C1_SILENT_FATHOM/16_OSINT_Bundle.md": {
+   "sha256": "45b823edc8772bf481fa41dae513e9339afb751aebd7f32139b5153ea610256d",
+   "bytes": 8779
+  },
+  "packets/C2_JAGGED_ANVIL/01_Strategic_Context.md": {
+   "sha256": "512b0a67f46b81cd98c4f3ace4af35f657a72101d243481cf5f5cc53ace2c7a2",
+   "bytes": 6351
+  },
+  "packets/C2_JAGGED_ANVIL/02_Regional_Intel_Summary.md": {
+   "sha256": "b0ffe6917b1bf57e4e4aaf800811779e277ec26ba9d5d8e31326f27687fcf55e",
+   "bytes": 6962
+  },
+  "packets/C2_JAGGED_ANVIL/03_Adversary_OOB.md": {
+   "sha256": "613010b1eb1621e16e5470e2c4f2c57a88590753a354481c97f454dfd8681ea6",
+   "bytes": 5765
+  },
+  "packets/C2_JAGGED_ANVIL/04_Coalition_OOB.md": {
+   "sha256": "c65826db115439ad30bfa481c11c55b95bf50da7b8f76572e07b08cf6d159468",
+   "bytes": 4849
+  },
+  "packets/C2_JAGGED_ANVIL/05_Country_Fact_Sheet.md": {
+   "sha256": "b6a6bf0ce2b42782e75ab43f7a61d950b1a33cc8b3a8bca4114bc16c9a33b009",
+   "bytes": 5032
+  },
+  "packets/C2_JAGGED_ANVIL/06_Critical_Geography.md": {
+   "sha256": "ef475a81acd882d886f9402fb14133a0657125bdf3c0eb545a74072a20c0adbc",
+   "bytes": 5627
+  },
+  "packets/C2_JAGGED_ANVIL/07_CJCS_EXORD_md_docx.md": {
+   "sha256": "866ee9495f1c8b0adcdca207667266c532b029703e308287aee5ef5f9e2dcb20",
+   "bytes": 6285
+  },
+  "packets/C2_JAGGED_ANVIL/10_JIPOE_Brief_md_docx.md": {
+   "sha256": "dd32cfd35d0251c4a58628726f3ae346099fd3cc4a93f8663727b29dab6e5ecc",
+   "bytes": 12081
+  },
+  "packets/C2_JAGGED_ANVIL/11_Annexes.md": {
+   "sha256": "4e6a904e47497441bbc3ed63fb3f7254f439f48be595bb2cafc57963e65cc252",
+   "bytes": 5206
+  },
+  "packets/C2_JAGGED_ANVIL/12_CIPG.md": {
+   "sha256": "db86cee60a9b21c983ccd61ea29e5ca1ecadcb661e955e90a0154757a8e38311",
+   "bytes": 6324
+  },
+  "packets/C2_JAGGED_ANVIL/14_Running_Estimates.md": {
+   "sha256": "2958646188952f811ce9470a07cce4ad9a82477c67ed8a536a7118f254495f84",
+   "bytes": 5134
+  },
+  "packets/C3_CORAL_TEMPEST/01_Strategic_Context.md": {
+   "sha256": "4d7cdf86edbb7e72782cf5032dabeb10d45d6e04f483174b95a149bbbd221c43",
+   "bytes": 2902
+  },
+  "packets/C3_CORAL_TEMPEST/02_Regional_Intel_Summary.md": {
+   "sha256": "f31da2ff2ccb116a68456e0f0def02492d42d72c3c07f18172fdfaeb02f43eb4",
+   "bytes": 2925
+  },
+  "packets/C3_CORAL_TEMPEST/03_Adversary_OOB.md": {
+   "sha256": "d855d92715f2304d23e54bffa4400a37a08cff9f842f659469032c087d82d348",
+   "bytes": 2756
+  },
+  "packets/C3_CORAL_TEMPEST/04_Coalition_OOB.md": {
+   "sha256": "c026d2c0e7d5356a372427d9fc066e9df64f05e17b3718e95f49dc21746449dd",
+   "bytes": 2882
+  },
+  "packets/C3_CORAL_TEMPEST/05_Country_Fact_Sheet.md": {
+   "sha256": "e6c1ea46a5b08e268b35098f8f950b3dca50ff53855ebe936cdd9913e90c122b",
+   "bytes": 2778
+  },
+  "packets/C3_CORAL_TEMPEST/06_Critical_Geography.md": {
+   "sha256": "5b40c60eac68c0af4f44e4c508a8453f9927356694ba28f736b9cb7762020a97",
+   "bytes": 2773
+  },
+  "packets/C3_CORAL_TEMPEST/07_CJCS_EXORD.md": {
+   "sha256": "02264de84af0ffab406d99cac854fb05a67ff6d9cc3e85a576181d1d23d4775b",
+   "bytes": 5252
+  },
+  "packets/C3_CORAL_TEMPEST/10_JIPOE_Brief.md": {
+   "sha256": "f0e044f8178191f0e1f5ff1c39a276919f7bcce0b073a1e174bf9049d6acba97",
+   "bytes": 3367
+  },
+  "packets/C3_CORAL_TEMPEST/11_Annexes.md": {
+   "sha256": "b0e63bedebfc654e85245ed398aec720d8fca94e47f6fd9376d70abf333c53c9",
+   "bytes": 2911
+  },
+  "packets/C3_CORAL_TEMPEST/12_CIPG.md": {
+   "sha256": "16321662e703c32877892b6734ff953c0cb522dcefd78a1e3e9d56b2c60c24eb",
+   "bytes": 3589
+  },
+  "packets/C3_CORAL_TEMPEST/14_Running_Estimates.md": {
+   "sha256": "a315daab65054c4117767e7691f8d51adbb288f776554f29b0eb0a58dc9f2af3",
+   "bytes": 2820
+  },
+  "packets/C4_SEA_TIGER/01_Strategic_Context.md": {
+   "sha256": "258ad975bc67c6412a903a110e6ab628c815491e01569e33b9367f3436fac8ce",
+   "bytes": 5241
+  },
+  "packets/C4_SEA_TIGER/02_Regional_Intelligence_Summary.md": {
+   "sha256": "d95eefb2c32730fbde2517fad7bb44c3e239f5f7f0a29355aabd7569ac368585",
+   "bytes": 32349
+  },
+  "packets/C4_SEA_TIGER/03_Adversary_Order_of_Battle.md": {
+   "sha256": "cbe7a0e3e98c3476d85efbd69b71466dda75f6052246ef02bb2fb8b87105c1a2",
+   "bytes": 5349
+  },
+  "packets/C4_SEA_TIGER/04_Coalition_Order_of_Battle.md": {
+   "sha256": "1c150f599e9d790a5836bc6b39656f911ed1141af049a17ec5d0bce311c10edd",
+   "bytes": 6413
+  },
+  "packets/C4_SEA_TIGER/05_Country_Fact_Sheet_and_Critical_Geography.md": {
+   "sha256": "6a433be4f5df8c6069175ef972aa83ef6205b2160f51934c5ec17a22564def61",
+   "bytes": 5481
+  },
+  "packets/C4_SEA_TIGER/07_CJCS_WARNORD.md": {
+   "sha256": "bab9ad1d9f6829c4951c3369e44dc340754c07c2a64289761428e3a5ed6933ce",
+   "bytes": 9375
+  },
+  "packets/C4_SEA_TIGER/10_JIPOE_Brief.md": {
+   "sha256": "c801c2cc701d5b7f6aaeaa97aa7293b54cd96925c35fcae0908511ab8414aa79",
+   "bytes": 30922
+  },
+  "packets/C4_SEA_TIGER/11_Annexes_and_References.md": {
+   "sha256": "a8641ae0b2174aa7def389b89125c3d1e70d36543a9d9ecf8ba8425f3c562cda",
+   "bytes": 2591
+  },
+  "packets/C4_SEA_TIGER/11a_PL_96_8_TRA_ORIGINAL.md": {
+   "sha256": "314f59c31344ed1c90fc55ebc5a27d60f9381bc488218f0bc4b55b605d57e065",
+   "bytes": 23568
+  },
+  "packets/C4_SEA_TIGER/11a_Taiwan_Relations_Act_PL96_8.md": {
+   "sha256": "314f59c31344ed1c90fc55ebc5a27d60f9381bc488218f0bc4b55b605d57e065",
+   "bytes": 23568
+  },
+  "packets/C4_SEA_TIGER/12_CIPG.md": {
+   "sha256": "58e46e530ad03d8f361257d7136c6b6bbd833ec9a07525e0dd99f4f7fc2dd771",
+   "bytes": 30479
+  },
+  "packets/C4_SEA_TIGER/14_Running_Estimates.md": {
+   "sha256": "4a33c05ea91df8ba966e7a788f5b6c0247dab59df172b5e628da27b358411ef0",
+   "bytes": 5670
+  },
+  "packets/C5_GULF_GUARDIAN/01_Strategic_Context.md": {
+   "sha256": "d7a129d35d882ba114390f1a585378ad875025785d5ce52c68f86b6c7a5feb83",
+   "bytes": 5020
+  },
+  "packets/C5_GULF_GUARDIAN/02_Regional_Intelligence_Summary.md": {
+   "sha256": "df2d7a73e086a4ea79d18093097d652b4563453d67b31659fc4d6bcb8cf62eba",
+   "bytes": 4994
+  },
+  "packets/C5_GULF_GUARDIAN/03_Adversary_Order_of_Battle.md": {
+   "sha256": "7a6ebb0274c68815ce67fc128b9965b0893c1449deee4651a98d188581ea55a5",
+   "bytes": 3262
+  },
+  "packets/C5_GULF_GUARDIAN/04_Coalition_Order_of_Battle.md": {
+   "sha256": "a3e9800d87c0645fee2e1c812f4d0be2122051596aaa481562c7d28ed1e1ba4d",
+   "bytes": 4314
+  },
+  "packets/C5_GULF_GUARDIAN/05_Country_Fact_Sheet.md": {
+   "sha256": "133a7e3d88208c9620ff6454d994c6af192c2d077947b69f17afc00963ed3214",
+   "bytes": 4050
+  },
+  "packets/C5_GULF_GUARDIAN/06_Critical_Geography.md": {
+   "sha256": "506860c7f50ceca528e8f1c5af82e341350802d72163aec8f0ddedbcba94f621",
+   "bytes": 3656
+  },
+  "packets/C5_GULF_GUARDIAN/07_Department_of_War_EXORD.md": {
+   "sha256": "aa588131e37afc4d4e96853651209a5be50d2ab7cf2953eb5191783cdec05e89",
+   "bytes": 7136
+  },
+  "packets/C5_GULF_GUARDIAN/07b_CJCS_WARNORD.md": {
+   "sha256": "2a0b21ca96a257e2faee34f51d801cca678d6a88e53e95849e93d7f995038fc8",
+   "bytes": 10686
+  },
+  "packets/C5_GULF_GUARDIAN/10_JIPOE_Brief.md": {
+   "sha256": "1bdd0be2cf4f01abd6014288ae2fd2a5c2b0f09725f95f7c3621a84b8f26ff77",
+   "bytes": 3847
+  },
+  "packets/C5_GULF_GUARDIAN/11_Annexes_and_References.md": {
+   "sha256": "e9dbef2ea361615ac8e6f9a62bcf30c6bf69ea4257083595bc124da862ca50a4",
+   "bytes": 3885
+  },
+  "packets/C5_GULF_GUARDIAN/12_CIPG.md": {
+   "sha256": "2ba9181fd3e86b4f24078fb813f42ee33cca61327415521accd07e884ac47fa7",
+   "bytes": 23637
+  },
+  "packets/C5_GULF_GUARDIAN/14_Running_Estimates.md": {
+   "sha256": "1fc5849f96822acdfe392e25aedcee09762b821c65a7dcfc530bfc7543c07317",
+   "bytes": 4879
+  },
+  "packets/C6_PACIFIC_HARRIER/01_Strategic_Context.md": {
+   "sha256": "cce5b7af7c2f50f9aa3888437ad9d4e7df11d19d7edb31fca62643226f5fed48",
+   "bytes": 18637
+  },
+  "packets/C6_PACIFIC_HARRIER/02_Regional_Intel_Summary.md": {
+   "sha256": "7e50b7163d674730b189af5c7cf987d7304befd591fde220c6b3dbaf3982c234",
+   "bytes": 28122
+  },
+  "packets/C6_PACIFIC_HARRIER/03_Adversary_OOB.md": {
+   "sha256": "b2cdfb46d2262e5587af8d97ff6ee77f1e538ec59be9c1af8f2317352c012963",
+   "bytes": 18963
+  },
+  "packets/C6_PACIFIC_HARRIER/04_Coalition_OOB.md": {
+   "sha256": "07583d35f5c514408ab7360063cf3e7e5723b2760265c5ebf5c6eabe4dc6f035",
+   "bytes": 15974
+  },
+  "packets/C6_PACIFIC_HARRIER/05_Country_Fact_Sheet.md": {
+   "sha256": "b637991a1d1a5f6a85a4770398e2da132b7b274a8af6e8f0f52fa07155f5a3de",
+   "bytes": 15761
+  },
+  "packets/C6_PACIFIC_HARRIER/06_Critical_Geography.md": {
+   "sha256": "e5bb76ad67f0dd5d7c67b4380bed48271eced605ba3fc3f1b2776ab7e05434af",
+   "bytes": 14457
+  },
+  "packets/C6_PACIFIC_HARRIER/09_JIPOE_Brief.md": {
+   "sha256": "629083ac5630c6d2c9e6bdd25b81aa65d094ee4afe99243a265f9e3fb552d175",
+   "bytes": 22234
+  },
+  "packets/C6_PACIFIC_HARRIER/11_CIPG.md": {
+   "sha256": "cb777c1fd04e87500d4cdc5e93abcd9b5103e617f68654d850465a6068c95286",
+   "bytes": 33019
+  },
+  "packets/C6_PACIFIC_HARRIER/13_Running_Estimates.md": {
+   "sha256": "5d8ecde6cd0f046c5d3c335791ef0f51e8998ad160fbf0e24617fb4d013dfddb",
+   "bytes": 32893
+  },
+  "packets/C6_PACIFIC_HARRIER/15_CJCS_EXORD.md": {
+   "sha256": "93e46bdb7631513f0ddc3ef430e3c3d90f6c41458fbda6dd62660442fe088427",
+   "bytes": 29637
+  },
+  "packets/C7_SOUTHERN_SHIELD/01_Strategic_Context.md": {
+   "sha256": "b435a9be82f75969d5136331492cdc1ba82b8130b76214730fa330d71897778c",
+   "bytes": 14388
+  },
+  "packets/C7_SOUTHERN_SHIELD/02_Regional_Intel_Summary.md": {
+   "sha256": "df3757143fbee8be42523e8d71b4bb1ed2941c2e303f457205b515e533da1875",
+   "bytes": 22195
+  },
+  "packets/C7_SOUTHERN_SHIELD/02map_Situational_Map.md": {
+   "sha256": "b048d12fbc18a02f31d932bb1202ec4ff6168f08580fdbd1fa501ddb4621e866",
+   "bytes": 20883
+  },
+  "packets/C7_SOUTHERN_SHIELD/03_Adversary_OOB.md": {
+   "sha256": "be43e04ce19ed59e8a370791965de1befd47a6f38ea79e44741dda5c2ed08914",
+   "bytes": 26440
+  },
+  "packets/C7_SOUTHERN_SHIELD/04_Forces_Available_for_Planning.md": {
+   "sha256": "5edff844b027447c8214620a4007ea3675490e7b950354cba907d7bfc1c36b4c",
+   "bytes": 2190
+  },
+  "packets/C7_SOUTHERN_SHIELD/05_Country_Fact_Sheet.md": {
+   "sha256": "0978fed59bbefa1a08fefe3c57bcf9f4432b5b6ae87b5260387076891fc500d9",
+   "bytes": 9815
+  },
+  "packets/C7_SOUTHERN_SHIELD/06_Critical_Geography.md": {
+   "sha256": "7946ab9d3b6de20175329471b110886971ed2d0b796c92e8141a27088258d4ff",
+   "bytes": 25750
+  },
+  "packets/C7_SOUTHERN_SHIELD/07_CJCS_WARNORD.md": {
+   "sha256": "567cd1845bb74c63f45537655e90a45e9d3236f5753a9abefd5e469b4978da0a",
+   "bytes": 19746
+  },
+  "packets/C7_SOUTHERN_SHIELD/10_JIPOE.md": {
+   "sha256": "942d7fda7e0149856e108e9de95d2d34f95179aee6939fefb06b2d71fb0f9312",
+   "bytes": 25772
+  },
+  "packets/C7_SOUTHERN_SHIELD/11_Annexes.md": {
+   "sha256": "0f55bc4248dcd18d0ad616995540ea92c0df5e9b3a2e48234e0e701175c92cae",
+   "bytes": 21359
+  },
+  "packets/C7_SOUTHERN_SHIELD/12_CIPG.md": {
+   "sha256": "0d617601835df50264f0b7bf25f2e9d7e561e70ff4a6fae329ad7a581f7cbad9",
+   "bytes": 19313
+  },
+  "packets/C7_SOUTHERN_SHIELD/14_Running_Estimates.md": {
+   "sha256": "6e9471f55f2cd11662074e5d99059fea6df1014dfdbde5c9a10a26f4250920e3",
+   "bytes": 34569
+  },
+  "packets/C8_STEADFAST_MARINER/01_Strategic_Context.md": {
+   "sha256": "e44771165831bb90da588c0522877400afae6fcc840386970a36feaad5838588",
+   "bytes": 11965
+  },
+  "packets/C8_STEADFAST_MARINER/02_Regional_Intel_Summary.md": {
+   "sha256": "68c59293046e1dfa3356e5d11ba0034650dfd2a9ab4328a57b560e400a993a95",
+   "bytes": 19096
+  },
+  "packets/C8_STEADFAST_MARINER/03_Adversary_OOB.md": {
+   "sha256": "6616d2b46888a060c5cfd2959781b0c9daceaa13ac611bbe81dc3f58eb988889",
+   "bytes": 10054
+  },
+  "packets/C8_STEADFAST_MARINER/04_Coalition_OOB.md": {
+   "sha256": "bc242b4967e5a84b76192dd537e5e7cf457124d7bd57eb3b9ff5eb5b807851f1",
+   "bytes": 15594
+  },
+  "packets/C8_STEADFAST_MARINER/05_Country_Fact_Sheet.md": {
+   "sha256": "98d3005bf37e0ddb41403239ffa288302d55bda0afba8788b85db794cedd9525",
+   "bytes": 10597
+  },
+  "packets/C8_STEADFAST_MARINER/06_Critical_Geography.md": {
+   "sha256": "4ead075677a095bdc05aaaf53ee55ffc0e6f09b5e4958083e07f6f85aeb859b7",
+   "bytes": 9307
+  },
+  "packets/C8_STEADFAST_MARINER/07_CJCS_EXORD.md": {
+   "sha256": "c50e08b074cd92df578f11cf0ff8c083ebc9fe1ece0996863c4061967ecc89e7",
+   "bytes": 15801
+  },
+  "packets/C8_STEADFAST_MARINER/10_JIPOE_Brief.md": {
+   "sha256": "d33ddc4c086350561d23b4eeaa7367a8c4494feab750cc63c252f7da6a69b27a",
+   "bytes": 15460
+  },
+  "packets/C8_STEADFAST_MARINER/11_Annexes.md": {
+   "sha256": "f6f62fe7546fcbccbb91de1ba67d75bc2509681898d73f7f6d1b2148b8b3bb62",
+   "bytes": 23075
+  },
+  "packets/C8_STEADFAST_MARINER/12_CIPG_v2.md": {
+   "sha256": "d75f924e893e5d6f8e6cf514d60bd867de41a534dbe712892f2ed875933fcad8",
+   "bytes": 12467
+  },
+  "packets/C8_STEADFAST_MARINER/14_Running_Estimates.md": {
+   "sha256": "8baf7c812bdeffaa686c82a8e890c5bc874ed179e9c6dca0678d63ec157e21e0",
+   "bytes": 14048
+  },
+  "packets/C9_RESOLUTE_HERALD/01_Strategic_Context.md": {
+   "sha256": "d35b81efc342c2913aabd06e1d7bca162ac0e80565ecddfdd058995ceb7ebc03",
+   "bytes": 16906
+  },
+  "packets/C9_RESOLUTE_HERALD/02_Regional_Intel_Summary.md": {
+   "sha256": "509929c9b661c4f24c12f9bf59977b122ce9ec603390de41bd2b510900c4a20b",
+   "bytes": 19139
+  },
+  "packets/C9_RESOLUTE_HERALD/03_Adversary_OOB.md": {
+   "sha256": "908886d4893e65ccf416d670210899a6284ee9f50b083e431dcfb400643a7ac3",
+   "bytes": 11511
+  },
+  "packets/C9_RESOLUTE_HERALD/04_Coalition_OOB.md": {
+   "sha256": "da361991341041b29ad5593124bfb81ec46bd190fc761a332973e2c27f78ffca",
+   "bytes": 10404
+  },
+  "packets/C9_RESOLUTE_HERALD/05_Country_Fact_Sheet.md": {
+   "sha256": "896c29f76723d13ca497f691c856789cbade774d873b15c3cd98c27567ce53ca",
+   "bytes": 14731
+  },
+  "packets/C9_RESOLUTE_HERALD/06_Critical_Geography.md": {
+   "sha256": "72dbdfc6e00bdc0d7e85f5fd876ae43199c4bf473c44aae9181db0d863a8d14f",
+   "bytes": 12158
+  },
+  "packets/C9_RESOLUTE_HERALD/07_CJCS_EXORD.md": {
+   "sha256": "2a9e1c260cf0087125fd1ab40b717b0c9b97643013f8bec66e6fe56620ab000f",
+   "bytes": 9257
+  },
+  "packets/C9_RESOLUTE_HERALD/10_JIPOE_Brief.md": {
+   "sha256": "aef39c23608c5df1481ce7ec31317e9b8533dc63af95b07c896ae9083e0f6107",
+   "bytes": 15951
+  },
+  "packets/C9_RESOLUTE_HERALD/11_Annexes.md": {
+   "sha256": "db9e83d310d6c41157d268feae829dc71e4377143605e585800a5581d25403be",
+   "bytes": 17290
+  },
+  "packets/C9_RESOLUTE_HERALD/12_CIPG.md": {
+   "sha256": "85c5585b42ab4af5adc0e7ebda4c2845c90041fbcb05a747b751628a8540b53a",
+   "bytes": 11048
+  },
+  "packets/C9_RESOLUTE_HERALD/14_Running_Estimates.md": {
+   "sha256": "ba850b5904d40813fc00aacf5892625d693bb4970822101355ff337cccd34b60",
+   "bytes": 13430
+  },
+  "rubrics/C10_ONYX_RAIN.csv": {
+   "sha256": "7913f7cb44aa0e7d3c905b5501d4321857c61c7d17ac1fde7951cc61adc03a9d",
+   "bytes": 76269
+  },
+  "rubrics/C1_SILENT_FATHOM.csv": {
+   "sha256": "69c47fd52448f6fa282e74c6ffab328a333072ada53fddbb81387119e4efbb1c",
+   "bytes": 61535
+  },
+  "rubrics/C2_JAGGED_ANVIL.csv": {
+   "sha256": "8152366145f9e82b8491ca1c173c944a1b980732c934a080c26e6b93befbf924",
+   "bytes": 65385
+  },
+  "rubrics/C3_CORAL_TEMPEST.csv": {
+   "sha256": "502ac65c4444fdd672c7006f488d7caf3291da3333992d197e6cea7a8d8bf269",
+   "bytes": 58346
+  },
+  "rubrics/C4_SEA_TIGER.csv": {
+   "sha256": "82cd29a8452c6a71dc0ec57b2bec5e268831c1644110fc1680404dc8634ea900",
+   "bytes": 74842
+  },
+  "rubrics/C5_GULF_GUARDIAN.csv": {
+   "sha256": "f16a6f8c058c0dd90409a7e48fdb8bf3847f2e6437f29c1cf289b603232cf22b",
+   "bytes": 101233
+  },
+  "rubrics/C6_PACIFIC_HARRIER.csv": {
+   "sha256": "bfaed78e5e232b81fb8afe6468ec15f3669cfd26527294ae86f13489a3eb81ca",
+   "bytes": 84538
+  },
+  "rubrics/C7_SOUTHERN_SHIELD.csv": {
+   "sha256": "41b8aa16dff298162a29666502d42d9977120ee599657b71208ed82175dc7a89",
+   "bytes": 167505
+  },
+  "rubrics/C8_STEADFAST_MARINER.csv": {
+   "sha256": "a6f0b762b80db0ab90ab45cc8f4613af9cfe7b606553ce558c803d50336774e3",
+   "bytes": 96801
+  },
+  "rubrics/C9_RESOLUTE_HERALD.csv": {
+   "sha256": "9306f4386b8b9aa812258f2f4a9b573071aca51f877bdbe0ceecdbbc062d0565",
+   "bytes": 75310
+  },
+  "runs/briefs.jsonl": {
+   "sha256": "a9e28e99849153e3edf854fbf9abe5ce6650530bb5249fa1d8db332eccbd67c8",
+   "bytes": 47916491
+  },
+  "runs/expert_study.jsonl": {
+   "sha256": "708fdffc9dcbdb4567ec8515fc7304b650df42c4dd2253c3093e47e068ba5aec",
+   "bytes": 163050
+  },
+  "runs/expert_study_briefs.jsonl": {
+   "sha256": "26e56a4bf7c0ae15753969195e1dd03e634e24680fb2d649796a18344bd4eadb",
+   "bytes": 198081
+  },
+  "runs/verdicts.jsonl": {
+   "sha256": "660ebfcd34b433f3217948bf62422da699d25dee6e89d5346306c52ce6157e87",
+   "bytes": 53305225
+  },
+  "scoring/judge_input.py": {
+   "sha256": "71e6ef9beaadcbafdc1c122427019770113ef13e7b3efc0665dd26e2209bec66",
+   "bytes": 2663
+  },
+  "scoring/judge_prompt.md": {
+   "sha256": "ecbefe81f6df411c04952a92d70b449361cd301cc8d55e9af4b31ae19dbb064f",
+   "bytes": 3310
+  },
+  "scoring/score.py": {
+   "sha256": "dd7292327bb4d44905a40872d2205f843d279e3acb606843134e2c1b09cd1d19",
+   "bytes": 2085
+  },
+  "scoring/severity_weights.json": {
+   "sha256": "369c0334feb5a13772d086c8905b0826135e4ccf3c2973ce1be2d2c23cc96970",
+   "bytes": 352
+  },
+  "scoring/task_prompt.md": {
+   "sha256": "72aa1a701b07140ffc4efc69bc8c0ef158922ae96b6f24dd9c36a58ea22ab770",
+   "bytes": 2845
+  }
+ }
+}

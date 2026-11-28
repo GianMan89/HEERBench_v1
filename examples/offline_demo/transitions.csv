@@ -1,0 +1,23 @@
+﻿model_id,repetition,dependency_id,case_id,child_id,child_stage,parent_count,parent_set_logic,scoreable,parent_set_correct,child_correct,transition,interpretation
+qwen35_9b,1,HB-DEP-0011,C1,HB-C1-B006,B,1,ALL,False,,,unscorable,association; no semantic propagation attribution inferred
+qwen35_9b,1,HB-DEP-0012,C1,HB-C1-F006,F,1,ALL,False,,,unscorable,association; no semantic propagation attribution inferred
+qwen35_9b,1,HB-DEP-0031,C2,HB-C2-B007,B,2,ALL,False,,,unscorable,association; no semantic propagation attribution inferred
+qwen35_9b,1,HB-DEP-0032,C2,HB-C2-F011,F,1,ALL,False,,,unscorable,association; no semantic propagation attribution inferred
+qwen35_9b,1,HB-DEP-0035,C3,HB-C3-B001,B,3,ALL,False,,,unscorable,association; no semantic propagation attribution inferred
+qwen35_9b,1,HB-DEP-0036,C3,HB-C3-F001,F,1,ALL,False,,,unscorable,association; no semantic propagation attribution inferred
+qwen35_9b,1,HB-DEP-0037,C3,HB-C3-F002,F,1,ALL,False,,,unscorable,association; no semantic propagation attribution inferred
+qwen35_9b,1,HB-DEP-0038,C3,HB-C3-F003,F,3,ALL,False,,,unscorable,association; no semantic propagation attribution inferred
+qwen35_9b,1,HB-DEP-0076,C4,HB-C4-B008,B,2,ALL,False,,,unscorable,association; no semantic propagation attribution inferred
+qwen35_9b,1,HB-DEP-0077,C4,HB-C4-F010,F,1,ALL,False,,,unscorable,association; no semantic propagation attribution inferred
+qwen35_9b,1,HB-DEP-0109,C5,HB-C5-B005,B,2,ALL,False,,,unscorable,association; no semantic propagation attribution inferred
+qwen35_9b,1,HB-DEP-0110,C5,HB-C5-F006,F,2,ALL,False,,,unscorable,association; no semantic propagation attribution inferred
+qwen35_9b,1,HB-DEP-0142,C6,HB-C6-B003,B,1,ALL,False,,,unscorable,association; no semantic propagation attribution inferred
+qwen35_9b,1,HB-DEP-0143,C6,HB-C6-F004,F,1,ALL,False,,,unscorable,association; no semantic propagation attribution inferred
+qwen35_9b,1,HB-DEP-0197,C7,HB-C7-B010,B,1,ALL,False,,,unscorable,association; no semantic propagation attribution inferred
+qwen35_9b,1,HB-DEP-0198,C7,HB-C7-F010,F,1,ALL,False,,,unscorable,association; no semantic propagation attribution inferred
+qwen35_9b,1,HB-DEP-0264,C8,HB-C8-B017,B,2,ALL,False,,,unscorable,association; no semantic propagation attribution inferred
+qwen35_9b,1,HB-DEP-0265,C8,HB-C8-F018,F,1,ALL,False,,,unscorable,association; no semantic propagation attribution inferred
+qwen35_9b,1,HB-DEP-0282,C9,HB-C9-B008,B,1,ALL,False,,,unscorable,association; no semantic propagation attribution inferred
+qwen35_9b,1,HB-DEP-0283,C9,HB-C9-F008,F,2,ALL,False,,,unscorable,association; no semantic propagation attribution inferred
+qwen35_9b,1,HB-DEP-0312,C10,HB-C10-B012,B,3,ALL,False,,,unscorable,association; no semantic propagation attribution inferred
+qwen35_9b,1,HB-DEP-0313,C10,HB-C10-F008,F,1,ALL,False,,,unscorable,association; no semantic propagation attribution inferred

@@ -1,0 +1,4 @@
+﻿model_id,condition,planned,generated,generation_failed,generation_blocked,generation_pending,judge_failed,judge_unscorable,scored,scoring_coverage,criterion_score_observed,criterion_score_lower_bound,fully_correct_observed,fully_correct_lower_bound,any_error_observed,inherited_error_rate_observed,questions_with_inherited_error_rate
+qwen35_9b,E1,44,44,0,0,0,0,44,0,0.0,,0.0,,0.0,,,0
+qwen35_9b,E2,22,22,0,0,0,0,22,0,0.0,,0.0,,0.0,,,0
+qwen35_9b,E3,22,22,0,0,0,0,22,0,0.0,,0.0,,0.0,,,0

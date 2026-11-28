@@ -1,0 +1,22 @@
+schema_version: 2
+mode: demo
+dataset: ../data/heerbench_v05
+model_catalog: provider_catalog.yaml
+seed: 20261127
+chains_per_scenario: 1
+repetitions: 1
+conditions:
+- E1
+- E2
+- E3
+generation:
+  max_output_tokens: 4096
+execution:
+  transport: sync
+judge:
+  primary: gpt61_terra
+  secondary: claude_sonnet55
+  secondary_fraction: 0
+  secondary_sampling_unit: model_repetition
+models:
+- qwen35_9b

@@ -1,0 +1,157 @@
+{
+  "models": [
+    {
+      "model_id": "qwen35_9b",
+      "requests": 168,
+      "transport": "standard",
+      "generation_estimate_usd": "0.649580780",
+      "generation_estimate_per_repetition_usd": {
+        "1": "0.649580780"
+      },
+      "conservative_reservation_usd": "2.072884965",
+      "pricing_complete": true
+    },
+    {
+      "model_id": "gemma4_31b",
+      "requests": 168,
+      "transport": "standard",
+      "generation_estimate_usd": "0.79662680",
+      "generation_estimate_per_repetition_usd": {
+        "1": "0.79662680"
+      },
+      "conservative_reservation_usd": "2.57145642",
+      "pricing_complete": true
+    }
+  ],
+  "expected_output_tokens_per_answer": 1000,
+  "assumptions": [
+    "Estimated input tokens, no cache hits, native batch only where supported.",
+    "Every configured cache breakpoint is assumed to miss and write its prefix at the stated TTL rate.",
+    "References substitute for unknown generated parents in the planning estimate.",
+    "Output includes billed reasoning where the provider reports it.",
+    "Judge costs have a separate offline forecast and are recalculated from observed usage after scoring.",
+    "Pilot measurements supersede these estimates. Tax, hosting, storage and failed-attempt charges may be additional."
+  ],
+  "generation_total_usd": "1.446207580",
+  "judging": {
+    "primary": {
+      "model_id": "gpt61_terra",
+      "model": "gpt-6.1-terra",
+      "calls": 336,
+      "transport": "standard",
+      "total_usd": "3.345922",
+      "known_subtotal_usd": "3.345922",
+      "pricing_complete": true,
+      "components_usd": {
+        "input": "1.329922",
+        "output": "2.016",
+        "cache_read": "0",
+        "cache_write_short": "0",
+        "cache_write_long": "0",
+        "cache_write_unspecified": "0"
+      },
+      "unresolved": [],
+      "estimated_input_tokens": "1329922",
+      "estimated_output_tokens": "403200",
+      "input_tokens_per_call_range": [
+        3144,
+        5426
+      ],
+      "cost_envelope_usd": [
+        "3.072384",
+        "3.839136"
+      ],
+      "basis": "all_planned_prompts",
+      "output_clipped_to_cap_for_question_count": 0
+    },
+    "secondary": {
+      "model_id": "claude_sonnet55",
+      "model": "claude-sonnet-5-5",
+      "calls": 68,
+      "transport": "standard",
+      "total_usd": "1.354301761904761904761904762",
+      "known_subtotal_usd": "1.354301761904761904761904762",
+      "pricing_complete": true,
+      "components_usd": {
+        "input": "0.5383017619047619047619047620",
+        "output": "0.8160000000000000000000000001",
+        "cache_read": "0E-28",
+        "cache_write_short": "0E-28",
+        "cache_write_long": "0E-28",
+        "cache_write_unspecified": "0E-28"
+      },
+      "unresolved": [],
+      "estimated_input_tokens": "269150.8809523809523809523810",
+      "estimated_output_tokens": "81600.00000000000000000000001",
+      "input_tokens_per_call_range": [
+        3144,
+        5426
+      ],
+      "cost_envelope_usd": [
+        "1.243584",
+        "1.553936"
+      ],
+      "basis": "planned_prompt_mix_mean",
+      "output_clipped_to_cap_for_question_count": 0
+    },
+    "optional_calibration": {
+      "model_id": "gpt61_terra",
+      "model": "gpt-6.1-terra",
+      "calls": 60,
+      "transport": "standard",
+      "total_usd": "0.5974860714285714285714285715",
+      "known_subtotal_usd": "0.5974860714285714285714285715",
+      "pricing_complete": true,
+      "components_usd": {
+        "input": "0.2374860714285714285714285715",
+        "output": "0.3600000000000000000000000001",
+        "cache_read": "0E-28",
+        "cache_write_short": "0E-28",
+        "cache_write_long": "0E-28",
+        "cache_write_unspecified": "0E-28"
+      },
+      "unresolved": [],
+      "estimated_input_tokens": "237486.0714285714285714285715",
+      "estimated_output_tokens": "72000.00000000000000000000001",
+      "input_tokens_per_call_range": [
+        3144,
+        5426
+      ],
+      "cost_envelope_usd": [
+        "0.548640",
+        "0.685560"
+      ],
+      "basis": "planned_prompt_mix_mean",
+      "output_clipped_to_cap_for_question_count": 0,
+      "optional": true,
+      "included_in_scoring_total": false,
+      "answers": 60,
+      "judge_repetitions": 1,
+      "enough_planned_answers": true,
+      "group_separation_validated": false
+    },
+    "scoring_total_usd": "4.700223761904761904761904762",
+    "scoring_known_subtotal_usd": "4.700223761904761904761904762",
+    "scoring_pricing_complete": true,
+    "per_generation_repetition": {
+      "1": {
+        "primary_calls": 336,
+        "primary_usd": "3.345922",
+        "secondary_usd_proportional_allocation": "1.354301761904761904761904762",
+        "total_usd": "4.700223761904761904761904762"
+      }
+    },
+    "expected_candidate_tokens": 1000,
+    "expected_judge_output_tokens": 1200,
+    "assumptions": [
+      "Offline UTF-8 bytes/3 estimates with 256 tokens of request overhead; no tokenizer claim.",
+      "Real question, reference, alternatives, all criterion/error checks, validated source excerpts and response schema are included.",
+      "Every planned generation is assumed successful; actual scoring excludes transport failures and mock answers.",
+      "Candidate text is a length surrogate only; requested output tokens include billed reasoning.",
+      "No cache hits are assumed. Explicit writes are included only when the actual request contains a cache breakpoint.",
+      "Secondary and optional calibration costs use the planned prompt mix; min/max envelopes do not bound future answer lengths.",
+      "Optional calibration is 60 answers times 1 primary-judge call(s), additional to scoring; group feasibility is not asserted.",
+      "Pilot measurements replace estimates. Rates, retries, tax, hosting, tools and any storage charges require reconciliation."
+    ]
+  }
+}

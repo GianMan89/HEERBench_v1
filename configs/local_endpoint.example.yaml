@@ -1,0 +1,64 @@
+# Provision and verify these ORIGINAL weights before enabling either entry.
+# No model is downloaded, started or replaced automatically.
+schema_version: 1
+mode: pilot
+dataset: ../data/heerbench_v05
+prompt_file: ../prompts/generator_system.txt
+seed: 20261127
+repetitions: 1
+chains_per_scenario: 1
+conditions: [E1, E2, E3]
+generation:
+  max_output_tokens: 4096
+  temperature: null
+execution:
+  transport: sync
+  max_attempts: 3
+  max_cost_usd: '25'
+models:
+  - id: qwen3_30b_a3b_provisioned
+    enabled: false
+    model: Qwen/Qwen3-30B-A3B
+    kind: openai_compatible
+    base_url_env: QWEN30B_BASE_URL
+    api_key_file: secrets/qwen30b.key
+    accepted_response_models: [Qwen/Qwen3-30B-A3B]
+    architecture: mixture_of_experts
+    total_parameters_billions: 30.5
+    active_parameters_billions: 3.3
+    weight_revision: null
+    precision: null
+    max_context_tokens: null
+    chat_template_revision: null
+    context_extension_configuration: null
+    server_version: null
+    hardware: null
+    provision_note: Supply verified endpoint metadata, full-corpus context capacity and rates, then enable.
+    cache: {mode: 'off'}
+    parameters: {}
+    pricing:
+      standard: {input: null, output: null}
+    source: https://huggingface.co/Qwen/Qwen3-30B-A3B
+  - id: qwen3_235b_a22b_provisioned
+    enabled: false
+    model: Qwen/Qwen3-235B-A22B
+    kind: openai_compatible
+    base_url_env: QWEN235B_BASE_URL
+    api_key_file: secrets/qwen235b.key
+    accepted_response_models: [Qwen/Qwen3-235B-A22B]
+    architecture: mixture_of_experts
+    total_parameters_billions: 235
+    active_parameters_billions: 22
+    weight_revision: null
+    precision: null
+    max_context_tokens: null
+    chat_template_revision: null
+    context_extension_configuration: null
+    server_version: null
+    hardware: null
+    provision_note: Supply verified endpoint metadata, full-corpus context capacity and rates, then enable.
+    cache: {mode: 'off'}
+    parameters: {}
+    pricing:
+      standard: {input: null, output: null}
+    source: https://huggingface.co/Qwen/Qwen3-235B-A22B

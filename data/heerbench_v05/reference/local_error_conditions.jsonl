@@ -1,0 +1,640 @@
+{"local_error_id": "HB-C1-A001-E1", "question_id": "HB-C1-A001", "text": "Claims that darkness or acoustic ambiguity prevents every observation.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-A001-E2", "question_id": "HB-C1-A001", "text": "Invents an exact weather-window duration.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-A002-E1", "question_id": "HB-C1-A002", "text": "Orders the commercial ship as an allocated naval unit.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-A003-E1", "question_id": "HB-C1-A003", "text": "Counts Chesapeake or Cheyenne as immediately available additional escorts.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-B001-E1", "question_id": "HB-C1-B001", "text": "Assumes all apportioned platforms are on hand.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-B001-E2", "question_id": "HB-C1-B001", "text": "Treats a forecast weather opening as an order to the commercial ship.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-F001-E1", "question_id": "HB-C1-F001", "text": "Unilaterally retasks the commercial ship or independently tasked SSN.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-F001-E2", "question_id": "HB-C1-F001", "text": "Invents an approved substitute escort.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-A004-E1", "question_id": "HB-C1-A004", "text": "Calls all four incidents confirmed severings or deliberate sabotage.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-A004-E2", "question_id": "HB-C1-A004", "text": "Calls Arctic Bridge a data cable.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-A005-E1", "question_id": "HB-C1-A005", "text": "Treats initial desired end conditions as fully measurable completion criteria.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-B002-E1", "question_id": "HB-C1-B002", "text": "Ranks solely by commercial value, cable length or user count.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-B002-E2", "question_id": "HB-C1-B002", "text": "Invents capacity or restoration durations.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-F002-E1", "question_id": "HB-C1-F002", "text": "Claims that repairing one cable automatically restores every dependent service.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-A006-E1", "question_id": "HB-C1-A006", "text": "Treats the dual-hatted commander as having activated NATO command through this US order.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-A007-E1", "question_id": "HB-C1-A007", "text": "Infers interdiction authority from identification or proximity alone.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-A007-E2", "question_id": "HB-C1-A007", "text": "Invokes Article 5 or an unrestricted Svalbard military permission.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-B003-E1", "question_id": "HB-C1-B003", "text": "Claims a US or MARCOM tasking overrides national caveats.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-F003-E1", "question_id": "HB-C1-F003", "text": "Treats silence or liaison attendance as granted task authority.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-A008-E1", "question_id": "HB-C1-A008", "text": "Treats high capability confidence as confirmed incident responsibility.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-B004-E1", "question_id": "HB-C1-B004", "text": "Uses the commander’s wording to erase the intelligence caveats.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-F004-E1", "question_id": "HB-C1-F004", "text": "Publishes an attribution solely because analysts completed the matrix.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-A009-E1", "question_id": "HB-C1-A009", "text": "Treats jamming only as a cue to adversary activity.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-B005-E1", "question_id": "HB-C1-B005", "text": "Assumes any navigation backup restores every sensor and timing function.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-F005-E1", "question_id": "HB-C1-F005", "text": "Invents an installed alternate-PNT system or guaranteed performance.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-A010-E1", "question_id": "HB-C1-A010", "text": "Infers a deployed payload solely from host capability.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-B006-E1", "question_id": "HB-C1-B006", "text": "Concludes no payload could exist because the host is elsewhere.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-F006-E1", "question_id": "HB-C1-F006", "text": "Declares the complete subsurface gap closed from host localization alone.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-A011-E1", "question_id": "HB-C1-A011", "text": "Treats the most likely scenario as guaranteed.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-B007-E1", "question_id": "HB-C1-B007", "text": "Automatically authorizes a different armed response.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C1-F007-E1", "question_id": "HB-C1-F007", "text": "Claims a report automatically activates Article 5 or permits offensive action.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-A001-E1", "question_id": "HB-C2-A001", "text": "Invents days of supply or treats 2,500 as a verified exact strength.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-A002-E1", "question_id": "HB-C2-A002", "text": "Treats large origin stockpiles as sufficient delivered support.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-A002-E2", "question_id": "HB-C2-A002", "text": "Declares SABER safe or automatically usable.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-B001-E1", "question_id": "HB-C2-B001", "text": "Calculates an exact package from headcount without consumption or stock data.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-F001-E1", "question_id": "HB-C2-F001", "text": "Treats any requested aid as authorized or deliverable.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-F002-E1", "question_id": "HB-C2-F002", "text": "Equates a logistics role with unlimited or verified capacity.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-A003-E1", "question_id": "HB-C2-A003", "text": "Counts all six detachments as initially available.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-B002-E1", "question_id": "HB-C2-B002", "text": "Silently assumes expedited closure of the other detachments.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-F003-E1", "question_id": "HB-C2-F003", "text": "Changes the source closure cap without new confirmation.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-F004-E1", "question_id": "HB-C2-F004", "text": "Assumes a dedicated aviation fleet or double-books an asset.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-A004-E1", "question_id": "HB-C2-A004", "text": "Assumes vetting or command authority from membership in the ARC umbrella.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-B003-E1", "question_id": "HB-C2-B003", "text": "Treats the whole ARC as eligible after one unit passes.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-F005-E1", "question_id": "HB-C2-F005", "text": "Uses urgency as an automatic waiver.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-F006-E1", "question_id": "HB-C2-F006", "text": "Assumes all additional elements pass because the initial subset did.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-A005-E1", "question_id": "HB-C2-A005", "text": "Treats an on-order element as confirmed coverage.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-B004-E1", "question_id": "HB-C2-B004", "text": "Assumes recovery assets automatically take theater priority when needed.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-F007-E1", "question_id": "HB-C2-F007", "text": "Declares coverage solely because a JPRC was established.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-A006-E1", "question_id": "HB-C2-A006", "text": "Invents host consent or a new combat authority.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-B005-E1", "question_id": "HB-C2-B005", "text": "Equates authorized mission purpose with blanket permission for every activity.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-F008-E1", "question_id": "HB-C2-F008", "text": "Uses a generic authority label to bypass a missing determination.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-A007-E1", "question_id": "HB-C2-A007", "text": "Treats Russian deconfliction as guaranteed or Iraqi tolerance as formal approval.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-B006-E1", "question_id": "HB-C2-B006", "text": "Treats one external actor’s agreement as all-access permission.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-F009-E1", "question_id": "HB-C2-F009", "text": "Assumes an alternative crossing is approved when one closes.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-F010-E1", "question_id": "HB-C2-F010", "text": "Invents an approved staging location or bypasses a denied access condition.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-A008-E1", "question_id": "HB-C2-A008", "text": "Treats all reports as independently corroborated.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-B007-E1", "question_id": "HB-C2-B007", "text": "Counts duplicated partner reports as independent confirmation.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-F011-E1", "question_id": "HB-C2-F011", "text": "Invents an independent corroborating source or guaranteed partner reliability.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-A009-E1", "question_id": "HB-C2-A009", "text": "Treats partner success as proof that ISIS risk decreases.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-B008-E1", "question_id": "HB-C2-B008", "text": "Claims partner capacity automatically produces all strategic outcomes.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C2-F012-E1", "question_id": "HB-C2-F012", "text": "Invents an observed ISIS resurgence or numerical threshold.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-A001-E1", "question_id": "HB-C3-A001", "text": "Invents population totals or implies every island is equally affected.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-A002-E1", "question_id": "HB-C3-A002", "text": "Assumes intact infrastructure is approved for use.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-A002-E2", "question_id": "HB-C3-A002", "text": "Equates landing cargo with delivery to affected communities.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-A003-E1", "question_id": "HB-C3-A003", "text": "Treats all apportioned assets as immediately on scene.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-B001-E1", "question_id": "HB-C3-B001", "text": "Treats sea-basing as eliminating shore-access or distribution constraints.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-F001-E1", "question_id": "HB-C3-F001", "text": "Invents a landing site or guaranteed JLOTS throughput.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-F002-E1", "question_id": "HB-C3-F002", "text": "Assumes an open port has adequate throughput or approved access.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-F003-E1", "question_id": "HB-C3-F003", "text": "Begins port opening under a blanket immediate-response exception.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-A004-E1", "question_id": "HB-C3-A004", "text": "Invents exact arrival dates from distance alone.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-B002-E1", "question_id": "HB-C3-B002", "text": "Assumes every acute need can wait until the complete force arrives.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-F004-E1", "question_id": "HB-C3-F004", "text": "Reports a staging arrival as completed relief.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-A005-E1", "question_id": "HB-C3-A005", "text": "States that the Vanua Tasi bloc’s deliberate obstruction is conclusively established.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-B003-E1", "question_id": "HB-C3-B003", "text": "Moves ashore elsewhere solely because Port Vila consent was denied.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-F005-E1", "question_id": "HB-C3-F005", "text": "Uses sea-basing or immediate-response language to bypass required consent.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-A006-E1", "question_id": "HB-C3-A006", "text": "Treats Nouméa or Australian staging as already approved.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-B004-E1", "question_id": "HB-C3-B004", "text": "Selects the closest site solely on distance.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-F006-E1", "question_id": "HB-C3-F006", "text": "Invents approvals, exact transit times or departure-port capacity.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-A007-E1", "question_id": "HB-C3-A007", "text": "Makes the joint force the lead disaster-response authority.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-A007-E2", "question_id": "HB-C3-A007", "text": "Treats military capacity as self-authorizing relief.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-B005-E1", "question_id": "HB-C3-B005", "text": "Uses competitor presence alone to justify duplicating aid.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-F007-E1", "question_id": "HB-C3-F007", "text": "Assumes the hospital ship meets all medical needs or that foreign provision should be displaced.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-F008-E1", "question_id": "HB-C3-F008", "text": "Treats initial approval as unlimited-duration assistance.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-A008-E1", "question_id": "HB-C3-A008", "text": "Treats capital access as universal community consent.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-B006-E1", "question_id": "HB-C3-B006", "text": "Assumes every chief supports the proposed activity.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-F009-E1", "question_id": "HB-C3-F009", "text": "Allocates solely by population size while ignoring unmet need or receipt conditions.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-A009-E1", "question_id": "HB-C3-A009", "text": "Claims USNS Mercy is already committed or Peace Ark meets all needs.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-B007-E1", "question_id": "HB-C3-B007", "text": "Treats one hospital ship as the complete medical solution.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-F010-E1", "question_id": "HB-C3-F010", "text": "Adds Mercy to the force list without confirmation.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-A010-E1", "question_id": "HB-C3-A010", "text": "Treats establishment of a headquarters as proof of functioning liaison or communications.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-B008-E1", "question_id": "HB-C3-B008", "text": "Assumes the military centre commands NGOs or partner nations.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-F011-E1", "question_id": "HB-C3-F011", "text": "Creates a military command over NGOs or FRANZ.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-F012-E1", "question_id": "HB-C3-F012", "text": "Prescribes unsupported staff numbers or assumes all communities use one language.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-A011-E1", "question_id": "HB-C3-A011", "text": "Treats PRC presence as an armed attack or guarantees noninterference.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-B009-E1", "question_id": "HB-C3-B009", "text": "Treats unlikely obstruction as permission to omit deconfliction.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-F013-E1", "question_id": "HB-C3-F013", "text": "Uses the request to plan harassment, interdiction or armed displacement.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-A012-E1", "question_id": "HB-C3-A012", "text": "Measures success solely by competitor displacement.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-B010-E1", "question_id": "HB-C3-B010", "text": "Treats out-delivering Peace Ark as an independent objective regardless of need.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-F014-E1", "question_id": "HB-C3-F014", "text": "Equates publicity or competitor loss of visibility with humanitarian effectiveness.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C3-F015-E1", "question_id": "HB-C3-F015", "text": "Makes unsupported provider allegations or hides the civilian lead.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-A001-E1", "question_id": "HB-C4-A001", "text": "Treats the seventh day as assured usable closure or the anticipated duration as an exact end date.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-A002-E1", "question_id": "HB-C4-A002", "text": "Converts the endurance estimate into a guarantee or gives Taiwan an already authorised island-recovery mission.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-B001-E1", "question_id": "HB-C4-B001", "text": "Subtracts differently anchored timelines and claims a guaranteed five-to-eight-day reserve.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-F001-E1", "question_id": "HB-C4-F001", "text": "Counts a departure or notice-to-move date as ready combat power.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-A003-E1", "question_id": "HB-C4-A003", "text": "Calls the group immediately assigned or treats its N+14 release as confirmed.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-B002-E1", "question_id": "HB-C4-B002", "text": "Adds Vinson to immediately available forces.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-F002-E1", "question_id": "HB-C4-F002", "text": "Assumes a Fifth Fleet release can be issued by the planning team.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-A004-E1", "question_id": "HB-C4-A004", "text": "Treats NEO planning as approval to place US forces on Taiwan.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-B003-E1", "question_id": "HB-C4-B003", "text": "Assumes approval or a known evacuee total absent from the packet.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-F003-E1", "question_id": "HB-C4-F003", "text": "Invents an evacuee count or automatically accepts every foreign evacuation request.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-F004-E1", "question_id": "HB-C4-F004", "text": "Declares NEO complete solely because an allotted period expired.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-A005-E1", "question_id": "HB-C4-A005", "text": "Equates multinational participation with blanket US command or common ROE.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-B004-E1", "question_id": "HB-C4-B004", "text": "Assumes Australian OPCON transfers all national political authority.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-F005-E1", "question_id": "HB-C4-F005", "text": "Drafts supplemental ROE and treats the draft as approval.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-A006-E1", "question_id": "HB-C4-A006", "text": "States that the Philippines excludes combat forces.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-B005-E1", "question_id": "HB-C4-B005", "text": "Converts basing permission into unrestricted stock use or offensive Japanese participation.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-F006-E1", "question_id": "HB-C4-F006", "text": "Assumes a US staff can waive a partner’s caveat.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-A007-E1", "question_id": "HB-C4-A007", "text": "Treats stock quantity alone as proof of sustainment feasibility.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-A008-E1", "question_id": "HB-C4-A008", "text": "Assumes an eastern port has specified throughput absent from the packet.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-B006-E1", "question_id": "HB-C4-B006", "text": "Declares unlimited eastern-port access or treats the west-coast port problem as adversary-only.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-F007-E1", "question_id": "HB-C4-F007", "text": "Adds ships or tonnage without checking the receiving system.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-F008-E1", "question_id": "HB-C4-F008", "text": "Orders a beach offload operation without a feasibility or resource basis.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-A009-E1", "question_id": "HB-C4-A009", "text": "Treats attacks as confirmed events or listed BMD ships as proof of complete cruise-missile defence.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-B007-E1", "question_id": "HB-C4-B007", "text": "Assumes base protection is adequate because a BMD cruiser is listed.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-F009-E1", "question_id": "HB-C4-F009", "text": "Invents an approved defence allocation or asserts ballistic-missile systems automatically cover cruise missiles.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-A010-E1", "question_id": "HB-C4-A010", "text": "Treats named MCM ships as proof the capability shortfall is resolved.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-B008-E1", "question_id": "HB-C4-B008", "text": "Declares access safe from the existence of listed MCM assets.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-F010-E1", "question_id": "HB-C4-F010", "text": "Equates absence of a mine report with a verified clear port.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-A011-E1", "question_id": "HB-C4-A011", "text": "States that all navigation or communications have already failed.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-B009-E1", "question_id": "HB-C4-B009", "text": "Assumes a particular backup exists or that all platforms fail identically.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-F011-E1", "question_id": "HB-C4-F011", "text": "Claims a named backup system is fielded when the packet does not say so.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-F012-E1", "question_id": "HB-C4-F012", "text": "Publishes all detailed movement information or blocks essential authorised coordination.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-A012-E1", "question_id": "HB-C4-A012", "text": "Predicts a particular typhoon or exact sea state absent from the packet.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-B010-E1", "question_id": "HB-C4-B010", "text": "Infers that all summer movements are impossible.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-F013-E1", "question_id": "HB-C4-F013", "text": "Assigns a universal sea-state threshold absent from the material.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-A013-E1", "question_id": "HB-C4-A013", "text": "Counts two distinct Dewey hulls.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-B011-E1", "question_id": "HB-C4-B011", "text": "Assigns the ship to one group without support.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-F014-E1", "question_id": "HB-C4-F014", "text": "Deletes a group’s entire destroyer complement because one entry is duplicated.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-A014-E1", "question_id": "HB-C4-A014", "text": "Transforms a desired island return into an already authorised seizure task.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-B012-E1", "question_id": "HB-C4-B012", "text": "Invents a numerical threshold and presents it as a source requirement.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-F015-E1", "question_id": "HB-C4-F015", "text": "Claims that a single force-status report proves all end-state objectives.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-A015-E1", "question_id": "HB-C4-A015", "text": "Treats the independent security force as already mandated, assigned and funded.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-B013-E1", "question_id": "HB-C4-B013", "text": "Assumes an international security force exists because the CIPG proposes it.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-F016-E1", "question_id": "HB-C4-F016", "text": "Unilaterally orders an independent security force or guarantees international participation.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-A016-E1", "question_id": "HB-C4-A016", "text": "Lists island seizure as an authorised essential execution task.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-B014-E1", "question_id": "HB-C4-B014", "text": "Claims all options are feasible solely because the packet lists the required force types.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-F017-E1", "question_id": "HB-C4-F017", "text": "Optimises sequence by silently waiving NEO or permission requirements.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-A017-E1", "question_id": "HB-C4-A017", "text": "Presents de-escalation as certain or the third-party assumption as verified fact.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-B015-E1", "question_id": "HB-C4-B015", "text": "Recommends widening the conflict to make the current plan feasible.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-F018-E1", "question_id": "HB-C4-F018", "text": "Treats a posture report as automatic permission to expand the war.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-A018-E1", "question_id": "HB-C4-A018", "text": "Names the COG without its relevant requirements or adopts propaganda as established truth.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-B016-E1", "question_id": "HB-C4-B016", "text": "Infers that a common message guarantees coalition unity.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-F019-E1", "question_id": "HB-C4-F019", "text": "Names unprovided foreign leaders as persuaded supporters.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-A019-E1", "question_id": "HB-C4-A019", "text": "Treats Mercy as already available for the immediate evacuation.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-B017-E1", "question_id": "HB-C4-B017", "text": "Equates lack of detail with proof no medical capability exists.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-F020-E1", "question_id": "HB-C4-F020", "text": "Invents a dedicated rescue unit or guarantees recovery under all conditions.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-A020-E1", "question_id": "HB-C4-A020", "text": "Provides an exact exhaustion date without stock and demand data.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-B018-E1", "question_id": "HB-C4-B018", "text": "Uses initial stockholding as proof of 180-day endurance.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-F021-E1", "question_id": "HB-C4-F021", "text": "Invents an exact munition order or assumes unlimited replenishment.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-A021-E1", "question_id": "HB-C4-A021", "text": "Claims that a PNT or SATCOM service outage itself proves disclosure of confidential movement information.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C4-B019-E1", "question_id": "HB-C4-B019", "text": "Claims that a PNT or SATCOM service outage itself proves disclosure of confidential movement information.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-A001-E1", "question_id": "HB-C5-A001", "text": "Treats an additional combat ship as automatically adding processing capacity.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-A002-E1", "question_id": "HB-C5-A002", "text": "Uses the 1994 role as proof of current capacity.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-B001-E1", "question_id": "HB-C5-B001", "text": "Assumes faster rescue alone resolves a reception bottleneck.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-F001-E1", "question_id": "HB-C5-F001", "text": "Invents a maximum camp population or treats an unapproved onward route as available.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-F002-E1", "question_id": "HB-C5-F002", "text": "Moves people to an unprepared site solely because land is available.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-A003-E1", "question_id": "HB-C5-A003", "text": "Credits the ARG’s reception capacity as on scene at the start solely from the force list.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-B002-E1", "question_id": "HB-C5-B002", "text": "Assumes unused beds eliminate a transport bottleneck.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-F003-E1", "question_id": "HB-C5-F003", "text": "Declares a specific intermediate base available or assigns unlisted ships.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-A004-E1", "question_id": "HB-C5-A004", "text": "Counts offered reception places as confirmed capacity.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-B003-E1", "question_id": "HB-C5-B003", "text": "Assumes UNHCR supervision creates host-state consent.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-F004-E1", "question_id": "HB-C5-F004", "text": "Transfers people to an offered site before its consent or support arrangements are established.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-A005-E1", "question_id": "HB-C5-A005", "text": "Makes the military the independent adjudicator of immigration disposition.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-B004-E1", "question_id": "HB-C5-B004", "text": "Treats a ship’s arrival as completion of all processing.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-F005-E1", "question_id": "HB-C5-F005", "text": "Allows the military alone to decide final immigration status or destination.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-A006-E1", "question_id": "HB-C5-A006", "text": "Assumes available beds come with staffed processing teams.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-B005-E1", "question_id": "HB-C5-B005", "text": "Treats all migrants as hostile or assumes a fixed guard ratio absent from the packet.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-F006-E1", "question_id": "HB-C5-F006", "text": "Requests intelligence screening solely because of nationality or assigns military personnel legal-disposition authority.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-A007-E1", "question_id": "HB-C5-A007", "text": "Assumes every rescued person has the same condition or diagnoses an individual.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-B006-E1", "question_id": "HB-C5-B006", "text": "Treats use or reimbursement of all medical supplies as automatically authorised.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-F007-E1", "question_id": "HB-C5-F007", "text": "Invents unlimited medical or contracted support or uses private security without an authority check.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-A008-E1", "question_id": "HB-C5-A008", "text": "States a total recovered-body count from the incident figures.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-B007-E1", "question_id": "HB-C5-B007", "text": "Prescribes burial at sea or a final disposition without competent authority.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-F008-E1", "question_id": "HB-C5-F008", "text": "Treats a planning assumption as authority to dispose of remains.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-A009-E1", "question_id": "HB-C5-A009", "text": "Treats a drift estimate as a precise track for every craft.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-A010-E1", "question_id": "HB-C5-A010", "text": "Assumes every departing boat is already detected.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-B008-E1", "question_id": "HB-C5-B008", "text": "Converts two-to-four knots into a precise arrival prediction without departure time and craft behaviour.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-F009-E1", "question_id": "HB-C5-F009", "text": "Specifies unsupported exact intercept coordinates or universal weather limits.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-F010-E1", "question_id": "HB-C5-F010", "text": "Lists locations without any decision consequence or assumes all flow follows the original belt.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-A011-E1", "question_id": "HB-C5-A011", "text": "Treats reception availability as proof the installation is secure.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-B009-E1", "question_id": "HB-C5-B009", "text": "Claims the whole facility is either always safe or entirely unusable solely from the incident.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-F011-E1", "question_id": "HB-C5-F011", "text": "Moves people to Florida or returns them to Cuba as an automatic overflow solution.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-A012-E1", "question_id": "HB-C5-A012", "text": "Counts Nimitz as already allocated or assigns the ARG solely to one task without recognising its competing roles.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-A013-E1", "question_id": "HB-C5-A013", "text": "Treats the preparation of an ashore option as execution authority.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-B010-E1", "question_id": "HB-C5-B010", "text": "Double-books the same ARG capacity or assumes Nimitz substitutes for all medical/reception functions.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-F012-E1", "question_id": "HB-C5-F012", "text": "Executes the branch or credits unapproved additional forces.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-A014-E1", "question_id": "HB-C5-A014", "text": "Names an unconfirmed supplier or concludes that weak conventional forces mean no threat.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-A015-E1", "question_id": "HB-C5-A015", "text": "Generalises an airspace authorisation into unrestricted attacks on Cuban territory or territorial seas.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-B011-E1", "question_id": "HB-C5-B011", "text": "Declares complete coverage or a specific counter-drone solution from the force names alone.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-F013-E1", "question_id": "HB-C5-F013", "text": "Assumes a pending measure is approved or a named drone sponsor is confirmed.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-F014-E1", "question_id": "HB-C5-F014", "text": "Selects new targets or expands the zone under the label of an NAI.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-A016-E1", "question_id": "HB-C5-A016", "text": "Treats capacity pressure as permission for return to Cuba or automatic Florida processing.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-B012-E1", "question_id": "HB-C5-B012", "text": "Resolves overcrowding by assuming a prohibited or unapproved destination.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-F015-E1", "question_id": "HB-C5-F015", "text": "Withholds rescue solely because a processing decision is pending.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-A017-E1", "question_id": "HB-C5-A017", "text": "Presents the packet’s asserted legal rationale as an independently established general legal rule or makes the base mission regime change.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-A018-E1", "question_id": "HB-C5-A018", "text": "Treats speed of release as permission to publish unverified claims or protected branch details.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-B013-E1", "question_id": "HB-C5-B013", "text": "Assumes publicity always increases support or that truthful compartmented information is automatically releasable.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-F016-E1", "question_id": "HB-C5-F016", "text": "Invents support or presents a planned branch as the current operation.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-B014-E1", "question_id": "HB-C5-B014", "text": "Assumes all residents can receive a message through an unverified network.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-F017-E1", "question_id": "HB-C5-F017", "text": "Converts the information requirement into an unapproved disruption task.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-A019-E1", "question_id": "HB-C5-A019", "text": "Reports only “weak regime” without the causal factors or treats the assessment as proof of inevitable collapse.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-B015-E1", "question_id": "HB-C5-B015", "text": "Treats a possible political side effect as authorisation for regime-change action.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-F018-E1", "question_id": "HB-C5-F018", "text": "Ranks an option solely by its presumed political effect on the regime.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-A020-E1", "question_id": "HB-C5-A020", "text": "Converts the most-likely course or foreign non-intervention assumption into a guarantee.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-B016-E1", "question_id": "HB-C5-B016", "text": "Assumes any incident authorises an ashore branch or a general war.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-F019-E1", "question_id": "HB-C5-F019", "text": "Treats an unverified report as authority for escalation.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-A021-E1", "question_id": "HB-C5-A021", "text": "Equates preserved options with approved execution.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-B017-E1", "question_id": "HB-C5-B017", "text": "Declares completion from an arbitrary incident-free duration.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C5-F020-E1", "question_id": "HB-C5-F020", "text": "Uses zero reported incidents as proof all objectives are durably met.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A001-E1", "question_id": "HB-C6-A001", "text": "Presents COA-1 restoration as currently unconditional.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A001-E2", "question_id": "HB-C6-A001", "text": "Treats presence permission as general authority for reserved engagement or interdiction.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A002-E1", "question_id": "HB-C6-A002", "text": "Labels the older engagement permission as controlling under current COA-2.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A002-E2", "question_id": "HB-C6-A002", "text": "Treats the earlier restoration concept as an observed completed operation.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B001-E1", "question_id": "HB-C6-B001", "text": "Lets earlier permissive wording override the express later rescission.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B001-E2", "question_id": "HB-C6-B001", "text": "Assumes supersession makes every older factual assessment false.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F001-E1", "question_id": "HB-C6-F001", "text": "Uses the old execution authority to commit current activities.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F001-E2", "question_id": "HB-C6-F001", "text": "Converts a request for clarification into approval.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A003-E1", "question_id": "HB-C6-A003", "text": "Treats the 96-hour readiness requirement as an automatic 96-hour countdown to execution.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A003-E2", "question_id": "HB-C6-A003", "text": "Confuses the D+75 recommendation with Presidential approval.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B002-E1", "question_id": "HB-C6-B002", "text": "Uses current activity alone as proof that every branch enabler is ready.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B002-E2", "question_id": "HB-C6-B002", "text": "Treats a favourable readiness report as an execution order.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F002-E1", "question_id": "HB-C6-F002", "text": "Claims the branch is ready despite an unresolved necessary function beyond 96 hours.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F002-E2", "question_id": "HB-C6-F002", "text": "Invents an allocated substitute or a confirmed recovery time.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F003-E1", "question_id": "HB-C6-F003", "text": "Scores arrival alone as integrated operational readiness.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F003-E2", "question_id": "HB-C6-F003", "text": "Credits a phase deadline without verifying necessary support or permissions.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A004-E1", "question_id": "HB-C6-A004", "text": "Confuses N-day with D-day.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A004-E2", "question_id": "HB-C6-A004", "text": "Turns on-or-about N+25 estimates into exact integrated-arrival timestamps.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B003-E1", "question_id": "HB-C6-B003", "text": "Counts N+25 as before or on the N+24 calendar date.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B003-E2", "question_id": "HB-C6-B003", "text": "Claims a demonstrated exactly 24-hour delay from date-only estimates.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F004-E1", "question_id": "HB-C6-F004", "text": "Counts the two units as confirmed at commencement without updated confirmation.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F004-E2", "question_id": "HB-C6-F004", "text": "Treats arrival alone as completed integration.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A005-E1", "question_id": "HB-C6-A005", "text": "Calls the 30% excess a 30% share of total demand.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A005-E2", "question_id": "HB-C6-A005", "text": "Claims the packet proves theatre-wide fuel exhaustion.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B004-E1", "question_id": "HB-C6-B004", "text": "Uses 30% rather than approximately 23% as the unmet demand fraction under the stated basis.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B004-E2", "question_id": "HB-C6-B004", "text": "Declares the whole movement flow feasible solely because tanker capacity increases.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F005-E1", "question_id": "HB-C6-F005", "text": "Adds unallocated capacity as if confirmed.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F005-E2", "question_id": "HB-C6-F005", "text": "Ignores a remaining airfield or sealift bottleneck when approving the schedule.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A006-E1", "question_id": "HB-C6-A006", "text": "Treats all regional support arrangements as unrestricted combat support.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A006-E2", "question_id": "HB-C6-A006", "text": "States Singapore tanker approval has already occurred without a supporting record.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B005-E1", "question_id": "HB-C6-B005", "text": "Equates port permission with unlimited throughput.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B005-E2", "question_id": "HB-C6-B005", "text": "Omits onward transfer when crediting Singapore as immediate Philippine capacity.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F006-E1", "question_id": "HB-C6-F006", "text": "Credits Singapore capacity without a usable time window.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F006-E2", "question_id": "HB-C6-F006", "text": "Deletes the stated transfer allowance without a new validated movement basis.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A007-E1", "question_id": "HB-C6-A007", "text": "Treats N+10 targets as verified September completion.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A007-E2", "question_id": "HB-C6-A007", "text": "Treats a submitted bandwidth request as capacity already provided.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B006-E1", "question_id": "HB-C6-B006", "text": "Asserts current September C2 failure solely from the dated August deficit.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B006-E2", "question_id": "HB-C6-B006", "text": "Assumes network access transfers Japanese command authority.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F007-E1", "question_id": "HB-C6-F007", "text": "Assigns dependent tasks before access, capacity or national interfaces are confirmed.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F007-E2", "question_id": "HB-C6-F007", "text": "Assumes prioritisation creates additional physical bandwidth.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A008-E1", "question_id": "HB-C6-A008", "text": "Treats the packet’s desired sea-state guidance as an unconditional universal platform certification.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A008-E2", "question_id": "HB-C6-A008", "text": "Confuses a 5–7-day forecast horizon with a guaranteed safe window.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B007-E1", "question_id": "HB-C6-B007", "text": "Equates force readiness with environmental feasibility.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B007-E2", "question_id": "HB-C6-B007", "text": "Infers that every day in the season is unusable.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F008-E1", "question_id": "HB-C6-F008", "text": "Commits to unchanged timing despite a material weather disruption.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F008-E2", "question_id": "HB-C6-F008", "text": "Invents an approved refuge port or extra support capacity.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A009-E1", "question_id": "HB-C6-A009", "text": "Combines the 25 and approximately-30 figures as separate groups.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A009-E2", "question_id": "HB-C6-A009", "text": "Treats three assessed US captives as confirmed recovered personnel.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B008-E1", "question_id": "HB-C6-B008", "text": "Averages the source counts and labels the result verified.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B008-E2", "question_id": "HB-C6-B008", "text": "Silently suppresses the conflicting count.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F009-E1", "question_id": "HB-C6-F009", "text": "Declares person-level accountability complete from an aggregate total.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F009-E2", "question_id": "HB-C6-F009", "text": "Asserts notification compliance or detention locations without a record.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A010-E1", "question_id": "HB-C6-A010", "text": "Treats all island residents as automatically eligible for the US/allied NEO.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A010-E2", "question_id": "HB-C6-A010", "text": "Confuses the plan-publication deadline with completed evacuation.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B009-E1", "question_id": "HB-C6-B009", "text": "Uses a NEO plan as proof of all resident/displacement support capacity.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B009-E2", "question_id": "HB-C6-B009", "text": "Assumes all three tasks concern identical populations.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F010-E1", "question_id": "HB-C6-F010", "text": "Assigns reception or transport to an organisation without confirming its role/capacity.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F010-E2", "question_id": "HB-C6-F010", "text": "Claims readiness merely because a deadline or task order exists.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A011-E1", "question_id": "HB-C6-A011", "text": "Treats I MEF apportionment as execution allocation.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A011-E2", "question_id": "HB-C6-A011", "text": "Treats USFK forces as freely available to fill the operation’s gap.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B010-E1", "question_id": "HB-C6-B010", "text": "Selects I MEF solely because it is apportioned.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B010-E2", "question_id": "HB-C6-B010", "text": "Declares the smaller force sufficient without task/support comparison.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F011-E1", "question_id": "HB-C6-F011", "text": "Requests more forces without identifying the capability gap.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F011-E2", "question_id": "HB-C6-F011", "text": "Fills the request by assuming a diversion from protected standing commitments.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A012-E1", "question_id": "HB-C6-A012", "text": "Reports the source termination conditions as already achieved.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A012-E2", "question_id": "HB-C6-A012", "text": "Drops the duration from the armed-presence or incident criterion.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B011-E1", "question_id": "HB-C6-B011", "text": "Treats presence or sortie volume as proof of restored sovereignty.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B011-E2", "question_id": "HB-C6-B011", "text": "Claims a guaranteed political concession from unspecified force activity.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F012-E1", "question_id": "HB-C6-F012", "text": "Awards restoration success on activity counts alone.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F012-E2", "question_id": "HB-C6-F012", "text": "Ignores an unresolved source-defined condition when recommending outcome credit.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F013-E1", "question_id": "HB-C6-F013", "text": "Scores a demonstration of capability as actual achieved isolation.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F013-E2", "question_id": "HB-C6-F013", "text": "Credits reserved interdiction or degradation as currently executable without release.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A013-E1", "question_id": "HB-C6-A013", "text": "Confuses nautical miles with kilometres.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A013-E2", "question_id": "HB-C6-A013", "text": "Treats all outpost engagement as unrestricted because FONOP presence is permitted.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B012-E1", "question_id": "HB-C6-B012", "text": "Infers a certain successful engagement solely from nominal range.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B012-E2", "question_id": "HB-C6-B012", "text": "Infers permission to engage from exposure to a threat.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F014-E1", "question_id": "HB-C6-F014", "text": "Commits a dependent task despite an unresolved necessary protection function.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F014-E2", "question_id": "HB-C6-F014", "text": "Treats the review itself as expanded engagement authority.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A014-E1", "question_id": "HB-C6-A014", "text": "Reports a monitoring topic as an event already detected.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A014-E2", "question_id": "HB-C6-A014", "text": "Treats the initial continuous-ISR capability description as proof of gap-free later coverage.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B013-E1", "question_id": "HB-C6-B013", "text": "Concludes absence from a gap in observation.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B013-E2", "question_id": "HB-C6-B013", "text": "Concludes an adversary escalation occurred merely because coverage degraded.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F015-E1", "question_id": "HB-C6-F015", "text": "Treats a gap report alone as restoration of collection support.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F015-E2", "question_id": "HB-C6-F015", "text": "Uses an unobserved indicator as a confirmed prerequisite for commitment.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A015-E1", "question_id": "HB-C6-A015", "text": "Treats continued public support as an observed certainty through D+90.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A015-E2", "question_id": "HB-C6-A015", "text": "Assigns public-affairs lead to J39 or military-IO lead to OSD-PA.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B014-E1", "question_id": "HB-C6-B014", "text": "Equates publication volume or reach with credibility or consent.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B014-E2", "question_id": "HB-C6-B014", "text": "Infers a particular public response from unattributed anecdotes alone.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F016-E1", "question_id": "HB-C6-F016", "text": "Counts message production as reception data.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F016-E2", "question_id": "HB-C6-F016", "text": "Claims that a favourable aggregate response proves persuasion or policy change.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F017-E1", "question_id": "HB-C6-F017", "text": "Invents an available combat-camera unit.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F017-E2", "question_id": "HB-C6-F017", "text": "Releases or confirms a contested recording without source preservation and appropriate review.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A016-E1", "question_id": "HB-C6-A016", "text": "Ignores the later formalisation statement and labels every contribution merely an unresolved offer.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A016-E2", "question_id": "HB-C6-A016", "text": "Treats Japanese support as transferred OPCON without a record.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B015-E1", "question_id": "HB-C6-B015", "text": "Treats formalised contribution as proof of completed arrival, TOA and network integration.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B015-E2", "question_id": "HB-C6-B015", "text": "Excludes all national-command contributions even when a valid support interface is possible.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F018-E1", "question_id": "HB-C6-F018", "text": "Assigns a task using an offer date as verified ready time.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F018-E2", "question_id": "HB-C6-F018", "text": "Assumes a command transfer where national coordination is the authorised relationship.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A017-E1", "question_id": "HB-C6-A017", "text": "Treats a stalled ASEAN statement as withdrawal of every bilateral arrangement.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A017-E2", "question_id": "HB-C6-A017", "text": "Treats limited quiet access as unrestricted permission.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B016-E1", "question_id": "HB-C6-B016", "text": "Infers universal denial from consensus friction.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B016-E2", "question_id": "HB-C6-B016", "text": "Infers approval of a particular movement from general political support alone.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F019-E1", "question_id": "HB-C6-F019", "text": "Uses ASEAN rhetoric in place of country/activity clearance.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F019-E2", "question_id": "HB-C6-F019", "text": "Uses a permission outside its activity or time scope.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A018-E1", "question_id": "HB-C6-A018", "text": "Reports suspected pre-positioning as a verified compromise of all infrastructure.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A018-E2", "question_id": "HB-C6-A018", "text": "Converts defensive tasking into unrestricted offensive authority.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B017-E1", "question_id": "HB-C6-B017", "text": "Treats nominal service operation as proof of tested recovery.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B017-E2", "question_id": "HB-C6-B017", "text": "Assumes all nodes are compromised because mapping is incomplete.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F020-E1", "question_id": "HB-C6-F020", "text": "Claims resilience from team assignment without validation.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F020-E2", "question_id": "HB-C6-F020", "text": "Credits an untested or unavailable alternate service as continuous support.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A019-E1", "question_id": "HB-C6-A019", "text": "Reports the older five-day estimate as a completed condition.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A019-E2", "question_id": "HB-C6-A019", "text": "Omits the outpost-action premise of the air-superiority estimate.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B018-E1", "question_id": "HB-C6-B018", "text": "Carries the old duration unchanged into the restrictive current course without qualification.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B018-E2", "question_id": "HB-C6-B018", "text": "Declares the objective impossible or invents a new duration.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F021-E1", "question_id": "HB-C6-F021", "text": "Promises dependent readiness using the old timing without revalidation.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F021-E2", "question_id": "HB-C6-F021", "text": "Treats a possible future release as already granted.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A020-E1", "question_id": "HB-C6-A020", "text": "Reports projected 600-person strength as an observed September count.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-A020-E2", "question_id": "HB-C6-A020", "text": "Treats the later qualitative battalion description as an exact numeric update.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B019-E1", "question_id": "HB-C6-B019", "text": "Turns forecast-horizon expiry into confirmation of reinforcement.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B019-E2", "question_id": "HB-C6-B019", "text": "Treats the absence of a precise later count as proof no reinforcement occurred.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F022-E1", "question_id": "HB-C6-F022", "text": "Recommends transition based solely on the expired projection.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-F022-E2", "question_id": "HB-C6-F022", "text": "Treats a confirmed trigger or staff recommendation as execution authority.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B020-E1", "question_id": "HB-C6-B020", "text": "Declares an incident authentic from appearance or repetition alone.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C6-B020-E2", "question_id": "HB-C6-B020", "text": "Declares every contested record false because fabricated content is expected.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A001-E1", "question_id": "HB-C7-A001", "text": "Substitutes cleared width for usable width.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A001-E2", "question_id": "HB-C7-A001", "text": "Presents the limited emergency criterion as the sustained operating standard.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B001-E1", "question_id": "HB-C7-B001", "text": "Counts a sub-criterion runway as supporting the specified operating mode.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B001-E2", "question_id": "HB-C7-B001", "text": "Treats untested bearing capacity as compliant or counts unscheduled development as already complete.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F001-E1", "question_id": "HB-C7-F001", "text": "Counts a sub-criterion runway as supporting the specified operating mode.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F001-E2", "question_id": "HB-C7-F001", "text": "Treats untested bearing capacity as compliant or counts unscheduled development as already complete.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B002-E1", "question_id": "HB-C7-B002", "text": "Treats cleared width as usable width or notices as forward arrival.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B002-E2", "question_id": "HB-C7-B002", "text": "Counts rear-airhead arrival as completed Komavi delivery.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F002-E1", "question_id": "HB-C7-F002", "text": "Treats cleared width as usable width or notices as forward arrival.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F002-E2", "question_id": "HB-C7-F002", "text": "Counts rear-airhead arrival as completed Komavi delivery.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A002-E1", "question_id": "HB-C7-A002", "text": "Transfers coastal dry-season conditions to Komavi.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A002-E2", "question_id": "HB-C7-A002", "text": "Claims current tested bearing capacity despite the stated reconnaissance gap.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B003-E1", "question_id": "HB-C7-B003", "text": "Uses dry dimensions or matting-installation time alone as a verified opening date.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B003-E2", "question_id": "HB-C7-B003", "text": "Treats outdated reconnaissance as a current bearing/serviceability certification.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F003-E1", "question_id": "HB-C7-F003", "text": "Uses dry dimensions or matting-installation time alone as a verified opening date.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F003-E2", "question_id": "HB-C7-F003", "text": "Treats outdated reconnaissance as a current bearing/serviceability certification.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A003-E1", "question_id": "HB-C7-A003", "text": "Reports notice-to-move dates as arrivals.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A003-E2", "question_id": "HB-C7-A003", "text": "Presents the adversary-posture assumption as confirmed timing.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B004-E1", "question_id": "HB-C7-B004", "text": "Equates notice to move with brigade closure.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B004-E2", "question_id": "HB-C7-B004", "text": "Invents lift, loading or onward movement times or treats the adversary timing assumption as certain.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F004-E1", "question_id": "HB-C7-F004", "text": "Equates notice to move with brigade closure.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F004-E2", "question_id": "HB-C7-F004", "text": "Invents lift, loading or onward movement times or treats the adversary timing assumption as certain.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A004-E1", "question_id": "HB-C7-A004", "text": "Silently reconciles conflicting fleet-utilisation statements.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A004-E2", "question_id": "HB-C7-A004", "text": "Invents a final surface link to Komavi.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B005-E1", "question_id": "HB-C7-B005", "text": "Treats the reported 15% utilisation remainder as confirmed charter capacity.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B005-E2", "question_id": "HB-C7-B005", "text": "Plans direct surface delivery from Kiunga to Komavi despite the missing final leg.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F005-E1", "question_id": "HB-C7-F005", "text": "Treats the reported 15% utilisation remainder as confirmed charter capacity.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F005-E2", "question_id": "HB-C7-F005", "text": "Plans direct surface delivery from Kiunga to Komavi despite the missing final leg.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A005-E1", "question_id": "HB-C7-A005", "text": "Treats the nominal replenishment interval as the next confirmed delivery date.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A005-E2", "question_id": "HB-C7-A005", "text": "Treats stock holdings as allocated military access.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B006-E1", "question_id": "HB-C7-B006", "text": "Declares an actual three-day stockout without the next delivery date or cycle phase.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B006-E2", "question_id": "HB-C7-B006", "text": "Counts commercial stock presence or the Australian agreement as confirmed military access in PNG.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F006-E1", "question_id": "HB-C7-F006", "text": "Declares an actual three-day stockout without the next delivery date or cycle phase.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F006-E2", "question_id": "HB-C7-F006", "text": "Counts commercial stock presence or the Australian agreement as confirmed military access in PNG.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A006-E1", "question_id": "HB-C7-A006", "text": "Invents aeromedical crews or configured local transport.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A006-E2", "question_id": "HB-C7-A006", "text": "Treats the surgical team as available ashore at Komavi.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B007-E1", "question_id": "HB-C7-B007", "text": "Equates afloat treatment beds with an available patient-movement chain.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B007-E2", "question_id": "HB-C7-B007", "text": "Counts absent crews, unconfigured aircraft or unallocated partner care as ready.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F007-E1", "question_id": "HB-C7-F007", "text": "Equates afloat treatment beds with an available patient-movement chain.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F007-E2", "question_id": "HB-C7-F007", "text": "Counts absent crews, unconfigured aircraft or unallocated partner care as ready.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A007-E1", "question_id": "HB-C7-A007", "text": "Drops the direct-support/self-defence restriction.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A007-E2", "question_id": "HB-C7-A007", "text": "Attributes organic aviation to the Kiunga company.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B008-E1", "question_id": "HB-C7-B008", "text": "Treats the Kiunga company as already present and sustained at Komavi.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B008-E2", "question_id": "HB-C7-B008", "text": "Substitutes unilateral US activity for the required partner involvement.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F008-E1", "question_id": "HB-C7-F008", "text": "Treats the Kiunga company as already present and sustained at Komavi.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F008-E2", "question_id": "HB-C7-F008", "text": "Substitutes unilateral US activity for the required partner involvement.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A008-E1", "question_id": "HB-C7-A008", "text": "Reports assumed Australian deployment as confirmed.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A008-E2", "question_id": "HB-C7-A008", "text": "Invents a partner notice-to-move date or US command relationship.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B009-E1", "question_id": "HB-C7-B009", "text": "Treats the treaty or planning assumption as confirmed deployment.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B009-E2", "question_id": "HB-C7-B009", "text": "Invents Australian notice or arrival dates.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F009-E1", "question_id": "HB-C7-F009", "text": "Treats the treaty or planning assumption as confirmed deployment.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F009-E2", "question_id": "HB-C7-F009", "text": "Invents Australian notice or arrival dates.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A009-E1", "question_id": "HB-C7-A009", "text": "Uses an unauthorised release/coordination channel.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A009-E2", "question_id": "HB-C7-A009", "text": "Creates US direct command over the partner contingents.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B010-E1", "question_id": "HB-C7-B010", "text": "Creates US command authority over Australian or PNG forces.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B010-E2", "question_id": "HB-C7-B010", "text": "Distributes restricted planning information through an unauthorised channel.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F010-E1", "question_id": "HB-C7-F010", "text": "Creates US command authority over Australian or PNG forces.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F010-E2", "question_id": "HB-C7-F010", "text": "Distributes restricted planning information through an unauthorised channel.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A010-E1", "question_id": "HB-C7-A010", "text": "Converts assumed consent or planning direction into actual authority.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A010-E2", "question_id": "HB-C7-A010", "text": "Confuses apportionment with allocation.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B011-E1", "question_id": "HB-C7-B011", "text": "Treats assumed host consent as granted site access.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B011-E2", "question_id": "HB-C7-B011", "text": "Treats a planning order or apportionment as deployment authority or allocation.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F011-E1", "question_id": "HB-C7-F011", "text": "Treats assumed host consent as granted site access.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F011-E2", "question_id": "HB-C7-F011", "text": "Treats a planning order or apportionment as deployment authority or allocation.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A011-E1", "question_id": "HB-C7-A011", "text": "Calls obligated funding an available balance.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A011-E2", "question_id": "HB-C7-A011", "text": "Omits the stated notification requirement.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B012-E1", "question_id": "HB-C7-B012", "text": "Treats the fully obligated programme as available new funding.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B012-E2", "question_id": "HB-C7-B012", "text": "Treats a directed task as dispensing with funding approvals/notifications.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F012-E1", "question_id": "HB-C7-F012", "text": "Treats the fully obligated programme as available new funding.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F012-E2", "question_id": "HB-C7-F012", "text": "Treats a directed task as dispensing with funding approvals/notifications.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A012-E1", "question_id": "HB-C7-A012", "text": "Treats the desired return outcome as unconditional authority.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A012-E2", "question_id": "HB-C7-A012", "text": "Erases the supplied refugee-protection status.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B013-E1", "question_id": "HB-C7-B013", "text": "Treats the desired end state as unconditional authority for every return.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B013-E2", "question_id": "HB-C7-B013", "text": "Treats the whole refugee population as armed or claims that all return is prohibited.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F013-E1", "question_id": "HB-C7-F013", "text": "Treats the desired end state as unconditional authority for every return.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F013-E2", "question_id": "HB-C7-F013", "text": "Treats the whole refugee population as armed or claims that all return is prohibited.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A013-E1", "question_id": "HB-C7-A013", "text": "Asserts that visual separation establishes armed status.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A013-E2", "question_id": "HB-C7-A013", "text": "Raises LOW-confidence population information to certainty.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B014-E1", "question_id": "HB-C7-B014", "text": "Uses refugee status, ethnicity or location as proof of armed status.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B014-E2", "question_id": "HB-C7-B014", "text": "Treats the unresolved population picture as justification to omit civilian protection.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F014-E1", "question_id": "HB-C7-F014", "text": "Uses refugee status, ethnicity or location as proof of armed status.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F014-E2", "question_id": "HB-C7-F014", "text": "Treats the unresolved population picture as justification to omit civilian protection.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A014-E1", "question_id": "HB-C7-A014", "text": "Presents registrations as all residents or sums categories without checking overlap.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A014-E2", "question_id": "HB-C7-A014", "text": "Treats NTS as active or changes the N+7 branch deadline.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B015-E1", "question_id": "HB-C7-B015", "text": "Treats registrations as a complete manifest or adds overlapping populations as disjoint.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B015-E2", "question_id": "HB-C7-B015", "text": "Counts an inactive tracking arrangement as meeting the N+7 readiness requirement.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F015-E1", "question_id": "HB-C7-F015", "text": "Treats registrations as a complete manifest or adds overlapping populations as disjoint.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F015-E2", "question_id": "HB-C7-F015", "text": "Counts an inactive tracking arrangement as meeting the N+7 readiness requirement.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A015-E1", "question_id": "HB-C7-A015", "text": "Converts low-confidence absence into certain absence or confirmed possession.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B016-E1", "question_id": "HB-C7-B016", "text": "Interprets low-confidence non-detection as certain absence.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B016-E2", "question_id": "HB-C7-B016", "text": "Asserts confirmed MANPADS possession without support.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F016-E1", "question_id": "HB-C7-F016", "text": "Interprets low-confidence non-detection as certain absence.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F016-E2", "question_id": "HB-C7-F016", "text": "Asserts confirmed MANPADS possession without support.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A016-E1", "question_id": "HB-C7-A016", "text": "Changes nautical miles to other units without conversion.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A016-E2", "question_id": "HB-C7-A016", "text": "Treats an indicator of six forward aircraft as an observed deployment.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B017-E1", "question_id": "HB-C7-B017", "text": "Compares range and distance in inconsistent units or ignores the supplied load condition.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B017-E2", "question_id": "HB-C7-B017", "text": "Assumes an unspecified forward base/refuelling arrangement is available.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F017-E1", "question_id": "HB-C7-F017", "text": "Compares range and distance in inconsistent units or ignores the supplied load condition.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F017-E2", "question_id": "HB-C7-F017", "text": "Assumes an unspecified forward base/refuelling arrangement is available.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A017-E1", "question_id": "HB-C7-A017", "text": "Treats a border-only assumption as excluding the stated maritime alternative.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A017-E2", "question_id": "HB-C7-A017", "text": "Drops the submarine report’s confidence qualifier.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B018-E1", "question_id": "HB-C7-B018", "text": "Omits the documented maritime alternative because the planning assumption is border-only.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B018-E2", "question_id": "HB-C7-B018", "text": "Treats transit time as guaranteed warning or the low-confidence submarine report as a confirmed track.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F018-E1", "question_id": "HB-C7-F018", "text": "Omits the documented maritime alternative because the planning assumption is border-only.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F018-E2", "question_id": "HB-C7-F018", "text": "Treats transit time as guaranteed warning or the low-confidence submarine report as a confirmed track.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A018-E1", "question_id": "HB-C7-A018", "text": "Treats the forecast indicator sets as observed events.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A018-E2", "question_id": "HB-C7-A018", "text": "Changes LOW-confidence collection gaps into established facts.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B019-E1", "question_id": "HB-C7-B019", "text": "Treats one transient indicator as proof of a national decision.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B019-E2", "question_id": "HB-C7-B019", "text": "Reports a border crossing or release decision as confirmed without validation.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F019-E1", "question_id": "HB-C7-F019", "text": "Treats one transient indicator as proof of a national decision.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F019-E2", "question_id": "HB-C7-F019", "text": "Reports a border crossing or release decision as confirmed without validation.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A019-E1", "question_id": "HB-C7-A019", "text": "Treats the existing centre-of-gravity assessment as verified durability.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A019-E2", "question_id": "HB-C7-A019", "text": "Omits uncertainty about continued local support.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B020-E1", "question_id": "HB-C7-B020", "text": "Equates lower visible activity with disappearance of local support.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B020-E2", "question_id": "HB-C7-B020", "text": "Invents knowledge of the conditions under which support ends.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F020-E1", "question_id": "HB-C7-F020", "text": "Equates lower visible activity with disappearance of local support.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F020-E2", "question_id": "HB-C7-F020", "text": "Invents knowledge of the conditions under which support ends.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A020-E1", "question_id": "HB-C7-A020", "text": "Collocates the MEU and shipping or reports N+1 as an arrival date.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B021-E1", "question_id": "HB-C7-B021", "text": "Treats geographically separate MEU and shipping as embarked and ready together.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B021-E2", "question_id": "HB-C7-B021", "text": "Equates N+1 notice with PNG arrival or omits embarkation/transit.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F021-E1", "question_id": "HB-C7-F021", "text": "Treats geographically separate MEU and shipping as embarked and ready together.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F021-E2", "question_id": "HB-C7-F021", "text": "Equates N+1 notice with PNG arrival or omits embarkation/transit.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A021-E1", "question_id": "HB-C7-A021", "text": "Reports command requirements as capabilities already available.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A022-E1", "question_id": "HB-C7-A022", "text": "Reports the five-hour window as applying continuously or every day.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A022-E2", "question_id": "HB-C7-A022", "text": "Invents radar coverage or an established adjoining-FIR link.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B022-E1", "question_id": "HB-C7-B022", "text": "Turns a limited daytime window on some days into assured continuous throughput.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B022-E2", "question_id": "HB-C7-B022", "text": "Assumes radar-managed capacity where separation is procedural.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F022-E1", "question_id": "HB-C7-F022", "text": "Turns a limited daytime window on some days into assured continuous throughput.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F022-E2", "question_id": "HB-C7-F022", "text": "Assumes radar-managed capacity where separation is procedural.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A023-E1", "question_id": "HB-C7-A023", "text": "Conflates the two affected populations or drops the civilian lead.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B023-E1", "question_id": "HB-C7-B023", "text": "Treats military lift demand as including humanitarian demand automatically.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B023-E2", "question_id": "HB-C7-B023", "text": "Assumes spare lift or identical distribution needs at Port Moresby and Komavi.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F023-E1", "question_id": "HB-C7-F023", "text": "Treats military lift demand as including humanitarian demand automatically.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F023-E2", "question_id": "HB-C7-F023", "text": "Assumes spare lift or identical distribution needs at Port Moresby and Komavi.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A024-E1", "question_id": "HB-C7-A024", "text": "Applies the dry excavation rate under sustained rainfall.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A024-E2", "question_id": "HB-C7-A024", "text": "Treats the force as already acclimatised or invents an exact preparation duration.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B024-E1", "question_id": "HB-C7-B024", "text": "Treats nominal personnel strength or dry construction rates as immediately dependable wet-climate capacity.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B024-E2", "question_id": "HB-C7-B024", "text": "Invents a medical regimen or a productivity adjustment not supplied by the packet.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F024-E1", "question_id": "HB-C7-F024", "text": "Treats nominal personnel strength or dry construction rates as immediately dependable wet-climate capacity.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F024-E2", "question_id": "HB-C7-F024", "text": "Invents a medical regimen or a productivity adjustment not supplied by the packet.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A025-E1", "question_id": "HB-C7-A025", "text": "Treats task purpose as permission to exceed national employment limits.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B025-E1", "question_id": "HB-C7-B025", "text": "Treats a broad military objective as new execution authority.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B025-E2", "question_id": "HB-C7-B025", "text": "Disregards the supplied national employment restrictions.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F025-E1", "question_id": "HB-C7-F025", "text": "Treats a broad military objective as new execution authority.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F025-E2", "question_id": "HB-C7-F025", "text": "Disregards the supplied national employment restrictions.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-A026-E1", "question_id": "HB-C7-A026", "text": "Presents camp locations, occupancy or contents as validated.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B026-E1", "question_id": "HB-C7-B026", "text": "Treats an unconfirmed report as a verified occupied site.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-B026-E2", "question_id": "HB-C7-B026", "text": "Raises confidence merely by repeating the same report or fixes resources to an unvalidated location.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F026-E1", "question_id": "HB-C7-F026", "text": "Treats an unconfirmed report as a verified occupied site.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C7-F026-E2", "question_id": "HB-C7-F026", "text": "Raises confidence merely by repeating the same report or fixes resources to an unvalidated location.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-A001-E1", "question_id": "HB-C8-A001", "text": "Uses the thirty-day apportionment as confirmed twenty-one-day allocation or labels an assumed calendar end as explicit.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-B001-E1", "question_id": "HB-C8-B001", "text": "Treats D+28 as an unconditionally stated release date or assumes the density clock necessarily starts on D-day.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-F001-E1", "question_id": "HB-C8-F001", "text": "Promises continuous destroyer coverage through day sixty without an extension, relief or verified allocation window.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-F002-E1", "question_id": "HB-C8-F002", "text": "Treats unapproved future contributions as confirmed coverage.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-A002-E1", "question_id": "HB-C8-A002", "text": "Calls requested augmentation already assigned for six months.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-B002-E1", "question_id": "HB-C8-B002", "text": "Equates the capability to extend the concept with six months of confirmed resources.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-F003-E1", "question_id": "HB-C8-F003", "text": "Commits to the extended option without resolving the shorter support window.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-A003-E1", "question_id": "HB-C8-A003", "text": "Treats Equatoguinean EEZ-presence consent as general port access.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-B003-E1", "question_id": "HB-C8-B003", "text": "Uses permission for one country or activity as approval for the other.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-F004-E1", "question_id": "HB-C8-F004", "text": "Commits to a specific port date using only an assumed approval or EEZ permission.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-A004-E1", "question_id": "HB-C8-A004", "text": "Assumes another ARG ship automatically replaces every FORT LAUDERDALE function.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-B004-E1", "question_id": "HB-C8-B004", "text": "Counts the loss only as one less hull and ignores shared support functions.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-F005-E1", "question_id": "HB-C8-F005", "text": "Declares readiness on the basis of an untested substitute platform.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-A005-E1", "question_id": "HB-C8-A005", "text": "Treats the named running-estimate arrivals as exhaustive proof of every US platform’s position.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-B005-E1", "question_id": "HB-C8-B005", "text": "Equates D+11 arrival with all LPD-dependent functions immediately ready.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-F006-E1", "question_id": "HB-C8-F006", "text": "Schedules a dependent task before its necessary support is present and integrated.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-A006-E1", "question_id": "HB-C8-A006", "text": "Treats dust-degraded visibility as proof pirate small boats cannot operate.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-B006-E1", "question_id": "HB-C8-B006", "text": "Assumes every encounter can be boarded because the forecast does not exceed 2.5 m.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-F007-E1", "question_id": "HB-C8-F007", "text": "Counts every detected contact as a feasible boarding opportunity regardless of conditions.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-A007-E1", "question_id": "HB-C8-A007", "text": "Converts historical activity beyond 300 nm into a confirmed present CHARLIE capability.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-B007-E1", "question_id": "HB-C8-B007", "text": "Treats a radial reach difference as a measured uncovered area or identical coverage geometry.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-F008-E1", "question_id": "HB-C8-F008", "text": "Claims an unallocated asset or sensor guarantees complete offshore coverage.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-A008-E1", "question_id": "HB-C8-A008", "text": "Treats capture in Sector B as the current confirmed hide location.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-B008-E1", "question_id": "HB-C8-B008", "text": "Uses cell affiliation to select a specific hide without corroboration.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-F009-E1", "question_id": "HB-C8-F009", "text": "Declares the option ready solely because a cell or capture sector is known.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-A009-E1", "question_id": "HB-C8-A009", "text": "Counts forty-seven people as still captive or only four as the entire held population.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-B009-E1", "question_id": "HB-C8-B009", "text": "Adds the eight-hundred-resident NEO population to the hostage support baseline.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-F010-E1", "question_id": "HB-C8-F010", "text": "Sizes current hostage reception for all forty-seven historical crew or assumes national liaison roles are interchangeable.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-A010-E1", "question_id": "HB-C8-A010", "text": "Treats ICC Yaounde as a coalition command authority.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-B010-E1", "question_id": "HB-C8-B010", "text": "Infers national tasking authority from a functioning coordination hub.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-F011-E1", "question_id": "HB-C8-F011", "text": "Creates a fallback channel that silently transfers national command authority.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-A011-E1", "question_id": "HB-C8-A011", "text": "Assumes US dedicated surface forces can replace all coalition contributions.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-B011-E1", "question_id": "HB-C8-B011", "text": "Treats a supportive political statement as an available ship or approved rotation.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-F012-E1", "question_id": "HB-C8-F012", "text": "Fills a rotation gap with a named but unapproved force.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-A012-E1", "question_id": "HB-C8-A012", "text": "Treats delegated rehearsal or positioning authority as permission to execute rescue.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-B012-E1", "question_id": "HB-C8-B012", "text": "Treats satisfaction of one trigger as satisfying all conditions or granting execution authority.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-F013-E1", "question_id": "HB-C8-F013", "text": "Marks a missing condition as met by assumption or substitutes a staff recommendation for NCA direction.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-A013-E1", "question_id": "HB-C8-A013", "text": "Silently resolves the May-versus-February chronology by inventing a government transition.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-B013-E1", "question_id": "HB-C8-B013", "text": "Infers either automatic continuing consent or automatic withdrawal from the transition reference.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-F014-E1", "question_id": "HB-C8-F014", "text": "Assigns valid consent dates from the inconsistent chronology alone.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-A014-E1", "question_id": "HB-C8-A014", "text": "Presents a packet-specific twenty-four-hour rule as universally applicable law.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-B014-E1", "question_id": "HB-C8-B014", "text": "Assumes boarding coordination alone guarantees timely custody transfer.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-F015-E1", "question_id": "HB-C8-F015", "text": "Makes a custody-dependent commitment without a receiving authority or feasible transfer.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-A015-E1", "question_id": "HB-C8-A015", "text": "Reports listed indicators as observed events or reserves as already mobilised.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-B015-E1", "question_id": "HB-C8-B015", "text": "Equates capability or reserve activation with confirmed intent against higher-value infrastructure.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-F016-E1", "question_id": "HB-C8-F016", "text": "Treats one uncorroborated messaging or equipment report as sufficient for an automatic priority change.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-A016-E1", "question_id": "HB-C8-A016", "text": "Turns a critical-vulnerability label into authority for unilateral enforcement.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-B016-E1", "question_id": "HB-C8-B016", "text": "Infers an actionable identity or military permission from the COG label alone.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-F017-E1", "question_id": "HB-C8-F017", "text": "Proposes a new unilateral raid, arrest or financial enforcement action without authority.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-A017-E1", "question_id": "HB-C8-A017", "text": "Converts the source’s prospective advantage into measured probability of recovery.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-B017-E1", "question_id": "HB-C8-B017", "text": "Offsets a binding safety or authority failure with a higher speculative success score.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-F018-E1", "question_id": "HB-C8-F018", "text": "Selects an option despite an unmet binding safety, authority or support condition.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-A018-E1", "question_id": "HB-C8-A018", "text": "Combines all termination paths as mandatory or treats any one component of a conjunctive path as sufficient.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-B018-E1", "question_id": "HB-C8-B018", "text": "Claims patrol density alone establishes hostage closure and controlled network tempo.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C8-F019-E1", "question_id": "HB-C8-F019", "text": "Ends all hostage or partner support automatically upon meeting the density path.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-A001-E1", "question_id": "HB-C9-A001", "text": "Changes the mission to autonomous combat or treaty defence of Moldova.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-A002-E1", "question_id": "HB-C9-A002", "text": "Equates more US products or visibility with achievement of the end state.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-A003-E1", "question_id": "HB-C9-A003", "text": "Assigns final public attribution or intelligence-release authority to the command.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-A004-E1", "question_id": "HB-C9-A004", "text": "Treats preparation of an offensive option as permission to execute it.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-A005-E1", "question_id": "HB-C9-A005", "text": "Treats timely submission as automatic permission to deploy or execute all proposed activities.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-A006-E1", "question_id": "HB-C9-A006", "text": "Assumes existing consent authorises any expanded activity.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-A007-E1", "question_id": "HB-C9-A007", "text": "Treats greater US visibility as unconditionally beneficial.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-A008-E1", "question_id": "HB-C9-A008", "text": "Lists the election date as an assumption or ends the operation automatically on that date.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-A009-E1", "question_id": "HB-C9-A009", "text": "Counts a request as an allocated asset.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-A009-E2", "question_id": "HB-C9-A009", "text": "Invents exact team start/end dates not stated in the packet.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-A010-E1", "question_id": "HB-C9-A010", "text": "Changes LOW confidence into a forecast of certainty.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-A011-E1", "question_id": "HB-C9-A011", "text": "Assigns a specific approval turnaround unsupported by the packet.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-A012-E1", "question_id": "HB-C9-A012", "text": "Assumes the JTF can order an observer finding or dictate all partner timing.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-A013-E1", "question_id": "HB-C9-A013", "text": "Presents the supplied framing as an independently validated causal finding.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-A014-E1", "question_id": "HB-C9-A014", "text": "Treats product counts as direct proof of changed decisions.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-A015-E1", "question_id": "HB-C9-A015", "text": "Treats renewed war as a guaranteed end of pressure on Moldova.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-A016-E1", "question_id": "HB-C9-A016", "text": "Assumes the interconnector can replace all lost supply.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-B001-E1", "question_id": "HB-C9-B001", "text": "Declares mission success from exposure or output counts alone.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-B002-E1", "question_id": "HB-C9-B002", "text": "Treats the EXORD title, submitted CONOPS or staged option as unrestricted execution authority.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-B003-E1", "question_id": "HB-C9-B003", "text": "Assumes the pending 90-day request proves full post-election coverage.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-B004-E1", "question_id": "HB-C9-B004", "text": "Infers unrestricted visible presence from a general assistance request.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-B005-E1", "question_id": "HB-C9-B005", "text": "Invents guaranteed approval dates or treats the submission deadline as release authority.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-B006-E1", "question_id": "HB-C9-B006", "text": "Treats neutral observers as tasked producers of a predetermined favourable judgement.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-B007-E1", "question_id": "HB-C9-B007", "text": "Rates the most prolific output producer as necessarily most effective.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-B008-E1", "question_id": "HB-C9-B008", "text": "Concludes that ceasefire failure automatically ends the Moldova mission.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-B009-E1", "question_id": "HB-C9-B009", "text": "Claims complete replacement or invents a megawatt deficit.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-B010-E1", "question_id": "HB-C9-B010", "text": "Treats D+3 or election day as an automatic end to every support function.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-F001-E1", "question_id": "HB-C9-F001", "text": "Recommends an option solely because it can be technically executed.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-F002-E1", "question_id": "HB-C9-F002", "text": "Uses one blanket ready flag to authorise all activity types.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-F003-E1", "question_id": "HB-C9-F003", "text": "Claims a pending 90-day figure proves all calendar coverage.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-F004-E1", "question_id": "HB-C9-F004", "text": "Treats public attribution of presence as proof that the activity was authorised.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-F005-E1", "question_id": "HB-C9-F005", "text": "Executes the activity to meet the deadline despite missing required approval.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-F005-E2", "question_id": "HB-C9-F005", "text": "Assumes a requested alternative has inherited permission from the delayed activity.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-F006-E1", "question_id": "HB-C9-F006", "text": "Tasks observers to produce favourable findings or treats coordination as command.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-F007-E1", "question_id": "HB-C9-F007", "text": "Uses output volume as a substitute outcome without justification.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-F007-E2", "question_id": "HB-C9-F007", "text": "Treats a proxy as direct verification of internal decisions or causal impact.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-F008-E1", "question_id": "HB-C9-F008", "text": "Unilaterally expands military activity because the ceasefire has failed.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-F009-E1", "question_id": "HB-C9-F009", "text": "Invents a replacement supply allocation or declares the full gap closed.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C9-F010-E1", "question_id": "HB-C9-F010", "text": "Ends all support solely because election day has passed.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-A001-E1", "question_id": "HB-C10-A001", "text": "Broadens the mission to Japan generally.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-A001-E2", "question_id": "HB-C10-A001", "text": "Assigns overall disaster-response leadership to USINDOPACOM.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-A001-E3", "question_id": "HB-C10-A001", "text": "Treats any staff-identified need as authority to commit US support.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-A002-E1", "question_id": "HB-C10-A002", "text": "Uses elapsed time alone as the stated termination condition.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-A003-E1", "question_id": "HB-C10-A003", "text": "Defers relief integrity or public information until all physical relief is complete.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-A004-E1", "question_id": "HB-C10-A004", "text": "Places JTF-Southwest under US operational control.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-A004-E2", "question_id": "HB-C10-A004", "text": "Treats apportionment alone as allocation.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-A006-E1", "question_id": "HB-C10-A006", "text": "Treats delivery to an island as proof that the intended recipient obtained the cargo.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-A008-E1", "question_id": "HB-C10-A008", "text": "Asserts current rotary-wing or VTOL operating approval solely from runway length.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-A009-E1", "question_id": "HB-C10-A009", "text": "Counts a pending augment as allocated.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-A009-E2", "question_id": "HB-C10-A009", "text": "Adds a second immediately available ARG/MEU.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-A010-E1", "question_id": "HB-C10-A010", "text": "Assumes disaster tasking automatically cancels standing commitments.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-A011-E1", "question_id": "HB-C10-A011", "text": "Treats closed airfields as unrestricted alternatives to weather-limited connectors.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-A012-E1", "question_id": "HB-C10-A012", "text": "Treats ACSA as unlimited guaranteed Japanese stocks.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-A013-E1", "question_id": "HB-C10-A013", "text": "Invents a universal safe connector operating threshold.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-A014-E1", "question_id": "HB-C10-A014", "text": "Treats either approval alone as sufficient.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-A014-E2", "question_id": "HB-C10-A014", "text": "Tasks US forces to arrest, seize or interdict.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-A015-E1", "question_id": "HB-C10-A015", "text": "Treats the bounded request as permission for any additional capability.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-A016-E1", "question_id": "HB-C10-A016", "text": "Recasts the ecosystem as a state-directed military threat.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-A017-E1", "question_id": "HB-C10-A017", "text": "Declares all three hypotheses confirmed or necessarily controlled by one network.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-A019-E1", "question_id": "HB-C10-A019", "text": "Invents a missing tonnage, guilty actor or confirmed diversion location.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-A020-E1", "question_id": "HB-C10-A020", "text": "Authorises independent messaging to Japanese audiences.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-A021-E1", "question_id": "HB-C10-A021", "text": "Turns the no-organised-action assumption into a guarantee of zero risk.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-A022-E1", "question_id": "HB-C10-A022", "text": "Cancels self-defence because the environment is permissive.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-A023-E1", "question_id": "HB-C10-A023", "text": "Reports active OCHA clusters at STARTEX.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-A024-E1", "question_id": "HB-C10-A024", "text": "Invents an active satellite link or broadcast frequency.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-B001-E1", "question_id": "HB-C10-B001", "text": "Declares all rotary/VTOL aircraft usable at damaged fields.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-B002-E1", "question_id": "HB-C10-B002", "text": "Assumes USSPACECOM tasking proves active links on every island.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-B003-E1", "question_id": "HB-C10-B003", "text": "States invented stations or frequencies as operational.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-B004-E1", "question_id": "HB-C10-B004", "text": "Assumes all apportioned assets are uncommitted and fully ready.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-B005-E1", "question_id": "HB-C10-B005", "text": "Claims a precise tonnage deficit or a universal unsafe sea state without source data.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-B006-E1", "question_id": "HB-C10-B006", "text": "Assumes all requested or partner resources are guaranteed.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-B007-E1", "question_id": "HB-C10-B007", "text": "Uses total aircraft sorties as sufficient proof of delivered relief.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-B008-E1", "question_id": "HB-C10-B008", "text": "Claims a measured approval delay not in the packet.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-B008-E2", "question_id": "HB-C10-B008", "text": "Treats a gapped AIS return as confirmed criminal conduct.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-B009-E1", "question_id": "HB-C10-B009", "text": "Treats every unreceipted shipment as stolen.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-B010-E1", "question_id": "HB-C10-B010", "text": "Invents a new authority after an assumption fails.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-B011-E1", "question_id": "HB-C10-B011", "text": "Assumes Japan has permanently ruled out UN assistance.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-B012-E1", "question_id": "HB-C10-B012", "text": "Infers restored local capacity from completion of one delivery.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-F001-E1", "question_id": "HB-C10-F001", "text": "Orders aircraft to use the sites before suitability is established.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-F002-E1", "question_id": "HB-C10-F002", "text": "Invents a working terminal or provider allocation.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-F003-E1", "question_id": "HB-C10-F003", "text": "Broadcasts independently of the stipulated approvals.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-F004-E1", "question_id": "HB-C10-F004", "text": "Assumes a second ARG can absorb the standing mission.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-F005-E1", "question_id": "HB-C10-F005", "text": "Rates greater force commitment as automatically better.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-F006-E1", "question_id": "HB-C10-F006", "text": "Counts unconfirmed cross-servicing or pending RFF as assured capacity.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-F007-E1", "question_id": "HB-C10-F007", "text": "Uses sortie count alone as a measure of timely relief achieved.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-F008-E1", "question_id": "HB-C10-F008", "text": "Withdraws solely because a preset number of days has elapsed.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-F009-E1", "question_id": "HB-C10-F009", "text": "Specifies unsupported daily tonnage or directs unallocated assets.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-F010-E1", "question_id": "HB-C10-F010", "text": "Allows one approval to substitute for the other.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-F011-E1", "question_id": "HB-C10-F011", "text": "Commands US seizure or declares diversion where only a reporting gap exists.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-F012-E1", "question_id": "HB-C10-F012", "text": "Unilaterally takes Japanese enforcement or response-lead functions.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-F013-E1", "question_id": "HB-C10-F013", "text": "Establishes active OCHA clusters without the stated condition.", "origin": "constructed_local_check"}
+{"local_error_id": "HB-C10-F014-E1", "question_id": "HB-C10-F014", "text": "Assumes the original diplomatic request approves unlimited expansion.", "origin": "constructed_local_check"}

@@ -1,0 +1,28 @@
+{
+  "run_id": "0692fedec36215561264",
+  "config_sha256": "0692fedec362155612646955e2a198b65dbf9cccbf21faa343ad182d76c5368f",
+  "plan_sha256": "d0d2b4f6737b59a80365fa69e48096427b2ba90f78302590f59c1510e3b70e72",
+  "software_sha256": "6e30582e700860dd46fa8214bb0eeb4ae816917932e2b9690b9594bcc68e1d56",
+  "created_utc": "2026-11-28T02:49:18.391477+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "is_mock": false,
+  "n_questions": 84,
+  "study_id": null,
+  "model_repetition_ids": {
+    "qwen35_9b": [
+      1
+    ],
+    "gemma4_31b": [
+      1
+    ]
+  },
+  "n_chains": 20,
+  "n_requests": 336,
+  "requests_by_condition": {
+    "E1": 168,
+    "E2": 84,
+    "E3": 84
+  },
+  "scope": "RQ1 and RQ2 only; no source-degradation or reasoning-mode ablations"
+}

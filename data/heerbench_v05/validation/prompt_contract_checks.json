@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "model_calls": 0,
+  "checks": {
+    "independent_full_packet_and_no_scoring_reference": true,
+    "reference_parent_answers_only_and_unchanged_packet": true,
+    "exact_joint_parent_set_enforced": true,
+    "dependency_child_mismatch_rejected": true
+  }
+}
